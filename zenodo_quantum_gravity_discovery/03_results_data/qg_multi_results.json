@@ -1,0 +1,10 @@
+{
+  "folder": "real_data/magic",
+  "pattern": "*.fits",
+  "combined": {
+    "log_L_combined": -214.5,
+    "num_grb": 6,
+    "E_QG_limit_conservative_GeV": 8840242538.660324
+  },
+  "num_analyzed": 6
+}

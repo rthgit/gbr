@@ -1,0 +1,260 @@
+{
+  "similar_grbs": [
+    {
+      "GRB": "GRB090902B",
+      "z": 1.822,
+      "n_photons": 3972,
+      "e_max_gev": 80.8,
+      "t90_s": 2208.5,
+      "energy_fluence_gev": 12000.0,
+      "hardness_ratio": 0.15,
+      "classification": "Long",
+      "fermi_detection": true,
+      "swift_detection": true,
+      "redshift_source": "spectroscopic",
+      "similarity_score": 1.0
+    },
+    {
+      "GRB": "GRB150403A",
+      "z": 2.06,
+      "n_photons": 1247,
+      "e_max_gev": 45.2,
+      "t90_s": 1850.3,
+      "energy_fluence_gev": 8500.0,
+      "hardness_ratio": 0.18,
+      "classification": "Long",
+      "fermi_detection": true,
+      "swift_detection": true,
+      "redshift_source": "spectroscopic",
+      "similarity_score": 0.6235504781490233
+    },
+    {
+      "GRB": "GRB201216C",
+      "z": 1.1,
+      "n_photons": 1123,
+      "e_max_gev": 52.4,
+      "t90_s": 1350.2,
+      "energy_fluence_gev": 9800.0,
+      "hardness_ratio": 0.21,
+      "classification": "Long",
+      "fermi_detection": true,
+      "swift_detection": true,
+      "redshift_source": "spectroscopic",
+      "similarity_score": 0.5865492014148546
+    },
+    {
+      "GRB": "GRB110731A",
+      "z": 2.83,
+      "n_photons": 1189,
+      "e_max_gev": 38.7,
+      "t90_s": 1650.8,
+      "energy_fluence_gev": 7200.0,
+      "hardness_ratio": 0.16,
+      "classification": "Long",
+      "fermi_detection": true,
+      "swift_detection": true,
+      "redshift_source": "spectroscopic",
+      "similarity_score": 0.5333682045855643
+    },
+    {
+      "GRB": "GRB141028A",
+      "z": 2.33,
+      "n_photons": 892,
+      "e_max_gev": 42.1,
+      "t90_s": 1420.5,
+      "energy_fluence_gev": 6800.0,
+      "hardness_ratio": 0.19,
+      "classification": "Long",
+      "fermi_detection": true,
+      "swift_detection": true,
+      "redshift_source": "spectroscopic",
+      "similarity_score": 0.5220795220005384
+    },
+    {
+      "GRB": "GRB131108A",
+      "z": 2.4,
+      "n_photons": 934,
+      "e_max_gev": 35.6,
+      "t90_s": 1580.2,
+      "energy_fluence_gev": 5900.0,
+      "hardness_ratio": 0.17,
+      "classification": "Long",
+      "fermi_detection": true,
+      "swift_detection": true,
+      "redshift_source": "spectroscopic",
+      "similarity_score": 0.5063901185277139
+    },
+    {
+      "GRB": "GRB100728A",
+      "z": 1.56,
+      "n_photons": 756,
+      "e_max_gev": 28.3,
+      "t90_s": 1200.7,
+      "energy_fluence_gev": 4200.0,
+      "hardness_ratio": 0.14,
+      "classification": "Long",
+      "fermi_detection": true,
+      "swift_detection": true,
+      "redshift_source": "spectroscopic",
+      "similarity_score": 0.44096420283569143
+    }
+  ],
+  "criteria": {
+    "min_photons": 500,
+    "min_redshift": 1.0,
+    "min_e_max": 20.0,
+    "min_t90": 100.0,
+    "max_redshift": 4.0,
+    "max_e_max": 200.0
+  },
+  "candidate_analysis": {
+    "statistics": {
+      "z": {
+        "mean": 2.0145714285714287,
+        "std": 0.5766567023636788,
+        "min": 1.1,
+        "max": 2.83,
+        "median": 2.06
+      },
+      "n_photons": {
+        "mean": 1444.7142857142858,
+        "std": 1128.110767948744,
+        "min": 756.0,
+        "max": 3972.0,
+        "median": 1123.0
+      },
+      "e_max_gev": {
+        "mean": 46.157142857142865,
+        "std": 17.041210553914798,
+        "min": 28.3,
+        "max": 80.8,
+        "median": 42.1
+      },
+      "t90_s": {
+        "mean": 1608.7428571428572,
+        "std": 338.97412318711906,
+        "min": 1200.7,
+        "max": 2208.5,
+        "median": 1580.2
+      },
+      "energy_fluence_gev": {
+        "mean": 7771.428571428572,
+        "std": 2583.7403673191093,
+        "min": 4200.0,
+        "max": 12000.0,
+        "median": 7200.0
+      },
+      "hardness_ratio": {
+        "mean": 0.1714285714285714,
+        "std": 0.024102953780654784,
+        "min": 0.14,
+        "max": 0.21,
+        "median": 0.17
+      }
+    },
+    "comparison": {
+      "z": {
+        "grb090902": 1.822,
+        "similar_mean": 2.0145714285714287,
+        "ratio": 0.9044107218834208,
+        "percentile": 42.857142857142854
+      },
+      "n_photons": {
+        "grb090902": 3972,
+        "similar_mean": 1444.7142857142858,
+        "ratio": 2.7493325422723225,
+        "percentile": 100.0
+      },
+      "e_max_gev": {
+        "grb090902": 80.8,
+        "similar_mean": 46.157142857142865,
+        "ratio": 1.7505416279789534,
+        "percentile": 100.0
+      },
+      "t90_s": {
+        "grb090902": 2208.5,
+        "similar_mean": 1608.7428571428572,
+        "ratio": 1.3728110680922103,
+        "percentile": 100.0
+      },
+      "energy_fluence_gev": {
+        "grb090902": 0,
+        "similar_mean": 7771.428571428572,
+        "ratio": 0.0,
+        "percentile": 0.0
+      },
+      "hardness_ratio": {
+        "grb090902": 0.15,
+        "similar_mean": 0.1714285714285714,
+        "ratio": 0.8750000000000001,
+        "percentile": 28.57142857142857
+      }
+    },
+    "n_candidates": 7
+  },
+  "priority_candidates": [
+    {
+      "GRB": "GRB090902B",
+      "similarity_score": 1.0,
+      "priority": "HIGH",
+      "reason": "Very high similarity to GRB090902B; High photon count for good statistics; High maximum energy for QG sensitivity; High redshift for cosmological effects",
+      "analysis_recommendation": "Excellent for statistical analysis; High energy sensitivity for QG effects; Moderate redshift for QG effects"
+    },
+    {
+      "GRB": "GRB150403A",
+      "similarity_score": 0.6235504781490233,
+      "priority": "MEDIUM",
+      "reason": "High similarity to GRB090902B; High photon count for good statistics; High redshift for cosmological effects",
+      "analysis_recommendation": "Good for statistical analysis; Moderate energy sensitivity; High redshift for cosmological QG effects"
+    },
+    {
+      "GRB": "GRB201216C",
+      "similarity_score": 0.5865492014148546,
+      "priority": "MEDIUM",
+      "reason": "High photon count for good statistics; High maximum energy for QG sensitivity",
+      "analysis_recommendation": "Good for statistical analysis; Moderate energy sensitivity; Moderate redshift for QG effects"
+    },
+    {
+      "GRB": "GRB110731A",
+      "similarity_score": 0.5333682045855643,
+      "priority": "MEDIUM",
+      "reason": "High photon count for good statistics; High redshift for cosmological effects",
+      "analysis_recommendation": "Good for statistical analysis; Moderate energy sensitivity; High redshift for cosmological QG effects"
+    },
+    {
+      "GRB": "GRB141028A",
+      "similarity_score": 0.5220795220005384,
+      "priority": "MEDIUM",
+      "reason": "High redshift for cosmological effects",
+      "analysis_recommendation": "Good for statistical analysis; Moderate energy sensitivity; High redshift for cosmological QG effects"
+    },
+    {
+      "GRB": "GRB131108A",
+      "similarity_score": 0.5063901185277139,
+      "priority": "MEDIUM",
+      "reason": "High redshift for cosmological effects",
+      "analysis_recommendation": "Good for statistical analysis; Moderate energy sensitivity; High redshift for cosmological QG effects"
+    },
+    {
+      "GRB": "GRB100728A",
+      "similarity_score": 0.44096420283569143,
+      "priority": "LOW",
+      "reason": "High redshift for cosmological effects",
+      "analysis_recommendation": "Moderate redshift for QG effects"
+    }
+  ],
+  "metadata": {
+    "catalog": "2FLGC",
+    "analysis_date": "2025-10-21T10:25:20.552469",
+    "grb090902_properties": {
+      "z": 1.822,
+      "n_photons": 3972,
+      "e_max_gev": 80.8,
+      "t90_s": 2208.5,
+      "significance": 5.46,
+      "energy_fluence": 12000.0,
+      "hardness_ratio": 0.15
+    },
+    "n_candidates": 7
+  }
+}

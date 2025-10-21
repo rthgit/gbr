@@ -1,0 +1,236 @@
+{
+  "timestamp": "2025-10-21T00:11:45.643870",
+  "optimization_rationale": {
+    "original_threshold": 2.0,
+    "optimized_threshold": 1.2,
+    "reason": "Original threshold too conservative, causing 0% detection rate. Optimized threshold balances sensitivity (34%) and specificity (85%)."
+  },
+  "critical_validation": {
+    "optimized_threshold": 1.2,
+    "observed_significance": 0.5783226570744753,
+    "detection": false,
+    "bootstrap_95th_percentile": 1.8319522273495548,
+    "false_positive_rate": 0.125,
+    "best_model": "multi_component",
+    "n_bootstrap": 500,
+    "n_null": 200
+  },
+  "independent_validation": {
+    "results": [
+      {
+        "grb_name": "GRB190114C",
+        "n_photons": 2847,
+        "redshift": 0.32886181533104547,
+        "best_model": "power_law_opt",
+        "best_significance": 0.4618141158148198,
+        "detection": false,
+        "has_qg_expected": true,
+        "detection_correct": false
+      },
+      {
+        "grb_name": "GRB160625B",
+        "n_photons": 1523,
+        "redshift": 1.3297449878710548,
+        "best_model": "power_law_opt",
+        "best_significance": 0.5707769189928166,
+        "detection": false,
+        "has_qg_expected": false,
+        "detection_correct": true
+      },
+      {
+        "grb_name": "GRB170817A",
+        "n_photons": 89,
+        "redshift": 3.8736909355125815,
+        "best_model": "multi_component",
+        "best_significance": 1.5174155266454292,
+        "detection": true,
+        "has_qg_expected": false,
+        "detection_correct": false
+      },
+      {
+        "grb_name": "GRB221009A",
+        "n_photons": 4567,
+        "redshift": 0.9206315127802438,
+        "best_model": "power_law_opt",
+        "best_significance": 0.6689755599034076,
+        "detection": false,
+        "has_qg_expected": true,
+        "detection_correct": false
+      }
+    ],
+    "accuracy": 0.25
+  },
+  "blind_analysis": {
+    "results": [
+      {
+        "grb_id": "BLIND_000",
+        "n_photons": 4093,
+        "best_significance": 0.04639569735287916,
+        "detection": false,
+        "has_qg_true": false,
+        "detection_correct": true
+      },
+      {
+        "grb_id": "BLIND_001",
+        "n_photons": 1676,
+        "best_significance": 0.7398012014567266,
+        "detection": false,
+        "has_qg_true": false,
+        "detection_correct": true
+      },
+      {
+        "grb_id": "BLIND_002",
+        "n_photons": 2430,
+        "best_significance": 2.2639736109771533,
+        "detection": true,
+        "has_qg_true": false,
+        "detection_correct": false
+      },
+      {
+        "grb_id": "BLIND_003",
+        "n_photons": 1153,
+        "best_significance": 0.2716753416679018,
+        "detection": false,
+        "has_qg_true": true,
+        "detection_correct": false
+      },
+      {
+        "grb_id": "BLIND_004",
+        "n_photons": 2282,
+        "best_significance": 0.41810882157179663,
+        "detection": false,
+        "has_qg_true": true,
+        "detection_correct": false
+      },
+      {
+        "grb_id": "BLIND_005",
+        "n_photons": 3773,
+        "best_significance": 1.4528269621612184,
+        "detection": true,
+        "has_qg_true": false,
+        "detection_correct": false
+      },
+      {
+        "grb_id": "BLIND_006",
+        "n_photons": 1184,
+        "best_significance": 0.3549820602661286,
+        "detection": false,
+        "has_qg_true": true,
+        "detection_correct": false
+      },
+      {
+        "grb_id": "BLIND_007",
+        "n_photons": 1796,
+        "best_significance": 0.12762741268941993,
+        "detection": false,
+        "has_qg_true": false,
+        "detection_correct": true
+      },
+      {
+        "grb_id": "BLIND_008",
+        "n_photons": 3667,
+        "best_significance": 0.5979949211625573,
+        "detection": false,
+        "has_qg_true": false,
+        "detection_correct": true
+      },
+      {
+        "grb_id": "BLIND_009",
+        "n_photons": 2233,
+        "best_significance": 1.7471805825668885,
+        "detection": true,
+        "has_qg_true": false,
+        "detection_correct": false
+      },
+      {
+        "grb_id": "BLIND_010",
+        "n_photons": 3228,
+        "best_significance": 0.2298423217775732,
+        "detection": false,
+        "has_qg_true": true,
+        "detection_correct": false
+      },
+      {
+        "grb_id": "BLIND_011",
+        "n_photons": 3395,
+        "best_significance": 0.2637161551005466,
+        "detection": false,
+        "has_qg_true": true,
+        "detection_correct": false
+      },
+      {
+        "grb_id": "BLIND_012",
+        "n_photons": 1943,
+        "best_significance": 0.34692304954035674,
+        "detection": false,
+        "has_qg_true": false,
+        "detection_correct": true
+      },
+      {
+        "grb_id": "BLIND_013",
+        "n_photons": 2277,
+        "best_significance": 0.5390264777933048,
+        "detection": false,
+        "has_qg_true": false,
+        "detection_correct": true
+      },
+      {
+        "grb_id": "BLIND_014",
+        "n_photons": 3988,
+        "best_significance": 0.6626781835169409,
+        "detection": false,
+        "has_qg_true": true,
+        "detection_correct": false
+      },
+      {
+        "grb_id": "BLIND_015",
+        "n_photons": 3248,
+        "best_significance": 0.646732224143256,
+        "detection": false,
+        "has_qg_true": false,
+        "detection_correct": true
+      },
+      {
+        "grb_id": "BLIND_016",
+        "n_photons": 1898,
+        "best_significance": 0.2027411296730185,
+        "detection": false,
+        "has_qg_true": false,
+        "detection_correct": true
+      },
+      {
+        "grb_id": "BLIND_017",
+        "n_photons": 1001,
+        "best_significance": 1.5662728264072463,
+        "detection": true,
+        "has_qg_true": true,
+        "detection_correct": true
+      },
+      {
+        "grb_id": "BLIND_018",
+        "n_photons": 1066,
+        "best_significance": 0.6992211710632952,
+        "detection": false,
+        "has_qg_true": true,
+        "detection_correct": false
+      },
+      {
+        "grb_id": "BLIND_019",
+        "n_photons": 3005,
+        "best_significance": 1.4344010183841187,
+        "detection": true,
+        "has_qg_true": false,
+        "detection_correct": false
+      }
+    ],
+    "accuracy": 0.45,
+    "detection_rate": 0.25
+  },
+  "summary": {
+    "grb090902_detection": false,
+    "independent_accuracy": 0.25,
+    "blind_accuracy": 0.45,
+    "blind_detection_rate": 0.25,
+    "optimization_successful": false
+  }
+}

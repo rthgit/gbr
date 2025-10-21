@@ -1,0 +1,652 @@
+{
+  "analysis_date": "2025-10-20T16:36:38.673473",
+  "data_type": "real_simulated",
+  "instruments": {
+    "fermi_gbm": {
+      "results": [
+        {
+          "fit_results": {
+            "t0": 3.834607454041374,
+            "t0_err": 0.0394352055892653,
+            "alpha": 0.7457584357917583,
+            "alpha_err": 0.04329014901739707,
+            "chi2_reduced": 6.576904880433952,
+            "correlation": 0.24225488580681692,
+            "p_value": 1.4587245954933963e-64,
+            "E_QG_GeV": 4082279141.6508474,
+            "significance_sigma": 17.226977714222514
+          },
+          "lr_results": {
+            "log_L_null": -2381.0000000000005,
+            "log_L_qg": -2381.0,
+            "LR_statistic": 9.094947017729282e-13,
+            "p_value": 0.9999992390779869,
+            "sigma": 9.536743162306172e-07,
+            "detection": false
+          },
+          "n_photons": 4762,
+          "n_high_energy": 224,
+          "metadata": {
+            "name": "GRB080916C",
+            "redshift": 4.35,
+            "distance_gly": 59.15161071428572,
+            "instrument": "GBM",
+            "telescope": "FERMI",
+            "energy_range": "8 keV - 40 MeV (GBM) / 20 MeV - 300 GeV (LAT)",
+            "note": "FITS import da real_data/fermi_gbm\\grb080916c_gbm_tte.fits (FERMI)"
+          }
+        },
+        {
+          "fit_results": {
+            "t0": 3.8614163894664495,
+            "t0_err": 0.04582987321735142,
+            "alpha": 0.5102563612421218,
+            "alpha_err": 0.047781201511325644,
+            "chi2_reduced": 6.0590689133422755,
+            "correlation": 0.18483554633487997,
+            "p_value": 3.478008451328525e-26,
+            "E_QG_GeV": 566218752.8572645,
+            "significance_sigma": 10.67901896733696
+          },
+          "lr_results": {
+            "log_L_null": -1613.0,
+            "log_L_qg": -1612.9999999999998,
+            "LR_statistic": 4.547473508864641e-13,
+            "p_value": 0.9999994619468846,
+            "sigma": 6.743495761516824e-07,
+            "detection": false
+          },
+          "n_photons": 3226,
+          "n_high_energy": 158,
+          "metadata": {
+            "name": "GRB090510",
+            "redshift": 0.903,
+            "distance_gly": 5.613560130000001,
+            "instrument": "GBM",
+            "telescope": "FERMI",
+            "energy_range": "8 keV - 40 MeV (GBM) / 20 MeV - 300 GeV (LAT)",
+            "note": "FITS import da real_data/fermi_gbm\\grb090510_gbm_tte.fits (FERMI)"
+          }
+        },
+        {
+          "fit_results": {
+            "t0": 3.9236206869291075,
+            "t0_err": 0.055455643999189126,
+            "alpha": 0.3197995604246405,
+            "alpha_err": 0.06023113414172378,
+            "chi2_reduced": 6.175779017277068,
+            "correlation": 0.1115097236015431,
+            "p_value": 1.2075543824869644e-07,
+            "E_QG_GeV": 274192014.51638234,
+            "significance_sigma": 5.309538977733989
+          },
+          "lr_results": {
+            "log_L_null": -1120.5,
+            "log_L_qg": -1120.4999999999998,
+            "LR_statistic": 4.547473508864641e-13,
+            "p_value": 0.9999994619468846,
+            "sigma": 6.743495761516824e-07,
+            "detection": false
+          },
+          "n_photons": 2241,
+          "n_high_energy": 96,
+          "metadata": {
+            "name": "GRB130427A",
+            "redshift": 0.34,
+            "distance_gly": 1.7037205714285717,
+            "instrument": "GBM",
+            "telescope": "FERMI",
+            "energy_range": "8 keV - 40 MeV (GBM) / 20 MeV - 300 GeV (LAT)",
+            "note": "FITS import da real_data/fermi_gbm\\grb130427a_gbm_tte.fits (FERMI)"
+          }
+        },
+        {
+          "fit_results": {
+            "t0": 3.929219714057977,
+            "t0_err": 0.0639564690143781,
+            "alpha": 0.5363611968701463,
+            "alpha_err": 0.06763915789833037,
+            "chi2_reduced": 6.087311249911025,
+            "correlation": 0.19016222371232167,
+            "p_value": 3.976339495185506e-15,
+            "E_QG_GeV": 984034904.5060352,
+            "significance_sigma": 7.9297438367340565
+          },
+          "lr_results": {
+            "log_L_null": -839.0,
+            "log_L_qg": -838.9999999999998,
+            "LR_statistic": 4.547473508864641e-13,
+            "p_value": 0.9999994619468846,
+            "sigma": 6.743495761516824e-07,
+            "detection": false
+          },
+          "n_photons": 1678,
+          "n_high_energy": 78,
+          "metadata": {
+            "name": "GRB160625B",
+            "redshift": 1.406,
+            "distance_gly": 10.254950234285714,
+            "instrument": "GBM",
+            "telescope": "FERMI",
+            "energy_range": "8 keV - 40 MeV (GBM) / 20 MeV - 300 GeV (LAT)",
+            "note": "FITS import da real_data/fermi_gbm\\grb160625b_gbm_tte.fits (FERMI)"
+          }
+        },
+        {
+          "fit_results": {
+            "t0": 3.860127895620066,
+            "t0_err": 0.07436133095922443,
+            "alpha": 0.41099409934499087,
+            "alpha_err": 0.08491718602506258,
+            "chi2_reduced": 5.857895995133918,
+            "correlation": 0.1388847763429136,
+            "p_value": 1.4691799382814795e-06,
+            "E_QG_GeV": 5335952.420681495,
+            "significance_sigma": 4.839940214782754
+          },
+          "lr_results": {
+            "log_L_null": -596.4999999999998,
+            "log_L_qg": -596.4999999999999,
+            "LR_statistic": -2.2737367544323206e-13,
+            "p_value": 1.0,
+            "sigma": 0.0,
+            "detection": false
+          },
+          "n_photons": 1193,
+          "n_high_energy": 54,
+          "metadata": {
+            "name": "GRB170817A",
+            "redshift": 0.0099,
+            "distance_gly": 0.04261016712857144,
+            "instrument": "GBM",
+            "telescope": "FERMI",
+            "energy_range": "8 keV - 40 MeV (GBM) / 20 MeV - 300 GeV (LAT)",
+            "note": "FITS import da real_data/fermi_gbm\\grb170817a_gbm_tte.fits (FERMI)"
+          }
+        },
+        {
+          "fit_results": {
+            "t0": 3.9136291777835392,
+            "t0_err": 0.048635378377063956,
+            "alpha": 0.7043874110222181,
+            "alpha_err": 0.052643108576953306,
+            "chi2_reduced": 6.661117471251393,
+            "correlation": 0.2321146459621423,
+            "p_value": 9.430771349714954e-40,
+            "E_QG_GeV": 161037191.51666716,
+            "significance_sigma": 13.380429710047267
+          },
+          "lr_results": {
+            "log_L_null": -1573.0,
+            "log_L_qg": -1573.0000000000005,
+            "LR_statistic": -9.094947017729282e-13,
+            "p_value": 1.0,
+            "sigma": 0.0,
+            "detection": false
+          },
+          "n_photons": 3146,
+          "n_high_energy": 136,
+          "metadata": {
+            "name": "GRB190114C",
+            "redshift": 0.4245,
+            "distance_gly": 2.2039588210714287,
+            "instrument": "GBM",
+            "telescope": "FERMI",
+            "energy_range": "8 keV - 40 MeV (GBM) / 20 MeV - 300 GeV (LAT)",
+            "note": "FITS import da real_data/fermi_gbm\\grb190114c_gbm_tte.fits (FERMI)"
+          }
+        }
+      ],
+      "combined": {
+        "log_L_combined": -8123.0,
+        "num_grb": 6,
+        "E_QG_limit_conservative_GeV": 5335952.420681495
+      }
+    },
+    "swift_bat": {
+      "results": [
+        {
+          "fit_results": {
+            "t0": 2.2190348412873995,
+            "t0_err": 0.044898758981546306,
+            "alpha": 0.00022647359829164326,
+            "alpha_err": 0.0009832268129090422,
+            "chi2_reduced": 1.9485497758277097,
+            "correlation": 0.004408374445263114,
+            "p_value": 0.8178470403886849,
+            "E_QG_GeV": 13442600506671.04,
+            "significance_sigma": 0.23033716633240411
+          },
+          "lr_results": {
+            "log_L_null": -1366.0,
+            "log_L_qg": -1366.0000000000002,
+            "LR_statistic": -4.547473508864641e-13,
+            "p_value": 1.0,
+            "sigma": 0.0,
+            "detection": false
+          },
+          "n_photons": 2732,
+          "n_high_energy": 2226,
+          "metadata": {
+            "name": "GRB080916C",
+            "redshift": 4.35,
+            "distance_gly": 59.15161071428572,
+            "instrument": "BAT",
+            "telescope": "SWIFT",
+            "energy_range": "15 - 150 keV (BAT)",
+            "note": "FITS import da real_data/swift_bat\\grb080916c_bat.fits (SWIFT)"
+          }
+        },
+        {
+          "fit_results": {
+            "t0": 2.2407575036418237,
+            "t0_err": 0.046237072293638284,
+            "alpha": 5.7904690796140024e-05,
+            "alpha_err": 0.0010047460855304277,
+            "chi2_reduced": 2.0930128649051993,
+            "correlation": 0.0010918550943820502,
+            "p_value": 0.9540467246534304,
+            "E_QG_GeV": 4989521859587.573,
+            "significance_sigma": 0.057630955447663494
+          },
+          "lr_results": {
+            "log_L_null": -1394.0000000000002,
+            "log_L_qg": -1393.9999999999998,
+            "LR_statistic": 9.094947017729282e-13,
+            "p_value": 0.9999992390779869,
+            "sigma": 9.536743162306172e-07,
+            "detection": false
+          },
+          "n_photons": 2788,
+          "n_high_energy": 2288,
+          "metadata": {
+            "name": "GRB090510",
+            "redshift": 0.903,
+            "distance_gly": 5.613560130000001,
+            "instrument": "BAT",
+            "telescope": "SWIFT",
+            "energy_range": "15 - 150 keV (BAT)",
+            "note": "FITS import da real_data/swift_bat\\grb090510_bat.fits (SWIFT)"
+          }
+        },
+        {
+          "fit_results": {
+            "t0": 2.2607437395466543,
+            "t0_err": 0.04184518853148703,
+            "alpha": -3.917514624074414e-05,
+            "alpha_err": 0.0009152159995813815,
+            "chi2_reduced": 2.0159113475376524,
+            "correlation": -0.0007538562960742231,
+            "p_value": 0.9658602805973326,
+            "E_QG_GeV": Infinity,
+            "significance_sigma": 0.04280418242670236
+          },
+          "lr_results": {
+            "log_L_null": -1613.0,
+            "log_L_qg": -1613.0,
+            "LR_statistic": 0.0,
+            "p_value": 1.0,
+            "sigma": 0.0,
+            "detection": false
+          },
+          "n_photons": 3226,
+          "n_high_energy": 2620,
+          "metadata": {
+            "name": "GRB130427A",
+            "redshift": 0.34,
+            "distance_gly": 1.7037205714285717,
+            "instrument": "BAT",
+            "telescope": "SWIFT",
+            "energy_range": "15 - 150 keV (BAT)",
+            "note": "FITS import da real_data/swift_bat\\grb130427a_bat.fits (SWIFT)"
+          }
+        },
+        {
+          "fit_results": {
+            "t0": 2.3181609934831395,
+            "t0_err": 0.04018738287866628,
+            "alpha": -0.0005618412113048422,
+            "alpha_err": 0.0008775219369693438,
+            "chi2_reduced": 2.0476578223528845,
+            "correlation": -0.010754326258824259,
+            "p_value": 0.522046112290899,
+            "E_QG_GeV": Infinity,
+            "significance_sigma": 0.6402582453145359
+          },
+          "lr_results": {
+            "log_L_null": -1773.0,
+            "log_L_qg": -1773.0000000000002,
+            "LR_statistic": -4.547473508864641e-13,
+            "p_value": 1.0,
+            "sigma": 0.0,
+            "detection": false
+          },
+          "n_photons": 3546,
+          "n_high_energy": 2877,
+          "metadata": {
+            "name": "GRB160625B",
+            "redshift": 1.406,
+            "distance_gly": 10.254950234285714,
+            "instrument": "BAT",
+            "telescope": "SWIFT",
+            "energy_range": "15 - 150 keV (BAT)",
+            "note": "FITS import da real_data/swift_bat\\grb160625b_bat.fits (SWIFT)"
+          }
+        },
+        {
+          "fit_results": {
+            "t0": 2.287491433454819,
+            "t0_err": 0.044774067022094834,
+            "alpha": -0.0007922353209128818,
+            "alpha_err": 0.0009786923974001273,
+            "chi2_reduced": 2.0617201376259264,
+            "correlation": -0.015066436793479573,
+            "p_value": 0.41830380748990437,
+            "E_QG_GeV": Infinity,
+            "significance_sigma": 0.809483526175364
+          },
+          "lr_results": {
+            "log_L_null": -1444.0000000000005,
+            "log_L_qg": -1444.0,
+            "LR_statistic": 9.094947017729282e-13,
+            "p_value": 0.9999992390779869,
+            "sigma": 9.536743162306172e-07,
+            "detection": false
+          },
+          "n_photons": 2888,
+          "n_high_energy": 2340,
+          "metadata": {
+            "name": "GRB170817A",
+            "redshift": 0.0099,
+            "distance_gly": 0.04261016712857144,
+            "instrument": "BAT",
+            "telescope": "SWIFT",
+            "energy_range": "15 - 150 keV (BAT)",
+            "note": "FITS import da real_data/swift_bat\\grb170817a_bat.fits (SWIFT)"
+          }
+        },
+        {
+          "fit_results": {
+            "t0": 2.2616267737705638,
+            "t0_err": 0.0459955301736185,
+            "alpha": -0.0007987610007597746,
+            "alpha_err": 0.0010247619168969192,
+            "chi2_reduced": 1.933664238808072,
+            "correlation": -0.015237885169904026,
+            "p_value": 0.4357791315192349,
+            "E_QG_GeV": Infinity,
+            "significance_sigma": 0.7794602855597844
+          },
+          "lr_results": {
+            "log_L_null": -1309.0,
+            "log_L_qg": -1309.0,
+            "LR_statistic": 0.0,
+            "p_value": 1.0,
+            "sigma": 0.0,
+            "detection": false
+          },
+          "n_photons": 2618,
+          "n_high_energy": 2153,
+          "metadata": {
+            "name": "GRB190114C",
+            "redshift": 0.4245,
+            "distance_gly": 2.2039588210714287,
+            "instrument": "BAT",
+            "telescope": "SWIFT",
+            "energy_range": "15 - 150 keV (BAT)",
+            "note": "FITS import da real_data/swift_bat\\grb190114c_bat.fits (SWIFT)"
+          }
+        }
+      ],
+      "combined": {
+        "log_L_combined": -8899.0,
+        "num_grb": 6,
+        "E_QG_limit_conservative_GeV": 4989521859587.573
+      }
+    },
+    "magic": {
+      "results": [
+        {
+          "fit_results": {
+            "t0": 10.014671623971694,
+            "t0_err": 3.1526124694805855,
+            "alpha": 0.006422299961542648,
+            "alpha_err": 0.011990939417600576,
+            "chi2_reduced": 54.50325801754329,
+            "correlation": 0.12195692320738427,
+            "p_value": 0.5984520910547079,
+            "E_QG_GeV": 474034866850.347,
+            "significance_sigma": 0.5355959160693623
+          },
+          "lr_results": {
+            "log_L_null": -10.500000000000002,
+            "log_L_qg": -10.500000000000002,
+            "LR_statistic": 0.0,
+            "p_value": 1.0,
+            "sigma": 0.0,
+            "detection": false
+          },
+          "n_photons": 21,
+          "n_high_energy": 21,
+          "metadata": {
+            "name": "GRB080916C",
+            "redshift": 4.35,
+            "distance_gly": 59.15161071428572,
+            "instrument": "MAGIC",
+            "telescope": "MAGIC",
+            "energy_range": "50 GeV - 50 TeV",
+            "note": "FITS import da real_data/magic\\grb080916c_magic.fits (MAGIC)"
+          }
+        },
+        {
+          "fit_results": {
+            "t0": 32.57674627688304,
+            "t0_err": 3.5059323099875765,
+            "alpha": -0.024908468006394013,
+            "alpha_err": 0.026960219627000893,
+            "chi2_reduced": 285.0800625367861,
+            "correlation": -0.09486296316632209,
+            "p_value": 0.35790553070818476,
+            "E_QG_GeV": Infinity,
+            "significance_sigma": 0.9238970123628378
+          },
+          "lr_results": {
+            "log_L_null": -48.000000000000014,
+            "log_L_qg": -48.000000000000014,
+            "LR_statistic": 0.0,
+            "p_value": 1.0,
+            "sigma": 0.0,
+            "detection": false
+          },
+          "n_photons": 96,
+          "n_high_energy": 96,
+          "metadata": {
+            "name": "GRB090510",
+            "redshift": 0.903,
+            "distance_gly": 5.613560130000001,
+            "instrument": "MAGIC",
+            "telescope": "MAGIC",
+            "energy_range": "50 GeV - 50 TeV",
+            "note": "FITS import da real_data/magic\\grb090510_magic.fits (MAGIC)"
+          }
+        },
+        {
+          "fit_results": {
+            "t0": 30.267056812705643,
+            "t0_err": 3.1225838517621725,
+            "alpha": -0.002826998679637427,
+            "alpha_err": 0.02277111741633634,
+            "chi2_reduced": 306.1904582959711,
+            "correlation": -0.011576132681422014,
+            "p_value": 0.9014144275663217,
+            "E_QG_GeV": Infinity,
+            "significance_sigma": 0.12414851159597054
+          },
+          "lr_results": {
+            "log_L_null": -58.49999999999999,
+            "log_L_qg": -58.50000000000001,
+            "LR_statistic": -2.842170943040401e-14,
+            "p_value": 1.0,
+            "sigma": 0.0,
+            "detection": false
+          },
+          "n_photons": 117,
+          "n_high_energy": 117,
+          "metadata": {
+            "name": "GRB130427A",
+            "redshift": 0.34,
+            "distance_gly": 1.7037205714285717,
+            "instrument": "MAGIC",
+            "telescope": "MAGIC",
+            "energy_range": "50 GeV - 50 TeV",
+            "note": "FITS import da real_data/magic\\grb130427a_magic.fits (MAGIC)"
+          }
+        },
+        {
+          "fit_results": {
+            "t0": 7.243818057040868,
+            "t0_err": 4.932567496638053,
+            "alpha": 0.031015139580097776,
+            "alpha_err": 0.017758287764133813,
+            "chi2_reduced": 65.30879782878134,
+            "correlation": 0.4501940994194116,
+            "p_value": 0.10624245077918555,
+            "E_QG_GeV": 17017435558.521297,
+            "significance_sigma": 1.7465163532988672
+          },
+          "lr_results": {
+            "log_L_null": -7.000000000000003,
+            "log_L_qg": -7.000000000000001,
+            "LR_statistic": 3.552713678800501e-15,
+            "p_value": 0.9999999524423742,
+            "sigma": 5.960464479919103e-08,
+            "detection": false
+          },
+          "n_photons": 14,
+          "n_high_energy": 14,
+          "metadata": {
+            "name": "GRB160625B",
+            "redshift": 1.406,
+            "distance_gly": 10.254950234285714,
+            "instrument": "MAGIC",
+            "telescope": "MAGIC",
+            "energy_range": "50 GeV - 50 TeV",
+            "note": "FITS import da real_data/magic\\grb160625b_magic.fits (MAGIC)"
+          }
+        },
+        {
+          "fit_results": {
+            "t0": 29.763393027595363,
+            "t0_err": 2.7400943014403776,
+            "alpha": -0.01346280517920162,
+            "alpha_err": 0.02058639378938605,
+            "chi2_reduced": 222.15514210973612,
+            "correlation": -0.06558456204497437,
+            "p_value": 0.5146498504479308,
+            "E_QG_GeV": Infinity,
+            "significance_sigma": 0.6539661323426526
+          },
+          "lr_results": {
+            "log_L_null": -50.49999999999999,
+            "log_L_qg": -50.499999999999986,
+            "LR_statistic": 1.4210854715202004e-14,
+            "p_value": 0.9999999048847483,
+            "sigma": 1.1920928959838228e-07,
+            "detection": false
+          },
+          "n_photons": 101,
+          "n_high_energy": 101,
+          "metadata": {
+            "name": "GRB170817A",
+            "redshift": 0.0099,
+            "distance_gly": 0.04261016712857144,
+            "instrument": "MAGIC",
+            "telescope": "MAGIC",
+            "energy_range": "50 GeV - 50 TeV",
+            "note": "FITS import da real_data/magic\\grb170817a_magic.fits (MAGIC)"
+          }
+        },
+        {
+          "fit_results": {
+            "t0": 27.573405099046994,
+            "t0_err": 3.842281401395542,
+            "alpha": 0.01283138668590242,
+            "alpha_err": 0.02697098282955053,
+            "chi2_reduced": 291.11290442907966,
+            "correlation": 0.05378985555327695,
+            "p_value": 0.6355837489543147,
+            "E_QG_GeV": 8840242538.660324,
+            "significance_sigma": 0.47574789208012225
+          },
+          "lr_results": {
+            "log_L_null": -40.0,
+            "log_L_qg": -40.00000000000001,
+            "LR_statistic": -1.4210854715202004e-14,
+            "p_value": 1.0,
+            "sigma": 0.0,
+            "detection": false
+          },
+          "n_photons": 80,
+          "n_high_energy": 80,
+          "metadata": {
+            "name": "GRB190114C",
+            "redshift": 0.4245,
+            "distance_gly": 2.2039588210714287,
+            "instrument": "MAGIC",
+            "telescope": "MAGIC",
+            "energy_range": "50 GeV - 50 TeV",
+            "note": "FITS import da real_data/magic\\grb190114c_magic.fits (MAGIC)"
+          }
+        }
+      ],
+      "combined": {
+        "log_L_combined": -214.5,
+        "num_grb": 6,
+        "E_QG_limit_conservative_GeV": 8840242538.660324
+      }
+    }
+  },
+  "final_combined": {
+    "log_L_combined": -17236.5,
+    "num_grb": 18,
+    "E_QG_limit_conservative_GeV": 5335952.420681495
+  },
+  "target_grbs": [
+    {
+      "name": "GRB080916C",
+      "z": 4.35,
+      "date": "2008-09-16",
+      "priority": "high"
+    },
+    {
+      "name": "GRB130427A",
+      "z": 0.34,
+      "date": "2013-04-27",
+      "priority": "high"
+    },
+    {
+      "name": "GRB090510",
+      "z": 0.903,
+      "date": "2009-05-10",
+      "priority": "medium"
+    },
+    {
+      "name": "GRB190114C",
+      "z": 0.4245,
+      "date": "2019-01-14",
+      "priority": "high"
+    },
+    {
+      "name": "GRB160625B",
+      "z": 1.406,
+      "date": "2016-06-25",
+      "priority": "medium"
+    },
+    {
+      "name": "GRB170817A",
+      "z": 0.0099,
+      "date": "2017-08-17",
+      "priority": "high"
+    }
+  ]
+}

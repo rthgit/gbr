@@ -1,0 +1,439 @@
+{
+  "timestamp": "2025-10-21T00:22:30.113884",
+  "methodology": {
+    "ensemble_modeling": "Multiple lag models with weighted voting",
+    "dynamic_threshold": "Adaptive threshold based on null distribution",
+    "multi_dimensional": "Combined features analysis",
+    "ultra_optimization": "Maximum sensitivity approach"
+  },
+  "critical_validation": {
+    "ensemble_analysis": {
+      "simple_power_law": {
+        "correlation": 0.012958440030438641,
+        "significance": 0.816553121357878,
+        "rms": 353.2179490063248,
+        "weight": 1.0
+      },
+      "exponential_decay": {
+        "correlation": 0.012748122992230451,
+        "significance": 0.8032981942283197,
+        "rms": 353.2223688761804,
+        "weight": 1.0
+      },
+      "logarithmic": {
+        "correlation": 0.007798451870204932,
+        "significance": 0.49137929845249106,
+        "rms": 353.1936126623586,
+        "weight": 1.0
+      },
+      "linear": {
+        "correlation": 0.004511668653486981,
+        "significance": 0.2842738230420806,
+        "rms": 353.202988591277,
+        "weight": 1.0
+      },
+      "ensemble": {
+        "significance": 0.5988761092701923,
+        "best_individual": 0.816553121357878,
+        "n_models": 4,
+        "method": "weighted_average"
+      }
+    },
+    "dynamic_threshold": {
+      "dynamic_threshold": 1.2854474478380082,
+      "real_significance": 0.5988761092701923,
+      "detection_dynamic": false,
+      "detection_1_0": false,
+      "detection_1_5": false,
+      "detection_2_0": false,
+      "null_distribution_mean": 0.5997480979651134,
+      "null_distribution_std": 0.5296589469933488
+    },
+    "multi_dimensional": {
+      "base_correlation": 0.015452086637405785,
+      "base_significance": 0.9737203391140161,
+      "log_correlation": 0.005923979149355822,
+      "log_significance": 0.3732642487932173,
+      "band_significance": 0.02652029271791464,
+      "residual_variance": 124749.8117964854,
+      "combined_score": 0.4578349602083827,
+      "features": [
+        0.9737203391140161,
+        0.3732642487932173,
+        0.02652029271791464
+      ]
+    },
+    "final_assessment": {
+      "ensemble_significance": 0.5988761092701923,
+      "dynamic_detection": false,
+      "combined_score": 0.4578349602083827,
+      "overall_detection": false
+    }
+  },
+  "independent_validation": {
+    "results": [
+      {
+        "grb_name": "GRB190114C",
+        "n_photons": 2847,
+        "redshift": 2.836922683731945,
+        "ensemble_significance": 0.0801342533269231,
+        "dynamic_threshold": 1.143043551485613,
+        "dynamic_detection": false,
+        "combined_score": 0.13400012220558885,
+        "overall_detection": false,
+        "has_qg_expected": true,
+        "detection_correct": false
+      },
+      {
+        "grb_name": "GRB160625B",
+        "n_photons": 1523,
+        "redshift": 1.083585994529204,
+        "ensemble_significance": 0.8850870934780288,
+        "dynamic_threshold": 1.4090982453884413,
+        "dynamic_detection": false,
+        "combined_score": 0.8355576245475299,
+        "overall_detection": false,
+        "has_qg_expected": false,
+        "detection_correct": true
+      },
+      {
+        "grb_name": "GRB170817A",
+        "n_photons": 89,
+        "redshift": 1.0277871278872088,
+        "ensemble_significance": 0.6501059676541244,
+        "dynamic_threshold": 1.517383524176227,
+        "dynamic_detection": false,
+        "combined_score": 0.32287804039923684,
+        "overall_detection": false,
+        "has_qg_expected": false,
+        "detection_correct": true
+      },
+      {
+        "grb_name": "GRB221009A",
+        "n_photons": 4567,
+        "redshift": 1.2843691117031506,
+        "ensemble_significance": 0.6136834719015936,
+        "dynamic_threshold": 1.2225273084696537,
+        "dynamic_detection": false,
+        "combined_score": 0.8386733701832889,
+        "overall_detection": false,
+        "has_qg_expected": true,
+        "detection_correct": false
+      }
+    ],
+    "accuracy": 0.5
+  },
+  "blind_analysis": {
+    "results": [
+      {
+        "grb_id": "ULTRA_000",
+        "n_photons": 2626,
+        "ensemble_significance": 0.09952029114415858,
+        "dynamic_threshold": 1.338939326236095,
+        "combined_score": 0.23954246529560966,
+        "overall_detection": false,
+        "has_qg_true": false,
+        "detection_correct": true
+      },
+      {
+        "grb_id": "ULTRA_001",
+        "n_photons": 6706,
+        "ensemble_significance": 0.501685670854242,
+        "dynamic_threshold": 1.0119391262823088,
+        "combined_score": 0.5936877950040135,
+        "overall_detection": false,
+        "has_qg_true": false,
+        "detection_correct": true
+      },
+      {
+        "grb_id": "ULTRA_002",
+        "n_photons": 2799,
+        "ensemble_significance": 0.14212210248118068,
+        "dynamic_threshold": 1.4649168760897329,
+        "combined_score": 0.16074373210113035,
+        "overall_detection": false,
+        "has_qg_true": true,
+        "detection_correct": false
+      },
+      {
+        "grb_id": "ULTRA_003",
+        "n_photons": 6005,
+        "ensemble_significance": 1.9144223161540679,
+        "dynamic_threshold": 1.2426489858136496,
+        "combined_score": 1.456928429143108,
+        "overall_detection": true,
+        "has_qg_true": false,
+        "detection_correct": false
+      },
+      {
+        "grb_id": "ULTRA_004",
+        "n_photons": 5482,
+        "ensemble_significance": 0.783340683882531,
+        "dynamic_threshold": 1.2965555966168687,
+        "combined_score": 0.6211661348964299,
+        "overall_detection": false,
+        "has_qg_true": false,
+        "detection_correct": true
+      },
+      {
+        "grb_id": "ULTRA_005",
+        "n_photons": 5331,
+        "ensemble_significance": 0.09041460695620372,
+        "dynamic_threshold": 0.9889981884131454,
+        "combined_score": 0.3851905008001119,
+        "overall_detection": false,
+        "has_qg_true": true,
+        "detection_correct": false
+      },
+      {
+        "grb_id": "ULTRA_006",
+        "n_photons": 6213,
+        "ensemble_significance": 0.03322349048557197,
+        "dynamic_threshold": 1.1501937674261378,
+        "combined_score": 0.18067628439373293,
+        "overall_detection": false,
+        "has_qg_true": false,
+        "detection_correct": true
+      },
+      {
+        "grb_id": "ULTRA_007",
+        "n_photons": 2813,
+        "ensemble_significance": 0.6292169596216043,
+        "dynamic_threshold": 1.3353538164547119,
+        "combined_score": 0.5393878312625757,
+        "overall_detection": false,
+        "has_qg_true": false,
+        "detection_correct": true
+      },
+      {
+        "grb_id": "ULTRA_008",
+        "n_photons": 2442,
+        "ensemble_significance": 0.25335414477300106,
+        "dynamic_threshold": 1.4593393614302712,
+        "combined_score": 0.5153534665154351,
+        "overall_detection": false,
+        "has_qg_true": false,
+        "detection_correct": true
+      },
+      {
+        "grb_id": "ULTRA_009",
+        "n_photons": 5788,
+        "ensemble_significance": 0.9697260806034779,
+        "dynamic_threshold": 1.345841918683279,
+        "combined_score": 0.4320843206815697,
+        "overall_detection": false,
+        "has_qg_true": false,
+        "detection_correct": true
+      },
+      {
+        "grb_id": "ULTRA_010",
+        "n_photons": 3362,
+        "ensemble_significance": 0.1314765947661749,
+        "dynamic_threshold": 1.2974881905568834,
+        "combined_score": 0.25746471270754623,
+        "overall_detection": false,
+        "has_qg_true": true,
+        "detection_correct": false
+      },
+      {
+        "grb_id": "ULTRA_011",
+        "n_photons": 2929,
+        "ensemble_significance": 1.733614517005869,
+        "dynamic_threshold": 1.4208244440566153,
+        "combined_score": 0.7395557002040319,
+        "overall_detection": true,
+        "has_qg_true": false,
+        "detection_correct": false
+      },
+      {
+        "grb_id": "ULTRA_012",
+        "n_photons": 6700,
+        "ensemble_significance": 0.797731872498541,
+        "dynamic_threshold": 1.5267837777500877,
+        "combined_score": 0.49467450185290707,
+        "overall_detection": false,
+        "has_qg_true": false,
+        "detection_correct": true
+      },
+      {
+        "grb_id": "ULTRA_013",
+        "n_photons": 2042,
+        "ensemble_significance": 0.4834679503376196,
+        "dynamic_threshold": 1.3237426772002414,
+        "combined_score": 0.6806373453441554,
+        "overall_detection": false,
+        "has_qg_true": false,
+        "detection_correct": true
+      },
+      {
+        "grb_id": "ULTRA_014",
+        "n_photons": 5171,
+        "ensemble_significance": 0.6132198741831998,
+        "dynamic_threshold": 1.2245734025057065,
+        "combined_score": 0.8969365317488013,
+        "overall_detection": false,
+        "has_qg_true": false,
+        "detection_correct": true
+      },
+      {
+        "grb_id": "ULTRA_015",
+        "n_photons": 2014,
+        "ensemble_significance": 0.9821586289519345,
+        "dynamic_threshold": 1.1466347102010626,
+        "combined_score": 1.1207897786853867,
+        "overall_detection": true,
+        "has_qg_true": false,
+        "detection_correct": false
+      },
+      {
+        "grb_id": "ULTRA_016",
+        "n_photons": 3192,
+        "ensemble_significance": 0.34708729174229674,
+        "dynamic_threshold": 1.2839132630516341,
+        "combined_score": 0.14446873028275192,
+        "overall_detection": false,
+        "has_qg_true": false,
+        "detection_correct": true
+      },
+      {
+        "grb_id": "ULTRA_017",
+        "n_photons": 5459,
+        "ensemble_significance": 0.06467367169877547,
+        "dynamic_threshold": 1.1397562725298955,
+        "combined_score": 0.255335720612774,
+        "overall_detection": false,
+        "has_qg_true": false,
+        "detection_correct": true
+      },
+      {
+        "grb_id": "ULTRA_018",
+        "n_photons": 4497,
+        "ensemble_significance": 0.39735708614855425,
+        "dynamic_threshold": 1.0714971089393033,
+        "combined_score": 0.43297638172991987,
+        "overall_detection": false,
+        "has_qg_true": false,
+        "detection_correct": true
+      },
+      {
+        "grb_id": "ULTRA_019",
+        "n_photons": 6454,
+        "ensemble_significance": 0.11533887997214921,
+        "dynamic_threshold": 1.0818848090523514,
+        "combined_score": 0.12362232437896724,
+        "overall_detection": false,
+        "has_qg_true": true,
+        "detection_correct": false
+      },
+      {
+        "grb_id": "ULTRA_020",
+        "n_photons": 4600,
+        "ensemble_significance": 0.39059771350688227,
+        "dynamic_threshold": 1.184370266514267,
+        "combined_score": 0.565894603768227,
+        "overall_detection": false,
+        "has_qg_true": true,
+        "detection_correct": false
+      },
+      {
+        "grb_id": "ULTRA_021",
+        "n_photons": 2693,
+        "ensemble_significance": 0.5654828792986154,
+        "dynamic_threshold": 1.4343300924018187,
+        "combined_score": 0.5362495019486874,
+        "overall_detection": false,
+        "has_qg_true": false,
+        "detection_correct": true
+      },
+      {
+        "grb_id": "ULTRA_022",
+        "n_photons": 2568,
+        "ensemble_significance": 0.47313213165963725,
+        "dynamic_threshold": 1.2246455845407567,
+        "combined_score": 0.8297806633409158,
+        "overall_detection": false,
+        "has_qg_true": true,
+        "detection_correct": false
+      },
+      {
+        "grb_id": "ULTRA_023",
+        "n_photons": 6410,
+        "ensemble_significance": 0.18949035929541086,
+        "dynamic_threshold": 1.22697610315264,
+        "combined_score": 0.4721086741338511,
+        "overall_detection": false,
+        "has_qg_true": false,
+        "detection_correct": true
+      },
+      {
+        "grb_id": "ULTRA_024",
+        "n_photons": 4532,
+        "ensemble_significance": 0.3635698613668196,
+        "dynamic_threshold": 1.1888395068896611,
+        "combined_score": 0.6329103249414202,
+        "overall_detection": false,
+        "has_qg_true": true,
+        "detection_correct": false
+      },
+      {
+        "grb_id": "ULTRA_025",
+        "n_photons": 4321,
+        "ensemble_significance": 0.49433682579464844,
+        "dynamic_threshold": 1.3229652845493944,
+        "combined_score": 0.2622782164459951,
+        "overall_detection": false,
+        "has_qg_true": true,
+        "detection_correct": false
+      },
+      {
+        "grb_id": "ULTRA_026",
+        "n_photons": 2697,
+        "ensemble_significance": 0.05513238506303018,
+        "dynamic_threshold": 1.2232603480646445,
+        "combined_score": 0.3622174041547525,
+        "overall_detection": false,
+        "has_qg_true": true,
+        "detection_correct": false
+      },
+      {
+        "grb_id": "ULTRA_027",
+        "n_photons": 6405,
+        "ensemble_significance": 0.1681868552955412,
+        "dynamic_threshold": 1.2553611840642447,
+        "combined_score": 0.41392599144464476,
+        "overall_detection": false,
+        "has_qg_true": false,
+        "detection_correct": true
+      },
+      {
+        "grb_id": "ULTRA_028",
+        "n_photons": 5533,
+        "ensemble_significance": 0.29044305543066995,
+        "dynamic_threshold": 0.9519395944330423,
+        "combined_score": 0.3652344555097939,
+        "overall_detection": false,
+        "has_qg_true": true,
+        "detection_correct": false
+      },
+      {
+        "grb_id": "ULTRA_029",
+        "n_photons": 5353,
+        "ensemble_significance": 0.2555041674724533,
+        "dynamic_threshold": 1.2384987845599424,
+        "combined_score": 0.5774296242625042,
+        "overall_detection": false,
+        "has_qg_true": false,
+        "detection_correct": true
+      }
+    ],
+    "accuracy": 0.5666666666666667,
+    "detection_rate": 0.1
+  },
+  "ultra_summary": {
+    "grb090902_detection": false,
+    "independent_accuracy": 0.5,
+    "blind_accuracy": 0.5666666666666667,
+    "blind_detection_rate": 0.1,
+    "methodology_breakthrough": false
+  }
+}

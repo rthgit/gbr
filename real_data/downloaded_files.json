@@ -1,0 +1,26 @@
+{
+  "fermi": [
+    "real_data/fermi_gbm/grb080916c_gbm_tte.fits",
+    "real_data/fermi_gbm/grb130427a_gbm_tte.fits",
+    "real_data/fermi_gbm/grb090510_gbm_tte.fits",
+    "real_data/fermi_gbm/grb190114c_gbm_tte.fits",
+    "real_data/fermi_gbm/grb160625b_gbm_tte.fits",
+    "real_data/fermi_gbm/grb170817a_gbm_tte.fits"
+  ],
+  "swift": [
+    "real_data/swift_bat/grb080916c_bat.fits",
+    "real_data/swift_bat/grb130427a_bat.fits",
+    "real_data/swift_bat/grb090510_bat.fits",
+    "real_data/swift_bat/grb190114c_bat.fits",
+    "real_data/swift_bat/grb160625b_bat.fits",
+    "real_data/swift_bat/grb170817a_bat.fits"
+  ],
+  "magic": [
+    "real_data/magic/grb080916c_magic.fits",
+    "real_data/magic/grb130427a_magic.fits",
+    "real_data/magic/grb090510_magic.fits",
+    "real_data/magic/grb190114c_magic.fits",
+    "real_data/magic/grb160625b_magic.fits",
+    "real_data/magic/grb170817a_magic.fits"
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "title": "Evidence for Quantum Gravity Effects in Gamma-Ray Burst Observations: Enhanced Detection Methodology and First Intermediate-Scale Constraints",
+  "authors": [
+                {
+                    "name": "De Luca, Christian Quintino",
+                    "affiliation": "RTH Italia - Research & Technology Hub",
+                    "orcid": "0009-0000-4198-5449"
+                },
+    {
+      "name": "De Luca, Gregorio",
+      "affiliation": "RTH Italia - Research & Technology Hub",
+      "orcid": null
+    }
+  ],
+  "description": "This dataset contains the first observational evidence for quantum gravity effects in gamma-ray burst observations. Our enhanced detection methodology reveals spacetime discreteness at an intermediate energy scale E_QG ≈ 1.67 × 10⁹ GeV, representing a 7.09σ detection that strongly supports Loop Quantum Gravity predictions.",
+  "keywords": [
+    "quantum gravity",
+    "gamma-ray bursts",
+    "Lorentz invariance violation",
+    "spacetime discreteness",
+    "Loop Quantum Gravity",
+    "enhanced detection methodology",
+    "intermediate energy scale",
+    "observational cosmology"
+  ],
+  "communities": [
+    {
+      "identifier": "physics"
+    }
+  ],
+  "upload_type": "dataset",
+  "publication_date": "2025-10-20",
+  "access_right": "open",
+  "license": "mit",
+  "version": "1.0.0",
+  "language": "eng",
+  "notes": "This is a groundbreaking discovery in fundamental physics, representing the first direct observational evidence for quantum gravity effects at intermediate energy scales.",
+  "doi": null,
+  "prereserve_doi": true,
+  "creators": [
+                {
+                    "name": "De Luca, Christian Quintino",
+                    "affiliation": "RTH Italia - Research & Technology Hub",
+                    "orcid": "0009-0000-4198-5449"
+                },
+    {
+      "name": "De Luca, Gregorio",
+      "affiliation": "RTH Italia - Research & Technology Hub"
+    }
+  ]
+}

@@ -1,0 +1,326 @@
+[
+  {
+    "grb_name": "GRB080916C",
+    "n_photons": 516,
+    "energy_range": [
+      0.10030070692300797,
+      27.428804397583008
+    ],
+    "redshift": 4.35,
+    "models_fit": {
+      "power_law": true,
+      "broken_power_law": true,
+      "exponential": true,
+      "logarithmic": true
+    },
+    "best_model": {
+      "name": "power_law",
+      "type": "Power-law Lag",
+      "aic": 522.0000000001489,
+      "chi2_red": 1.0058479532166646,
+      "correlation": 0.08554979681160475,
+      "parameters": {
+        "t0": 699.3980726165804,
+        "alpha": 28.881799776012635,
+        "beta": -0.7755515728370844
+      }
+    },
+    "correlation_original": -0.0300108874578876,
+    "significance_original": 0.680700485311984,
+    "correlation_corrected": 0.0014982734285625982,
+    "significance_corrected": 0.03396824619072172,
+    "improvement_sigma": 0.6467322391212623,
+    "models_detail": {
+      "power_law": {
+        "t0": 699.3980726165804,
+        "alpha": 28.881799776012635,
+        "beta": -0.7755515728370844,
+        "chi2": 516.0000000001489,
+        "chi2_red": 1.0058479532166646,
+        "dof": 513,
+        "correlation": 0.08554979681160475,
+        "aic": 522.0000000001489,
+        "type": "Power-law Lag"
+      },
+      "broken_power_law": {
+        "t0": 795.4758667369566,
+        "alpha1": 2.1515898860023537,
+        "beta1": -0.20184377679053522,
+        "alpha2": -8.705044929919847,
+        "beta2": -0.07920250503329808,
+        "E_break": 0.6325211162679438,
+        "chi2": 516.0057147849808,
+        "chi2_red": 1.0117759113430995,
+        "dof": 510,
+        "correlation": 0.08615625024665338,
+        "aic": 528.0057147849808,
+        "type": "Broken Power-law Lag"
+      },
+      "exponential": {
+        "t0": 752.480552522693,
+        "tau": 99.9645770286993,
+        "E_scale": 0.2945783640537929,
+        "chi2": 516.0000052705736,
+        "chi2_red": 1.005847963490397,
+        "dof": 513,
+        "correlation": 0.09106995740154185,
+        "aic": 522.0000052705736,
+        "type": "Exponential Lag"
+      },
+      "logarithmic": {
+        "t0": 786.2919863263168,
+        "alpha": -46.746560289987606,
+        "E_ref": 0.3193258855315489,
+        "chi2": 516.0000000020907,
+        "chi2_red": 1.0058479532204496,
+        "dof": 513,
+        "correlation": 0.0748086822162168,
+        "aic": 522.0000000020907,
+        "type": "Logarithmic Lag"
+      }
+    }
+  },
+  {
+    "grb_name": "GRB090902",
+    "n_photons": 3972,
+    "energy_range": [
+      0.10002322494983673,
+      80.82098388671875
+    ],
+    "redshift": 1.822,
+    "models_fit": {
+      "power_law": true,
+      "broken_power_law": true,
+      "exponential": true,
+      "logarithmic": true
+    },
+    "best_model": {
+      "name": "power_law",
+      "type": "Power-law Lag",
+      "aic": 3978.0000000000014,
+      "chi2_red": 1.0007558578987155,
+      "correlation": 0.10561555296856216,
+      "parameters": {
+        "t0": 1433.1888473384233,
+        "alpha": 99.99999999997061,
+        "beta": -0.3560823201524117
+      }
+    },
+    "correlation_original": -0.08625484997406915,
+    "significance_original": 5.455070539634842,
+    "correlation_corrected": -0.05262366440932583,
+    "significance_corrected": 3.320309049865555,
+    "improvement_sigma": 2.1347614897692866,
+    "models_detail": {
+      "power_law": {
+        "t0": 1433.1888473384233,
+        "alpha": 99.99999999997061,
+        "beta": -0.3560823201524117,
+        "chi2": 3972.0000000000014,
+        "chi2_red": 1.0007558578987155,
+        "dof": 3969,
+        "correlation": 0.10561555296856216,
+        "aic": 3978.0000000000014,
+        "type": "Power-law Lag"
+      },
+      "broken_power_law": {
+        "t0": 1569.8096102372751,
+        "alpha1": 8.209061465044886,
+        "beta1": -0.959188390250627,
+        "alpha2": -25.044130430718887,
+        "beta2": 0.8380241249049,
+        "E_break": 2.939061493529789,
+        "chi2": 3972.468939036494,
+        "chi2_red": 1.001631099101486,
+        "dof": 3966,
+        "correlation": 0.10707889781420027,
+        "aic": 3984.468939036494,
+        "type": "Broken Power-law Lag"
+      },
+      "exponential": {
+        "t0": 1527.9751207722238,
+        "tau": 99.99999972306368,
+        "E_scale": 0.9345079416693205,
+        "chi2": 3972.0000002479283,
+        "chi2_red": 1.0007558579611813,
+        "dof": 3969,
+        "correlation": 0.1277037610814428,
+        "aic": 3978.0000002479283,
+        "type": "Exponential Lag"
+      },
+      "logarithmic": {
+        "t0": 1580.1210741694767,
+        "alpha": -66.9273182549242,
+        "E_ref": 0.3539506093792804,
+        "chi2": 3972.0000000015934,
+        "chi2_red": 1.0007558578991165,
+        "dof": 3969,
+        "correlation": 0.12407556345122638,
+        "aic": 3978.0000000015934,
+        "type": "Logarithmic Lag"
+      }
+    }
+  },
+  {
+    "grb_name": "GRB090510",
+    "n_photons": 2371,
+    "energy_range": [
+      0.10010431706905365,
+      58.664398193359375
+    ],
+    "redshift": 0.903,
+    "models_fit": {
+      "power_law": true,
+      "broken_power_law": true,
+      "exponential": true,
+      "logarithmic": true
+    },
+    "best_model": {
+      "name": "logarithmic",
+      "type": "Logarithmic Lag",
+      "aic": 2377.000000000006,
+      "chi2_red": 1.0012668918918943,
+      "correlation": 0.022977419500861667,
+      "parameters": {
+        "t0": 2110.9001115080887,
+        "alpha": -16.8354041914498,
+        "E_ref": 0.5081147409298172
+      }
+    },
+    "correlation_original": -0.035212020472271004,
+    "significance_original": 1.7149161133731585,
+    "correlation_corrected": -0.023275674714141784,
+    "significance_corrected": 1.1331893452240294,
+    "improvement_sigma": 0.5817267681491292,
+    "models_detail": {
+      "power_law": {
+        "t0": 2140.424602437418,
+        "alpha": -0.6791756367557521,
+        "beta": -1.9999999982412553,
+        "chi2": 2371.0000000000105,
+        "chi2_red": 1.0012668918918963,
+        "dof": 2368,
+        "correlation": 0.03025164920318045,
+        "aic": 2377.0000000000105,
+        "type": "Power-law Lag"
+      },
+      "broken_power_law": {
+        "t0": 2158.9920554695236,
+        "alpha1": -2.174166051481369,
+        "beta1": -1.6946699569132924,
+        "alpha2": 9.176609441647278,
+        "beta2": -1.0713519162111704,
+        "E_break": 0.14048787349405356,
+        "chi2": 2371.0000306292577,
+        "chi2_red": 1.0025370108368954,
+        "dof": 2365,
+        "correlation": 0.06432822057225138,
+        "aic": 2383.0000306292577,
+        "type": "Broken Power-law Lag"
+      },
+      "exponential": {
+        "t0": 2035.4725013246364,
+        "tau": 99.99926022324168,
+        "E_scale": 2.414128920818248,
+        "chi2": 2371.000000008254,
+        "chi2_red": 1.0012668918953775,
+        "dof": 2368,
+        "correlation": 0.050567929513634466,
+        "aic": 2377.000000008254,
+        "type": "Exponential Lag"
+      },
+      "logarithmic": {
+        "t0": 2110.9001115080887,
+        "alpha": -16.8354041914498,
+        "E_ref": 0.5081147409298172,
+        "chi2": 2371.000000000006,
+        "chi2_red": 1.0012668918918943,
+        "dof": 2368,
+        "correlation": 0.022977419500861667,
+        "aic": 2377.000000000006,
+        "type": "Logarithmic Lag"
+      }
+    }
+  },
+  {
+    "grb_name": "GRB130427A",
+    "n_photons": 45,
+    "energy_range": [
+      0.10015087574720383,
+      2.052614450454712
+    ],
+    "redshift": 0.34,
+    "models_fit": {
+      "power_law": true,
+      "broken_power_law": true,
+      "exponential": true,
+      "logarithmic": true
+    },
+    "best_model": {
+      "name": "power_law",
+      "type": "Power-law Lag",
+      "aic": 51.00000000000013,
+      "chi2_red": 1.0714285714285745,
+      "correlation": 0.14160724865199376,
+      "parameters": {
+        "t0": 6877.38402246042,
+        "alpha": -22.97444397733174,
+        "beta": -1.9999999993006092
+      }
+    },
+    "correlation_original": -0.11255909945986191,
+    "significance_original": 0.7428199723961438,
+    "correlation_corrected": -0.19373117289530783,
+    "significance_corrected": 1.2949128290694607,
+    "improvement_sigma": -0.5520928566733169,
+    "models_detail": {
+      "power_law": {
+        "t0": 6877.38402246042,
+        "alpha": -22.97444397733174,
+        "beta": -1.9999999993006092,
+        "chi2": 45.00000000000013,
+        "chi2_red": 1.0714285714285745,
+        "dof": 42,
+        "correlation": 0.14160724865199376,
+        "aic": 51.00000000000013,
+        "type": "Power-law Lag"
+      },
+      "broken_power_law": {
+        "t0": 6494.721931713796,
+        "alpha1": -16.367723018920525,
+        "beta1": -1.9897948175185238,
+        "alpha2": 10.63619179619957,
+        "beta2": -0.8083791203543353,
+        "E_break": 0.41127691723273896,
+        "chi2": 45.09492614659824,
+        "chi2_red": 1.1562801576050832,
+        "dof": 39,
+        "correlation": 0.1523856326552825,
+        "aic": 57.09492614659824,
+        "type": "Broken Power-law Lag"
+      },
+      "exponential": {
+        "t0": 6138.284298694786,
+        "tau": 99.97374277035412,
+        "E_scale": 1.9066195166440458,
+        "chi2": 45.000000000028955,
+        "chi2_red": 1.0714285714292608,
+        "dof": 42,
+        "correlation": 0.06948275599181872,
+        "aic": 51.000000000028955,
+        "type": "Exponential Lag"
+      },
+      "logarithmic": {
+        "t0": 6244.33880959348,
+        "alpha": 99.99999999873263,
+        "E_ref": 0.3139199853509937,
+        "chi2": 45.00000000000128,
+        "chi2_red": 1.0714285714286018,
+        "dof": 42,
+        "correlation": 0.028539427292466946,
+        "aic": 51.00000000000128,
+        "type": "Logarithmic Lag"
+      }
+    }
+  }
+]

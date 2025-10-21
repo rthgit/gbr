@@ -1,0 +1,361 @@
+{
+  "energy_dependence": {
+    "bin_results": [
+      {
+        "energy_min": 0.10002322451096946,
+        "energy_max": 0.2602837353810243,
+        "energy_center": 0.18015347994599687,
+        "n_photons": 2333,
+        "correlation": 0.005697980967941545,
+        "significance": 0.27510544188532055
+      },
+      {
+        "energy_min": 0.2602837353810243,
+        "energy_max": 0.6773189250309488,
+        "energy_center": 0.4688013302059866,
+        "n_photons": 1169,
+        "correlation": 0.043839725195046704,
+        "significance": 1.4990668234357598
+      },
+      {
+        "energy_min": 0.6773189250309488,
+        "energy_max": 1.7625416568327212,
+        "energy_center": 1.219930290931835,
+        "n_photons": 361,
+        "correlation": -0.05656224359398605,
+        "significance": 1.073419998527007
+      },
+      {
+        "energy_min": 1.7625416568327212,
+        "energy_max": 4.586544059622556,
+        "energy_center": 3.1745428582276385,
+        "n_photons": 78,
+        "correlation": 0.06657787826920322,
+        "significance": 0.581703151073746
+      },
+      {
+        "energy_min": 4.586544059622556,
+        "energy_max": 11.935256298373814,
+        "energy_center": 8.260900178998185,
+        "n_photons": 22,
+        "correlation": 0.0916130285434072,
+        "significance": 0.41143613780286814
+      }
+    ],
+    "model_fits": {
+      "constant": {
+        "parameters": [
+          0.030233273876322242
+        ],
+        "r_squared": 1.1102230246251565e-16,
+        "residuals": [
+          -0.024535292908380697,
+          0.013606451318724462,
+          -0.0867955174703083,
+          0.03634460439288098,
+          0.06137975466708495
+        ]
+      },
+      "linear": {
+        "parameters": [],
+        "r_squared": -Infinity,
+        "residuals": []
+      },
+      "power_law": {
+        "parameters": [
+          0.009580021730199532,
+          1.0935930669124159
+        ],
+        "r_squared": 0.45033027107570167,
+        "residuals": [
+          0.004227895911172326,
+          0.03965600948831308,
+          -0.06846868195561166,
+          0.03269334012264028,
+          -0.0048189934041803495
+        ]
+      },
+      "logarithmic": {
+        "parameters": [
+          0.026188923747878373,
+          0.020344454519580148
+        ],
+        "r_squared": 0.282324204397548,
+        "residuals": [
+          0.014378356209924344,
+          0.03306327605937032,
+          -0.08679551710732161,
+          0.01688778037820847,
+          0.02246610627475326
+        ]
+      }
+    },
+    "qg_score": -Infinity,
+    "astro_score": 1.1102230246251565e-16,
+    "discrimination": "Astrophysical"
+  },
+  "temporal_consistency": {
+    "segment_results": [
+      {
+        "time_start": 273582261.3769028,
+        "time_end": 273582482.2228774,
+        "time_center": 273582371.7998901,
+        "n_photons": 436,
+        "correlation": 0.05644031036170197,
+        "significance": 1.1776794219012572
+      },
+      {
+        "time_start": 273582482.2228774,
+        "time_end": 273582703.0688519,
+        "time_center": 273582592.6458646,
+        "n_photons": 53,
+        "correlation": 0.1300806365669531,
+        "significance": 0.9369221921756328
+      },
+      {
+        "time_start": 273582703.0688519,
+        "time_end": 273582923.91482645,
+        "time_center": 273582813.4918392,
+        "n_photons": 36,
+        "correlation": -0.057165729470980295,
+        "significance": 0.33387660612888526
+      },
+      {
+        "time_start": 273582923.91482645,
+        "time_end": 273583144.760801,
+        "time_center": 273583034.33781374,
+        "n_photons": 21,
+        "correlation": 0.404763729445312,
+        "significance": 1.9294434444080601
+      },
+      {
+        "time_start": 273583144.760801,
+        "time_end": 273583365.6067755,
+        "time_center": 273583255.1837883,
+        "n_photons": 163,
+        "correlation": 0.030635152144316894,
+        "significance": 0.38889903959887545
+      },
+      {
+        "time_start": 273583365.6067755,
+        "time_end": 273583586.4527501,
+        "time_center": 273583476.0297628,
+        "n_photons": 1670,
+        "correlation": -0.06664418763217295,
+        "significance": 2.7278902769642315
+      },
+      {
+        "time_start": 273583586.4527501,
+        "time_end": 273583807.2987246,
+        "time_center": 273583696.8757373,
+        "n_photons": 1419,
+        "correlation": -0.10589152513713355,
+        "significance": 4.008618790348104
+      },
+      {
+        "time_start": 273583807.2987246,
+        "time_end": 273584028.14469916,
+        "time_center": 273583917.7217119,
+        "n_photons": 149,
+        "correlation": -0.016179461465061266,
+        "significance": 0.19619122573330958
+      }
+    ],
+    "correlation_mean": 0.047004865601616985,
+    "correlation_std": 0.15263812154211048,
+    "significance_std": 1.2594280493607337,
+    "consistency_score": 0.8675749841260704,
+    "time_trend": -0.3736303894860486,
+    "discrimination": "Astrophysical"
+  },
+  "spectral_lag_models": {
+    "model_fits": {
+      "QG": {
+        "E_QG": 80.58636901573318,
+        "parameters": [
+          80.58636901573318
+        ],
+        "covariance": [
+          [
+            23.279106016077346
+          ]
+        ]
+      },
+      "Astrophysical": {
+        "t0": 0.08625485001419812,
+        "alpha": 1.3687542413840034e-10,
+        "parameters": [
+          0.08625485001419812,
+          1.3687542413840034e-10
+        ],
+        "covariance": [
+          [
+            2.295055916699916e-26,
+            -2.095634934449623e-27
+          ],
+          [
+            -2.095634934449623e-27,
+            1.5740864036736393e-26
+          ]
+        ]
+      },
+      "Mixed": {
+        "parameters": [],
+        "covariance": [],
+        "error": "Fit failed"
+      }
+    },
+    "aic_scores": {
+      "QG": 2,
+      "Astrophysical": 4,
+      "Mixed": Infinity
+    },
+    "best_model": "QG",
+    "discrimination": "QG"
+  },
+  "instrumental_effects": {
+    "zenith_results": [
+      {
+        "zenith_min": 4.777920246124268,
+        "zenith_max": 39.676324248313904,
+        "zenith_center": 22.227122247219086,
+        "n_photons": 226,
+        "correlation": 0.08216813094571207,
+        "significance": 1.2339526096544424
+      },
+      {
+        "zenith_min": 39.676324248313904,
+        "zenith_max": 74.57472825050354,
+        "zenith_center": 57.12552624940872,
+        "n_photons": 317,
+        "correlation": -0.010508002938859203,
+        "significance": 0.1865088485050129
+      },
+      {
+        "zenith_min": 74.57472825050354,
+        "zenith_max": 109.47313225269318,
+        "zenith_center": 92.02393025159836,
+        "n_photons": 125,
+        "correlation": -0.21588173586244477,
+        "significance": 2.452065149528089
+      },
+      {
+        "zenith_min": 109.47313225269318,
+        "zenith_max": 144.3715362548828,
+        "zenith_center": 126.922334253788,
+        "n_photons": 3303,
+        "correlation": -0.08910543338072148,
+        "significance": 5.139938597249141
+      }
+    ],
+    "azimuth_results": [
+      {
+        "azimuth_min": 0.026624014076062075,
+        "azimuth_max": 90.00846430802488,
+        "azimuth_center": 45.01754416105047,
+        "n_photons": 1046,
+        "correlation": -0.1352319772093998,
+        "significance": 4.4099892241671075
+      },
+      {
+        "azimuth_min": 90.00846430802488,
+        "azimuth_max": 179.9903046019737,
+        "azimuth_center": 134.9993844549993,
+        "n_photons": 950,
+        "correlation": -0.13324997647320652,
+        "significance": 4.139629939415913
+      },
+      {
+        "azimuth_min": 179.9903046019737,
+        "azimuth_max": 269.9721448959225,
+        "azimuth_center": 224.98122474894808,
+        "n_photons": 1028,
+        "correlation": -0.025557218976476562,
+        "significance": 0.8188967644238854
+      },
+      {
+        "azimuth_min": 269.9721448959225,
+        "azimuth_max": 359.95398518987133,
+        "azimuth_center": 314.9630650428969,
+        "n_photons": 947,
+        "correlation": -0.15950474343065002,
+        "significance": 4.96690220246445
+      }
+    ],
+    "zenith_dependence": 0.109311876027722,
+    "azimuth_dependence": 0.05175098441880143,
+    "instrumental_score": 0.8612798101348436,
+    "discrimination": "QG"
+  },
+  "energy_threshold_effects": {
+    "threshold_results": [
+      {
+        "threshold": 0.1,
+        "n_photons": 3972,
+        "correlation": -0.08625484997406917,
+        "significance": 5.455070539634843
+      },
+      {
+        "threshold": 0.2,
+        "n_photons": 2147,
+        "correlation": -0.09987124038508427,
+        "significance": 4.648692825671761
+      },
+      {
+        "threshold": 0.5,
+        "n_photons": 750,
+        "correlation": -0.13422547243749794,
+        "significance": 3.704534467943456
+      },
+      {
+        "threshold": 1.0,
+        "n_photons": 259,
+        "correlation": -0.1137950830042516,
+        "significance": 1.8362014786765328
+      },
+      {
+        "threshold": 2.0,
+        "n_photons": 90,
+        "correlation": -0.07439031579913102,
+        "significance": 0.6997819738410654
+      },
+      {
+        "threshold": 5.0,
+        "n_photons": 27,
+        "correlation": 0.03738877544721064,
+        "significance": 0.18707468073363206
+      }
+    ],
+    "energy_trend": 0.9207355661249349,
+    "energy_dependence_score": 0.9207355661249349,
+    "discrimination": "QG"
+  },
+  "overall_discrimination": {
+    "overall_score": 0.6,
+    "overall_discrimination": "QG",
+    "qg_votes": 3,
+    "astro_votes": 2,
+    "mixed_votes": 0,
+    "individual_discriminations": [
+      "Astrophysical",
+      "Astrophysical",
+      "QG",
+      "QG",
+      "QG"
+    ]
+  },
+  "metadata": {
+    "grb_name": "GRB090902B",
+    "filename": "L251020161615F357373F52_EV00.fits",
+    "analysis_date": "2025-10-21T10:31:07.742674",
+    "n_photons": 3972,
+    "energy_range_gev": [
+      0.10002322494983673,
+      80.82098388671875
+    ],
+    "time_range_s": [
+      273581819.68495375,
+      273584028.14469916
+    ]
+  }
+}

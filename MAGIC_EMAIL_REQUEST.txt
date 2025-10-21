@@ -1,0 +1,33 @@
+Subject: Data Access Request for GRB080916C - Quantum Gravity Research
+
+Dear MAGIC Collaboration,
+
+I am writing to request access to observational data for GRB080916C, which was detected by Fermi on September 16, 2008.
+
+RESEARCH CONTEXT:
+I am conducting independent research on quantum gravity phenomenology using gamma-ray burst observations. GRB080916C is particularly interesting as it showed emission up to 30 MeV and more than 10 GeV photons, making it an excellent candidate for testing quantum gravity effects.
+
+REQUESTED DATA:
+- Event lists for GRB080916C
+- Spectral analysis data
+- Time-resolved data
+- Any available energy-time correlation data
+
+RESEARCH AFFILIATION:
+- Name: Christian Quintino De Luca
+- Organization: RTH Italia (Independent Research)
+- Email: info@rthitalia.com
+- ORCID: 0009-0000-4198-5449
+- Research Field: Quantum Gravity Phenomenology
+
+PUBLICATION INTENT:
+This research is intended for publication in peer-reviewed journals with proper acknowledgment of the MAGIC collaboration.
+
+Please let me know what data is available and what procedures are required for data access.
+
+Thank you for your time and consideration.
+
+Best regards,
+Christian Quintino De Luca
+RTH Italia
+info@rthitalia.com

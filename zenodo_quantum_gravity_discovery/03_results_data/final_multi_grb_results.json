@@ -1,0 +1,62 @@
+{
+  "num_grb": 4,
+  "total_photons": 6875,
+  "total_geV_photons": 503,
+  "total_high_energy_photons": 16,
+  "combined_correlation": -0.06347534545454546,
+  "combined_significance": 5.272965436144558,
+  "interpretation": "CORRELAZIONE SIGNIFICATIVA - VERIFICA METODOLOGIA",
+  "individual_results": [
+    {
+      "name": "GRB080916C",
+      "correlation": -0.03,
+      "significance": 0.68,
+      "photons": 516,
+      "geV_photons": 31,
+      "high_energy_photons": 2,
+      "E_QG": 946394769165.892,
+      "redshift": 4.35,
+      "max_energy": 27.4
+    },
+    {
+      "name": "GRB090902",
+      "correlation": -0.086,
+      "significance": 5.46,
+      "photons": 3972,
+      "geV_photons": 259,
+      "high_energy_photons": 10,
+      "E_QG": 104366560859.65318,
+      "redshift": 1.822,
+      "max_energy": 80.8
+    },
+    {
+      "name": "GRB090510",
+      "correlation": -0.035,
+      "significance": 1.71,
+      "photons": 2371,
+      "geV_photons": 212,
+      "high_energy_photons": 4,
+      "E_QG": Infinity,
+      "redshift": 0.903,
+      "max_energy": 58.7
+    },
+    {
+      "name": "GRB130427A",
+      "correlation": 0.229,
+      "significance": 0.88,
+      "photons": 16,
+      "geV_photons": 1,
+      "high_energy_photons": 0,
+      "E_QG": 1902602619.5987446,
+      "redshift": 0.34,
+      "max_energy": 2.1
+    }
+  ],
+  "timestamp": "2025-10-20T22:33:44.319673",
+  "analysis_notes": [
+    "GRB090902 mostra correlazione significativa (5.46\u03c3)",
+    "GRB090510 ha errore nel calcolo E_QG originale",
+    "Combinazione bayesiana pesata per numero di fotoni",
+    "Risultato finale: 5.3\u03c3 - CORRELAZIONE SIGNIFICATIVA"
+  ]
+}

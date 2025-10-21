@@ -1,0 +1,5391 @@
+{
+  "timestamp": "2025-10-21T00:49:27.311441",
+  "robustness_test": {
+    "null_data": {
+      "ensemble": {
+        "individual_significances": [
+          0.29025149940891254,
+          24.532061441365094,
+          6.481928037684216e-16,
+          0.6359449153497628
+        ],
+        "ensemble_significance": 6.364564464030943,
+        "ensemble_std": 10.491424917092512,
+        "n_methods": 4
+      },
+      "bayesian": {
+        "best_parameters": {
+          "energy_min": 1.0,
+          "energy_max": 10.0,
+          "time_min": 0,
+          "time_max": 500
+        },
+        "best_significance": 3.0377517596560666,
+        "optimization_history": [
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 10.0,
+              "time_min": 0,
+              "time_max": 500
+            },
+            "significance": 2.722951680185744,
+            "n_photons": 2421
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 10.0,
+              "time_min": 0,
+              "time_max": 1000
+            },
+            "significance": 0.9922549700688016,
+            "n_photons": 3216
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 10.0,
+              "time_min": 0,
+              "time_max": 2000
+            },
+            "significance": 1.903460183004414,
+            "n_photons": 3632
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 10.0,
+              "time_min": 0,
+              "time_max": 5000
+            },
+            "significance": 1.6229736490825104,
+            "n_photons": 3687
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 10.0,
+              "time_min": 50,
+              "time_max": 500
+            },
+            "significance": 2.02835018488896,
+            "n_photons": 2051
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 10.0,
+              "time_min": 50,
+              "time_max": 1000
+            },
+            "significance": 0.290915530974394,
+            "n_photons": 2846
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 10.0,
+              "time_min": 50,
+              "time_max": 2000
+            },
+            "significance": 1.3382159737340753,
+            "n_photons": 3262
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 10.0,
+              "time_min": 50,
+              "time_max": 5000
+            },
+            "significance": 1.0836350679257625,
+            "n_photons": 3317
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 10.0,
+              "time_min": 100,
+              "time_max": 500
+            },
+            "significance": 2.6901601016766485,
+            "n_photons": 1726
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 10.0,
+              "time_min": 100,
+              "time_max": 1000
+            },
+            "significance": 0.5639651014982217,
+            "n_photons": 2521
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 10.0,
+              "time_min": 100,
+              "time_max": 2000
+            },
+            "significance": 1.5455839781527667,
+            "n_photons": 2937
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 10.0,
+              "time_min": 100,
+              "time_max": 5000
+            },
+            "significance": 1.2468139618991567,
+            "n_photons": 2992
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 10.0,
+              "time_min": 200,
+              "time_max": 500
+            },
+            "significance": 2.4175644193931904,
+            "n_photons": 1160
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 10.0,
+              "time_min": 200,
+              "time_max": 1000
+            },
+            "significance": 0.17979324067023406,
+            "n_photons": 1955
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 10.0,
+              "time_min": 200,
+              "time_max": 2000
+            },
+            "significance": 0.9701882867619894,
+            "n_photons": 2371
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 10.0,
+              "time_min": 200,
+              "time_max": 5000
+            },
+            "significance": 0.6779416997130717,
+            "n_photons": 2426
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 20.0,
+              "time_min": 0,
+              "time_max": 500
+            },
+            "significance": 0.3751598492621515,
+            "n_photons": 2548
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 20.0,
+              "time_min": 0,
+              "time_max": 1000
+            },
+            "significance": 0.37282002308518364,
+            "n_photons": 3390
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 20.0,
+              "time_min": 0,
+              "time_max": 2000
+            },
+            "significance": 1.410563546791718,
+            "n_photons": 3842
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 20.0,
+              "time_min": 0,
+              "time_max": 5000
+            },
+            "significance": 0.9473391237822978,
+            "n_photons": 3899
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 20.0,
+              "time_min": 50,
+              "time_max": 500
+            },
+            "significance": 0.49432601629170364,
+            "n_photons": 2166
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 20.0,
+              "time_min": 50,
+              "time_max": 1000
+            },
+            "significance": 0.2771810430415776,
+            "n_photons": 3008
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 20.0,
+              "time_min": 50,
+              "time_max": 2000
+            },
+            "significance": 1.33533604923107,
+            "n_photons": 3460
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 20.0,
+              "time_min": 50,
+              "time_max": 5000
+            },
+            "significance": 0.8602652459025513,
+            "n_photons": 3517
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 20.0,
+              "time_min": 100,
+              "time_max": 500
+            },
+            "significance": 0.5760811304255625,
+            "n_photons": 1822
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 20.0,
+              "time_min": 100,
+              "time_max": 1000
+            },
+            "significance": 0.23233318506247005,
+            "n_photons": 2664
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 20.0,
+              "time_min": 100,
+              "time_max": 2000
+            },
+            "significance": 1.3163171411626102,
+            "n_photons": 3116
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 20.0,
+              "time_min": 100,
+              "time_max": 5000
+            },
+            "significance": 0.8198265863432677,
+            "n_photons": 3173
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 20.0,
+              "time_min": 200,
+              "time_max": 500
+            },
+            "significance": 0.7590677164464955,
+            "n_photons": 1229
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 20.0,
+              "time_min": 200,
+              "time_max": 1000
+            },
+            "significance": 0.1495861862684512,
+            "n_photons": 2071
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 20.0,
+              "time_min": 200,
+              "time_max": 2000
+            },
+            "significance": 1.271612218289351,
+            "n_photons": 2523
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 20.0,
+              "time_min": 200,
+              "time_max": 5000
+            },
+            "significance": 0.7387262330947109,
+            "n_photons": 2580
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 50.0,
+              "time_min": 0,
+              "time_max": 500
+            },
+            "significance": 0.5910317984378141,
+            "n_photons": 2588
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 50.0,
+              "time_min": 0,
+              "time_max": 1000
+            },
+            "significance": 0.40885188141816,
+            "n_photons": 3447
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 50.0,
+              "time_min": 0,
+              "time_max": 2000
+            },
+            "significance": 0.6009823194838242,
+            "n_photons": 3903
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 50.0,
+              "time_min": 0,
+              "time_max": 5000
+            },
+            "significance": 0.8088190804155021,
+            "n_photons": 3962
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 50.0,
+              "time_min": 50,
+              "time_max": 500
+            },
+            "significance": 0.6968435975858588,
+            "n_photons": 2200
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 50.0,
+              "time_min": 50,
+              "time_max": 1000
+            },
+            "significance": 0.3060691418152355,
+            "n_photons": 3059
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 50.0,
+              "time_min": 50,
+              "time_max": 2000
+            },
+            "significance": 0.5242282347407807,
+            "n_photons": 3515
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 50.0,
+              "time_min": 50,
+              "time_max": 5000
+            },
+            "significance": 0.7375830158704475,
+            "n_photons": 3574
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 50.0,
+              "time_min": 100,
+              "time_max": 500
+            },
+            "significance": 1.2101294522486343,
+            "n_photons": 1852
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 50.0,
+              "time_min": 100,
+              "time_max": 1000
+            },
+            "significance": 0.045091673913537106,
+            "n_photons": 2711
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 50.0,
+              "time_min": 100,
+              "time_max": 2000
+            },
+            "significance": 0.2689877421825652,
+            "n_photons": 3167
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 50.0,
+              "time_min": 100,
+              "time_max": 5000
+            },
+            "significance": 0.5073802852458106,
+            "n_photons": 3226
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 50.0,
+              "time_min": 200,
+              "time_max": 500
+            },
+            "significance": 0.3810853198480832,
+            "n_photons": 1245
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 50.0,
+              "time_min": 200,
+              "time_max": 1000
+            },
+            "significance": 0.4752620302517432,
+            "n_photons": 2104
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 50.0,
+              "time_min": 200,
+              "time_max": 2000
+            },
+            "significance": 0.71226999209762,
+            "n_photons": 2560
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 50.0,
+              "time_min": 200,
+              "time_max": 5000
+            },
+            "significance": 0.9073471694569756,
+            "n_photons": 2619
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 100.0,
+              "time_min": 0,
+              "time_max": 500
+            },
+            "significance": 0.017234684861454935,
+            "n_photons": 2596
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 100.0,
+              "time_min": 0,
+              "time_max": 1000
+            },
+            "significance": 0.16939238667983816,
+            "n_photons": 3456
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 100.0,
+              "time_min": 0,
+              "time_max": 2000
+            },
+            "significance": 0.1898873313299522,
+            "n_photons": 3913
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 100.0,
+              "time_min": 0,
+              "time_max": 5000
+            },
+            "significance": 0.29025149940891254,
+            "n_photons": 3972
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 100.0,
+              "time_min": 50,
+              "time_max": 500
+            },
+            "significance": 0.10375239074675706,
+            "n_photons": 2207
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 100.0,
+              "time_min": 50,
+              "time_max": 1000
+            },
+            "significance": 0.06348147516374508,
+            "n_photons": 3067
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 100.0,
+              "time_min": 50,
+              "time_max": 2000
+            },
+            "significance": 0.11085283315428845,
+            "n_photons": 3524
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 100.0,
+              "time_min": 50,
+              "time_max": 5000
+            },
+            "significance": 0.21965061018283313,
+            "n_photons": 3583
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 100.0,
+              "time_min": 100,
+              "time_max": 500
+            },
+            "significance": 0.42069797293467326,
+            "n_photons": 1858
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 100.0,
+              "time_min": 100,
+              "time_max": 1000
+            },
+            "significance": 0.2055342904672188,
+            "n_photons": 2718
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 100.0,
+              "time_min": 100,
+              "time_max": 2000
+            },
+            "significance": 0.0884577354383343,
+            "n_photons": 3175
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 100.0,
+              "time_min": 100,
+              "time_max": 5000
+            },
+            "significance": 0.04125030217639589,
+            "n_photons": 3234
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 100.0,
+              "time_min": 200,
+              "time_max": 500
+            },
+            "significance": 0.09321115075793557,
+            "n_photons": 1250
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 100.0,
+              "time_min": 200,
+              "time_max": 1000
+            },
+            "significance": 0.03114989029363037,
+            "n_photons": 2110
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 100.0,
+              "time_min": 200,
+              "time_max": 2000
+            },
+            "significance": 0.1241909060855904,
+            "n_photons": 2567
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 100.0,
+              "time_min": 200,
+              "time_max": 5000
+            },
+            "significance": 0.2391451185420593,
+            "n_photons": 2626
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 10.0,
+              "time_min": 0,
+              "time_max": 500
+            },
+            "significance": 2.7416824966463627,
+            "n_photons": 2021
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 10.0,
+              "time_min": 0,
+              "time_max": 1000
+            },
+            "significance": 1.1659142865288716,
+            "n_photons": 2693
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 10.0,
+              "time_min": 0,
+              "time_max": 2000
+            },
+            "significance": 1.6037246660183175,
+            "n_photons": 3032
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 10.0,
+              "time_min": 0,
+              "time_max": 5000
+            },
+            "significance": 1.1591507013528959,
+            "n_photons": 3075
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 10.0,
+              "time_min": 50,
+              "time_max": 500
+            },
+            "significance": 2.2268850683679804,
+            "n_photons": 1705
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 10.0,
+              "time_min": 50,
+              "time_max": 1000
+            },
+            "significance": 0.5919532080132281,
+            "n_photons": 2377
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 10.0,
+              "time_min": 50,
+              "time_max": 2000
+            },
+            "significance": 1.1183061533179184,
+            "n_photons": 2716
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 10.0,
+              "time_min": 50,
+              "time_max": 5000
+            },
+            "significance": 0.6889880928630352,
+            "n_photons": 2759
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 10.0,
+              "time_min": 100,
+              "time_max": 500
+            },
+            "significance": 2.3792054092848662,
+            "n_photons": 1446
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 10.0,
+              "time_min": 100,
+              "time_max": 1000
+            },
+            "significance": 0.5123284590847854,
+            "n_photons": 2118
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 10.0,
+              "time_min": 100,
+              "time_max": 2000
+            },
+            "significance": 1.035147700753516,
+            "n_photons": 2457
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 10.0,
+              "time_min": 100,
+              "time_max": 5000
+            },
+            "significance": 0.5895266044763471,
+            "n_photons": 2500
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 10.0,
+              "time_min": 200,
+              "time_max": 500
+            },
+            "significance": 1.6000717996850686,
+            "n_photons": 971
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 10.0,
+              "time_min": 200,
+              "time_max": 1000
+            },
+            "significance": 0.38210806159709454,
+            "n_photons": 1643
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 10.0,
+              "time_min": 200,
+              "time_max": 2000
+            },
+            "significance": 0.3358692198188688,
+            "n_photons": 1982
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 10.0,
+              "time_min": 200,
+              "time_max": 5000
+            },
+            "significance": 0.08637544048921851,
+            "n_photons": 2025
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 20.0,
+              "time_min": 0,
+              "time_max": 500
+            },
+            "significance": 0.25268196984643193,
+            "n_photons": 2148
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 20.0,
+              "time_min": 0,
+              "time_max": 1000
+            },
+            "significance": 0.2805647903440651,
+            "n_photons": 2867
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 20.0,
+              "time_min": 0,
+              "time_max": 2000
+            },
+            "significance": 1.7681506507462181,
+            "n_photons": 3242
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 20.0,
+              "time_min": 0,
+              "time_max": 5000
+            },
+            "significance": 1.4156244938994704,
+            "n_photons": 3287
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 20.0,
+              "time_min": 50,
+              "time_max": 500
+            },
+            "significance": 0.5378935870314926,
+            "n_photons": 1820
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 20.0,
+              "time_min": 50,
+              "time_max": 1000
+            },
+            "significance": 0.056951197252690745,
+            "n_photons": 2539
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 20.0,
+              "time_min": 50,
+              "time_max": 2000
+            },
+            "significance": 1.6012191946955565,
+            "n_photons": 2914
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 20.0,
+              "time_min": 50,
+              "time_max": 5000
+            },
+            "significance": 1.2423920430848971,
+            "n_photons": 2959
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 20.0,
+              "time_min": 100,
+              "time_max": 500
+            },
+            "significance": 0.19311095615073365,
+            "n_photons": 1542
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 20.0,
+              "time_min": 100,
+              "time_max": 1000
+            },
+            "significance": 0.29876790003063997,
+            "n_photons": 2261
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 20.0,
+              "time_min": 100,
+              "time_max": 2000
+            },
+            "significance": 1.8132317356570926,
+            "n_photons": 2636
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 20.0,
+              "time_min": 100,
+              "time_max": 5000
+            },
+            "significance": 1.4118499852046378,
+            "n_photons": 2681
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 20.0,
+              "time_min": 200,
+              "time_max": 500
+            },
+            "significance": 0.0362120592745375,
+            "n_photons": 1040
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 20.0,
+              "time_min": 200,
+              "time_max": 1000
+            },
+            "significance": 0.293231586846111,
+            "n_photons": 1759
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 20.0,
+              "time_min": 200,
+              "time_max": 2000
+            },
+            "significance": 1.8159331678182713,
+            "n_photons": 2134
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 20.0,
+              "time_min": 200,
+              "time_max": 5000
+            },
+            "significance": 1.3642306310223082,
+            "n_photons": 2179
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 50.0,
+              "time_min": 0,
+              "time_max": 500
+            },
+            "significance": 0.49281870551389506,
+            "n_photons": 2188
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 50.0,
+              "time_min": 0,
+              "time_max": 1000
+            },
+            "significance": 0.3293065643665369,
+            "n_photons": 2924
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 50.0,
+              "time_min": 0,
+              "time_max": 2000
+            },
+            "significance": 0.8524690774972437,
+            "n_photons": 3303
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 50.0,
+              "time_min": 0,
+              "time_max": 5000
+            },
+            "significance": 1.1742760781914952,
+            "n_photons": 3350
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 50.0,
+              "time_min": 50,
+              "time_max": 500
+            },
+            "significance": 0.7323621820463377,
+            "n_photons": 1854
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 50.0,
+              "time_min": 50,
+              "time_max": 1000
+            },
+            "significance": 0.12484326172855609,
+            "n_photons": 2590
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 50.0,
+              "time_min": 50,
+              "time_max": 2000
+            },
+            "significance": 0.702778401300593,
+            "n_photons": 2969
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 50.0,
+              "time_min": 50,
+              "time_max": 5000
+            },
+            "significance": 1.0362620720489355,
+            "n_photons": 3016
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 50.0,
+              "time_min": 100,
+              "time_max": 500
+            },
+            "significance": 0.9098933236788519,
+            "n_photons": 1572
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 50.0,
+              "time_min": 100,
+              "time_max": 1000
+            },
+            "significance": 0.0006276165682638612,
+            "n_photons": 2308
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 50.0,
+              "time_min": 100,
+              "time_max": 2000
+            },
+            "significance": 0.6292024468030295,
+            "n_photons": 2687
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 50.0,
+              "time_min": 100,
+              "time_max": 5000
+            },
+            "significance": 0.9685341326212804,
+            "n_photons": 2734
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 50.0,
+              "time_min": 200,
+              "time_max": 500
+            },
+            "significance": 0.24195952667159626,
+            "n_photons": 1056
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 50.0,
+              "time_min": 200,
+              "time_max": 1000
+            },
+            "significance": 0.5943471120522339,
+            "n_photons": 1792
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 50.0,
+              "time_min": 200,
+              "time_max": 2000
+            },
+            "significance": 1.1335900656234508,
+            "n_photons": 2171
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 50.0,
+              "time_min": 200,
+              "time_max": 5000
+            },
+            "significance": 1.419571500114353,
+            "n_photons": 2218
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 100.0,
+              "time_min": 0,
+              "time_max": 500
+            },
+            "significance": 0.08136164382595343,
+            "n_photons": 2196
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 100.0,
+              "time_min": 0,
+              "time_max": 1000
+            },
+            "significance": 0.09469857208158422,
+            "n_photons": 2933
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 100.0,
+              "time_min": 0,
+              "time_max": 2000
+            },
+            "significance": 0.387056753595249,
+            "n_photons": 3313
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 100.0,
+              "time_min": 0,
+              "time_max": 5000
+            },
+            "significance": 0.5795443001482427,
+            "n_photons": 3360
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 100.0,
+              "time_min": 50,
+              "time_max": 500
+            },
+            "significance": 0.11192325219157347,
+            "n_photons": 1861
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 100.0,
+              "time_min": 50,
+              "time_max": 1000
+            },
+            "significance": 0.09725239427675852,
+            "n_photons": 2598
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 100.0,
+              "time_min": 50,
+              "time_max": 2000
+            },
+            "significance": 0.24722229711730045,
+            "n_photons": 2978
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 100.0,
+              "time_min": 50,
+              "time_max": 5000
+            },
+            "significance": 0.45354526474511403,
+            "n_photons": 3025
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 100.0,
+              "time_min": 100,
+              "time_max": 500
+            },
+            "significance": 0.1446143231229842,
+            "n_photons": 1578
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 100.0,
+              "time_min": 100,
+              "time_max": 1000
+            },
+            "significance": 0.16869011979210596,
+            "n_photons": 2315
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 100.0,
+              "time_min": 100,
+              "time_max": 2000
+            },
+            "significance": 0.20631927363919159,
+            "n_photons": 2695
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 100.0,
+              "time_min": 100,
+              "time_max": 5000
+            },
+            "significance": 0.4180269416371518,
+            "n_photons": 2742
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 100.0,
+              "time_min": 200,
+              "time_max": 500
+            },
+            "significance": 0.6061400934200365,
+            "n_photons": 1061
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 100.0,
+              "time_min": 200,
+              "time_max": 1000
+            },
+            "significance": 0.12378423355602822,
+            "n_photons": 1798
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 100.0,
+              "time_min": 200,
+              "time_max": 2000
+            },
+            "significance": 0.4601762560028711,
+            "n_photons": 2178
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 100.0,
+              "time_min": 200,
+              "time_max": 5000
+            },
+            "significance": 0.6491774528528881,
+            "n_photons": 2225
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 10.0,
+              "time_min": 0,
+              "time_max": 500
+            },
+            "significance": 3.0377517596560666,
+            "n_photons": 1551
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 10.0,
+              "time_min": 0,
+              "time_max": 1000
+            },
+            "significance": 1.0815646527765619,
+            "n_photons": 2069
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 10.0,
+              "time_min": 0,
+              "time_max": 2000
+            },
+            "significance": 2.021229890119509,
+            "n_photons": 2335
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 10.0,
+              "time_min": 0,
+              "time_max": 5000
+            },
+            "significance": 1.3374465371720445,
+            "n_photons": 2367
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 10.0,
+              "time_min": 50,
+              "time_max": 500
+            },
+            "significance": 2.7558802499500694,
+            "n_photons": 1303
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 10.0,
+              "time_min": 50,
+              "time_max": 1000
+            },
+            "significance": 0.6024273997710202,
+            "n_photons": 1821
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 10.0,
+              "time_min": 50,
+              "time_max": 2000
+            },
+            "significance": 1.62159982125795,
+            "n_photons": 2087
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 10.0,
+              "time_min": 50,
+              "time_max": 5000
+            },
+            "significance": 0.9295116141891622,
+            "n_photons": 2119
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 10.0,
+              "time_min": 100,
+              "time_max": 500
+            },
+            "significance": 2.4456769596180723,
+            "n_photons": 1113
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 10.0,
+              "time_min": 100,
+              "time_max": 1000
+            },
+            "significance": 0.15684768333521845,
+            "n_photons": 1631
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 10.0,
+              "time_min": 100,
+              "time_max": 2000
+            },
+            "significance": 1.2656663866703555,
+            "n_photons": 1897
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 10.0,
+              "time_min": 100,
+              "time_max": 5000
+            },
+            "significance": 0.5726269484829276,
+            "n_photons": 1929
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 10.0,
+              "time_min": 200,
+              "time_max": 500
+            },
+            "significance": 1.7614446927871688,
+            "n_photons": 741
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 10.0,
+              "time_min": 200,
+              "time_max": 1000
+            },
+            "significance": 0.7309578665774157,
+            "n_photons": 1259
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 10.0,
+              "time_min": 200,
+              "time_max": 2000
+            },
+            "significance": 0.6367536990083795,
+            "n_photons": 1525
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 10.0,
+              "time_min": 200,
+              "time_max": 5000
+            },
+            "significance": 0.06867826255565344,
+            "n_photons": 1557
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 20.0,
+              "time_min": 0,
+              "time_max": 500
+            },
+            "significance": 0.2686222205453104,
+            "n_photons": 1678
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 20.0,
+              "time_min": 0,
+              "time_max": 1000
+            },
+            "significance": 0.4237359089554671,
+            "n_photons": 2243
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 20.0,
+              "time_min": 0,
+              "time_max": 2000
+            },
+            "significance": 1.5838363228611365,
+            "n_photons": 2545
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 20.0,
+              "time_min": 0,
+              "time_max": 5000
+            },
+            "significance": 1.3857174477658152,
+            "n_photons": 2579
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 20.0,
+              "time_min": 50,
+              "time_max": 500
+            },
+            "significance": 0.7520361135637802,
+            "n_photons": 1418
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 20.0,
+              "time_min": 50,
+              "time_max": 1000
+            },
+            "significance": 0.08373296487527059,
+            "n_photons": 1983
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 20.0,
+              "time_min": 50,
+              "time_max": 2000
+            },
+            "significance": 1.3245125326806886,
+            "n_photons": 2285
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 20.0,
+              "time_min": 50,
+              "time_max": 5000
+            },
+            "significance": 1.1323802268449095,
+            "n_photons": 2319
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 20.0,
+              "time_min": 100,
+              "time_max": 500
+            },
+            "significance": 0.04364109406220405,
+            "n_photons": 1209
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 20.0,
+              "time_min": 100,
+              "time_max": 1000
+            },
+            "significance": 0.6024742296683271,
+            "n_photons": 1774
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 20.0,
+              "time_min": 100,
+              "time_max": 2000
+            },
+            "significance": 1.7315539744586756,
+            "n_photons": 2076
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 20.0,
+              "time_min": 100,
+              "time_max": 5000
+            },
+            "significance": 1.4893154036873517,
+            "n_photons": 2110
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 20.0,
+              "time_min": 200,
+              "time_max": 500
+            },
+            "significance": 0.002315264152918762,
+            "n_photons": 810
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 20.0,
+              "time_min": 200,
+              "time_max": 1000
+            },
+            "significance": 0.5065844745440575,
+            "n_photons": 1375
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 20.0,
+              "time_min": 200,
+              "time_max": 2000
+            },
+            "significance": 1.6300613256471193,
+            "n_photons": 1677
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 20.0,
+              "time_min": 200,
+              "time_max": 5000
+            },
+            "significance": 1.357467795056581,
+            "n_photons": 1711
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 50.0,
+              "time_min": 0,
+              "time_max": 500
+            },
+            "significance": 0.5036891555561813,
+            "n_photons": 1718
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 50.0,
+              "time_min": 0,
+              "time_max": 1000
+            },
+            "significance": 0.43730476098638243,
+            "n_photons": 2300
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 50.0,
+              "time_min": 0,
+              "time_max": 2000
+            },
+            "significance": 0.6475848932287199,
+            "n_photons": 2606
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 50.0,
+              "time_min": 0,
+              "time_max": 5000
+            },
+            "significance": 1.114916304046469,
+            "n_photons": 2642
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 50.0,
+              "time_min": 50,
+              "time_max": 500
+            },
+            "significance": 0.8960083938944304,
+            "n_photons": 1452
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 50.0,
+              "time_min": 50,
+              "time_max": 1000
+            },
+            "significance": 0.14668412594813368,
+            "n_photons": 2034
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 50.0,
+              "time_min": 50,
+              "time_max": 2000
+            },
+            "significance": 0.4272030336344058,
+            "n_photons": 2340
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 50.0,
+              "time_min": 50,
+              "time_max": 5000
+            },
+            "significance": 0.9177204023802548,
+            "n_photons": 2376
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 50.0,
+              "time_min": 100,
+              "time_max": 500
+            },
+            "significance": 0.8025125357969078,
+            "n_photons": 1239
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 50.0,
+              "time_min": 100,
+              "time_max": 1000
+            },
+            "significance": 0.22347534331438698,
+            "n_photons": 1821
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 50.0,
+              "time_min": 100,
+              "time_max": 2000
+            },
+            "significance": 0.50386401225988,
+            "n_photons": 2127
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 50.0,
+              "time_min": 100,
+              "time_max": 5000
+            },
+            "significance": 0.9902731512345789,
+            "n_photons": 2163
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 50.0,
+              "time_min": 200,
+              "time_max": 500
+            },
+            "significance": 0.2818748260004926,
+            "n_photons": 826
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 50.0,
+              "time_min": 200,
+              "time_max": 1000
+            },
+            "significance": 0.7638893454771312,
+            "n_photons": 1408
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 50.0,
+              "time_min": 200,
+              "time_max": 2000
+            },
+            "significance": 0.9297576651873581,
+            "n_photons": 1714
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 50.0,
+              "time_min": 200,
+              "time_max": 5000
+            },
+            "significance": 1.387127256369035,
+            "n_photons": 1750
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 100.0,
+              "time_min": 0,
+              "time_max": 500
+            },
+            "significance": 0.09446447590129553,
+            "n_photons": 1726
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 100.0,
+              "time_min": 0,
+              "time_max": 1000
+            },
+            "significance": 0.17429310255757646,
+            "n_photons": 2309
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 100.0,
+              "time_min": 0,
+              "time_max": 2000
+            },
+            "significance": 0.1972511474314576,
+            "n_photons": 2616
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 100.0,
+              "time_min": 0,
+              "time_max": 5000
+            },
+            "significance": 0.5014664153287959,
+            "n_photons": 2652
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 100.0,
+              "time_min": 50,
+              "time_max": 500
+            },
+            "significance": 0.21693845922514807,
+            "n_photons": 1459
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 100.0,
+              "time_min": 50,
+              "time_max": 1000
+            },
+            "significance": 0.08761111331465257,
+            "n_photons": 2042
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 100.0,
+              "time_min": 50,
+              "time_max": 2000
+            },
+            "significance": 0.00037924301248771315,
+            "n_photons": 2349
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 100.0,
+              "time_min": 50,
+              "time_max": 5000
+            },
+            "significance": 0.3271378621108337,
+            "n_photons": 2385
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 100.0,
+              "time_min": 100,
+              "time_max": 500
+            },
+            "significance": 0.024495840198261724,
+            "n_photons": 1245
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 100.0,
+              "time_min": 100,
+              "time_max": 1000
+            },
+            "significance": 0.01461330383514307,
+            "n_photons": 1828
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 100.0,
+              "time_min": 100,
+              "time_max": 2000
+            },
+            "significance": 0.0867158053596984,
+            "n_photons": 2135
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 100.0,
+              "time_min": 100,
+              "time_max": 5000
+            },
+            "significance": 0.41227623385159207,
+            "n_photons": 2171
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 100.0,
+              "time_min": 200,
+              "time_max": 500
+            },
+            "significance": 0.6481725034793229,
+            "n_photons": 831
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 100.0,
+              "time_min": 200,
+              "time_max": 1000
+            },
+            "significance": 0.2459243775447967,
+            "n_photons": 1414
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 100.0,
+              "time_min": 200,
+              "time_max": 2000
+            },
+            "significance": 0.2657304635254111,
+            "n_photons": 1721
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 100.0,
+              "time_min": 200,
+              "time_max": 5000
+            },
+            "significance": 0.5868037825468716,
+            "n_photons": 1757
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 10.0,
+              "time_min": 0,
+              "time_max": 500
+            },
+            "significance": 2.0398248241133716,
+            "n_photons": 978
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 10.0,
+              "time_min": 0,
+              "time_max": 1000
+            },
+            "significance": 0.3142464495784288,
+            "n_photons": 1307
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 10.0,
+              "time_min": 0,
+              "time_max": 2000
+            },
+            "significance": 1.8089388842551057,
+            "n_photons": 1473
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 10.0,
+              "time_min": 0,
+              "time_max": 5000
+            },
+            "significance": 1.720488978530623,
+            "n_photons": 1497
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 10.0,
+              "time_min": 50,
+              "time_max": 500
+            },
+            "significance": 2.0234336513504183,
+            "n_photons": 813
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 10.0,
+              "time_min": 50,
+              "time_max": 1000
+            },
+            "significance": 0.0818699251070581,
+            "n_photons": 1142
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 10.0,
+              "time_min": 50,
+              "time_max": 2000
+            },
+            "significance": 1.6417417706246147,
+            "n_photons": 1308
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 10.0,
+              "time_min": 50,
+              "time_max": 5000
+            },
+            "significance": 1.548514004648467,
+            "n_photons": 1332
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 10.0,
+              "time_min": 100,
+              "time_max": 500
+            },
+            "significance": 2.368990898558111,
+            "n_photons": 684
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 10.0,
+              "time_min": 100,
+              "time_max": 1000
+            },
+            "significance": 0.08367095122574726,
+            "n_photons": 1013
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 10.0,
+              "time_min": 100,
+              "time_max": 2000
+            },
+            "significance": 1.6524149434608406,
+            "n_photons": 1179
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 10.0,
+              "time_min": 100,
+              "time_max": 5000
+            },
+            "significance": 1.5369204274040948,
+            "n_photons": 1203
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 10.0,
+              "time_min": 200,
+              "time_max": 500
+            },
+            "significance": 1.5803233259050589,
+            "n_photons": 449
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 10.0,
+              "time_min": 200,
+              "time_max": 1000
+            },
+            "significance": 0.9049170728297308,
+            "n_photons": 778
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 10.0,
+              "time_min": 200,
+              "time_max": 2000
+            },
+            "significance": 0.9880361448005933,
+            "n_photons": 944
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 10.0,
+              "time_min": 200,
+              "time_max": 5000
+            },
+            "significance": 0.914226119418845,
+            "n_photons": 968
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 20.0,
+              "time_min": 0,
+              "time_max": 500
+            },
+            "significance": 0.8677662652063874,
+            "n_photons": 1105
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 20.0,
+              "time_min": 0,
+              "time_max": 1000
+            },
+            "significance": 1.1029389237345584,
+            "n_photons": 1481
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 20.0,
+              "time_min": 0,
+              "time_max": 2000
+            },
+            "significance": 1.991441997004169,
+            "n_photons": 1683
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 20.0,
+              "time_min": 0,
+              "time_max": 5000
+            },
+            "significance": 1.240140957691862,
+            "n_photons": 1709
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 20.0,
+              "time_min": 50,
+              "time_max": 500
+            },
+            "significance": 0.16758906176493968,
+            "n_photons": 928
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 20.0,
+              "time_min": 50,
+              "time_max": 1000
+            },
+            "significance": 0.525907317342039,
+            "n_photons": 1304
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 20.0,
+              "time_min": 50,
+              "time_max": 2000
+            },
+            "significance": 1.5253691915117755,
+            "n_photons": 1506
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 20.0,
+              "time_min": 50,
+              "time_max": 5000
+            },
+            "significance": 0.7900282296369912,
+            "n_photons": 1532
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 20.0,
+              "time_min": 100,
+              "time_max": 500
+            },
+            "significance": 0.4442079064211984,
+            "n_photons": 780
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 20.0,
+              "time_min": 100,
+              "time_max": 1000
+            },
+            "significance": 0.6935389838118678,
+            "n_photons": 1156
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 20.0,
+              "time_min": 100,
+              "time_max": 2000
+            },
+            "significance": 1.6509815818128222,
+            "n_photons": 1358
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 20.0,
+              "time_min": 100,
+              "time_max": 5000
+            },
+            "significance": 0.8692098095426942,
+            "n_photons": 1384
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 20.0,
+              "time_min": 200,
+              "time_max": 500
+            },
+            "significance": 0.45501494073091847,
+            "n_photons": 518
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 20.0,
+              "time_min": 200,
+              "time_max": 1000
+            },
+            "significance": 0.5118742599981448,
+            "n_photons": 894
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 20.0,
+              "time_min": 200,
+              "time_max": 2000
+            },
+            "significance": 1.4677036920323439,
+            "n_photons": 1096
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 20.0,
+              "time_min": 200,
+              "time_max": 5000
+            },
+            "significance": 0.6466681080505059,
+            "n_photons": 1122
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 50.0,
+              "time_min": 0,
+              "time_max": 500
+            },
+            "significance": 0.3849961642830074,
+            "n_photons": 1145
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 50.0,
+              "time_min": 0,
+              "time_max": 1000
+            },
+            "significance": 0.9413201955493256,
+            "n_photons": 1538
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 50.0,
+              "time_min": 0,
+              "time_max": 2000
+            },
+            "significance": 0.8605792053749052,
+            "n_photons": 1744
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 50.0,
+              "time_min": 0,
+              "time_max": 5000
+            },
+            "significance": 0.9370755574667045,
+            "n_photons": 1772
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 50.0,
+              "time_min": 50,
+              "time_max": 500
+            },
+            "significance": 0.13668037401054828,
+            "n_photons": 962
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 50.0,
+              "time_min": 50,
+              "time_max": 1000
+            },
+            "significance": 0.492150047541246,
+            "n_photons": 1355
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 50.0,
+              "time_min": 50,
+              "time_max": 2000
+            },
+            "significance": 0.4954561539020607,
+            "n_photons": 1561
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 50.0,
+              "time_min": 50,
+              "time_max": 5000
+            },
+            "significance": 0.6014810393964989,
+            "n_photons": 1589
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 50.0,
+              "time_min": 100,
+              "time_max": 500
+            },
+            "significance": 0.4489601086931484,
+            "n_photons": 810
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 50.0,
+              "time_min": 100,
+              "time_max": 1000
+            },
+            "significance": 0.25204415203771413,
+            "n_photons": 1203
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 50.0,
+              "time_min": 100,
+              "time_max": 2000
+            },
+            "significance": 0.31799143240062555,
+            "n_photons": 1409
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 50.0,
+              "time_min": 100,
+              "time_max": 5000
+            },
+            "significance": 0.43883602825609835,
+            "n_photons": 1437
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 50.0,
+              "time_min": 200,
+              "time_max": 500
+            },
+            "significance": 0.6714640790858492,
+            "n_photons": 534
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 50.0,
+              "time_min": 200,
+              "time_max": 1000
+            },
+            "significance": 0.7551072941575844,
+            "n_photons": 927
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 50.0,
+              "time_min": 200,
+              "time_max": 2000
+            },
+            "significance": 0.6983639549628083,
+            "n_photons": 1133
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 50.0,
+              "time_min": 200,
+              "time_max": 5000
+            },
+            "significance": 0.7630488191109919,
+            "n_photons": 1161
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 100.0,
+              "time_min": 0,
+              "time_max": 500
+            },
+            "significance": 0.8416908650972764,
+            "n_photons": 1153
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 100.0,
+              "time_min": 0,
+              "time_max": 1000
+            },
+            "significance": 0.5677507116939321,
+            "n_photons": 1547
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 100.0,
+              "time_min": 0,
+              "time_max": 2000
+            },
+            "significance": 0.3395528832644797,
+            "n_photons": 1754
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 100.0,
+              "time_min": 0,
+              "time_max": 5000
+            },
+            "significance": 0.31908923987458576,
+            "n_photons": 1782
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 100.0,
+              "time_min": 50,
+              "time_max": 500
+            },
+            "significance": 0.4409803297844268,
+            "n_photons": 969
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 100.0,
+              "time_min": 50,
+              "time_max": 1000
+            },
+            "significance": 0.18522220003242734,
+            "n_photons": 1363
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 100.0,
+              "time_min": 50,
+              "time_max": 2000
+            },
+            "significance": 0.030319333162938972,
+            "n_photons": 1570
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 100.0,
+              "time_min": 50,
+              "time_max": 5000
+            },
+            "significance": 0.03680019059365947,
+            "n_photons": 1598
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 100.0,
+              "time_min": 100,
+              "time_max": 500
+            },
+            "significance": 0.31663297961488013,
+            "n_photons": 816
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 100.0,
+              "time_min": 100,
+              "time_max": 1000
+            },
+            "significance": 0.02592551396518109,
+            "n_photons": 1210
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 100.0,
+              "time_min": 100,
+              "time_max": 2000
+            },
+            "significance": 0.09289008041103125,
+            "n_photons": 1417
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 100.0,
+              "time_min": 100,
+              "time_max": 5000
+            },
+            "significance": 0.07475153101345575,
+            "n_photons": 1445
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 100.0,
+              "time_min": 200,
+              "time_max": 500
+            },
+            "significance": 0.9633082159222656,
+            "n_photons": 539
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 100.0,
+              "time_min": 200,
+              "time_max": 1000
+            },
+            "significance": 0.20121551087228212,
+            "n_photons": 933
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 100.0,
+              "time_min": 200,
+              "time_max": 2000
+            },
+            "significance": 0.031942258811687475,
+            "n_photons": 1140
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 100.0,
+              "time_min": 200,
+              "time_max": 5000
+            },
+            "significance": 0.03295411273133942,
+            "n_photons": 1168
+          }
+        ],
+        "n_evaluations": 256
+      },
+      "power_law": {
+        "model_parameters": [
+          478.18812972898763,
+          1.21472641673819,
+          1.999999979452139
+        ],
+        "model_covariance": [
+          [
+            85.46775340606314,
+            -21.87319293106265,
+            7.839441782971542
+          ],
+          [
+            -21.873192931062654,
+            19.992191025773064,
+            -7.525951023064805
+          ],
+          [
+            7.8394417829715435,
+            -7.525951023064805,
+            2.8879529340092103
+          ]
+        ],
+        "residual_correlation": 0.009842696476905173,
+        "residual_significance": 0.6201980324730522,
+        "rms_residuals": 482.6709668639682,
+        "model_fit_quality": 0.0009781528877663703
+      },
+      "quadratic": {
+        "model_parameters": [
+          481.15886763809004,
+          -0.019200997026516214,
+          0.9999982392230738,
+          -0.9259910316104099
+        ],
+        "model_covariance": [
+          [
+            2.3460355524951537e+18,
+            -2012902.0375333633,
+            84144927.6280055,
+            -2.346035552731666e+18
+          ],
+          [
+            -2012902.0375333636,
+            0.002467023905083244,
+            -0.10132135340441001,
+            2012902.2753002837
+          ],
+          [
+            84144927.6280055,
+            -0.10132135340441,
+            5.960570405726446,
+            -84144943.56043197
+          ],
+          [
+            -2.346035552731666e+18,
+            2012902.2753002837,
+            -84144943.56043197,
+            2.346035552968179e+18
+          ]
+        ],
+        "residual_correlation": 0.0021046390986216817,
+        "residual_significance": 0.1325925568732367,
+        "rms_residuals": 482.88453117838714,
+        "model_fit_quality": 9.389578234397788e-05
+      }
+    },
+    "qg_data": {
+      "ensemble": {
+        "individual_significances": [
+          0.0012137458911546965,
+          0.12001202110214658,
+          8.492427580199435e-15,
+          0.5180950388021505
+        ],
+        "ensemble_significance": 0.15983020144886506,
+        "ensemble_std": 0.21251120819781072,
+        "n_methods": 4
+      },
+      "bayesian": {
+        "best_parameters": {
+          "energy_min": 2.0,
+          "energy_max": 100.0,
+          "time_min": 50,
+          "time_max": 1000
+        },
+        "best_significance": 2.4244559757578816,
+        "optimization_history": [
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 10.0,
+              "time_min": 0,
+              "time_max": 500
+            },
+            "significance": 0.863272309914517,
+            "n_photons": 2317
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 10.0,
+              "time_min": 0,
+              "time_max": 1000
+            },
+            "significance": 0.5025292822994074,
+            "n_photons": 3202
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 10.0,
+              "time_min": 0,
+              "time_max": 2000
+            },
+            "significance": 0.661370788959573,
+            "n_photons": 3623
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 10.0,
+              "time_min": 0,
+              "time_max": 5000
+            },
+            "significance": 0.17474454863331812,
+            "n_photons": 3695
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 10.0,
+              "time_min": 50,
+              "time_max": 500
+            },
+            "significance": 0.3079807916247935,
+            "n_photons": 1945
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 10.0,
+              "time_min": 50,
+              "time_max": 1000
+            },
+            "significance": 0.022987646596268604,
+            "n_photons": 2830
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 10.0,
+              "time_min": 50,
+              "time_max": 2000
+            },
+            "significance": 0.23602585949378196,
+            "n_photons": 3251
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 10.0,
+              "time_min": 50,
+              "time_max": 5000
+            },
+            "significance": 0.22109523146083168,
+            "n_photons": 3323
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 10.0,
+              "time_min": 100,
+              "time_max": 500
+            },
+            "significance": 0.7073552238475738,
+            "n_photons": 1660
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 10.0,
+              "time_min": 100,
+              "time_max": 1000
+            },
+            "significance": 0.12014881163212529,
+            "n_photons": 2545
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 10.0,
+              "time_min": 100,
+              "time_max": 2000
+            },
+            "significance": 0.33566951157714486,
+            "n_photons": 2966
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 10.0,
+              "time_min": 100,
+              "time_max": 5000
+            },
+            "significance": 0.14640392825878334,
+            "n_photons": 3038
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 10.0,
+              "time_min": 200,
+              "time_max": 500
+            },
+            "significance": 1.1177429569794346,
+            "n_photons": 1129
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 10.0,
+              "time_min": 200,
+              "time_max": 1000
+            },
+            "significance": 1.2084061386623302,
+            "n_photons": 2014
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 10.0,
+              "time_min": 200,
+              "time_max": 2000
+            },
+            "significance": 0.6334227554272114,
+            "n_photons": 2435
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 10.0,
+              "time_min": 200,
+              "time_max": 5000
+            },
+            "significance": 1.0070472772659296,
+            "n_photons": 2507
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 20.0,
+              "time_min": 0,
+              "time_max": 500
+            },
+            "significance": 0.08615817156766306,
+            "n_photons": 2442
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 20.0,
+              "time_min": 0,
+              "time_max": 1000
+            },
+            "significance": 0.9235552319492105,
+            "n_photons": 3381
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 20.0,
+              "time_min": 0,
+              "time_max": 2000
+            },
+            "significance": 1.0882451438766556,
+            "n_photons": 3829
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 20.0,
+              "time_min": 0,
+              "time_max": 5000
+            },
+            "significance": 0.11700401774974066,
+            "n_photons": 3902
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 20.0,
+              "time_min": 50,
+              "time_max": 500
+            },
+            "significance": 0.23825201587376585,
+            "n_photons": 2049
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 20.0,
+              "time_min": 50,
+              "time_max": 1000
+            },
+            "significance": 0.6722192196175873,
+            "n_photons": 2988
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 20.0,
+              "time_min": 50,
+              "time_max": 2000
+            },
+            "significance": 0.8584005124204056,
+            "n_photons": 3436
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 20.0,
+              "time_min": 50,
+              "time_max": 5000
+            },
+            "significance": 0.12582729618826394,
+            "n_photons": 3509
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 20.0,
+              "time_min": 100,
+              "time_max": 500
+            },
+            "significance": 0.42603151148357166,
+            "n_photons": 1750
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 20.0,
+              "time_min": 100,
+              "time_max": 1000
+            },
+            "significance": 0.5255621520308091,
+            "n_photons": 2689
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 20.0,
+              "time_min": 100,
+              "time_max": 2000
+            },
+            "significance": 0.717521772742835,
+            "n_photons": 3137
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 20.0,
+              "time_min": 100,
+              "time_max": 5000
+            },
+            "significance": 0.2746766979017993,
+            "n_photons": 3210
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 20.0,
+              "time_min": 200,
+              "time_max": 500
+            },
+            "significance": 2.0807971736895903,
+            "n_photons": 1188
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 20.0,
+              "time_min": 200,
+              "time_max": 1000
+            },
+            "significance": 0.2371547337843676,
+            "n_photons": 2127
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 20.0,
+              "time_min": 200,
+              "time_max": 2000
+            },
+            "significance": 0.1482989887232392,
+            "n_photons": 2575
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 20.0,
+              "time_min": 200,
+              "time_max": 5000
+            },
+            "significance": 0.8256199776340559,
+            "n_photons": 2648
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 50.0,
+              "time_min": 0,
+              "time_max": 500
+            },
+            "significance": 0.1729187220225205,
+            "n_photons": 2475
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 50.0,
+              "time_min": 0,
+              "time_max": 1000
+            },
+            "significance": 1.6552324162547598,
+            "n_photons": 3435
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 50.0,
+              "time_min": 0,
+              "time_max": 2000
+            },
+            "significance": 1.0156576950110794,
+            "n_photons": 3889
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 50.0,
+              "time_min": 0,
+              "time_max": 5000
+            },
+            "significance": 0.3342189386269463,
+            "n_photons": 3963
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 50.0,
+              "time_min": 50,
+              "time_max": 500
+            },
+            "significance": 0.14374644869651815,
+            "n_photons": 2074
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 50.0,
+              "time_min": 50,
+              "time_max": 1000
+            },
+            "significance": 1.845074293336244,
+            "n_photons": 3034
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 50.0,
+              "time_min": 50,
+              "time_max": 2000
+            },
+            "significance": 1.0701929421285616,
+            "n_photons": 3488
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 50.0,
+              "time_min": 50,
+              "time_max": 5000
+            },
+            "significance": 0.34934929760272987,
+            "n_photons": 3562
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 50.0,
+              "time_min": 100,
+              "time_max": 500
+            },
+            "significance": 0.3417007236893675,
+            "n_photons": 1770
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 50.0,
+              "time_min": 100,
+              "time_max": 1000
+            },
+            "significance": 1.8557302514262966,
+            "n_photons": 2730
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 50.0,
+              "time_min": 100,
+              "time_max": 2000
+            },
+            "significance": 0.9895561200304158,
+            "n_photons": 3184
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 50.0,
+              "time_min": 100,
+              "time_max": 5000
+            },
+            "significance": 0.25652411979317735,
+            "n_photons": 3258
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 50.0,
+              "time_min": 200,
+              "time_max": 500
+            },
+            "significance": 0.7351244742091785,
+            "n_photons": 1202
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 50.0,
+              "time_min": 200,
+              "time_max": 1000
+            },
+            "significance": 1.081205950799083,
+            "n_photons": 2162
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 50.0,
+              "time_min": 200,
+              "time_max": 2000
+            },
+            "significance": 0.25491469335283584,
+            "n_photons": 2616
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 50.0,
+              "time_min": 200,
+              "time_max": 5000
+            },
+            "significance": 0.4168236540581662,
+            "n_photons": 2690
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 100.0,
+              "time_min": 0,
+              "time_max": 500
+            },
+            "significance": 1.0209791198392335,
+            "n_photons": 2479
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 100.0,
+              "time_min": 0,
+              "time_max": 1000
+            },
+            "significance": 1.1880585615526686,
+            "n_photons": 3441
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 100.0,
+              "time_min": 0,
+              "time_max": 2000
+            },
+            "significance": 0.4603470768295419,
+            "n_photons": 3895
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 100.0,
+              "time_min": 0,
+              "time_max": 5000
+            },
+            "significance": 0.1570422773980643,
+            "n_photons": 3969
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 100.0,
+              "time_min": 50,
+              "time_max": 500
+            },
+            "significance": 0.051739746134614996,
+            "n_photons": 2075
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 100.0,
+              "time_min": 50,
+              "time_max": 1000
+            },
+            "significance": 2.087443538177505,
+            "n_photons": 3037
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 100.0,
+              "time_min": 50,
+              "time_max": 2000
+            },
+            "significance": 1.0612385303269058,
+            "n_photons": 3491
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 100.0,
+              "time_min": 50,
+              "time_max": 5000
+            },
+            "significance": 0.32420824133757187,
+            "n_photons": 3565
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 100.0,
+              "time_min": 100,
+              "time_max": 500
+            },
+            "significance": 0.158105453637266,
+            "n_photons": 1771
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 100.0,
+              "time_min": 100,
+              "time_max": 1000
+            },
+            "significance": 2.0352601837151574,
+            "n_photons": 2733
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 100.0,
+              "time_min": 100,
+              "time_max": 2000
+            },
+            "significance": 0.927384409292431,
+            "n_photons": 3187
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 100.0,
+              "time_min": 100,
+              "time_max": 5000
+            },
+            "significance": 0.18635734773480767,
+            "n_photons": 3261
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 100.0,
+              "time_min": 200,
+              "time_max": 500
+            },
+            "significance": 0.7351244742091785,
+            "n_photons": 1202
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 100.0,
+              "time_min": 200,
+              "time_max": 1000
+            },
+            "significance": 1.4427316792339662,
+            "n_photons": 2164
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 100.0,
+              "time_min": 200,
+              "time_max": 2000
+            },
+            "significance": 0.30910306676416427,
+            "n_photons": 2618
+          },
+          {
+            "parameters": {
+              "energy_min": 0.1,
+              "energy_max": 100.0,
+              "time_min": 200,
+              "time_max": 5000
+            },
+            "significance": 0.38975693659441557,
+            "n_photons": 2692
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 10.0,
+              "time_min": 0,
+              "time_max": 500
+            },
+            "significance": 0.7876591098981042,
+            "n_photons": 1911
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 10.0,
+              "time_min": 0,
+              "time_max": 1000
+            },
+            "significance": 0.48924443356867764,
+            "n_photons": 2647
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 10.0,
+              "time_min": 0,
+              "time_max": 2000
+            },
+            "significance": 0.9535240386931584,
+            "n_photons": 2986
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 10.0,
+              "time_min": 0,
+              "time_max": 5000
+            },
+            "significance": 0.19272700520208658,
+            "n_photons": 3048
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 10.0,
+              "time_min": 50,
+              "time_max": 500
+            },
+            "significance": 0.15912035714184689,
+            "n_photons": 1604
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 10.0,
+              "time_min": 50,
+              "time_max": 1000
+            },
+            "significance": 0.06437129249058851,
+            "n_photons": 2340
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 10.0,
+              "time_min": 50,
+              "time_max": 2000
+            },
+            "significance": 0.5042153465388474,
+            "n_photons": 2679
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 10.0,
+              "time_min": 50,
+              "time_max": 5000
+            },
+            "significance": 0.23283483336055955,
+            "n_photons": 2741
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 10.0,
+              "time_min": 100,
+              "time_max": 500
+            },
+            "significance": 0.3329802775673268,
+            "n_photons": 1365
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 10.0,
+              "time_min": 100,
+              "time_max": 1000
+            },
+            "significance": 0.04386734633043021,
+            "n_photons": 2101
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 10.0,
+              "time_min": 100,
+              "time_max": 2000
+            },
+            "significance": 0.5058138775763656,
+            "n_photons": 2440
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 10.0,
+              "time_min": 100,
+              "time_max": 5000
+            },
+            "significance": 0.2515987638678766,
+            "n_photons": 2502
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 10.0,
+              "time_min": 200,
+              "time_max": 500
+            },
+            "significance": 0.7387986354199348,
+            "n_photons": 942
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 10.0,
+              "time_min": 200,
+              "time_max": 1000
+            },
+            "significance": 0.8594480501926762,
+            "n_photons": 1678
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 10.0,
+              "time_min": 200,
+              "time_max": 2000
+            },
+            "significance": 0.10678007506160679,
+            "n_photons": 2017
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 10.0,
+              "time_min": 200,
+              "time_max": 5000
+            },
+            "significance": 0.814339659089788,
+            "n_photons": 2079
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 20.0,
+              "time_min": 0,
+              "time_max": 500
+            },
+            "significance": 0.003032191606680741,
+            "n_photons": 2036
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 20.0,
+              "time_min": 0,
+              "time_max": 1000
+            },
+            "significance": 0.909635204942058,
+            "n_photons": 2826
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 20.0,
+              "time_min": 0,
+              "time_max": 2000
+            },
+            "significance": 1.294575918244738,
+            "n_photons": 3192
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 20.0,
+              "time_min": 0,
+              "time_max": 5000
+            },
+            "significance": 0.13117664797454828,
+            "n_photons": 3255
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 20.0,
+              "time_min": 50,
+              "time_max": 500
+            },
+            "significance": 0.3662623957333833,
+            "n_photons": 1708
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 20.0,
+              "time_min": 50,
+              "time_max": 1000
+            },
+            "significance": 0.6571045799340836,
+            "n_photons": 2498
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 20.0,
+              "time_min": 50,
+              "time_max": 2000
+            },
+            "significance": 1.061535971823314,
+            "n_photons": 2864
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 20.0,
+              "time_min": 50,
+              "time_max": 5000
+            },
+            "significance": 0.12102546726284583,
+            "n_photons": 2927
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 20.0,
+              "time_min": 100,
+              "time_max": 500
+            },
+            "significance": 0.7600588866099874,
+            "n_photons": 1455
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 20.0,
+              "time_min": 100,
+              "time_max": 1000
+            },
+            "significance": 0.40501017667672395,
+            "n_photons": 2245
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 20.0,
+              "time_min": 100,
+              "time_max": 2000
+            },
+            "significance": 0.8356733783363436,
+            "n_photons": 2611
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 20.0,
+              "time_min": 100,
+              "time_max": 5000
+            },
+            "significance": 0.3486706281129548,
+            "n_photons": 2674
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 20.0,
+              "time_min": 200,
+              "time_max": 500
+            },
+            "significance": 1.749646225137082,
+            "n_photons": 1001
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 20.0,
+              "time_min": 200,
+              "time_max": 1000
+            },
+            "significance": 0.08778458247203767,
+            "n_photons": 1791
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 20.0,
+              "time_min": 200,
+              "time_max": 2000
+            },
+            "significance": 0.5810410424693995,
+            "n_photons": 2157
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 20.0,
+              "time_min": 200,
+              "time_max": 5000
+            },
+            "significance": 0.6346482459156869,
+            "n_photons": 2220
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 50.0,
+              "time_min": 0,
+              "time_max": 500
+            },
+            "significance": 0.25129732085569023,
+            "n_photons": 2069
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 50.0,
+              "time_min": 0,
+              "time_max": 1000
+            },
+            "significance": 1.6473643232016515,
+            "n_photons": 2880
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 50.0,
+              "time_min": 0,
+              "time_max": 2000
+            },
+            "significance": 1.1673933699543766,
+            "n_photons": 3252
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 50.0,
+              "time_min": 0,
+              "time_max": 5000
+            },
+            "significance": 0.3512822157807322,
+            "n_photons": 3316
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 50.0,
+              "time_min": 50,
+              "time_max": 500
+            },
+            "significance": 0.05055868927845583,
+            "n_photons": 1733
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 50.0,
+              "time_min": 50,
+              "time_max": 1000
+            },
+            "significance": 1.8501537494210067,
+            "n_photons": 2544
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 50.0,
+              "time_min": 50,
+              "time_max": 2000
+            },
+            "significance": 1.2288315517217552,
+            "n_photons": 2916
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 50.0,
+              "time_min": 50,
+              "time_max": 5000
+            },
+            "significance": 0.36631791493237026,
+            "n_photons": 2980
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 50.0,
+              "time_min": 100,
+              "time_max": 500
+            },
+            "significance": 0.08822291240827414,
+            "n_photons": 1475
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 50.0,
+              "time_min": 100,
+              "time_max": 1000
+            },
+            "significance": 1.781811225925973,
+            "n_photons": 2286
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 50.0,
+              "time_min": 100,
+              "time_max": 2000
+            },
+            "significance": 1.0815625239421283,
+            "n_photons": 2658
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 50.0,
+              "time_min": 100,
+              "time_max": 5000
+            },
+            "significance": 0.21183776307052882,
+            "n_photons": 2722
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 50.0,
+              "time_min": 200,
+              "time_max": 500
+            },
+            "significance": 0.40239439889488476,
+            "n_photons": 1015
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 50.0,
+              "time_min": 200,
+              "time_max": 1000
+            },
+            "significance": 1.3709437814890157,
+            "n_photons": 1826
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 50.0,
+              "time_min": 200,
+              "time_max": 2000
+            },
+            "significance": 0.6050118157497927,
+            "n_photons": 2198
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 50.0,
+              "time_min": 200,
+              "time_max": 5000
+            },
+            "significance": 0.24138576595210878,
+            "n_photons": 2262
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 100.0,
+              "time_min": 0,
+              "time_max": 500
+            },
+            "significance": 1.114749803277889,
+            "n_photons": 2073
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 100.0,
+              "time_min": 0,
+              "time_max": 1000
+            },
+            "significance": 1.1613166045252212,
+            "n_photons": 2886
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 100.0,
+              "time_min": 0,
+              "time_max": 2000
+            },
+            "significance": 0.5828369769389274,
+            "n_photons": 3258
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 100.0,
+              "time_min": 0,
+              "time_max": 5000
+            },
+            "significance": 0.15388231005380693,
+            "n_photons": 3322
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 100.0,
+              "time_min": 50,
+              "time_max": 500
+            },
+            "significance": 0.042775928676085526,
+            "n_photons": 1734
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 100.0,
+              "time_min": 50,
+              "time_max": 1000
+            },
+            "significance": 2.0954886627351867,
+            "n_photons": 2547
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 100.0,
+              "time_min": 50,
+              "time_max": 2000
+            },
+            "significance": 1.212162041282249,
+            "n_photons": 2919
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 100.0,
+              "time_min": 50,
+              "time_max": 5000
+            },
+            "significance": 0.3393594929854335,
+            "n_photons": 2983
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 100.0,
+              "time_min": 100,
+              "time_max": 500
+            },
+            "significance": 0.0966454752665992,
+            "n_photons": 1476
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 100.0,
+              "time_min": 100,
+              "time_max": 1000
+            },
+            "significance": 1.9658621929503495,
+            "n_photons": 2289
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 100.0,
+              "time_min": 100,
+              "time_max": 2000
+            },
+            "significance": 1.0123142768615039,
+            "n_photons": 2661
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 100.0,
+              "time_min": 100,
+              "time_max": 5000
+            },
+            "significance": 0.1411327579683796,
+            "n_photons": 2725
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 100.0,
+              "time_min": 200,
+              "time_max": 500
+            },
+            "significance": 0.40239439889488476,
+            "n_photons": 1015
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 100.0,
+              "time_min": 200,
+              "time_max": 1000
+            },
+            "significance": 1.7295107790816178,
+            "n_photons": 1828
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 100.0,
+              "time_min": 200,
+              "time_max": 2000
+            },
+            "significance": 0.649711305973594,
+            "n_photons": 2200
+          },
+          {
+            "parameters": {
+              "energy_min": 0.5,
+              "energy_max": 100.0,
+              "time_min": 200,
+              "time_max": 5000
+            },
+            "significance": 0.2180735540092168,
+            "n_photons": 2264
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 10.0,
+              "time_min": 0,
+              "time_max": 500
+            },
+            "significance": 0.9393492701769421,
+            "n_photons": 1468
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 10.0,
+              "time_min": 0,
+              "time_max": 1000
+            },
+            "significance": 0.6151522027799412,
+            "n_photons": 2039
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 10.0,
+              "time_min": 0,
+              "time_max": 2000
+            },
+            "significance": 0.0901202405311974,
+            "n_photons": 2322
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 10.0,
+              "time_min": 0,
+              "time_max": 5000
+            },
+            "significance": 0.46933958146725835,
+            "n_photons": 2368
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 10.0,
+              "time_min": 50,
+              "time_max": 500
+            },
+            "significance": 0.6598751891169402,
+            "n_photons": 1241
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 10.0,
+              "time_min": 50,
+              "time_max": 1000
+            },
+            "significance": 0.3206138599494783,
+            "n_photons": 1812
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 10.0,
+              "time_min": 50,
+              "time_max": 2000
+            },
+            "significance": 0.3533496731966955,
+            "n_photons": 2095
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 10.0,
+              "time_min": 50,
+              "time_max": 5000
+            },
+            "significance": 0.7104166936287903,
+            "n_photons": 2141
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 10.0,
+              "time_min": 100,
+              "time_max": 500
+            },
+            "significance": 0.9013653888405478,
+            "n_photons": 1056
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 10.0,
+              "time_min": 100,
+              "time_max": 1000
+            },
+            "significance": 0.35952646636569935,
+            "n_photons": 1627
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 10.0,
+              "time_min": 100,
+              "time_max": 2000
+            },
+            "significance": 0.35881145787718227,
+            "n_photons": 1910
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 10.0,
+              "time_min": 100,
+              "time_max": 5000
+            },
+            "significance": 0.7164948380238376,
+            "n_photons": 1956
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 10.0,
+              "time_min": 200,
+              "time_max": 500
+            },
+            "significance": 0.2111687674897417,
+            "n_photons": 731
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 10.0,
+              "time_min": 200,
+              "time_max": 1000
+            },
+            "significance": 0.3354054476612854,
+            "n_photons": 1302
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 10.0,
+              "time_min": 200,
+              "time_max": 2000
+            },
+            "significance": 0.9191566523377639,
+            "n_photons": 1585
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 10.0,
+              "time_min": 200,
+              "time_max": 5000
+            },
+            "significance": 1.2078846693372836,
+            "n_photons": 1631
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 20.0,
+              "time_min": 0,
+              "time_max": 500
+            },
+            "significance": 0.05145188183671464,
+            "n_photons": 1593
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 20.0,
+              "time_min": 0,
+              "time_max": 1000
+            },
+            "significance": 0.9929378212494746,
+            "n_photons": 2218
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 20.0,
+              "time_min": 0,
+              "time_max": 2000
+            },
+            "significance": 0.4608048285276823,
+            "n_photons": 2528
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 20.0,
+              "time_min": 0,
+              "time_max": 5000
+            },
+            "significance": 0.37200528585988524,
+            "n_photons": 2575
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 20.0,
+              "time_min": 50,
+              "time_max": 500
+            },
+            "significance": 0.0005913413541481388,
+            "n_photons": 1345
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 20.0,
+              "time_min": 50,
+              "time_max": 1000
+            },
+            "significance": 0.9737487037876085,
+            "n_photons": 1970
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 20.0,
+              "time_min": 50,
+              "time_max": 2000
+            },
+            "significance": 0.3956122260377526,
+            "n_photons": 2280
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 20.0,
+              "time_min": 50,
+              "time_max": 5000
+            },
+            "significance": 0.45615744898982125,
+            "n_photons": 2327
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 20.0,
+              "time_min": 100,
+              "time_max": 500
+            },
+            "significance": 0.37218566114461077,
+            "n_photons": 1146
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 20.0,
+              "time_min": 100,
+              "time_max": 1000
+            },
+            "significance": 0.7227975672179873,
+            "n_photons": 1771
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 20.0,
+              "time_min": 100,
+              "time_max": 2000
+            },
+            "significance": 0.16094663257263805,
+            "n_photons": 2081
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 20.0,
+              "time_min": 100,
+              "time_max": 5000
+            },
+            "significance": 0.6813365141063035,
+            "n_photons": 2128
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 20.0,
+              "time_min": 200,
+              "time_max": 500
+            },
+            "significance": 1.0014617494392837,
+            "n_photons": 790
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 20.0,
+              "time_min": 200,
+              "time_max": 1000
+            },
+            "significance": 0.5439046349495514,
+            "n_photons": 1415
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 20.0,
+              "time_min": 200,
+              "time_max": 2000
+            },
+            "significance": 0.03129936293301676,
+            "n_photons": 1725
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 20.0,
+              "time_min": 200,
+              "time_max": 5000
+            },
+            "significance": 0.8853036474528957,
+            "n_photons": 1772
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 50.0,
+              "time_min": 0,
+              "time_max": 500
+            },
+            "significance": 0.21675669819051507,
+            "n_photons": 1626
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 50.0,
+              "time_min": 0,
+              "time_max": 1000
+            },
+            "significance": 1.7165181590151093,
+            "n_photons": 2272
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 50.0,
+              "time_min": 0,
+              "time_max": 2000
+            },
+            "significance": 0.4697832201818553,
+            "n_photons": 2588
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 50.0,
+              "time_min": 0,
+              "time_max": 5000
+            },
+            "significance": 0.043156039674719315,
+            "n_photons": 2636
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 50.0,
+              "time_min": 50,
+              "time_max": 500
+            },
+            "significance": 0.38098854604534405,
+            "n_photons": 1370
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 50.0,
+              "time_min": 50,
+              "time_max": 1000
+            },
+            "significance": 2.127927340865334,
+            "n_photons": 2016
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 50.0,
+              "time_min": 50,
+              "time_max": 2000
+            },
+            "significance": 0.6724481622766753,
+            "n_photons": 2332
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 50.0,
+              "time_min": 50,
+              "time_max": 5000
+            },
+            "significance": 0.11968861644582902,
+            "n_photons": 2380
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 50.0,
+              "time_min": 100,
+              "time_max": 500
+            },
+            "significance": 0.4612816710221896,
+            "n_photons": 1166
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 50.0,
+              "time_min": 100,
+              "time_max": 1000
+            },
+            "significance": 2.0693946706432986,
+            "n_photons": 1812
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 50.0,
+              "time_min": 100,
+              "time_max": 2000
+            },
+            "significance": 0.5219388536442402,
+            "n_photons": 2128
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 50.0,
+              "time_min": 100,
+              "time_max": 5000
+            },
+            "significance": 0.027068737817763956,
+            "n_photons": 2176
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 50.0,
+              "time_min": 200,
+              "time_max": 500
+            },
+            "significance": 0.29160455642308925,
+            "n_photons": 804
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 50.0,
+              "time_min": 200,
+              "time_max": 1000
+            },
+            "significance": 1.7620778124557333,
+            "n_photons": 1450
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 50.0,
+              "time_min": 200,
+              "time_max": 2000
+            },
+            "significance": 0.10327858725600182,
+            "n_photons": 1766
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 50.0,
+              "time_min": 200,
+              "time_max": 5000
+            },
+            "significance": 0.41241262669718676,
+            "n_photons": 1814
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 100.0,
+              "time_min": 0,
+              "time_max": 500
+            },
+            "significance": 1.1219730354689048,
+            "n_photons": 1630
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 100.0,
+              "time_min": 0,
+              "time_max": 1000
+            },
+            "significance": 1.195621288696385,
+            "n_photons": 2278
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 100.0,
+              "time_min": 0,
+              "time_max": 2000
+            },
+            "significance": 0.0810684687269833,
+            "n_photons": 2594
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 100.0,
+              "time_min": 0,
+              "time_max": 5000
+            },
+            "significance": 0.5411401537566363,
+            "n_photons": 2642
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 100.0,
+              "time_min": 50,
+              "time_max": 500
+            },
+            "significance": 0.27469224051503244,
+            "n_photons": 1371
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 100.0,
+              "time_min": 50,
+              "time_max": 1000
+            },
+            "significance": 2.365727033027455,
+            "n_photons": 2019
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 100.0,
+              "time_min": 50,
+              "time_max": 2000
+            },
+            "significance": 0.6718777679444995,
+            "n_photons": 2335
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 100.0,
+              "time_min": 50,
+              "time_max": 5000
+            },
+            "significance": 0.09964861850978399,
+            "n_photons": 2383
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 100.0,
+              "time_min": 100,
+              "time_max": 500
+            },
+            "significance": 0.2559412978120912,
+            "n_photons": 1167
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 100.0,
+              "time_min": 100,
+              "time_max": 1000
+            },
+            "significance": 2.2419149184143246,
+            "n_photons": 1815
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 100.0,
+              "time_min": 100,
+              "time_max": 2000
+            },
+            "significance": 0.469674922553303,
+            "n_photons": 2131
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 100.0,
+              "time_min": 100,
+              "time_max": 5000
+            },
+            "significance": 0.09204005632844611,
+            "n_photons": 2179
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 100.0,
+              "time_min": 200,
+              "time_max": 500
+            },
+            "significance": 0.29160455642308925,
+            "n_photons": 804
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 100.0,
+              "time_min": 200,
+              "time_max": 1000
+            },
+            "significance": 2.1148053485025002,
+            "n_photons": 1452
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 100.0,
+              "time_min": 200,
+              "time_max": 2000
+            },
+            "significance": 0.16276592376984053,
+            "n_photons": 1768
+          },
+          {
+            "parameters": {
+              "energy_min": 1.0,
+              "energy_max": 100.0,
+              "time_min": 200,
+              "time_max": 5000
+            },
+            "significance": 0.3823421853328393,
+            "n_photons": 1816
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 10.0,
+              "time_min": 0,
+              "time_max": 500
+            },
+            "significance": 0.4199407078278873,
+            "n_photons": 939
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 10.0,
+              "time_min": 0,
+              "time_max": 1000
+            },
+            "significance": 0.4780323239538589,
+            "n_photons": 1300
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 10.0,
+              "time_min": 0,
+              "time_max": 2000
+            },
+            "significance": 0.061098830835483134,
+            "n_photons": 1478
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 10.0,
+              "time_min": 0,
+              "time_max": 5000
+            },
+            "significance": 0.34893879055823235,
+            "n_photons": 1506
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 10.0,
+              "time_min": 50,
+              "time_max": 500
+            },
+            "significance": 0.4486864433798927,
+            "n_photons": 800
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 10.0,
+              "time_min": 50,
+              "time_max": 1000
+            },
+            "significance": 0.3973709587915681,
+            "n_photons": 1161
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 10.0,
+              "time_min": 50,
+              "time_max": 2000
+            },
+            "significance": 0.02650733845403278,
+            "n_photons": 1339
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 10.0,
+              "time_min": 50,
+              "time_max": 5000
+            },
+            "significance": 0.4371700142916649,
+            "n_photons": 1367
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 10.0,
+              "time_min": 100,
+              "time_max": 500
+            },
+            "significance": 0.2189738821530668,
+            "n_photons": 677
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 10.0,
+              "time_min": 100,
+              "time_max": 1000
+            },
+            "significance": 0.11110539058146603,
+            "n_photons": 1038
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 10.0,
+              "time_min": 100,
+              "time_max": 2000
+            },
+            "significance": 0.26459745364207743,
+            "n_photons": 1216
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 10.0,
+              "time_min": 100,
+              "time_max": 5000
+            },
+            "significance": 0.6543357072756651,
+            "n_photons": 1244
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 10.0,
+              "time_min": 200,
+              "time_max": 500
+            },
+            "significance": 0.5673254472366454,
+            "n_photons": 471
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 10.0,
+              "time_min": 200,
+              "time_max": 1000
+            },
+            "significance": 0.6574354935598555,
+            "n_photons": 832
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 10.0,
+              "time_min": 200,
+              "time_max": 2000
+            },
+            "significance": 0.8467200652397483,
+            "n_photons": 1010
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 10.0,
+              "time_min": 200,
+              "time_max": 5000
+            },
+            "significance": 1.16718251045589,
+            "n_photons": 1038
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 20.0,
+              "time_min": 0,
+              "time_max": 500
+            },
+            "significance": 0.38960657587937514,
+            "n_photons": 1064
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 20.0,
+              "time_min": 0,
+              "time_max": 1000
+            },
+            "significance": 0.8671138684082372,
+            "n_photons": 1479
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 20.0,
+              "time_min": 0,
+              "time_max": 2000
+            },
+            "significance": 0.610140258969181,
+            "n_photons": 1684
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 20.0,
+              "time_min": 0,
+              "time_max": 5000
+            },
+            "significance": 0.20055613269834138,
+            "n_photons": 1713
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 20.0,
+              "time_min": 50,
+              "time_max": 500
+            },
+            "significance": 0.17065091228821003,
+            "n_photons": 904
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 20.0,
+              "time_min": 50,
+              "time_max": 1000
+            },
+            "significance": 1.0395349446062152,
+            "n_photons": 1319
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 20.0,
+              "time_min": 50,
+              "time_max": 2000
+            },
+            "significance": 0.706809243120247,
+            "n_photons": 1524
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 20.0,
+              "time_min": 50,
+              "time_max": 5000
+            },
+            "significance": 0.14189783183221377,
+            "n_photons": 1553
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 20.0,
+              "time_min": 100,
+              "time_max": 500
+            },
+            "significance": 0.9242813045355296,
+            "n_photons": 767
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 20.0,
+              "time_min": 100,
+              "time_max": 1000
+            },
+            "significance": 0.5438832632934348,
+            "n_photons": 1182
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 20.0,
+              "time_min": 100,
+              "time_max": 2000
+            },
+            "significance": 0.2938703173506649,
+            "n_photons": 1387
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 20.0,
+              "time_min": 100,
+              "time_max": 5000
+            },
+            "significance": 0.5307323994151961,
+            "n_photons": 1416
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 20.0,
+              "time_min": 200,
+              "time_max": 500
+            },
+            "significance": 1.5837198186353945,
+            "n_photons": 530
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 20.0,
+              "time_min": 200,
+              "time_max": 1000
+            },
+            "significance": 0.3827498757184265,
+            "n_photons": 945
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 20.0,
+              "time_min": 200,
+              "time_max": 2000
+            },
+            "significance": 0.1457158879238212,
+            "n_photons": 1150
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 20.0,
+              "time_min": 200,
+              "time_max": 5000
+            },
+            "significance": 0.7023107838477294,
+            "n_photons": 1179
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 50.0,
+              "time_min": 0,
+              "time_max": 500
+            },
+            "significance": 0.5696906873378201,
+            "n_photons": 1097
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 50.0,
+              "time_min": 0,
+              "time_max": 1000
+            },
+            "significance": 1.609421341604066,
+            "n_photons": 1533
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 50.0,
+              "time_min": 0,
+              "time_max": 2000
+            },
+            "significance": 0.5791229617948767,
+            "n_photons": 1744
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 50.0,
+              "time_min": 0,
+              "time_max": 5000
+            },
+            "significance": 0.13728238966962672,
+            "n_photons": 1774
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 50.0,
+              "time_min": 50,
+              "time_max": 500
+            },
+            "significance": 0.27196898637379857,
+            "n_photons": 929
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 50.0,
+              "time_min": 50,
+              "time_max": 1000
+            },
+            "significance": 2.188963758074254,
+            "n_photons": 1365
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 50.0,
+              "time_min": 50,
+              "time_max": 2000
+            },
+            "significance": 0.9276939851743414,
+            "n_photons": 1576
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 50.0,
+              "time_min": 50,
+              "time_max": 5000
+            },
+            "significance": 0.4298497248202326,
+            "n_photons": 1606
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 50.0,
+              "time_min": 100,
+              "time_max": 500
+            },
+            "significance": 0.07484365917896664,
+            "n_photons": 787
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 50.0,
+              "time_min": 100,
+              "time_max": 1000
+            },
+            "significance": 1.957523877683856,
+            "n_photons": 1223
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 50.0,
+              "time_min": 100,
+              "time_max": 2000
+            },
+            "significance": 0.6496026322122936,
+            "n_photons": 1434
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 50.0,
+              "time_min": 100,
+              "time_max": 5000
+            },
+            "significance": 0.1669847201149986,
+            "n_photons": 1464
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 50.0,
+              "time_min": 200,
+              "time_max": 500
+            },
+            "significance": 0.07689341343694663,
+            "n_photons": 544
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 50.0,
+              "time_min": 200,
+              "time_max": 1000
+            },
+            "significance": 1.6580990875429775,
+            "n_photons": 980
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 50.0,
+              "time_min": 200,
+              "time_max": 2000
+            },
+            "significance": 0.25342943084580727,
+            "n_photons": 1191
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 50.0,
+              "time_min": 200,
+              "time_max": 5000
+            },
+            "significance": 0.20095721994433263,
+            "n_photons": 1221
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 100.0,
+              "time_min": 0,
+              "time_max": 500
+            },
+            "significance": 1.4864394355119315,
+            "n_photons": 1101
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 100.0,
+              "time_min": 0,
+              "time_max": 1000
+            },
+            "significance": 1.046476709864048,
+            "n_photons": 1539
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 100.0,
+              "time_min": 0,
+              "time_max": 2000
+            },
+            "significance": 0.025870109279079453,
+            "n_photons": 1750
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 100.0,
+              "time_min": 0,
+              "time_max": 5000
+            },
+            "significance": 0.412140979608654,
+            "n_photons": 1780
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 100.0,
+              "time_min": 50,
+              "time_max": 500
+            },
+            "significance": 0.1605984112402767,
+            "n_photons": 930
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 100.0,
+              "time_min": 50,
+              "time_max": 1000
+            },
+            "significance": 2.4244559757578816,
+            "n_photons": 1368
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 100.0,
+              "time_min": 50,
+              "time_max": 2000
+            },
+            "significance": 0.9139942205510777,
+            "n_photons": 1579
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 100.0,
+              "time_min": 50,
+              "time_max": 5000
+            },
+            "significance": 0.3957749442088928,
+            "n_photons": 1609
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 100.0,
+              "time_min": 100,
+              "time_max": 500
+            },
+            "significance": 0.13426814493170386,
+            "n_photons": 788
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 100.0,
+              "time_min": 100,
+              "time_max": 1000
+            },
+            "significance": 2.1321116378908647,
+            "n_photons": 1226
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 100.0,
+              "time_min": 100,
+              "time_max": 2000
+            },
+            "significance": 0.5856572704081073,
+            "n_photons": 1437
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 100.0,
+              "time_min": 100,
+              "time_max": 5000
+            },
+            "significance": 0.08936015981472747,
+            "n_photons": 1467
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 100.0,
+              "time_min": 200,
+              "time_max": 500
+            },
+            "significance": 0.07689341343694663,
+            "n_photons": 544
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 100.0,
+              "time_min": 200,
+              "time_max": 1000
+            },
+            "significance": 2.0263246470844125,
+            "n_photons": 982
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 100.0,
+              "time_min": 200,
+              "time_max": 2000
+            },
+            "significance": 0.3122024435859091,
+            "n_photons": 1193
+          },
+          {
+            "parameters": {
+              "energy_min": 2.0,
+              "energy_max": 100.0,
+              "time_min": 200,
+              "time_max": 5000
+            },
+            "significance": 0.17406027300060087,
+            "n_photons": 1223
+          }
+        ],
+        "n_evaluations": 256
+      },
+      "power_law": {
+        "model_parameters": [
+          514.2738914697003,
+          -9.99978982072762,
+          0.2748996658127179
+        ],
+        "model_covariance": [
+          [
+            15283.13231379466,
+            -16077.514630472606,
+            -426.4701019748699
+          ],
+          [
+            -16077.51463047261,
+            16985.603316114164,
+            449.91750418311506
+          ],
+          [
+            -426.47010197486986,
+            449.917504183115,
+            12.426869199933233
+          ]
+        ],
+        "residual_correlation": -0.0037142294169446553,
+        "residual_significance": 0.234027543691303,
+        "rms_residuals": 505.71566939106344,
+        "model_fit_quality": 3.643594007696205e-05
+      },
+      "quadratic": {
+        "model_parameters": [
+          503.32698643077225,
+          -0.044298872434940406,
+          0.9999999970654821,
+          0.09999692339478111
+        ],
+        "model_covariance": [
+          [
+            2.7127963127705144e+18,
+            -1331483.0839415763,
+            98467780.07062176,
+            -2.712796312875003e+18
+          ],
+          [
+            -1331483.0839415763,
+            0.007327274544177111,
+            -0.22089083868798284,
+            1331483.5506403067
+          ],
+          [
+            98467780.07062174,
+            -0.22089083868798284,
+            9.12260484998854,
+            -98467802.40057832
+          ],
+          [
+            -2.712796312875003e+18,
+            1331483.5506403067,
+            -98467802.40057832,
+            2.712796312979492e+18
+          ]
+        ],
+        "residual_correlation": 0.003411213695863887,
+        "residual_significance": 0.21490771321684984,
+        "rms_residuals": 505.6874560412218,
+        "model_fit_quality": 0.00014800667658054767
+      },
+      "injected_qg_strength": 0.001
+    },
+    "multiple_realizations": {
+      "null_significances": [
+        6.364564464030943,
+        6.364564464030943,
+        6.364564464030943,
+        6.364564464030943,
+        6.364564464030943,
+        6.364564464030943,
+        6.364564464030943,
+        6.364564464030943,
+        6.364564464030943,
+        6.364564464030943
+      ],
+      "qg_significances": [
+        0.15983020144886506,
+        0.15983020144886506,
+        0.15983020144886506,
+        0.15983020144886506,
+        0.15983020144886506,
+        0.15983020144886506,
+        0.15983020144886506,
+        0.15983020144886506,
+        0.15983020144886506,
+        0.15983020144886506
+      ],
+      "n_realizations": 10
+    }
+  },
+  "calibration_test": [
+    {
+      "qg_strength": 0.0,
+      "ensemble_significance": 6.364564464030943,
+      "bayesian_significance": 3.0377517596560666,
+      "power_law_significance": 0.6201980324730522,
+      "quadratic_significance": 0.1325925568732367
+    },
+    {
+      "qg_strength": 0.0001,
+      "ensemble_significance": 0.158327046685258,
+      "bayesian_significance": 2.424373131700628,
+      "power_law_significance": 0.23407545314184497,
+      "quadratic_significance": 0.21489133793247384
+    },
+    {
+      "qg_strength": 0.0005,
+      "ensemble_significance": 0.15899511546882045,
+      "bayesian_significance": 2.4244099512828092,
+      "power_law_significance": 0.23405348479539032,
+      "quadratic_significance": 0.21489865891411547
+    },
+    {
+      "qg_strength": 0.001,
+      "ensemble_significance": 0.15983020144886506,
+      "bayesian_significance": 2.4244559757578816,
+      "power_law_significance": 0.234027543691303,
+      "quadratic_significance": 0.21490771321684984
+    },
+    {
+      "qg_strength": 0.002,
+      "ensemble_significance": 0.1615003734076364,
+      "bayesian_significance": 2.4245480246991846,
+      "power_law_significance": 0.23397498469019792,
+      "quadratic_significance": 0.21492595731066005
+    },
+    {
+      "qg_strength": 0.005,
+      "ensemble_significance": 0.1665108892769521,
+      "bayesian_significance": 2.424824171452358,
+      "power_law_significance": 0.23381608507677248,
+      "quadratic_significance": 0.21498070273109873
+    }
+  ],
+  "summary": {
+    "null_ensemble_significance": 6.364564464030943,
+    "qg_ensemble_significance": 0.15983020144886506,
+    "null_bayesian_significance": 3.0377517596560666,
+    "qg_bayesian_significance": 2.4244559757578816,
+    "null_power_law_significance": 0.6201980324730522,
+    "qg_power_law_significance": 0.234027543691303,
+    "null_quadratic_significance": 0.1325925568732367,
+    "qg_quadratic_significance": 0.21490771321684984,
+    "avg_null_realizations": 6.364564464030943,
+    "avg_qg_realizations": 0.15983020144886506
+  }
+}

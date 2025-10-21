@@ -1,0 +1,638 @@
+[
+  {
+    "grb_name": "GRB080916C",
+    "n_photons": 516,
+    "energy_range": [
+      0.10030070692300797,
+      27.428804397583008
+    ],
+    "redshift": 4.35,
+    "total_correlation": -0.0300108874578876,
+    "total_significance": 0.680700485311984,
+    "energy_bands": 15,
+    "breakpoints": 2,
+    "models_fit": {
+      "linear": true,
+      "power_law": true,
+      "broken_power_law": true
+    },
+    "energy_band_results": [
+      {
+        "bin_index": 0,
+        "energy_min": 0.10030070692300797,
+        "energy_max": 0.10757678250471751,
+        "energy_mean": 0.10446807742118835,
+        "time_mean": 759.59218944226,
+        "n_photons": 35,
+        "correlation": 0.002021249653811066,
+        "significance": 0.011611218979163434
+      },
+      {
+        "bin_index": 1,
+        "energy_min": 0.10757678250471751,
+        "energy_max": 0.11782513062159221,
+        "energy_mean": 0.1126110777258873,
+        "time_mean": 822.4245646473239,
+        "n_photons": 34,
+        "correlation": 0.2667486271942866,
+        "significance": 1.5656890659180933
+      },
+      {
+        "bin_index": 2,
+        "energy_min": 0.11782513062159221,
+        "energy_max": 0.12905269861221313,
+        "energy_mean": 0.12265394628047943,
+        "time_mean": 917.8271008177716,
+        "n_photons": 34,
+        "correlation": -0.1256291768887927,
+        "significance": 0.7163413219299261
+      },
+      {
+        "bin_index": 3,
+        "energy_min": 0.12905269861221313,
+        "energy_max": 0.14066114525000253,
+        "energy_mean": 0.13472820818424225,
+        "time_mean": 985.1297754475048,
+        "n_photons": 35,
+        "correlation": -0.0041306019083142955,
+        "significance": 0.023728703859139926
+      },
+      {
+        "bin_index": 4,
+        "energy_min": 0.14066114525000253,
+        "energy_max": 0.15185508131980896,
+        "energy_mean": 0.14719027280807495,
+        "time_mean": 763.9037146883852,
+        "n_photons": 34,
+        "correlation": 0.1434128949393012,
+        "significance": 0.8197395381618688
+      },
+      {
+        "bin_index": 5,
+        "energy_min": 0.15185508131980896,
+        "energy_max": 0.17053207755088806,
+        "energy_mean": 0.16091226041316986,
+        "time_mean": 936.7131497526871,
+        "n_photons": 34,
+        "correlation": 0.2081775545513961,
+        "significance": 1.204008647089951
+      },
+      {
+        "bin_index": 6,
+        "energy_min": 0.17053207755088806,
+        "energy_max": 0.19294605652491253,
+        "energy_mean": 0.18081222474575043,
+        "time_mean": 771.2641117411,
+        "n_photons": 35,
+        "correlation": -0.2638347773280595,
+        "significance": 1.5712895129383113
+      },
+      {
+        "bin_index": 7,
+        "energy_min": 0.19294605652491253,
+        "energy_max": 0.21627437074979156,
+        "energy_mean": 0.2019067257642746,
+        "time_mean": 784.025860425304,
+        "n_photons": 34,
+        "correlation": 0.164839844931504,
+        "significance": 0.9454078289934907
+      },
+      {
+        "bin_index": 8,
+        "energy_min": 0.21627437074979156,
+        "energy_max": 0.26240721344947815,
+        "energy_mean": 0.23998187482357025,
+        "time_mean": 673.5734983069055,
+        "n_photons": 34,
+        "correlation": 0.15176373597087411,
+        "significance": 0.8685661106313942
+      },
+      {
+        "bin_index": 9,
+        "energy_min": 0.26240721344947815,
+        "energy_max": 0.31261996428171823,
+        "energy_mean": 0.28598281741142273,
+        "time_mean": 879.556776115724,
+        "n_photons": 35,
+        "correlation": 0.03876354653439892,
+        "significance": 0.22284711084202646
+      },
+      {
+        "bin_index": 10,
+        "energy_min": 0.31261996428171823,
+        "energy_max": 0.4135691026846568,
+        "energy_mean": 0.3643368184566498,
+        "time_mean": 713.3073065140668,
+        "n_photons": 34,
+        "correlation": 0.29494270449523685,
+        "significance": 1.7461243367080457
+      },
+      {
+        "bin_index": 11,
+        "energy_min": 0.4135691026846568,
+        "energy_max": 0.5251747965812683,
+        "energy_mean": 0.4610345959663391,
+        "time_mean": 857.7191074551905,
+        "n_photons": 34,
+        "correlation": 0.12358888256877615,
+        "significance": 0.704525535997606
+      },
+      {
+        "bin_index": 12,
+        "energy_min": 0.5251747965812683,
+        "energy_max": 0.7002328832944236,
+        "energy_mean": 0.6098283529281616,
+        "time_mean": 605.8343873287951,
+        "n_photons": 35,
+        "correlation": -0.035535407148857084,
+        "significance": 0.204264382249746
+      },
+      {
+        "bin_index": 13,
+        "energy_min": 0.7002328832944236,
+        "energy_max": 0.9575319488843285,
+        "energy_mean": 0.8212443590164185,
+        "time_mean": 655.7692788357244,
+        "n_photons": 34,
+        "correlation": -0.20476706920721427,
+        "significance": 1.1834131244841168
+      },
+      {
+        "bin_index": 14,
+        "energy_min": 0.9575319488843285,
+        "energy_max": 27.428804397583008,
+        "energy_mean": 2.572143077850342,
+        "time_mean": 809.1480505948557,
+        "n_photons": 34,
+        "correlation": -0.0011684367529240672,
+        "significance": 0.006609680922958211
+      }
+    ],
+    "breakpoints_detail": [
+      {
+        "energy": 0.18081222474575043,
+        "bin_index": 6,
+        "correlation_before": 0.17579522474534864,
+        "correlation_after": -0.049497466198277745,
+        "significance": 1.5712895129383113
+      },
+      {
+        "energy": 0.3643368184566498,
+        "bin_index": 10,
+        "correlation_before": 0.09526364125263652,
+        "correlation_after": 0.2092657935320065,
+        "significance": 1.7461243367080457
+      }
+    ],
+    "models_detail": {
+      "linear": {
+        "slope": -10.840981154392269,
+        "intercept": 800.5312191145193,
+        "correlation": -0.0300108874578876,
+        "type": "QG Standard"
+      },
+      "power_law": {
+        "t0": 699.3083537695451,
+        "a": 28.960173363446764,
+        "b": -0.774501010319727,
+        "correlation": 0.08554979477280224,
+        "type": "Power-law Lag"
+      },
+      "broken_power_law": {
+        "t0": 760.4575243186106,
+        "a": 3.2083611817225703,
+        "b1": -1.5868273997094786,
+        "b2": -15.566237994930177,
+        "E_break": 0.17129916566563294,
+        "correlation": 0.08904924383466663,
+        "type": "Broken Power-law"
+      }
+    }
+  },
+  {
+    "grb_name": "GRB090902",
+    "n_photons": 3972,
+    "energy_range": [
+      0.10002322494983673,
+      80.82098388671875
+    ],
+    "redshift": 1.822,
+    "total_correlation": -0.08625484997406915,
+    "total_significance": 5.455070539634842,
+    "energy_bands": 15,
+    "breakpoints": 0,
+    "models_fit": {
+      "linear": true,
+      "power_law": true,
+      "broken_power_law": true
+    },
+    "energy_band_results": [
+      {
+        "bin_index": 0,
+        "energy_min": 0.10002322494983673,
+        "energy_max": 0.10954976826906204,
+        "energy_mean": 0.10482733696699142,
+        "time_mean": 1600.1549804849444,
+        "n_photons": 265,
+        "correlation": 0.15291710548684556,
+        "significance": 2.5094118571103268
+      },
+      {
+        "bin_index": 1,
+        "energy_min": 0.10954976826906204,
+        "energy_max": 0.12059491922458013,
+        "energy_mean": 0.11510611325502396,
+        "time_mean": 1622.954940044655,
+        "n_photons": 265,
+        "correlation": -0.061641602588431675,
+        "significance": 1.0015634294272173
+      },
+      {
+        "bin_index": 2,
+        "energy_min": 0.12059491922458013,
+        "energy_max": 0.13253374099731446,
+        "energy_mean": 0.12653981149196625,
+        "time_mean": 1613.6299871368228,
+        "n_photons": 265,
+        "correlation": 0.003583802656191877,
+        "significance": 0.058119885526903114
+      },
+      {
+        "bin_index": 3,
+        "energy_min": 0.13253374099731446,
+        "energy_max": 0.14516706764698029,
+        "energy_mean": 0.13869643211364746,
+        "time_mean": 1645.397966680653,
+        "n_photons": 264,
+        "correlation": 0.06758423020635126,
+        "significance": 1.0964532952662516
+      },
+      {
+        "bin_index": 4,
+        "energy_min": 0.14516706764698029,
+        "energy_max": 0.1606602817773819,
+        "energy_mean": 0.1524163782596588,
+        "time_mean": 1622.846604909762,
+        "n_photons": 265,
+        "correlation": 0.008868406820556693,
+        "significance": 0.1438270459290265
+      },
+      {
+        "bin_index": 5,
+        "energy_min": 0.1606602817773819,
+        "energy_max": 0.18031019866466524,
+        "energy_mean": 0.1701355129480362,
+        "time_mean": 1693.3484950394002,
+        "n_photons": 265,
+        "correlation": -0.045893021433814095,
+        "significance": 0.7450447460384783
+      },
+      {
+        "bin_index": 6,
+        "energy_min": 0.18031019866466524,
+        "energy_max": 0.2026051322619121,
+        "energy_mean": 0.19148924946784973,
+        "time_mean": 1630.3564519969923,
+        "n_photons": 265,
+        "correlation": 0.04339002725541669,
+        "significance": 0.7043313256915982
+      },
+      {
+        "bin_index": 7,
+        "energy_min": 0.2026051322619121,
+        "energy_max": 0.23215304613113405,
+        "energy_mean": 0.2172744870185852,
+        "time_mean": 1614.0607496432283,
+        "n_photons": 264,
+        "correlation": -0.010973700470364403,
+        "significance": 0.17763555548796783
+      },
+      {
+        "bin_index": 8,
+        "energy_min": 0.23215304613113405,
+        "energy_max": 0.2679292321205139,
+        "energy_mean": 0.24962970614433289,
+        "time_mean": 1622.5031615907292,
+        "n_photons": 265,
+        "correlation": -0.05373955282326376,
+        "significance": 0.8727702576193959
+      },
+      {
+        "bin_index": 9,
+        "energy_min": 0.2679292321205139,
+        "energy_max": 0.3145581980546316,
+        "energy_mean": 0.29130423069000244,
+        "time_mean": 1589.6826146872538,
+        "n_photons": 265,
+        "correlation": -0.0025488826510997047,
+        "significance": 0.041336064509828976
+      },
+      {
+        "bin_index": 10,
+        "energy_min": 0.3145581980546316,
+        "energy_max": 0.38602411548296617,
+        "energy_mean": 0.3480882942676544,
+        "time_mean": 1537.342811026888,
+        "n_photons": 265,
+        "correlation": -0.1094969935723892,
+        "significance": 1.7864847340329346
+      },
+      {
+        "bin_index": 11,
+        "energy_min": 0.38602411548296617,
+        "energy_max": 0.4810382723808289,
+        "energy_mean": 0.4287025034427643,
+        "time_mean": 1629.8565626769807,
+        "n_photons": 264,
+        "correlation": 0.036745281917222594,
+        "significance": 0.5951762916484407
+      },
+      {
+        "bin_index": 12,
+        "energy_min": 0.4810382723808289,
+        "energy_max": 0.6269546945889791,
+        "energy_mean": 0.5448809862136841,
+        "time_mean": 1616.9866714245868,
+        "n_photons": 265,
+        "correlation": 0.09659829374694263,
+        "significance": 1.5739215925301975
+      },
+      {
+        "bin_index": 13,
+        "energy_min": 0.6269546945889791,
+        "energy_max": 0.9912888089815777,
+        "energy_mean": 0.7851998805999756,
+        "time_mean": 1567.917565493089,
+        "n_photons": 265,
+        "correlation": -0.06827890308623671,
+        "significance": 1.1098879061785956
+      },
+      {
+        "bin_index": 14,
+        "energy_min": 0.9912888089815777,
+        "energy_max": 80.82098388671875,
+        "energy_mean": 2.6825294494628906,
+        "time_mean": 1391.7413554245775,
+        "n_photons": 264,
+        "correlation": -0.20654041525980327,
+        "significance": 3.4168219565236044
+      }
+    ],
+    "breakpoints_detail": [],
+    "models_detail": {
+      "linear": {
+        "slope": -21.719103312817722,
+        "intercept": 1609.8397470964721,
+        "correlation": -0.08625484997406915,
+        "type": "QG Standard"
+      },
+      "power_law": {
+        "t0": -740336.4648131018,
+        "a": 741847.08014041,
+        "b": -9.0162529566297e-05,
+        "correlation": 0.12406385836746242,
+        "type": "Power-law Lag"
+      },
+      "broken_power_law": {
+        "t0": 749.3453270408547,
+        "a": 844.5382185388117,
+        "b1": -0.018467318502379995,
+        "b2": -0.28297263613461454,
+        "E_break": 0.6723822794491768,
+        "correlation": 0.14986146629412575,
+        "type": "Broken Power-law"
+      }
+    }
+  },
+  {
+    "grb_name": "GRB090510",
+    "n_photons": 2371,
+    "energy_range": [
+      0.10010431706905365,
+      58.664398193359375
+    ],
+    "redshift": 0.903,
+    "total_correlation": -0.035212020472271004,
+    "total_significance": 1.7149161133731585,
+    "energy_bands": 15,
+    "breakpoints": 0,
+    "models_fit": {
+      "linear": true,
+      "power_law": true,
+      "broken_power_law": false
+    },
+    "energy_band_results": [
+      {
+        "bin_index": 0,
+        "energy_min": 0.10010431706905365,
+        "energy_max": 0.1112399771809578,
+        "energy_mean": 0.10567812621593475,
+        "time_mean": 2051.452629900054,
+        "n_photons": 158,
+        "correlation": 0.017660775992385212,
+        "significance": 0.22061742974848877
+      },
+      {
+        "bin_index": 1,
+        "energy_min": 0.1112399771809578,
+        "energy_max": 0.1216554194688797,
+        "energy_mean": 0.11643076688051224,
+        "time_mean": 2094.3208746978,
+        "n_photons": 158,
+        "correlation": -0.057838096941637406,
+        "significance": 0.7236089379247546
+      },
+      {
+        "bin_index": 2,
+        "energy_min": 0.1216554194688797,
+        "energy_max": 0.1339806169271469,
+        "energy_mean": 0.12818647921085358,
+        "time_mean": 2076.476881125871,
+        "n_photons": 158,
+        "correlation": 0.03757913509132583,
+        "significance": 0.4696950136527742
+      },
+      {
+        "bin_index": 3,
+        "energy_min": 0.1339806169271469,
+        "energy_max": 0.14899329841136932,
+        "energy_mean": 0.1410805881023407,
+        "time_mean": 2082.8834801054077,
+        "n_photons": 158,
+        "correlation": 0.08712530912295353,
+        "significance": 1.0923485702918794
+      },
+      {
+        "bin_index": 4,
+        "energy_min": 0.14899329841136932,
+        "energy_max": 0.16858576238155368,
+        "energy_mean": 0.1588948369026184,
+        "time_mean": 2157.2606665878734,
+        "n_photons": 158,
+        "correlation": -0.10221244802787537,
+        "significance": 1.2833545172448555
+      },
+      {
+        "bin_index": 5,
+        "energy_min": 0.16858576238155368,
+        "energy_max": 0.19027861952781677,
+        "energy_mean": 0.17929832637310028,
+        "time_mean": 2186.8706842019587,
+        "n_photons": 158,
+        "correlation": -0.06667878862125382,
+        "significance": 0.8346753787373191
+      },
+      {
+        "bin_index": 6,
+        "energy_min": 0.19027861952781677,
+        "energy_max": 0.21406020224094394,
+        "energy_mean": 0.20160570740699768,
+        "time_mean": 2124.330157095684,
+        "n_photons": 158,
+        "correlation": -0.059152002186929536,
+        "significance": 0.7401042023779916
+      },
+      {
+        "bin_index": 7,
+        "energy_min": 0.21406020224094394,
+        "energy_max": 0.24671882390975952,
+        "energy_mean": 0.22804976999759674,
+        "time_mean": 2115.0555172294758,
+        "n_photons": 158,
+        "correlation": -0.12615776901230244,
+        "significance": 1.5884010523370922
+      },
+      {
+        "bin_index": 8,
+        "energy_min": 0.24671882390975952,
+        "energy_max": 0.28203707933425903,
+        "energy_mean": 0.2626729905605316,
+        "time_mean": 2090.786192359615,
+        "n_photons": 158,
+        "correlation": 0.09405134456334228,
+        "significance": 1.1799311411141273
+      },
+      {
+        "bin_index": 9,
+        "energy_min": 0.28203707933425903,
+        "energy_max": 0.33231136202812195,
+        "energy_mean": 0.30537623167037964,
+        "time_mean": 2208.0245465875805,
+        "n_photons": 158,
+        "correlation": -0.026791788089064312,
+        "significance": 0.33474948912300234
+      },
+      {
+        "bin_index": 10,
+        "energy_min": 0.33231136202812195,
+        "energy_max": 0.41004911065101624,
+        "energy_mean": 0.3675791025161743,
+        "time_mean": 2180.5979215159446,
+        "n_photons": 158,
+        "correlation": -0.058254998461127826,
+        "significance": 0.7288424648380414
+      },
+      {
+        "bin_index": 11,
+        "energy_min": 0.41004911065101624,
+        "energy_max": 0.5349918603897095,
+        "energy_mean": 0.46552780270576477,
+        "time_mean": 2166.7372792804545,
+        "n_photons": 158,
+        "correlation": -0.1114400101645649,
+        "significance": 1.4006094489912266
+      },
+      {
+        "bin_index": 12,
+        "energy_min": 0.5349918603897095,
+        "energy_max": 0.7631474733352661,
+        "energy_mean": 0.63581782579422,
+        "time_mean": 2216.2660919910745,
+        "n_photons": 158,
+        "correlation": 0.027934625176538757,
+        "significance": 0.3490395685467282
+      },
+      {
+        "bin_index": 13,
+        "energy_min": 0.7631474733352661,
+        "energy_max": 1.2436392307281539,
+        "energy_mean": 0.9508914351463318,
+        "time_mean": 2125.8473109634992,
+        "n_photons": 158,
+        "correlation": 0.016481569619235473,
+        "significance": 0.20588270367324346
+      },
+      {
+        "bin_index": 14,
+        "energy_min": 1.2436392307281539,
+        "energy_max": 58.664398193359375,
+        "energy_mean": 2.7731220722198486,
+        "time_mean": 1934.0815604891204,
+        "n_photons": 158,
+        "correlation": -0.10540866641847653,
+        "significance": 1.3239294478570398
+      }
+    ],
+    "breakpoints_detail": [],
+    "models_detail": {
+      "linear": {
+        "slope": -13.526743809161308,
+        "intercept": 2127.5489551372757,
+        "correlation": -0.035212020472271004,
+        "type": "QG Standard"
+      },
+      "power_law": {
+        "t0": -106582.66206208781,
+        "a": 108682.1778041399,
+        "b": -0.0001547186046326278,
+        "correlation": 0.02297539902828255,
+        "type": "Power-law Lag"
+      },
+      "broken_power_law": null
+    }
+  },
+  {
+    "grb_name": "GRB130427A",
+    "n_photons": 45,
+    "energy_range": [
+      0.10015087574720383,
+      2.052614450454712
+    ],
+    "redshift": 0.34,
+    "total_correlation": -0.11255909945986191,
+    "total_significance": 0.7428199723961438,
+    "energy_bands": 0,
+    "breakpoints": 0,
+    "models_fit": {
+      "linear": true,
+      "power_law": true,
+      "broken_power_law": true
+    },
+    "energy_band_results": [],
+    "breakpoints_detail": null,
+    "models_detail": {
+      "linear": {
+        "slope": -1485.394373902609,
+        "intercept": 6713.7942047346005,
+        "correlation": -0.11255909945986191,
+        "type": "QG Standard"
+      },
+      "power_law": {
+        "t0": 6379.19967710487,
+        "a": -511.4931397837231,
+        "b": 3.3673259616962676,
+        "correlation": 0.20002069458723107,
+        "type": "Power-law Lag"
+      },
+      "broken_power_law": {
+        "t0": 6222.958220072069,
+        "a": 0.8781980615785425,
+        "b1": -0.9328584658340112,
+        "b2": 0.10837771530764273,
+        "E_break": 0.11152002252327922,
+        "correlation": 0.038180744087837865,
+        "type": "Broken Power-law"
+      }
+    }
+  }
+]

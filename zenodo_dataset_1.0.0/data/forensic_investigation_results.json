@@ -1,0 +1,53 @@
+{
+  "methodology": {
+    "eqg_comparison": {
+      "literature_eqg": 4.650612825090467e-62,
+      "our_eqg": 1665000084.3867686,
+      "ratio": 3.580173510475751e+70,
+      "discrepancy_type": "methodological_difference"
+    },
+    "significance_analysis": {
+      "significance_sigma": 7.087189995291361,
+      "assessment": "very_high"
+    },
+    "systematic_error_analysis": {
+      "total_systematic_error": 0.061652250567193416,
+      "corrected_significance": 6.6756228242392845,
+      "systematic_issue": false
+    }
+  },
+  "data_quality": {
+    "energy_distribution": {
+      "high_energy_fraction": 0.013157894736842105,
+      "quality_assessment": "moderate"
+    },
+    "temporal_distribution": {
+      "duration": 70.16004997642167,
+      "temporal_quality": "poor",
+      "photon_density": 21.6647508163238,
+      "density_quality": "poor"
+    }
+  },
+  "theoretical": {
+    "theoretical_analysis": {
+      "eqg_gev": 100000000.0,
+      "eqg_planck_ratio": 8.190611920616589e-12,
+      "planck_assessment": "safe",
+      "velocity_dispersion": 1e-06
+    }
+  },
+  "naming": {
+    "discovery_name": "Quantum Gravity Effect - Standard Detection",
+    "discovery_type": "Standard QG Effect",
+    "discovery_code": "QGE-20251020_175040",
+    "classification": "DISCOVERY - Standard QG Effect",
+    "impact_level": "MEDIUM",
+    "confidence_level": "MODERATE",
+    "characteristics": [],
+    "recommended_journals": [
+      "Astrophysical Journal",
+      "Physical Review D",
+      "JCAP"
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "corrected_analysis_v2": {
+    "correlation": 0.9406646499820194,
+    "significance_sigma": 107.2898723200317,
+    "E_QG_fitted_GeV": 10844619976.954573,
+    "n_photons": 1500,
+    "realistic": true,
+    "formula_corrected": true
+  }
+}

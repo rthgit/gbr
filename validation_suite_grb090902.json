@@ -1,0 +1,799 @@
+{
+  "timestamp": "2025-10-21T01:41:12.663410",
+  "grb_name": "GRB090902",
+  "filename": "L251020161615F357373F52_EV00.fits",
+  "n_events": 3972,
+  "validation_results": {
+    "monte_carlo_null": {
+      "original_correlation": -0.08625484965863753,
+      "original_significance": 5.455070519536267,
+      "null_correlations_mean": 0.00028935863365477945,
+      "null_correlations_std": 0.015804035287152556,
+      "null_significances_mean": 0.7701026443483395,
+      "null_significances_std": 0.6323254516192071,
+      "p_value": 0.0,
+      "false_positive_rate": 0.0,
+      "n_simulations": 1000
+    },
+    "cross_validation": {
+      "fold_results": [
+        {
+          "fold": 0,
+          "train_correlation": -0.08615479141592243,
+          "train_significance": 4.873461072951263,
+          "test_correlation": 0.0004105150246195512,
+          "test_significance": 0.011552917820182909,
+          "n_train": 3178,
+          "n_test": 794
+        },
+        {
+          "fold": 1,
+          "train_correlation": -0.1301326494312984,
+          "train_significance": 7.396653809908645,
+          "test_correlation": -0.03432280361331526,
+          "test_significance": 0.9664987759833733,
+          "n_train": 3178,
+          "n_test": 794
+        },
+        {
+          "fold": 2,
+          "train_correlation": -0.022148561048575852,
+          "train_significance": 1.2485108263617344,
+          "test_correlation": -0.10134796593457387,
+          "test_significance": 2.866946374944897,
+          "n_train": 3178,
+          "n_test": 794
+        },
+        {
+          "fold": 3,
+          "train_correlation": -0.08771217617096738,
+          "train_significance": 4.962233527266331,
+          "test_correlation": 0.003601500496038884,
+          "test_significance": 0.10135586544955252,
+          "n_train": 3178,
+          "n_test": 794
+        },
+        {
+          "fold": 4,
+          "train_correlation": -0.08737428702905567,
+          "train_significance": 4.941413828189129,
+          "test_correlation": -0.044758188546507593,
+          "test_significance": 1.2624616636281691,
+          "n_train": 3176,
+          "n_test": 796
+        }
+      ],
+      "train_correlations_mean": -0.08270449301916397,
+      "train_correlations_std": 0.034569464396055474,
+      "test_correlations_mean": -0.03528338851474766,
+      "test_correlations_std": 0.03805604365120933,
+      "train_significances_mean": 4.68445461293542,
+      "train_significances_std": 1.966756049642909,
+      "test_significances_mean": 1.041763119565235,
+      "test_significances_std": 1.0326049920330218,
+      "n_folds": 5
+    },
+    "sensitivity": {
+      "threshold_1.0": {
+        "threshold": 1.0,
+        "detection": true,
+        "significance": 5.455070519536267,
+        "p_value": 0.31731050786291415
+      },
+      "threshold_1.5": {
+        "threshold": 1.5,
+        "detection": true,
+        "significance": 5.455070519536267,
+        "p_value": 0.13361440253771617
+      },
+      "threshold_2.0": {
+        "threshold": 2.0,
+        "detection": true,
+        "significance": 5.455070519536267,
+        "p_value": 0.04550026389635842
+      },
+      "threshold_2.5": {
+        "threshold": 2.5,
+        "detection": true,
+        "significance": 5.455070519536267,
+        "p_value": 0.012419330651552318
+      },
+      "threshold_3.0": {
+        "threshold": 3.0,
+        "detection": true,
+        "significance": 5.455070519536267,
+        "p_value": 0.002699796063260207
+      },
+      "threshold_3.5": {
+        "threshold": 3.5,
+        "detection": true,
+        "significance": 5.455070519536267,
+        "p_value": 0.0004652581580710802
+      },
+      "threshold_4.0": {
+        "threshold": 4.0,
+        "detection": true,
+        "significance": 5.455070519536267,
+        "p_value": 6.334248366623996e-05
+      },
+      "threshold_4.5": {
+        "threshold": 4.5,
+        "detection": true,
+        "significance": 5.455070519536267,
+        "p_value": 6.795346249477419e-06
+      },
+      "threshold_5.0": {
+        "threshold": 5.0,
+        "detection": true,
+        "significance": 5.455070519536267,
+        "p_value": 5.733031438470704e-07
+      },
+      "threshold_5.5": {
+        "threshold": 5.5,
+        "detection": false,
+        "significance": 5.455070519536267,
+        "p_value": 3.797912495606681e-08
+      }
+    },
+    "false_positive": {
+      "threshold_1.0": {
+        "threshold": 1.0,
+        "false_positives": 285,
+        "false_positive_rate": 0.285,
+        "n_trials": 1000
+      },
+      "threshold_1.5": {
+        "threshold": 1.5,
+        "false_positives": 118,
+        "false_positive_rate": 0.118,
+        "n_trials": 1000
+      },
+      "threshold_2.0": {
+        "threshold": 2.0,
+        "false_positives": 50,
+        "false_positive_rate": 0.05,
+        "n_trials": 1000
+      },
+      "threshold_2.5": {
+        "threshold": 2.5,
+        "false_positives": 18,
+        "false_positive_rate": 0.018,
+        "n_trials": 1000
+      },
+      "threshold_3.0": {
+        "threshold": 3.0,
+        "false_positives": 8,
+        "false_positive_rate": 0.008,
+        "n_trials": 1000
+      },
+      "threshold_3.5": {
+        "threshold": 3.5,
+        "false_positives": 1,
+        "false_positive_rate": 0.001,
+        "n_trials": 1000
+      },
+      "threshold_4.0": {
+        "threshold": 4.0,
+        "false_positives": 1,
+        "false_positive_rate": 0.001,
+        "n_trials": 1000
+      },
+      "threshold_4.5": {
+        "threshold": 4.5,
+        "false_positives": 0,
+        "false_positive_rate": 0.0,
+        "n_trials": 1000
+      },
+      "threshold_5.0": {
+        "threshold": 5.0,
+        "false_positives": 0,
+        "false_positive_rate": 0.0,
+        "n_trials": 1000
+      },
+      "threshold_5.5": {
+        "threshold": 5.5,
+        "false_positives": 0,
+        "false_positive_rate": 0.0,
+        "n_trials": 1000
+      }
+    },
+    "reproducibility": {
+      "reproducibility_results": [
+        {
+          "repetition": 0,
+          "correlation": -0.06727501866241613,
+          "significance": 4.2484851429936095
+        },
+        {
+          "repetition": 1,
+          "correlation": -0.06588994735672137,
+          "significance": 4.160631069697645
+        },
+        {
+          "repetition": 2,
+          "correlation": -0.10836255216985254,
+          "significance": 6.868144224726381
+        },
+        {
+          "repetition": 3,
+          "correlation": -0.08242933302255999,
+          "significance": 5.2114371192691475
+        },
+        {
+          "repetition": 4,
+          "correlation": -0.13194387399206717,
+          "significance": 8.386835691145462
+        },
+        {
+          "repetition": 5,
+          "correlation": -0.0972721243960898,
+          "significance": 6.158118679406613
+        },
+        {
+          "repetition": 6,
+          "correlation": -0.12289718214408353,
+          "significance": 7.802646462564288
+        },
+        {
+          "repetition": 7,
+          "correlation": -0.10944867760346723,
+          "significance": 6.9378145553056365
+        },
+        {
+          "repetition": 8,
+          "correlation": -0.09652745155212193,
+          "significance": 6.11052969279875
+        },
+        {
+          "repetition": 9,
+          "correlation": -0.1289846003054038,
+          "significance": 8.195513874146263
+        },
+        {
+          "repetition": 10,
+          "correlation": -0.07306867494986036,
+          "significance": 4.616246028825389
+        },
+        {
+          "repetition": 11,
+          "correlation": -0.11331327272241278,
+          "significance": 7.185917705820259
+        },
+        {
+          "repetition": 12,
+          "correlation": -0.13337686694104262,
+          "significance": 8.479562664984492
+        },
+        {
+          "repetition": 13,
+          "correlation": -0.0923417306412686,
+          "significance": 5.843227777796704
+        },
+        {
+          "repetition": 14,
+          "correlation": -0.08156580920037995,
+          "significance": 5.156474876720014
+        },
+        {
+          "repetition": 15,
+          "correlation": -0.11477327670753265,
+          "significance": 7.279733846613435
+        },
+        {
+          "repetition": 16,
+          "correlation": -0.10091874333091179,
+          "significance": 6.39131146682756
+        },
+        {
+          "repetition": 17,
+          "correlation": -0.13592271720385296,
+          "significance": 8.64443503882232
+        },
+        {
+          "repetition": 18,
+          "correlation": -0.08751254366976036,
+          "significance": 5.535221082858682
+        },
+        {
+          "repetition": 19,
+          "correlation": -0.0888566105527478,
+          "significance": 5.620905527526936
+        },
+        {
+          "repetition": 20,
+          "correlation": -0.07456813139345858,
+          "significance": 4.711501241128771
+        },
+        {
+          "repetition": 21,
+          "correlation": -0.11741082920916622,
+          "significance": 7.449337887004081
+        },
+        {
+          "repetition": 22,
+          "correlation": -0.15351148510106383,
+          "significance": 9.788465851132973
+        },
+        {
+          "repetition": 23,
+          "correlation": -0.09637953024853463,
+          "significance": 6.101077884825981
+        },
+        {
+          "repetition": 24,
+          "correlation": -0.11669714471739322,
+          "significance": 7.403429812913241
+        },
+        {
+          "repetition": 25,
+          "correlation": -0.07050683843717494,
+          "significance": 4.453573991597719
+        },
+        {
+          "repetition": 26,
+          "correlation": -0.06384877463057974,
+          "significance": 4.031204835550169
+        },
+        {
+          "repetition": 27,
+          "correlation": -0.1467448065337846,
+          "significance": 9.34727741653289
+        },
+        {
+          "repetition": 28,
+          "correlation": -0.10928459237615314,
+          "significance": 6.927287578963398
+        },
+        {
+          "repetition": 29,
+          "correlation": -0.03987168337213923,
+          "significance": 2.514231770764186
+        },
+        {
+          "repetition": 30,
+          "correlation": -0.08974674435499312,
+          "significance": 5.6776686827841605
+        },
+        {
+          "repetition": 31,
+          "correlation": -0.11896169980405163,
+          "significance": 7.549138782488354
+        },
+        {
+          "repetition": 32,
+          "correlation": -0.06998746422582942,
+          "significance": 4.420605562596607
+        },
+        {
+          "repetition": 33,
+          "correlation": -0.07248473912453249,
+          "significance": 4.579159183696566
+        },
+        {
+          "repetition": 34,
+          "correlation": -0.06486128120874514,
+          "significance": 4.09539917842722
+        },
+        {
+          "repetition": 35,
+          "correlation": -0.059785468077510055,
+          "significance": 3.7737091725639607
+        },
+        {
+          "repetition": 36,
+          "correlation": -0.13129766299568724,
+          "significance": 8.345037824489767
+        },
+        {
+          "repetition": 37,
+          "correlation": -0.10691786989360653,
+          "significance": 6.77551251909728
+        },
+        {
+          "repetition": 38,
+          "correlation": -0.09957307411769008,
+          "significance": 6.305229281112402
+        },
+        {
+          "repetition": 39,
+          "correlation": -0.09677173472155501,
+          "significance": 6.126139682386894
+        },
+        {
+          "repetition": 40,
+          "correlation": -0.11301400762030948,
+          "significance": 7.166693536628851
+        },
+        {
+          "repetition": 41,
+          "correlation": -0.12458939943115813,
+          "significance": 7.91176633478534
+        },
+        {
+          "repetition": 42,
+          "correlation": -0.13695317055771872,
+          "significance": 8.711217856495027
+        },
+        {
+          "repetition": 43,
+          "correlation": -0.13318900342019,
+          "significance": 8.46740320836117
+        },
+        {
+          "repetition": 44,
+          "correlation": -0.061392682213846805,
+          "significance": 3.8755366550564605
+        },
+        {
+          "repetition": 45,
+          "correlation": -0.09769871179114932,
+          "significance": 6.185384828380631
+        },
+        {
+          "repetition": 46,
+          "correlation": -0.1516549441867922,
+          "significance": 9.66728166140091
+        },
+        {
+          "repetition": 47,
+          "correlation": -0.09267791045629213,
+          "significance": 5.864684627962718
+        },
+        {
+          "repetition": 48,
+          "correlation": -0.13296643074570852,
+          "significance": 8.452998406015782
+        },
+        {
+          "repetition": 49,
+          "correlation": -0.06943005008168883,
+          "significance": 4.385226483082553
+        },
+        {
+          "repetition": 50,
+          "correlation": -0.07249955602415101,
+          "significance": 4.580100173717242
+        },
+        {
+          "repetition": 51,
+          "correlation": -0.14162796330903812,
+          "significance": 9.014552734045079
+        },
+        {
+          "repetition": 52,
+          "correlation": -0.07830064979057902,
+          "significance": 4.948756046603416
+        },
+        {
+          "repetition": 53,
+          "correlation": -0.051838347626754086,
+          "significance": 3.27062468088314
+        },
+        {
+          "repetition": 54,
+          "correlation": -0.1011944566205462,
+          "significance": 6.408953147984461
+        },
+        {
+          "repetition": 55,
+          "correlation": -0.11616064696162469,
+          "significance": 7.368927014531527
+        },
+        {
+          "repetition": 56,
+          "correlation": -0.07806486221123439,
+          "significance": 4.933762293128581
+        },
+        {
+          "repetition": 57,
+          "correlation": -0.08405490802108895,
+          "significance": 5.314935160120543
+        },
+        {
+          "repetition": 58,
+          "correlation": -0.09985466154011638,
+          "significance": 6.323239463759939
+        },
+        {
+          "repetition": 59,
+          "correlation": -0.10890670011039759,
+          "significance": 6.9030458750521495
+        },
+        {
+          "repetition": 60,
+          "correlation": -0.049458767324026924,
+          "significance": 3.120113346506068
+        },
+        {
+          "repetition": 61,
+          "correlation": -0.15245555865904623,
+          "significance": 9.719528189435371
+        },
+        {
+          "repetition": 62,
+          "correlation": -0.1430109701905954,
+          "significance": 9.104409340950824
+        },
+        {
+          "repetition": 63,
+          "correlation": -0.0867836878589096,
+          "significance": 5.488769196658878
+        },
+        {
+          "repetition": 64,
+          "correlation": -0.13798044256770545,
+          "significance": 8.77782318099955
+        },
+        {
+          "repetition": 65,
+          "correlation": -0.08063284609344105,
+          "significance": 5.097106042233102
+        },
+        {
+          "repetition": 66,
+          "correlation": -0.09545529481971173,
+          "significance": 6.042030724504492
+        },
+        {
+          "repetition": 67,
+          "correlation": -0.07468829273941986,
+          "significance": 4.71913605228411
+        },
+        {
+          "repetition": 68,
+          "correlation": -0.1150689011898523,
+          "significance": 7.298735722248108
+        },
+        {
+          "repetition": 69,
+          "correlation": -0.10746263073915732,
+          "significance": 6.810436954213863
+        },
+        {
+          "repetition": 70,
+          "correlation": -0.10672409026221798,
+          "significance": 6.7630908619786485
+        },
+        {
+          "repetition": 71,
+          "correlation": -0.05426320109736559,
+          "significance": 3.424057078115759
+        },
+        {
+          "repetition": 72,
+          "correlation": -0.0805778921391714,
+          "significance": 5.09360948553291
+        },
+        {
+          "repetition": 73,
+          "correlation": -0.08679813990147338,
+          "significance": 5.489690176557214
+        },
+        {
+          "repetition": 74,
+          "correlation": -0.08413177402414805,
+          "significance": 5.319830160306158
+        },
+        {
+          "repetition": 75,
+          "correlation": -0.049322526420090704,
+          "significance": 3.111497581151209
+        },
+        {
+          "repetition": 76,
+          "correlation": -0.07192056859681707,
+          "significance": 4.543332165821
+        },
+        {
+          "repetition": 77,
+          "correlation": -0.07561807966013659,
+          "significance": 4.778219864357873
+        },
+        {
+          "repetition": 78,
+          "correlation": -0.07743601230156774,
+          "significance": 4.893777736937035
+        },
+        {
+          "repetition": 79,
+          "correlation": -0.05679170971270129,
+          "significance": 3.5841129961505107
+        },
+        {
+          "repetition": 80,
+          "correlation": -0.1136068032426841,
+          "significance": 7.204775422010801
+        },
+        {
+          "repetition": 81,
+          "correlation": -0.09509115378305477,
+          "significance": 6.018770976051397
+        },
+        {
+          "repetition": 82,
+          "correlation": -0.06774341459441659,
+          "significance": 4.27820071593633
+        },
+        {
+          "repetition": 83,
+          "correlation": -0.09742635196081555,
+          "significance": 6.167976032798973
+        },
+        {
+          "repetition": 84,
+          "correlation": -0.07991481863098573,
+          "significance": 5.051423765677468
+        },
+        {
+          "repetition": 85,
+          "correlation": -0.0709071340515985,
+          "significance": 4.478986125289589
+        },
+        {
+          "repetition": 86,
+          "correlation": -0.1134918521112588,
+          "significance": 7.197390218733881
+        },
+        {
+          "repetition": 87,
+          "correlation": -0.15086007763694517,
+          "significance": 9.615429497787607
+        },
+        {
+          "repetition": 88,
+          "correlation": -0.12659893643252063,
+          "significance": 8.041439222239621
+        },
+        {
+          "repetition": 89,
+          "correlation": -0.058849428270351486,
+          "significance": 3.714418578884418
+        },
+        {
+          "repetition": 90,
+          "correlation": -0.08204067111514773,
+          "significance": 5.18669780599412
+        },
+        {
+          "repetition": 91,
+          "correlation": -0.07659920897957903,
+          "significance": 4.840579852785719
+        },
+        {
+          "repetition": 92,
+          "correlation": -0.08113121695204568,
+          "significance": 5.12881803812457
+        },
+        {
+          "repetition": 93,
+          "correlation": -0.08615929402589013,
+          "significance": 5.448982011011045
+        },
+        {
+          "repetition": 94,
+          "correlation": -0.0717764423659911,
+          "significance": 4.5341802952166255
+        },
+        {
+          "repetition": 95,
+          "correlation": -0.05809219399409471,
+          "significance": 3.6664610786734464
+        },
+        {
+          "repetition": 96,
+          "correlation": -0.05388729781563449,
+          "significance": 3.4002679201067876
+        },
+        {
+          "repetition": 97,
+          "correlation": -0.10499622637249759,
+          "significance": 6.6523656635589585
+        },
+        {
+          "repetition": 98,
+          "correlation": -0.07730294652424681,
+          "significance": 4.885317687483598
+        },
+        {
+          "repetition": 99,
+          "correlation": -0.09042786992948433,
+          "significance": 5.7211127981122925
+        }
+      ],
+      "correlations_mean": -0.09521446349475386,
+      "correlations_std": 0.027350275815439636,
+      "significances_mean": 6.033761714203218,
+      "significances_std": 1.750708271069559,
+      "n_repetitions": 100
+    },
+    "robustness": {
+      "energy_filters": {
+        "filter_0.1_gev": {
+          "filter_gev": 0.1,
+          "n_photons": 3972,
+          "correlation": -0.08625484965863753,
+          "significance": 5.455070519536267
+        },
+        "filter_0.5_gev": {
+          "filter_gev": 0.5,
+          "n_photons": 750,
+          "correlation": -0.1342254722082755,
+          "significance": 3.704534461500998
+        },
+        "filter_1.0_gev": {
+          "filter_gev": 1.0,
+          "n_photons": 259,
+          "correlation": -0.11379508295545339,
+          "significance": 1.8362014778787927
+        },
+        "filter_2.0_gev": {
+          "filter_gev": 2.0,
+          "n_photons": 90,
+          "correlation": -0.07439031647441788,
+          "significance": 0.6997819802287678
+        }
+      },
+      "time_windows": {
+        "window_1000_s": {
+          "window_s": 1000,
+          "n_photons": 587,
+          "correlation": 0.006789017210393825,
+          "significance": 0.1642082041071213
+        },
+        "window_2000_s": {
+          "window_s": 2000,
+          "n_photons": 3952,
+          "correlation": -0.08702040587981553,
+          "significance": 5.489973758560296
+        },
+        "window_5000_s": {
+          "window_s": 5000,
+          "n_photons": 3972,
+          "correlation": -0.08625484965863753,
+          "significance": 5.455070519536267
+        },
+        "window_10000_s": {
+          "window_s": 10000,
+          "n_photons": 3972,
+          "correlation": -0.08625484965863753,
+          "significance": 5.455070519536267
+        },
+        "window_20000_s": {
+          "window_s": 20000,
+          "n_photons": 3972,
+          "correlation": -0.08625484965863753,
+          "significance": 5.455070519536267
+        }
+      },
+      "correlation_methods": {
+        "pearson": {
+          "correlation": -0.08625484965863753,
+          "significance": 5.455070519536267
+        },
+        "spearman": {
+          "correlation": -0.11577131027784021,
+          "significance": 7.318672082230978,
+          "p_value": 2.504367296081406e-13
+        },
+        "kendall": {
+          "correlation": -0.07764145036408221,
+          "significance": 7.336656928372618,
+          "p_value": 2.1899500554302252e-13
+        }
+      }
+    }
+  },
+  "summary": {
+    "anomaly_detected": true,
+    "significance": "5.46\u03c3",
+    "validation_status": "Comprehensive validation completed",
+    "key_findings": [
+      "Monte Carlo null test completed",
+      "Cross-validation analysis completed",
+      "Sensitivity analysis completed",
+      "False positive analysis completed",
+      "Reproducibility test completed",
+      "Robustness test completed"
+    ]
+  }
+}

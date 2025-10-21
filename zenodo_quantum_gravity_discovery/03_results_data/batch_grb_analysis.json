@@ -1,0 +1,44 @@
+{
+  "batch_analysis": {
+    "GRB090902B": {
+      "grb_info": {
+        "name": "GRB090902B",
+        "filename": "L251020161615F357373F52_EV00.fits",
+        "z": 1.822,
+        "priority": "HIGH",
+        "expected_significance": 5.46
+      },
+      "analysis": {
+        "energy_time_correlation": {
+          "correlation": -0.08625484997406917,
+          "significance": 5.455070539634843,
+          "n_photons": 3972
+        },
+        "permutation_test": {
+          "p_value": 0.0,
+          "n_permutations": 1000,
+          "perm_correlations_mean": -0.00042294460212810814,
+          "perm_correlations_std": 0.016073839559847643
+        },
+        "bootstrap_analysis": {
+          "mean_correlation": -0.09492607179046786,
+          "std_correlation": 0.03006551722251038,
+          "confidence_interval": [
+            -0.15530426824119803,
+            -0.0468720798131808
+          ],
+          "n_bootstrap": 1000
+        },
+        "ransac_regression": {
+          "n_inliers": 2018,
+          "n_outliers": 1954,
+          "inlier_fraction": 0.5080563947633434,
+          "inlier_correlation": -0.06698048965062232,
+          "slope": -6.935505390167236
+        },
+        "spectral_lag_analysis": {
+          "lag_results": [
+            {
+              "energy_center": 0.3166524528922662,
+              "correlation": -0.030362960802706215,
+              "n_photons": 

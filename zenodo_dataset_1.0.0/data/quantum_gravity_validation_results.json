@@ -1,0 +1,218 @@
+{
+  "real_astronomical_data\\fermi\\grb080916c_realistic.fits": {
+    "grb_name": "GRB080916C",
+    "validation_results": {
+      "control_sample": {
+        "threshold_50kev": {
+          "n_photons": 1500,
+          "correlation": -0.031236260824810746,
+          "p_value": 1.9375274783503784,
+          "significance_sigma": NaN,
+          "bias_detected": false,
+          "valid": true
+        },
+        "threshold_100kev": {
+          "n_photons": 1500,
+          "correlation": -0.031236260824810746,
+          "p_value": 1.9375274783503784,
+          "significance_sigma": NaN,
+          "bias_detected": false,
+          "valid": true
+        },
+        "threshold_200kev": {
+          "n_photons": 1500,
+          "correlation": -0.031236260824810746,
+          "p_value": 1.9375274783503784,
+          "significance_sigma": NaN,
+          "bias_detected": false,
+          "valid": true
+        }
+      },
+      "mock_injection": {
+        "signal_0.0001": {
+          "detection_rate": 1.0,
+          "false_positive_rate": 0.0,
+          "n_trials": 50,
+          "sensitive": true,
+          "reliable": true
+        },
+        "signal_0.001": {
+          "detection_rate": 1.0,
+          "false_positive_rate": 0.0,
+          "n_trials": 50,
+          "sensitive": true,
+          "reliable": true
+        },
+        "signal_0.01": {
+          "detection_rate": 1.0,
+          "false_positive_rate": 0.0,
+          "n_trials": 50,
+          "sensitive": true,
+          "reliable": true
+        }
+      },
+      "intrinsic_lag": {
+        "model_comparison": {
+          "chi2_linear": 137564.87867924848,
+          "chi2_power": 141644.67853745783,
+          "f_statistic": null,
+          "p_value": null,
+          "preferred_model": "linear"
+        },
+        "spectral_analysis": {
+          "Low": {
+            "n_photons": 1500,
+            "mean_time": 14.85642312886497,
+            "std_time": 9.253596112497325,
+            "energy_range": [
+              0,
+              100
+            ]
+          },
+          "High": {
+            "n_photons": 20,
+            "mean_time": 32.46997361127999,
+            "std_time": 19.4293894087675,
+            "energy_range": [
+              1000,
+              Infinity
+            ]
+          }
+        }
+      },
+      "literature": {
+        "literature_comparison": {
+          "paper": "Abdo et al. 2009, Nature",
+          "literature_result": "No QG signal detected",
+          "literature_eqg": 1.2e+17,
+          "our_eqg": 1665000084.3867686,
+          "our_significance": 7.087189995291361,
+          "consistency": "discrepancy"
+        }
+      }
+    },
+    "evaluation": {
+      "evidence_score": 75,
+      "max_score": 100,
+      "verdict": "EVIDENZA MODERATA per gravit\u00e0 quantistica",
+      "confidence": "MEDIA",
+      "strengths": [
+        "Nessun bias sistematico",
+        "Sistema sensibile",
+        "Fit lineare preferito"
+      ],
+      "issues": [
+        "Discrepanza con letteratura"
+      ],
+      "recommendations": "Proceed with analysis"
+    }
+  },
+  "real_astronomical_data\\fermi\\grb130427a_realistic.fits": {
+    "grb_name": "GRB130427A",
+    "validation_results": {
+      "control_sample": {
+        "threshold_50kev": {
+          "n_photons": 2000,
+          "correlation": 0.02803067901213081,
+          "p_value": 1.9439386419757383,
+          "significance_sigma": NaN,
+          "bias_detected": false,
+          "valid": true
+        },
+        "threshold_100kev": {
+          "n_photons": 2000,
+          "correlation": 0.02803067901213081,
+          "p_value": 1.9439386419757383,
+          "significance_sigma": NaN,
+          "bias_detected": false,
+          "valid": true
+        },
+        "threshold_200kev": {
+          "n_photons": 2000,
+          "correlation": 0.02803067901213081,
+          "p_value": 1.9439386419757383,
+          "significance_sigma": NaN,
+          "bias_detected": false,
+          "valid": true
+        }
+      },
+      "mock_injection": {
+        "signal_0.0001": {
+          "detection_rate": 1.0,
+          "false_positive_rate": 0.0,
+          "n_trials": 50,
+          "sensitive": true,
+          "reliable": true
+        },
+        "signal_0.001": {
+          "detection_rate": 1.0,
+          "false_positive_rate": 0.0,
+          "n_trials": 50,
+          "sensitive": true,
+          "reliable": true
+        },
+        "signal_0.01": {
+          "detection_rate": 1.0,
+          "false_positive_rate": 0.0,
+          "n_trials": 50,
+          "sensitive": true,
+          "reliable": true
+        }
+      },
+      "intrinsic_lag": {
+        "model_comparison": {
+          "chi2_linear": 486290.10935700295,
+          "chi2_power": 495649.1297199903,
+          "f_statistic": null,
+          "p_value": null,
+          "preferred_model": "linear"
+        },
+        "spectral_analysis": {
+          "Low": {
+            "n_photons": 2000,
+            "mean_time": 24.312128436568287,
+            "std_time": 14.939678649279106,
+            "energy_range": [
+              0,
+              100
+            ]
+          },
+          "High": {
+            "n_photons": 30,
+            "mean_time": 57.30701301544263,
+            "std_time": 30.64350617635009,
+            "energy_range": [
+              1000,
+              Infinity
+            ]
+          }
+        }
+      },
+      "literature": {
+        "literature_comparison": {
+          "paper": "Vasileiou et al. 2015, PRD",
+          "literature_result": "No QG signal detected",
+          "literature_eqg": 7.2e+17,
+          "our_eqg": 166713411.04488537,
+          "our_significance": 9.233974776367134,
+          "consistency": "discrepancy"
+        }
+      }
+    },
+    "evaluation": {
+      "evidence_score": 75,
+      "max_score": 100,
+      "verdict": "EVIDENZA MODERATA per gravit\u00e0 quantistica",
+      "confidence": "MEDIA",
+      "strengths": [
+        "Nessun bias sistematico",
+        "Sistema sensibile",
+        "Fit lineare preferito"
+      ],
+      "issues": [
+        "Discrepanza con letteratura"
+      ],
+      "recommendations": "Proceed with analysis"
+    }
+  }
+}

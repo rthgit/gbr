@@ -1,0 +1,373 @@
+"""
+ANALISI AVANZATA LAG INTRINSECI - VERSION FIXED
+Testa TUTTI i modelli possibili per capire il residuo 3.32σ in GRB090902
+"""
+
+import numpy as np
+import matplotlib.pyplot as plt
+from scipy.optimize import curve_fit, minimize
+from scipy.stats import pearsonr
+import json
+from astropy.io import fits
+
+# ============================================================
+# MODELLI LAG AVANZATI
+# ============================================================
+
+class AdvancedLagModels:
+    """Modelli sofisticati per lag intrinseci"""
+    
+    @staticmethod
+    def broken_powerlaw(E, E_break, alpha1, alpha2, A):
+        """Broken power-law: cambio pendenza a E_break"""
+        lag = np.zeros_like(E)
+        mask_low = E < E_break
+        mask_high = E >= E_break
+        
+        if np.any(mask_low):
+            lag[mask_low] = A * (E[mask_low] / E_break) ** alpha1
+        if np.any(mask_high):
+            lag[mask_high] = A * (E[mask_high] / E_break) ** alpha2
+            
+        return lag
+    
+    @staticmethod
+    def multi_component(E, t, A1, alpha1, A2, alpha2, t_transition):
+        """Due componenti temporali diverse"""
+        mask_early = t < t_transition
+        mask_late = t >= t_transition
+        
+        lag = np.zeros_like(E)
+        if np.any(mask_early):
+            lag[mask_early] = A1 * E[mask_early] ** alpha1
+        if np.any(mask_late):
+            lag[mask_late] = A2 * E[mask_late] ** alpha2
+            
+        return lag
+    
+    @staticmethod
+    def temporal_evolving(E, t, A, alpha, beta):
+        """Lag che evolve nel tempo"""
+        time_factor = 1 + beta * np.log1p(t / 10.0)
+        return A * (E ** alpha) * time_factor
+    
+    @staticmethod
+    def nonlinear_energy(E, A, alpha, beta):
+        """Dipendenza energia non-triviale"""
+        return A * (E ** alpha) * np.exp(beta * E)
+    
+    @staticmethod
+    def redshift_dependent(E, z, A, alpha, n):
+        """Dipendenza da redshift (per multi-GRB)"""
+        return A * (E ** alpha) * ((1 + z) ** n)
+
+
+# ============================================================
+# ANALISI COMPLETA GRB090902
+# ============================================================
+
+def analyze_grb090902_deep():
+    """Analisi APPROFONDITA di GRB090902 con TUTTI i modelli"""
+    
+    print("="*70)
+    print("🔬 ANALISI APPROFONDITA GRB090902")
+    print("Test di TUTTI i modelli possibili per spiegare residuo 3.32σ")
+    print("="*70)
+    
+    # Carica dati
+    print("\n📊 Caricamento dati...")
+    filename = 'L251020161615F357373F52_EV00.fits'
+    
+    with fits.open(filename) as hdul:
+        events = hdul['EVENTS'].data
+        
+        # Filtri qualità
+        quality = (
+            (events['EVENT_CLASS'][:, 0] >= 128) &
+            (events['ZENITH_ANGLE'] < 90) &
+            (events['ENERGY'] > 100)
+        )
+        
+        energies = events['ENERGY'][quality] / 1000  # GeV
+        times = events['TIME'][quality] - events['TIME'][quality].min()
+        
+        # Info
+        z = 1.822  # redshift
+        
+    print(f"   Fotoni: {len(energies)}")
+    print(f"   Range E: {energies.min():.3f} - {energies.max():.1f} GeV")
+    print(f"   Range t: {times.min():.1f} - {times.max():.1f} s")
+    print(f"   Redshift: {z}")
+    
+    # ============================================================
+    # TEST 1: BROKEN POWER-LAW
+    # ============================================================
+    print("\n" + "="*70)
+    print("🔬 TEST 1: BROKEN POWER-LAW")
+    print("Testa se c'è un breakpoint nel lag vs energia")
+    print("="*70)
+    
+    def fit_broken_powerlaw(energies, times):
+        """Fit broken power-law provando vari breakpoints"""
+        
+        best_chi2 = np.inf
+        best_result = None
+        
+        # Prova breakpoints da 1 GeV a 30 GeV
+        E_breaks_test = np.logspace(0, np.log10(30), 20)
+        
+        for E_break_guess in E_breaks_test:
+            try:
+                # Parametri iniziali
+                p0 = [E_break_guess, -0.3, -0.3, -1.0]
+                bounds = ([0.5, -2, -2, -10], [50, 0.5, 0.5, 0])
+                
+                # Fit
+                def model(E, E_break, alpha1, alpha2, A):
+                    return AdvancedLagModels.broken_powerlaw(E, E_break, alpha1, alpha2, A)
+                
+                popt, pcov = curve_fit(model, energies, times, p0=p0, bounds=bounds, maxfev=5000)
+                
+                # Chi quadro
+                predicted = model(energies, *popt)
+                residuals = times - predicted
+                chi2 = np.sum(residuals**2) / len(energies)
+                
+                if chi2 < best_chi2:
+                    best_chi2 = chi2
+                    best_result = {
+                        'params': popt,
+                        'chi2': chi2,
+                        'E_break': popt[0],
+                        'alpha1': popt[1],
+                        'alpha2': popt[2],
+                        'A': popt[3]
+                    }
+                    
+            except:
+                continue
+        
+        return best_result
+    
+    broken_result = fit_broken_powerlaw(energies, times)
+    
+    if broken_result:
+        print(f"   ✅ FIT RIUSCITO!")
+        print(f"   E_break: {broken_result['E_break']:.2f} GeV")
+        print(f"   α₁ (E < E_break): {broken_result['alpha1']:.3f}")
+        print(f"   α₂ (E > E_break): {broken_result['alpha2']:.3f}")
+        print(f"   χ²/dof: {broken_result['chi2']:.4f}")
+        
+        # Calcola residui
+        predicted = AdvancedLagModels.broken_powerlaw(
+            energies, 
+            broken_result['E_break'],
+            broken_result['alpha1'],
+            broken_result['alpha2'],
+            broken_result['A']
+        )
+        residuals = times - predicted
+        r_res, p_res = pearsonr(energies, residuals)
+        sigma_res = np.abs(r_res) * np.sqrt(len(energies) - 2) / np.sqrt(1 - r_res**2)
+        
+        print(f"   Residuo dopo broken PL: r={r_res:.4f}, σ={sigma_res:.2f}")
+        
+        if sigma_res < 2.0:
+            print("   🎉 RESIDUO SOTTO SOGLIA! Broken power-law spiega i dati!")
+        else:
+            print(f"   ⚠️ Residuo ancora significativo ({sigma_res:.2f}σ)")
+    else:
+        print("   ❌ Fit fallito")
+    
+    # ============================================================
+    # TEST 2: TEMPORAL EVOLUTION
+    # ============================================================
+    print("\n" + "="*70)
+    print("🔬 TEST 2: TEMPORAL EVOLUTION")
+    print("Testa se il lag cambia nel tempo (prompt vs afterglow)")
+    print("="*70)
+    
+    # Dividi in bande temporali
+    t_bins = [0, 10, 50, 200, times.max()]
+    temporal_results = []
+    
+    for i in range(len(t_bins)-1):
+        mask = (times >= t_bins[i]) & (times < t_bins[i+1])
+        if np.sum(mask) < 20:
+            continue
+            
+        e_bin = energies[mask]
+        t_bin = times[mask]
+        
+        r, p = pearsonr(e_bin, t_bin)
+        sigma = np.abs(r) * np.sqrt(len(e_bin) - 2) / np.sqrt(1 - r**2)
+        
+        temporal_results.append({
+            't_range': (t_bins[i], t_bins[i+1]),
+            'n_photons': len(e_bin),
+            'r': r,
+            'sigma': sigma
+        })
+        
+        print(f"   Tempo {t_bins[i]:.0f}-{t_bins[i+1]:.0f}s: r={r:.4f}, σ={sigma:.2f} ({len(e_bin)} fotoni)")
+    
+    # Verifica se lag cambia nel tempo
+    sigmas = [res['sigma'] for res in temporal_results]
+    if len(sigmas) > 1:
+        variation = np.std(sigmas)
+        print(f"\n   Variazione σ tra bande: {variation:.2f}")
+        if variation > 1.0:
+            print("   🎯 FORTE EVOLUZIONE TEMPORALE del lag!")
+        else:
+            print("   ✅ Lag stabile nel tempo")
+    
+    # ============================================================
+    # TEST 3: MULTIPLE ENERGY BANDS
+    # ============================================================
+    print("\n" + "="*70)
+    print("🔬 TEST 3: ANALISI PER BANDA ENERGETICA")
+    print("Verifica se lag diverso in bande diverse")
+    print("="*70)
+    
+    e_bins = [0.1, 0.3, 1.0, 3.0, 10.0, energies.max()]
+    energy_results = []
+    
+    for i in range(len(e_bins)-1):
+        mask = (energies >= e_bins[i]) & (energies < e_bins[i+1])
+        if np.sum(mask) < 20:
+            continue
+            
+        e_bin = energies[mask]
+        t_bin = times[mask]
+        
+        # Tempo medio
+        t_mean = np.mean(t_bin)
+        t_std = np.std(t_bin)
+        
+        energy_results.append({
+            'e_range': (e_bins[i], e_bins[i+1]),
+            'n_photons': len(e_bin),
+            't_mean': t_mean,
+            't_std': t_std
+        })
+        
+        print(f"   {e_bins[i]:.1f}-{e_bins[i+1]:.0f} GeV: <t>={t_mean:.1f}±{t_std:.1f}s ({len(e_bin)} fotoni)")
+    
+    # ============================================================
+    # TEST 4: BOOTSTRAP STABILITY
+    # ============================================================
+    print("\n" + "="*70)
+    print("🔬 TEST 4: BOOTSTRAP STABILITY")
+    print("Verifica stabilità del residuo con resampling")
+    print("="*70)
+    
+    n_bootstrap = 500
+    bootstrap_corrs = []
+    
+    print(f"   Eseguo {n_bootstrap} iterazioni bootstrap...")
+    
+    for _ in range(n_bootstrap):
+        indices = np.random.choice(len(energies), len(energies), replace=True)
+        e_boot = energies[indices]
+        t_boot = times[indices]
+        
+        r_boot, _ = pearsonr(e_boot, t_boot)
+        bootstrap_corrs.append(r_boot)
+    
+    r_mean = np.mean(bootstrap_corrs)
+    r_std = np.std(bootstrap_corrs)
+    
+    print(f"   Correlazione: {r_mean:.4f} ± {r_std:.4f}")
+    print(f"   95% CI: [{np.percentile(bootstrap_corrs, 2.5):.4f}, {np.percentile(bootstrap_corrs, 97.5):.4f}]")
+    
+    if 0 < np.percentile(bootstrap_corrs, 2.5) or 0 > np.percentile(bootstrap_corrs, 97.5):
+        print("   🎯 CORRELAZIONE ROBUSTA (95% CI non include zero!)")
+    else:
+        print("   ✅ Correlazione compatibile con zero")
+    
+    # ============================================================
+    # TEST 5: PHOTON SUBSETS
+    # ============================================================
+    print("\n" + "="*70)
+    print("🔬 TEST 5: ANALISI SOTTOINSIEMI")
+    print("Testa se residuo dipende da selezione fotoni")
+    print("="*70)
+    
+    # Test 1: Solo primi 50% tempo
+    mask_early = times < np.median(times)
+    r_early, _ = pearsonr(energies[mask_early], times[mask_early])
+    sigma_early = np.abs(r_early) * np.sqrt(np.sum(mask_early) - 2) / np.sqrt(1 - r_early**2)
+    print(f"   Prima metà tempo: r={r_early:.4f}, σ={sigma_early:.2f}")
+    
+    # Test 2: Solo ultimi 50% tempo
+    mask_late = times >= np.median(times)
+    r_late, _ = pearsonr(energies[mask_late], times[mask_late])
+    sigma_late = np.abs(r_late) * np.sqrt(np.sum(mask_late) - 2) / np.sqrt(1 - r_late**2)
+    print(f"   Seconda metà tempo: r={r_late:.4f}, σ={sigma_late:.2f}")
+    
+    # Test 3: Solo fotoni alta energia
+    mask_hienergy = energies > 1.0
+    if np.sum(mask_hienergy) > 20:
+        r_hi, _ = pearsonr(energies[mask_hienergy], times[mask_hienergy])
+        sigma_hi = np.abs(r_hi) * np.sqrt(np.sum(mask_hienergy) - 2) / np.sqrt(1 - r_hi**2)
+        print(f"   Solo E>1 GeV: r={r_hi:.4f}, σ={sigma_hi:.2f}")
+    
+    # ============================================================
+    # RIEPILOGO FINALE
+    # ============================================================
+    print("\n" + "="*70)
+    print("📊 RIEPILOGO FINALE")
+    print("="*70)
+    
+    results_summary = {
+        'grb': 'GRB090902B',
+        'n_photons': len(energies),
+        'correlation_original': -0.086,
+        'sigma_original': 5.46,
+        'correlation_after_simple_lag': -0.053,
+        'sigma_after_simple_lag': 3.32,
+        'tests': {}
+    }
+    
+    if broken_result:
+        results_summary['tests']['broken_powerlaw'] = {
+            'success': True,
+            'E_break': float(broken_result['E_break']),
+            'residual_sigma': float(sigma_res)
+        }
+        print(f"\n1. BROKEN POWER-LAW:")
+        print(f"   Breakpoint a {broken_result['E_break']:.2f} GeV")
+        print(f"   Residuo: {sigma_res:.2f}σ")
+        
+        if sigma_res < 2.0:
+            print("   ✅ MODELLO SPIEGA I DATI!")
+        elif sigma_res < 2.5:
+            print("   🟡 Miglioramento significativo")
+        else:
+            print("   ⚠️ Residuo ancora presente")
+    
+    results_summary['tests']['temporal_evolution'] = {
+        'n_bands': len(temporal_results),
+        'variation': float(np.std([r['sigma'] for r in temporal_results])) if len(temporal_results) > 1 else 0
+    }
+    
+    results_summary['tests']['bootstrap'] = {
+        'r_mean': float(r_mean),
+        'r_std': float(r_std),
+        'robust': bool(0 < np.percentile(bootstrap_corrs, 2.5) or 0 > np.percentile(bootstrap_corrs, 97.5))
+    }
+    
+    # Salva risultati
+    with open('grb090902_deep_analysis.json', 'w') as f:
+        json.dump(results_summary, f, indent=2)
+    
+    print("\n" + "="*70)
+    print("✅ ANALISI COMPLETA!")
+    print("Risultati salvati: grb090902_deep_analysis.json")
+    print("="*70)
+    
+    return results_summary
+
+
+if __name__ == '__main__':
+    results = analyze_grb090902_deep()

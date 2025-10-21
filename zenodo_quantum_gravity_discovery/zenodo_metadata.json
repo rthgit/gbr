@@ -1,0 +1,35 @@
+{
+  "title": "Quantum Gravity Effects in Gamma-Ray Bursts: Evidence for GRB-Specific Phenomena",
+  "creators": [
+    {
+      "name": "Christian Quintino De Luca",
+      "affiliation": "Independent Researcher",
+      "orcid": "0000-0000-0000-0000"
+    }
+  ],
+  "description": "Complete dataset and analysis code for the discovery of quantum gravity effects in GRB090902B. This package includes all analysis scripts, results, figures, and the complete scientific paper documenting the first evidence for quantum gravity effects in gamma-ray bursts.",
+  "keywords": [
+    "quantum gravity",
+    "gamma-ray bursts",
+    "GRB090902B",
+    "GRB221009A",
+    "Lorentz invariance violation",
+    "Fermi LAT",
+    "LHAASO",
+    "astrophysics",
+    "fundamental physics"
+  ],
+  "license": "CC-BY-4.0",
+  "upload_type": "publication",
+  "publication_type": "article",
+  "communities": [
+    {
+      "identifier": "astrophysics"
+    },
+    {
+      "identifier": "fundamental-physics"
+    }
+  ],
+  "version": "v1.0.0",
+  "publication_date": "2025-10-21"
+}

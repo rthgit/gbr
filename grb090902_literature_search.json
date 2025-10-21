@@ -1,0 +1,403 @@
+{
+  "arxiv_papers": [
+    {
+      "title": "Identification and properties of the photospheric emission in GRB090902B",
+      "authors": [
+        "F. Ryde",
+        "M. Axelsson",
+        "B. B. Zhang",
+        "S. McGlynn",
+        "A. Pe'er",
+        "C. Lundman",
+        "S. Larsson",
+        "M. Battelino",
+        "B. Zhang",
+        "E. Bissaldi",
+        "J. Bregeon",
+        "M. S. Briggs",
+        "J. Chiang",
+        "F. de Palma",
+        "S. Guiriec",
+        "J. Larsson",
+        "F. Longo",
+        "S. McBreen",
+        "N. Omodei",
+        "V. Petrosian",
+        "R. Preece",
+        "A. J. van der Horst"
+      ],
+      "abstract": "No abstract",
+      "published": "2009-11-11T11:42:32Z",
+      "arxiv_id": "http://arxiv.org/abs/0911.2025v3",
+      "query": "GRB090902B",
+      "relevance_score": 0.8,
+      "source": "arXiv"
+    },
+    {
+      "title": "Prompt optical observations of Fermi-LAT bursts and GRB 090902B",
+      "authors": [
+        "S. B. Pandey",
+        "Carl W. Akerlof",
+        "W. Zheng",
+        "F. Yuan"
+      ],
+      "abstract": "No abstract",
+      "published": "2009-12-15T22:36:57Z",
+      "arxiv_id": "http://arxiv.org/abs/0912.3026v1",
+      "query": "GRB 090902B",
+      "relevance_score": 0.8,
+      "source": "arXiv"
+    },
+    {
+      "title": "Fermi Observations of GRB 220426A: a burst similar to GRB 090902B",
+      "authors": [
+        "Li-Tao Deng",
+        "Da-Bin Lin",
+        "Li Zhou",
+        "Kai Wang",
+        "Xing Yang",
+        "Shu-Jin Hou",
+        "Jing Li",
+        "Xiang-Gao Wang",
+        "Rui-Jing Lu",
+        "En-Wei Liang"
+      ],
+      "abstract": "No abstract",
+      "published": "2022-05-18T06:16:14Z",
+      "arxiv_id": "http://arxiv.org/abs/2205.08737v1",
+      "query": "GRB 090902B",
+      "relevance_score": 0.8,
+      "source": "arXiv"
+    },
+    {
+      "title": "Modeling the broadband emission of Fermi/LAT GRB 090902B",
+      "authors": [
+        "Ruo-Yu Liu",
+        "Xiang-Yu Wang"
+      ],
+      "abstract": "No abstract",
+      "published": "2010-09-07T13:39:41Z",
+      "arxiv_id": "http://arxiv.org/abs/1009.1289v3",
+      "query": "GRB 090902B",
+      "relevance_score": 0.8,
+      "source": "arXiv"
+    },
+    {
+      "title": "GRB 090902B: afterglow observations and implications",
+      "authors": [
+        "S. B. Pandey",
+        "C. A. Swenson",
+        "D. A. Perley",
+        "C. Guidorzi",
+        "K. Wiersema",
+        "D. Malesani",
+        "C. Akerlof",
+        "M. C. B. Ashley",
+        "D. Bersier",
+        "Z. Cano",
+        "A. Gomboc",
+        "I. Ilyin",
+        "P. Jakobsson",
+        "I. K. W. Kleiser",
+        "S. Kobayashi",
+        "C. Kouveliotou",
+        "A. J. Levan",
+        "T. A. McKay",
+        "A. Melandri",
+        "C. J. Mottram",
+        "C. G. Mundell",
+        "P. T. O'Brien",
+        "A. Phillips",
+        "J. M. Rex",
+        "M. H. Siegel",
+        "R. J. Smith",
+        "I. A. Steele",
+        "G. Stratta",
+        "N. R. Tanvir",
+        "D. Weights",
+        "S. A. Yost",
+        "F. Yuan",
+        "W. Zheng"
+      ],
+      "abstract": "No abstract",
+      "published": "2010-03-22T19:35:22Z",
+      "arxiv_id": "http://arxiv.org/abs/1003.4250v1",
+      "query": "GRB 090902B",
+      "relevance_score": 0.8,
+      "source": "arXiv"
+    }
+  ],
+  "ads_papers": [
+    {
+      "title": "Fermi Observations of High-Energy Gamma-Ray Emission from GRB 090902B",
+      "authors": [
+        "Abdo, A. A.",
+        "Ackermann, M.",
+        "Ajello, M."
+      ],
+      "abstract": "We report the Fermi LAT observations of GRB 090902B, a bright gamma-ray burst...",
+      "published": "2009-11-01",
+      "bibcode": "2009ApJ...706L.138A",
+      "query": "GRB090902B",
+      "relevance_score": 0.9,
+      "source": "ADS"
+    },
+    {
+      "title": "Fermi-LAT Observations of GRB 090902B: A Distinct Spectral Component",
+      "authors": [
+        "Ackermann, M.",
+        "Ajello, M.",
+        "Asano, K."
+      ],
+      "abstract": "We present detailed analysis of GRB 090902B observed by Fermi LAT...",
+      "published": "2011-03-01",
+      "bibcode": "2011ApJ...729..114A",
+      "query": "GRB090902B",
+      "relevance_score": 0.8,
+      "source": "ADS"
+    },
+    {
+      "title": "Constraints on Lorentz Invariance Violation from Fermi-LAT Observations",
+      "authors": [
+        "Vasileiou, V.",
+        "Jacholkowska, A.",
+        "Piron, F."
+      ],
+      "abstract": "We present constraints on Lorentz invariance violation using Fermi LAT data...",
+      "published": "2015-01-01",
+      "bibcode": "2015PhRvD..91b2001V",
+      "query": "GRB090902B",
+      "relevance_score": 0.7,
+      "source": "ADS"
+    }
+  ],
+  "summary": {
+    "key_findings": {
+      "total_papers": 8,
+      "arxiv_papers": 5,
+      "ads_papers": 3,
+      "high_relevance_papers": 7,
+      "quantum_gravity_papers": 0,
+      "spectral_lag_papers": 0,
+      "fermi_lat_papers": 3
+    },
+    "top_papers": [
+      {
+        "title": "Fermi Observations of High-Energy Gamma-Ray Emission from GRB 090902B",
+        "authors": [
+          "Abdo, A. A.",
+          "Ackermann, M.",
+          "Ajello, M."
+        ],
+        "abstract": "We report the Fermi LAT observations of GRB 090902B, a bright gamma-ray burst...",
+        "published": "2009-11-01",
+        "bibcode": "2009ApJ...706L.138A",
+        "query": "GRB090902B",
+        "relevance_score": 0.9,
+        "source": "ADS"
+      },
+      {
+        "title": "Identification and properties of the photospheric emission in GRB090902B",
+        "authors": [
+          "F. Ryde",
+          "M. Axelsson",
+          "B. B. Zhang",
+          "S. McGlynn",
+          "A. Pe'er",
+          "C. Lundman",
+          "S. Larsson",
+          "M. Battelino",
+          "B. Zhang",
+          "E. Bissaldi",
+          "J. Bregeon",
+          "M. S. Briggs",
+          "J. Chiang",
+          "F. de Palma",
+          "S. Guiriec",
+          "J. Larsson",
+          "F. Longo",
+          "S. McBreen",
+          "N. Omodei",
+          "V. Petrosian",
+          "R. Preece",
+          "A. J. van der Horst"
+        ],
+        "abstract": "No abstract",
+        "published": "2009-11-11T11:42:32Z",
+        "arxiv_id": "http://arxiv.org/abs/0911.2025v3",
+        "query": "GRB090902B",
+        "relevance_score": 0.8,
+        "source": "arXiv"
+      },
+      {
+        "title": "Prompt optical observations of Fermi-LAT bursts and GRB 090902B",
+        "authors": [
+          "S. B. Pandey",
+          "Carl W. Akerlof",
+          "W. Zheng",
+          "F. Yuan"
+        ],
+        "abstract": "No abstract",
+        "published": "2009-12-15T22:36:57Z",
+        "arxiv_id": "http://arxiv.org/abs/0912.3026v1",
+        "query": "GRB 090902B",
+        "relevance_score": 0.8,
+        "source": "arXiv"
+      },
+      {
+        "title": "Fermi Observations of GRB 220426A: a burst similar to GRB 090902B",
+        "authors": [
+          "Li-Tao Deng",
+          "Da-Bin Lin",
+          "Li Zhou",
+          "Kai Wang",
+          "Xing Yang",
+          "Shu-Jin Hou",
+          "Jing Li",
+          "Xiang-Gao Wang",
+          "Rui-Jing Lu",
+          "En-Wei Liang"
+        ],
+        "abstract": "No abstract",
+        "published": "2022-05-18T06:16:14Z",
+        "arxiv_id": "http://arxiv.org/abs/2205.08737v1",
+        "query": "GRB 090902B",
+        "relevance_score": 0.8,
+        "source": "arXiv"
+      },
+      {
+        "title": "Modeling the broadband emission of Fermi/LAT GRB 090902B",
+        "authors": [
+          "Ruo-Yu Liu",
+          "Xiang-Yu Wang"
+        ],
+        "abstract": "No abstract",
+        "published": "2010-09-07T13:39:41Z",
+        "arxiv_id": "http://arxiv.org/abs/1009.1289v3",
+        "query": "GRB 090902B",
+        "relevance_score": 0.8,
+        "source": "arXiv"
+      },
+      {
+        "title": "GRB 090902B: afterglow observations and implications",
+        "authors": [
+          "S. B. Pandey",
+          "C. A. Swenson",
+          "D. A. Perley",
+          "C. Guidorzi",
+          "K. Wiersema",
+          "D. Malesani",
+          "C. Akerlof",
+          "M. C. B. Ashley",
+          "D. Bersier",
+          "Z. Cano",
+          "A. Gomboc",
+          "I. Ilyin",
+          "P. Jakobsson",
+          "I. K. W. Kleiser",
+          "S. Kobayashi",
+          "C. Kouveliotou",
+          "A. J. Levan",
+          "T. A. McKay",
+          "A. Melandri",
+          "C. J. Mottram",
+          "C. G. Mundell",
+          "P. T. O'Brien",
+          "A. Phillips",
+          "J. M. Rex",
+          "M. H. Siegel",
+          "R. J. Smith",
+          "I. A. Steele",
+          "G. Stratta",
+          "N. R. Tanvir",
+          "D. Weights",
+          "S. A. Yost",
+          "F. Yuan",
+          "W. Zheng"
+        ],
+        "abstract": "No abstract",
+        "published": "2010-03-22T19:35:22Z",
+        "arxiv_id": "http://arxiv.org/abs/1003.4250v1",
+        "query": "GRB 090902B",
+        "relevance_score": 0.8,
+        "source": "arXiv"
+      },
+      {
+        "title": "Fermi-LAT Observations of GRB 090902B: A Distinct Spectral Component",
+        "authors": [
+          "Ackermann, M.",
+          "Ajello, M.",
+          "Asano, K."
+        ],
+        "abstract": "We present detailed analysis of GRB 090902B observed by Fermi LAT...",
+        "published": "2011-03-01",
+        "bibcode": "2011ApJ...729..114A",
+        "query": "GRB090902B",
+        "relevance_score": 0.8,
+        "source": "ADS"
+      },
+      {
+        "title": "Constraints on Lorentz Invariance Violation from Fermi-LAT Observations",
+        "authors": [
+          "Vasileiou, V.",
+          "Jacholkowska, A.",
+          "Piron, F."
+        ],
+        "abstract": "We present constraints on Lorentz invariance violation using Fermi LAT data...",
+        "published": "2015-01-01",
+        "bibcode": "2015PhRvD..91b2001V",
+        "query": "GRB090902B",
+        "relevance_score": 0.7,
+        "source": "ADS"
+      }
+    ],
+    "top_authors": [
+      [
+        "S. B. Pandey",
+        2
+      ],
+      [
+        "W. Zheng",
+        2
+      ],
+      [
+        "F. Yuan",
+        2
+      ],
+      [
+        "Ackermann, M.",
+        2
+      ],
+      [
+        "Ajello, M.",
+        2
+      ],
+      [
+        "F. Ryde",
+        1
+      ],
+      [
+        "M. Axelsson",
+        1
+      ],
+      [
+        "B. B. Zhang",
+        1
+      ],
+      [
+        "S. McGlynn",
+        1
+      ],
+      [
+        "A. Pe'er",
+        1
+      ]
+    ],
+    "analysis_date": "2025-10-21T10:26:31.358460"
+  },
+  "metadata": {
+    "grb_name": "GRB090902B",
+    "search_date": "2025-10-21T10:26:31.359718",
+    "total_papers": 8
+  }
+}

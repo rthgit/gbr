@@ -1,0 +1,101 @@
+{
+  "timestamp": "2025-10-21T00:00:19.238762",
+  "bootstrap_analysis": {
+    "mean_correlation": -0.019450578180973423,
+    "std_correlation": 0.013562688428161718,
+    "mean_significance": 1.2850532810271709,
+    "std_significance": 0.7638695439253375,
+    "percentile_95": 2.667002732332736,
+    "percentile_99": 3.209662113221338,
+    "n_bootstrap": 1000
+  },
+  "monte_carlo_null": {
+    "n_simulations": 1000,
+    "mean_null_significance": 0.8288514932399866,
+    "std_null_significance": 0.6181665699885768,
+    "max_null_significance": 3.4398673745616803,
+    "false_positive_rate": 0.001,
+    "p_value_observed": 0.001
+  },
+  "cross_validation": [
+    {
+      "grb_name": "GRB080916C",
+      "correlation": 0.02046746015108328,
+      "significance": 0.464126642034608,
+      "has_qg_expected": false,
+      "detection_correct": true
+    },
+    {
+      "grb_name": "GRB090902",
+      "correlation": 0.013511541007738841,
+      "significance": 0.8514120323649444,
+      "has_qg_expected": true,
+      "detection_correct": false
+    },
+    {
+      "grb_name": "GRB090510",
+      "correlation": -0.042252494570772604,
+      "significance": 2.058367417156362,
+      "has_qg_expected": false,
+      "detection_correct": false
+    },
+    {
+      "grb_name": "GRB130427A",
+      "correlation": 0.019391965847678,
+      "significance": 0.12718554011571653,
+      "has_qg_expected": false,
+      "detection_correct": true
+    }
+  ],
+  "advanced_lag_models": {
+    "neural_network": {
+      "parameters": [
+        496.55777849781856,
+        3.9315730723552917,
+        -0.11565618558708542,
+        -8.598702095713708
+      ],
+      "residual_correlation": -5.817062531489154e-09,
+      "residual_significance": 3.6652110373914674e-07,
+      "rms_residual": 487.30403794113965
+    },
+    "gaussian_process": {
+      "parameters": [
+        496.8010116266427,
+        9.999990788278883,
+        1.0416054506734311
+      ],
+      "residual_correlation": -0.01619012100942686,
+      "residual_significance": 1.0202398299300415,
+      "rms_residual": 487.5434405376195
+    },
+    "ensemble": {
+      "parameters": [
+        521.8551930600975,
+        -9.999990827209402,
+        -9.999998721495565,
+        -8.503398953849299
+      ],
+      "residual_correlation": -0.012766626966392318,
+      "residual_significance": 0.8044643761319075,
+      "rms_residual": 487.5355620245433
+    }
+  },
+  "look_elsewhere_correction": {
+    "total_tests": 240,
+    "p_observed": 0.0009001744811842904,
+    "p_corrected_bonferroni": 0.2160418754842297,
+    "p_corrected_fdr": 0.03941910395959663,
+    "sigma_observed": 3.32,
+    "sigma_corrected_bonferroni": 1.2371217788002824,
+    "sigma_corrected_fdr": 2.0597849501107057,
+    "discovery_threshold": 5.0
+  },
+  "summary": {
+    "bootstrap_robust": false,
+    "null_test_passed": true,
+    "cross_validation_accuracy": 0.5,
+    "corrected_significance": 1.2371217788002824,
+    "discovery_level": false
+  }
+}

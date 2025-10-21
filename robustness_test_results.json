@@ -1,0 +1,270 @@
+{
+  "timestamp": "2025-10-21T00:44:34.875441",
+  "cosmological_parameters": {
+    "H0_variation": [
+      {
+        "H0": 65.0,
+        "correlation": 0.004607777092521818,
+        "significance": 0.2903296062839807,
+        "E_QG": 6269626291987.969
+      },
+      {
+        "H0": 67.4,
+        "correlation": 0.004607777092521818,
+        "significance": 0.2903296062839807,
+        "E_QG": 6046375504142.698
+      },
+      {
+        "H0": 70.0,
+        "correlation": 0.004607777092521818,
+        "significance": 0.2903296062839807,
+        "E_QG": 5821795842560.256
+      },
+      {
+        "H0": 72.0,
+        "correlation": 0.004607777092521818,
+        "significance": 0.2903296062839807,
+        "E_QG": 5660079291378.027
+      },
+      {
+        "H0": 75.0,
+        "correlation": 0.004607777092521818,
+        "significance": 0.2903296062839807,
+        "E_QG": 5433676119722.905
+      }
+    ],
+    "Omega_M_variation": [
+      {
+        "Omega_M": 0.25,
+        "correlation": 0.004607777092521818,
+        "significance": 0.2903296062839807,
+        "E_QG": 5792686863347.454
+      },
+      {
+        "Omega_M": 0.3,
+        "correlation": 0.004607777092521818,
+        "significance": 0.2903296062839807,
+        "E_QG": 5821795842560.256
+      },
+      {
+        "Omega_M": 0.35,
+        "correlation": 0.004607777092521818,
+        "significance": 0.2903296062839807,
+        "E_QG": 5850904821773.056
+      },
+      {
+        "Omega_M": 0.4,
+        "correlation": 0.004607777092521818,
+        "significance": 0.2903296062839807,
+        "E_QG": 5880013800985.859
+      },
+      {
+        "Omega_M": 0.45,
+        "correlation": 0.004607777092521818,
+        "significance": 0.2903296062839807,
+        "E_QG": 5909122780198.659
+      }
+    ]
+  },
+  "intrinsic_lag_models": {
+    "power_law": {
+      "correlation": -0.06390881787454009,
+      "significance": 4.035011311130419,
+      "slope": -1076350.330110621,
+      "lag_parameters": [
+        0.1,
+        10.0
+      ]
+    },
+    "exponential": {
+      "correlation": 0.004570730047244721,
+      "significance": 0.2879952746799538,
+      "slope": 0.38622494668116625,
+      "lag_parameters": [
+        0.1,
+        10.0
+      ]
+    },
+    "logarithmic": {
+      "correlation": 0.004782331290765195,
+      "significance": 0.3013282697508493,
+      "slope": 0.4041045420939628,
+      "lag_parameters": [
+        0.1,
+        10.0
+      ]
+    },
+    "linear": {
+      "correlation": 0.005791178528447353,
+      "significance": 0.364896325083795,
+      "slope": 0.48935548051052025,
+      "lag_parameters": [
+        0.1,
+        10.0
+      ]
+    },
+    "quadratic": {
+      "correlation": 0.053007588122879486,
+      "significance": 3.3446008628463852,
+      "slope": 4.486331784266417,
+      "lag_parameters": [
+        0.1,
+        -0.01,
+        0.001
+      ]
+    }
+  },
+  "detection_thresholds": {
+    "threshold_1.0": {
+      "threshold": 1.0,
+      "significance": 0.2903296062839807,
+      "detection": false,
+      "correlation": 0.004607777092521818
+    },
+    "threshold_1.5": {
+      "threshold": 1.5,
+      "significance": 0.2903296062839807,
+      "detection": false,
+      "correlation": 0.004607777092521818
+    },
+    "threshold_2.0": {
+      "threshold": 2.0,
+      "significance": 0.2903296062839807,
+      "detection": false,
+      "correlation": 0.004607777092521818
+    },
+    "threshold_2.5": {
+      "threshold": 2.5,
+      "significance": 0.2903296062839807,
+      "detection": false,
+      "correlation": 0.004607777092521818
+    },
+    "threshold_3.0": {
+      "threshold": 3.0,
+      "significance": 0.2903296062839807,
+      "detection": false,
+      "correlation": 0.004607777092521818
+    },
+    "threshold_3.5": {
+      "threshold": 3.5,
+      "significance": 0.2903296062839807,
+      "detection": false,
+      "correlation": 0.004607777092521818
+    },
+    "threshold_4.0": {
+      "threshold": 4.0,
+      "significance": 0.2903296062839807,
+      "detection": false,
+      "correlation": 0.004607777092521818
+    },
+    "threshold_4.5": {
+      "threshold": 4.5,
+      "significance": 0.2903296062839807,
+      "detection": false,
+      "correlation": 0.004607777092521818
+    },
+    "threshold_5.0": {
+      "threshold": 5.0,
+      "significance": 0.2903296062839807,
+      "detection": false,
+      "correlation": 0.004607777092521818
+    }
+  },
+  "data_filters": {
+    "no_filter": {
+      "n_photons_original": 3972,
+      "n_photons_filtered": 3972,
+      "filter_efficiency": 1.0,
+      "correlation": 0.004607777092521818,
+      "significance": 0.2903296062839807,
+      "slope": 0.3893554805105354
+    },
+    "energy_min_0.1": {
+      "n_photons_original": 3972,
+      "n_photons_filtered": 3972,
+      "filter_efficiency": 1.0,
+      "correlation": 0.004607777092521818,
+      "significance": 0.2903296062839807,
+      "slope": 0.3893554805105354
+    },
+    "energy_min_1.0": {
+      "n_photons_original": 3972,
+      "n_photons_filtered": 2652,
+      "filter_efficiency": 0.6676737160120846,
+      "correlation": 0.009742315577249324,
+      "significance": 0.5015401913355347,
+      "slope": 0.711816602799429
+    },
+    "energy_max_10.0": {
+      "n_photons_original": 3972,
+      "n_photons_filtered": 3687,
+      "filter_efficiency": 0.9282477341389728,
+      "correlation": -0.026725763877530742,
+      "significance": 1.622945849531787,
+      "slope": -6.103152418839128
+    },
+    "energy_max_50.0": {
+      "n_photons_original": 3972,
+      "n_photons_filtered": 3962,
+      "filter_efficiency": 0.9974823766364552,
+      "correlation": 0.012852926630376649,
+      "significance": 0.8088826060311375,
+      "slope": 1.338859087129291
+    },
+    "time_min_0": {
+      "n_photons_original": 3972,
+      "n_photons_filtered": 3972,
+      "filter_efficiency": 1.0,
+      "correlation": 0.004607777092521818,
+      "significance": 0.2903296062839807,
+      "slope": 0.3893554805105354
+    },
+    "time_max_1000": {
+      "n_photons_original": 3972,
+      "n_photons_filtered": 3456,
+      "filter_efficiency": 0.8700906344410876,
+      "correlation": 0.0028845430719969733,
+      "significance": 0.1695274391299071,
+      "slope": 0.12974389411811324
+    },
+    "time_max_2000": {
+      "n_photons_original": 3972,
+      "n_photons_filtered": 3913,
+      "filter_efficiency": 0.9851460221550856,
+      "correlation": 0.0030377671795778507,
+      "significance": 0.18997672536290233,
+      "slope": 0.2218939070387393
+    },
+    "combined_strict": {
+      "n_photons_original": 3972,
+      "n_photons_filtered": 2069,
+      "filter_efficiency": 0.520896273917422,
+      "correlation": -0.02378175671916345,
+      "significance": 1.081526132345689,
+      "slope": -2.8991150101014833
+    },
+    "combined_loose": {
+      "n_photons_original": 3972,
+      "n_photons_filtered": 3903,
+      "filter_efficiency": 0.9826283987915407,
+      "correlation": 0.00962289680860667,
+      "significance": 0.6010545824967133,
+      "slope": 0.8703832042058397
+    }
+  },
+  "summary": {
+    "H0_significance_range": [
+      0.2903296062839807,
+      0.2903296062839807
+    ],
+    "lag_model_significance_range": [
+      0.2879952746799538,
+      4.035011311130419
+    ],
+    "detection_rate": 0.0,
+    "filter_significance_range": [
+      0.1695274391299071,
+      1.622945849531787
+    ]
+  }
+}

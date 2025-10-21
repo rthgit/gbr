@@ -1,0 +1,468 @@
+{
+  "timestamp": "2025-10-21T00:29:14.586659",
+  "methodology": {
+    "extreme_threshold": "Ultra-low threshold (0.5\u03c3)",
+    "simple_models": "Ultra-simplified lag models",
+    "pattern_recognition": "Extreme pattern analysis",
+    "aggressive_detection": "Maximum sensitivity approach"
+  },
+  "critical_validation": {
+    "detection_analysis": {
+      "simple_models": {
+        "ultra_linear": {
+          "correlation": -0.0006804022509095889,
+          "significance": 0.04287075140852293,
+          "rms": 302.69538411781025
+        },
+        "ultra_power_law": {
+          "correlation": -0.0013686291199054197,
+          "significance": 0.08623457677081373,
+          "rms": 302.6946676581921
+        },
+        "raw_correlation": {
+          "correlation": -0.0017566738250957671,
+          "significance": 0.1106845627397667,
+          "rms": 0
+        }
+      },
+      "pattern_results": {
+        "high_energy_significance": 0.35935630817828884,
+        "low_energy_significance": 0.34185536719696935,
+        "gradient_significance": 0.154096639422165,
+        "clustering_significance": 0.1575754625509572,
+        "pattern_score": 0.2532209443370951,
+        "patterns": [
+          0.35935630817828884,
+          0.34185536719696935,
+          0.154096639422165,
+          0.1575754625509572
+        ]
+      },
+      "detections": {
+        "0.5": {
+          "threshold": 0.5,
+          "model_detections": [],
+          "pattern_detection": false,
+          "overall_detection": false,
+          "detection_count": 0
+        },
+        "0.7": {
+          "threshold": 0.7,
+          "model_detections": [],
+          "pattern_detection": false,
+          "overall_detection": false,
+          "detection_count": 0
+        },
+        "1.0": {
+          "threshold": 1.0,
+          "model_detections": [],
+          "pattern_detection": false,
+          "overall_detection": false,
+          "detection_count": 0
+        },
+        "1.2": {
+          "threshold": 1.2,
+          "model_detections": [],
+          "pattern_detection": false,
+          "overall_detection": false,
+          "detection_count": 0
+        },
+        "1.5": {
+          "threshold": 1.5,
+          "model_detections": [],
+          "pattern_detection": false,
+          "overall_detection": false,
+          "detection_count": 0
+        }
+      }
+    },
+    "extreme_results": {
+      "0.5": false,
+      "0.7": false,
+      "1.0": false,
+      "1.2": false,
+      "1.5": false
+    },
+    "min_threshold_for_detection": null,
+    "grb090902_detected": false
+  },
+  "independent_validation": {
+    "results": [
+      {
+        "grb_name": "GRB190114C",
+        "n_photons": 2847,
+        "redshift": 1.1097036193998138,
+        "min_threshold": null,
+        "extreme_detection": false,
+        "pattern_score": 0.4996012332406271,
+        "has_qg_expected": true,
+        "detection_correct": false
+      },
+      {
+        "grb_name": "GRB160625B",
+        "n_photons": 1523,
+        "redshift": 1.6255850290309195,
+        "min_threshold": 0.5,
+        "extreme_detection": true,
+        "pattern_score": 0.21705719791722525,
+        "has_qg_expected": false,
+        "detection_correct": false
+      },
+      {
+        "grb_name": "GRB170817A",
+        "n_photons": 89,
+        "redshift": 1.3964416031147893,
+        "min_threshold": 0.5,
+        "extreme_detection": true,
+        "pattern_score": 0.30192931858077887,
+        "has_qg_expected": false,
+        "detection_correct": false
+      },
+      {
+        "grb_name": "GRB221009A",
+        "n_photons": 4567,
+        "redshift": 1.8330788539212817,
+        "min_threshold": 0.5,
+        "extreme_detection": true,
+        "pattern_score": 0.5629521547659737,
+        "has_qg_expected": true,
+        "detection_correct": true
+      }
+    ],
+    "accuracy": 0.25
+  },
+  "blind_analysis": {
+    "results": [
+      {
+        "grb_id": "EXTREME_000",
+        "n_photons": 4721,
+        "pattern_score": 0.33047263472245597,
+        "extreme_detection": true,
+        "has_qg_true": false,
+        "detection_correct": false
+      },
+      {
+        "grb_id": "EXTREME_001",
+        "n_photons": 5725,
+        "pattern_score": 1.12580209263465,
+        "extreme_detection": true,
+        "has_qg_true": true,
+        "detection_correct": true
+      },
+      {
+        "grb_id": "EXTREME_002",
+        "n_photons": 5633,
+        "pattern_score": 0.46934992144298116,
+        "extreme_detection": true,
+        "has_qg_true": false,
+        "detection_correct": false
+      },
+      {
+        "grb_id": "EXTREME_003",
+        "n_photons": 6804,
+        "pattern_score": 1.1647547866835697,
+        "extreme_detection": true,
+        "has_qg_true": false,
+        "detection_correct": false
+      },
+      {
+        "grb_id": "EXTREME_004",
+        "n_photons": 3978,
+        "pattern_score": 0.9042553652422867,
+        "extreme_detection": true,
+        "has_qg_true": true,
+        "detection_correct": true
+      },
+      {
+        "grb_id": "EXTREME_005",
+        "n_photons": 7148,
+        "pattern_score": 0.7278389150521065,
+        "extreme_detection": true,
+        "has_qg_true": true,
+        "detection_correct": true
+      },
+      {
+        "grb_id": "EXTREME_006",
+        "n_photons": 4202,
+        "pattern_score": 0.9324094365343916,
+        "extreme_detection": true,
+        "has_qg_true": false,
+        "detection_correct": false
+      },
+      {
+        "grb_id": "EXTREME_007",
+        "n_photons": 7514,
+        "pattern_score": 0.7113249820738783,
+        "extreme_detection": true,
+        "has_qg_true": true,
+        "detection_correct": true
+      },
+      {
+        "grb_id": "EXTREME_008",
+        "n_photons": 6186,
+        "pattern_score": 0.55170248547235,
+        "extreme_detection": true,
+        "has_qg_true": false,
+        "detection_correct": false
+      },
+      {
+        "grb_id": "EXTREME_009",
+        "n_photons": 7809,
+        "pattern_score": 0.6743981155207904,
+        "extreme_detection": true,
+        "has_qg_true": false,
+        "detection_correct": false
+      },
+      {
+        "grb_id": "EXTREME_010",
+        "n_photons": 3700,
+        "pattern_score": 0.4371189986460365,
+        "extreme_detection": false,
+        "has_qg_true": true,
+        "detection_correct": false
+      },
+      {
+        "grb_id": "EXTREME_011",
+        "n_photons": 4835,
+        "pattern_score": 0.729045203739312,
+        "extreme_detection": true,
+        "has_qg_true": false,
+        "detection_correct": false
+      },
+      {
+        "grb_id": "EXTREME_012",
+        "n_photons": 5328,
+        "pattern_score": 0.659975998995954,
+        "extreme_detection": true,
+        "has_qg_true": false,
+        "detection_correct": false
+      },
+      {
+        "grb_id": "EXTREME_013",
+        "n_photons": 3667,
+        "pattern_score": 0.9633421331866552,
+        "extreme_detection": true,
+        "has_qg_true": true,
+        "detection_correct": true
+      },
+      {
+        "grb_id": "EXTREME_014",
+        "n_photons": 6114,
+        "pattern_score": 0.6705654147977989,
+        "extreme_detection": true,
+        "has_qg_true": false,
+        "detection_correct": false
+      },
+      {
+        "grb_id": "EXTREME_015",
+        "n_photons": 7049,
+        "pattern_score": 0.6202936056498778,
+        "extreme_detection": true,
+        "has_qg_true": true,
+        "detection_correct": true
+      },
+      {
+        "grb_id": "EXTREME_016",
+        "n_photons": 3740,
+        "pattern_score": 0.34475180966531793,
+        "extreme_detection": false,
+        "has_qg_true": false,
+        "detection_correct": true
+      },
+      {
+        "grb_id": "EXTREME_017",
+        "n_photons": 6646,
+        "pattern_score": 0.6336842780937147,
+        "extreme_detection": true,
+        "has_qg_true": false,
+        "detection_correct": false
+      },
+      {
+        "grb_id": "EXTREME_018",
+        "n_photons": 5517,
+        "pattern_score": 0.5852436187777916,
+        "extreme_detection": true,
+        "has_qg_true": true,
+        "detection_correct": true
+      },
+      {
+        "grb_id": "EXTREME_019",
+        "n_photons": 5964,
+        "pattern_score": 0.6282225695576605,
+        "extreme_detection": true,
+        "has_qg_true": true,
+        "detection_correct": true
+      },
+      {
+        "grb_id": "EXTREME_020",
+        "n_photons": 7012,
+        "pattern_score": 1.8468675661971956,
+        "extreme_detection": true,
+        "has_qg_true": true,
+        "detection_correct": true
+      },
+      {
+        "grb_id": "EXTREME_021",
+        "n_photons": 5652,
+        "pattern_score": 1.7173256651937803,
+        "extreme_detection": true,
+        "has_qg_true": false,
+        "detection_correct": false
+      },
+      {
+        "grb_id": "EXTREME_022",
+        "n_photons": 5379,
+        "pattern_score": 1.2796483391208833,
+        "extreme_detection": true,
+        "has_qg_true": false,
+        "detection_correct": false
+      },
+      {
+        "grb_id": "EXTREME_023",
+        "n_photons": 2752,
+        "pattern_score": 1.5800165727823854,
+        "extreme_detection": true,
+        "has_qg_true": true,
+        "detection_correct": true
+      },
+      {
+        "grb_id": "EXTREME_024",
+        "n_photons": 4245,
+        "pattern_score": 0.13833364253130426,
+        "extreme_detection": true,
+        "has_qg_true": false,
+        "detection_correct": false
+      },
+      {
+        "grb_id": "EXTREME_025",
+        "n_photons": 3536,
+        "pattern_score": 0.4643853960758617,
+        "extreme_detection": true,
+        "has_qg_true": false,
+        "detection_correct": false
+      },
+      {
+        "grb_id": "EXTREME_026",
+        "n_photons": 6219,
+        "pattern_score": 0.4556324307517387,
+        "extreme_detection": true,
+        "has_qg_true": true,
+        "detection_correct": true
+      },
+      {
+        "grb_id": "EXTREME_027",
+        "n_photons": 4092,
+        "pattern_score": 0.49358147977547295,
+        "extreme_detection": true,
+        "has_qg_true": true,
+        "detection_correct": true
+      },
+      {
+        "grb_id": "EXTREME_028",
+        "n_photons": 7227,
+        "pattern_score": 0.29885463643829435,
+        "extreme_detection": true,
+        "has_qg_true": true,
+        "detection_correct": true
+      },
+      {
+        "grb_id": "EXTREME_029",
+        "n_photons": 4631,
+        "pattern_score": 0.17835897503718853,
+        "extreme_detection": true,
+        "has_qg_true": true,
+        "detection_correct": true
+      },
+      {
+        "grb_id": "EXTREME_030",
+        "n_photons": 6234,
+        "pattern_score": 0.17878642409444467,
+        "extreme_detection": false,
+        "has_qg_true": true,
+        "detection_correct": false
+      },
+      {
+        "grb_id": "EXTREME_031",
+        "n_photons": 6313,
+        "pattern_score": 0.7728983722985296,
+        "extreme_detection": true,
+        "has_qg_true": true,
+        "detection_correct": true
+      },
+      {
+        "grb_id": "EXTREME_032",
+        "n_photons": 3875,
+        "pattern_score": 0.5189613045123909,
+        "extreme_detection": true,
+        "has_qg_true": true,
+        "detection_correct": true
+      },
+      {
+        "grb_id": "EXTREME_033",
+        "n_photons": 5902,
+        "pattern_score": 0.5035133700553193,
+        "extreme_detection": true,
+        "has_qg_true": true,
+        "detection_correct": true
+      },
+      {
+        "grb_id": "EXTREME_034",
+        "n_photons": 6213,
+        "pattern_score": 0.7091871143729942,
+        "extreme_detection": true,
+        "has_qg_true": false,
+        "detection_correct": false
+      },
+      {
+        "grb_id": "EXTREME_035",
+        "n_photons": 4389,
+        "pattern_score": 0.9353571712258157,
+        "extreme_detection": true,
+        "has_qg_true": false,
+        "detection_correct": false
+      },
+      {
+        "grb_id": "EXTREME_036",
+        "n_photons": 4005,
+        "pattern_score": 0.5537163061392298,
+        "extreme_detection": true,
+        "has_qg_true": false,
+        "detection_correct": false
+      },
+      {
+        "grb_id": "EXTREME_037",
+        "n_photons": 2632,
+        "pattern_score": 0.8051423669239748,
+        "extreme_detection": true,
+        "has_qg_true": false,
+        "detection_correct": false
+      },
+      {
+        "grb_id": "EXTREME_038",
+        "n_photons": 5208,
+        "pattern_score": 0.5289736484344703,
+        "extreme_detection": true,
+        "has_qg_true": false,
+        "detection_correct": false
+      },
+      {
+        "grb_id": "EXTREME_039",
+        "n_photons": 2595,
+        "pattern_score": 0.8837782492007562,
+        "extreme_detection": true,
+        "has_qg_true": true,
+        "detection_correct": true
+      }
+    ],
+    "accuracy": 0.475,
+    "detection_rate": 0.925
+  },
+  "extreme_summary": {
+    "grb090902_detected": false,
+    "min_threshold": null,
+    "independent_accuracy": 0.25,
+    "blind_accuracy": 0.475,
+    "blind_detection_rate": 0.925,
+    "extreme_breakthrough": false
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "timestamp": "2025-10-21T03:58:22.034731",
+  "individual_results": [
+    {
+      "grb_name": "GRB090902B",
+      "n_photons": 3972,
+      "correlation_pearson": -0.08625484997406917,
+      "correlation_spearman": -0.11577131027784021,
+      "significance": 5.455070539634843,
+      "p_value_pearson": 5.193743768394654e-08,
+      "p_value_permutation": 0.0,
+      "eqg_estimate": 23848902.84715589,
+      "redshift": 1.822,
+      "energy_range": [
+        "0.100023225",
+        "80.820984"
+      ],
+      "time_range": [
+        273581819.68495375,
+        273584028.14469916
+      ]
+    },
+    {
+      "grb_name": "GRB080916C",
+      "n_photons": 516,
+      "correlation_pearson": -0.030010887457887603,
+      "correlation_spearman": -0.009015924146855194,
+      "significance": 0.680700485311984,
+      "p_value_pearson": 0.4963675424237288,
+      "p_value_permutation": 0.487,
+      "eqg_estimate": 71792741.53514606,
+      "redshift": 4.35,
+      "energy_range": [
+        "0.10030071",
+        "27.428804"
+      ],
+      "time_range": [
+        243216290.61209226,
+        243218728.083525
+      ]
+    },
+    {
+      "grb_name": "GRB090510",
+      "n_photons": 2371,
+      "correlation_pearson": -0.03521202047227103,
+      "correlation_spearman": 0.001270328780201299,
+      "significance": 1.7149161133731599,
+      "p_value_pearson": 0.08649138670288559,
+      "p_value_permutation": 0.084,
+      "eqg_estimate": 23935969.245088402,
+      "redshift": 0.903,
+      "energy_range": [
+        "0.10010432",
+        "58.6644"
+      ],
+      "time_range": [
+        263607285.85197046,
+        263609780.97536483
+      ]
+    },
+    {
+      "grb_name": "GRB130427A",
+      "n_photons": 548,
+      "correlation_pearson": 0.06444967631986488,
+      "correlation_spearman": -0.001532977240432419,
+      "significance": 1.509110073628784,
+      "p_value_pearson": 0.1318490858551855,
+      "p_value_permutation": 0.131,
+      "eqg_estimate": 147323.47232339432,
+      "redshift": 0.34,
+      "energy_range": [
+        "0.100150876",
+        "21.747568"
+      ],
+      "time_range": [
+        388798997.1855946,
+        388873309.9969566
+      ]
+    },
+    {
+      "grb_name": "GRB221009A",
+      "n_photons": 3,
+      "correlation_pearson": 0.716269039331846,
+      "correlation_spearman": 0.5,
+      "significance": 1.0264318766183824,
+      "p_value_pearson": 0.4916966855481577,
+      "p_value_permutation": 0.698,
+      "eqg_estimate": 454604.0428821082,
+      "redshift": 0.151,
+      "energy_range": [
+        "0.15398993",
+        "1.2174457"
+      ],
+      "time_range": [
+        569943753.1646711,
+        569943983.2634685
+      ]
+    }
+  ],
+  "hierarchical_results": {
+    "common_effect": -0.026906167596638587,
+    "individual_variations": "[-0.05395305 -0.00228244 -0.00710729  0.05282035  0.00379591]",
+    "bayes_factor": 18.985361940360686,
+    "log_likelihood_model1": -2.2191231501871815,
+    "log_likelihood_model2": -5.162791408232844
+  },
+  "summary": {
+    "total_grbs": 5,
+    "significant_grbs": 1,
+    "moderate_grbs": 0,
+    "bayes_factor": 18.985361940360686
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "data_acquisition": {
+    "fermi_gbm": {
+      "cost": 0,
+      "currency": "EUR",
+      "note": "Gratuito - NASA"
+    },
+    "swift_bat": {
+      "cost": 0,
+      "currency": "EUR",
+      "note": "Gratuito - NASA"
+    },
+    "magic_public": {
+      "cost": 0,
+      "currency": "EUR",
+      "note": "Gratuito - MPI"
+    },
+    "hess_public": {
+      "cost": 0,
+      "currency": "EUR",
+      "note": "Gratuito - MPI"
+    }
+  },
+  "storage": {
+    "local_storage": {
+      "cost": 0,
+      "currency": "EUR",
+      "note": "Disco locale"
+    },
+    "cloud_storage": {
+      "cost": 5,
+      "currency": "EUR/month",
+      "note": "Opzionale - AWS/Azure"
+    }
+  },
+  "processing": {
+    "local_cpu": {
+      "cost": 0,
+      "currency": "EUR",
+      "note": "Computer locale"
+    },
+    "cloud_compute": {
+      "cost": 10,
+      "currency": "EUR/month",
+      "note": "Opzionale - HPC"
+    }
+  },
+  "total_monthly": {
+    "minimum": 0,
+    "recommended": 15,
+    "premium": 50,
+    "currency": "EUR"
+  }
+}

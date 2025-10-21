@@ -1,0 +1,24 @@
+Subject: Data Access Request - GRB Observations for QG Research
+
+Dear HESS Collaboration,
+
+I am requesting access to GRB data for quantum gravity phenomenology research.
+
+Researcher: Christian Quintino De Luca
+Affiliation: RTH Italia (Independent Research)
+Email: info@rthitalia.com
+
+Research Focus:
+- Quantum gravity effects in gamma-ray bursts
+- Photon time-of-flight analysis
+- Lorentz invariance violation tests
+
+I would appreciate information about:
+- Available GRB datasets
+- Access procedures
+- Data formats
+
+Thank you for your consideration.
+
+Best regards,
+Christian Quintino De Luca

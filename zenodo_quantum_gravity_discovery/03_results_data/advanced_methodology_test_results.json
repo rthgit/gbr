@@ -1,0 +1,169 @@
+{
+  "timestamp": "2025-10-21T00:44:06.508902",
+  "methodologies_tested": [
+    "Multi-Pulse GRB",
+    "Temporal Evolution GRB",
+    "Complex Spectrum GRB",
+    "Instrumental Effects GRB"
+  ],
+  "results": {
+    "Multi-Pulse GRB": {
+      "with_qg": {
+        "method": "Multi-Pulse GRB_with_QG",
+        "n_photons": 4775,
+        "energy_range": [
+          0.1,
+          50.0
+        ],
+        "time_range": [
+          -0.09437626530848658,
+          2809.190396444529
+        ],
+        "direct_correlation": 0.10606329887400073,
+        "direct_significance": 7.369151295685055,
+        "linear_slope": 21.188553315401908,
+        "quadratic_significance": 9.048161753844045e-15,
+        "bin_average_correlation": -0.06621484122988261,
+        "n_energy_bins": 10
+      },
+      "without_qg": {
+        "method": "Multi-Pulse GRB_without_QG",
+        "n_photons": 4775,
+        "energy_range": [
+          0.1,
+          50.0
+        ],
+        "time_range": [
+          -0.09482601608583646,
+          2809.1900886741378
+        ],
+        "direct_correlation": 0.10606275553753067,
+        "direct_significance": 7.369113115818032,
+        "linear_slope": 21.188442829127833,
+        "quadratic_significance": 5.200271298740127e-15,
+        "bin_average_correlation": -0.06621500998402136,
+        "n_energy_bins": 10
+      }
+    },
+    "Temporal Evolution GRB": {
+      "with_qg": {
+        "method": "Temporal Evolution GRB_with_QG",
+        "n_photons": 5000,
+        "energy_range": [
+          0.1,
+          27.308259575191922
+        ],
+        "time_range": [
+          0.33310751785542636,
+          4793.876549121828
+        ],
+        "direct_correlation": -0.13626238325392898,
+        "direct_significance": 9.723975921958019,
+        "linear_slope": -36.02744179838352,
+        "quadratic_significance": 2.5637307495434405e-14,
+        "bin_average_correlation": -0.09009587293520145,
+        "n_energy_bins": 10
+      },
+      "without_qg": {
+        "method": "Temporal Evolution GRB_without_QG",
+        "n_photons": 5000,
+        "energy_range": [
+          0.1,
+          27.308259575191922
+        ],
+        "time_range": [
+          0.3330485114472231,
+          4793.87610944262
+        ],
+        "direct_correlation": -0.13626276958478523,
+        "direct_significance": 9.724004012936204,
+        "linear_slope": -36.027545265046356,
+        "quadratic_significance": 4.60156809112349e-15,
+        "bin_average_correlation": -0.09009604847981609,
+        "n_energy_bins": 10
+      }
+    },
+    "Complex Spectrum GRB": {
+      "with_qg": {
+        "method": "Complex Spectrum GRB_with_QG",
+        "n_photons": 5000,
+        "energy_range": [
+          0.1,
+          84.42263428087037
+        ],
+        "time_range": [
+          0.13664672395067942,
+          3606.401376177652
+        ],
+        "direct_correlation": -0.0031055387543180804,
+        "direct_significance": 0.21955188662104375,
+        "linear_slope": -0.2521866740188618,
+        "quadratic_significance": 6.827316262519063e-15,
+        "bin_average_correlation": 0.01816665074539528,
+        "n_energy_bins": 10
+      },
+      "without_qg": {
+        "method": "Complex Spectrum GRB_without_QG",
+        "n_photons": 5000,
+        "energy_range": [
+          0.1,
+          84.42263428087037
+        ],
+        "time_range": [
+          0.13619589281030253,
+          3606.4004446659324
+        ],
+        "direct_correlation": -0.0031068326106752377,
+        "direct_significance": 0.2196433591055643,
+        "linear_slope": -0.25229173351506146,
+        "quadratic_significance": 1.9428937418965798e-14,
+        "bin_average_correlation": 0.018165986036353398,
+        "n_energy_bins": 10
+      }
+    },
+    "Instrumental Effects GRB": {
+      "with_qg": {
+        "method": "Instrumental Effects GRB_with_QG",
+        "n_photons": 5000,
+        "energy_range": [
+          0.09532735215597805,
+          81.41776442212496
+        ],
+        "time_range": [
+          0.02410158478146688,
+          4713.6686702075385
+        ],
+        "direct_correlation": 0.006682273067384372,
+        "direct_significance": 0.4724240965455267,
+        "linear_slope": 0.6047555212096695,
+        "quadratic_significance": 2.1545429929944844e-15,
+        "bin_average_correlation": 0.051781290771658856,
+        "n_energy_bins": 10
+      },
+      "without_qg": {
+        "method": "Instrumental Effects GRB_without_QG",
+        "n_photons": 5000,
+        "energy_range": [
+          0.09532735215597805,
+          81.41776442212496
+        ],
+        "time_range": [
+          0.023124080723540993,
+          4713.668013793387
+        ],
+        "direct_correlation": 0.006681107555350328,
+        "direct_significance": 0.4723416933654503,
+        "linear_slope": 0.6046500156238866,
+        "quadratic_significance": 6.726157552285629e-15,
+        "bin_average_correlation": 0.05178076767279905,
+        "n_energy_bins": 10
+      }
+    }
+  },
+  "summary": {
+    "total_methodologies": 4,
+    "successful_tests": 4,
+    "avg_significance_with_qg": 4.446275800202411,
+    "avg_significance_without_qg": 4.446275545306313
+  }
+}

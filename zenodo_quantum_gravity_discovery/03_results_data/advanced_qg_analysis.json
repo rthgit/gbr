@@ -1,0 +1,355 @@
+{
+  "timestamp": "2025-10-21T01:44:38.575654",
+  "grb_name": "GRB090902",
+  "filename": "L251020161615F357373F52_EV00.fits",
+  "n_events": 3972,
+  "qg_models": {
+    "linear_standard": {
+      "parameters": [
+        273583417.8097541,
+        -21.650697214891974
+      ],
+      "alpha": -21.650697214891974,
+      "E_QG_GeV": 104696310.47979143,
+      "model_type": "Linear QG Standard"
+    },
+    "quadratic": {
+      "parameters": [
+        273583436.22519344,
+        -67.95353813390723,
+        0.8543213007796291
+      ],
+      "alpha": -67.95353813390723,
+      "beta": 0.8543213007796291,
+      "E_QG_GeV": 1.6288872147493876,
+      "model_type": "Quadratic QG"
+    },
+    "temporal": {
+      "parameters": [
+        273583455.068753,
+        -136.04317989244956,
+        30.784803505320884
+      ],
+      "alpha": -136.04317989244956,
+      "gamma": 30.784803505320884,
+      "E_QG_GeV": 73632047.62123942,
+      "model_type": "Temporal QG"
+    },
+    "nonlinear": {
+      "parameters": [
+        273583445.39015704,
+        -94.68624998924241,
+        2.947147193008433,
+        -0.02226203645027855
+      ],
+      "alpha": -94.68624998924241,
+      "beta": 2.947147193008433,
+      "gamma": -0.02226203645027855,
+      "E_QG_GeV": 0.0046695976107413145,
+      "model_type": "Non-linear QG"
+    },
+    "break": {
+      "parameters": [
+        273583417.8097541,
+        -21.650697214891974,
+        0.0,
+        1.0
+      ],
+      "alpha": -21.650697214891974,
+      "beta": 0.0,
+      "E_break": 1.0,
+      "E_QG_GeV": Infinity,
+      "model_type": "Break QG"
+    },
+    "no_qg": {
+      "parameters": [
+        273583407.9302084
+      ],
+      "t0": 273583407.9302084,
+      "model_type": "No QG (Control)"
+    }
+  },
+  "model_comparison": {
+    "linear_standard": {
+      "model_type": "Linear QG Standard",
+      "chi_squared": 186471.66846158152,
+      "r_squared": 0.0075124272237738765,
+      "aic": 48208.329410514234,
+      "bic": 48220.903460564565,
+      "n_parameters": 2,
+      "rms_residuals": 431.82365435624473
+    },
+    "quadratic": {
+      "model_type": "Quadratic QG",
+      "chi_squared": 184196.22429816207,
+      "r_squared": 0.019623382595019945,
+      "aic": 48161.56242568621,
+      "bic": 48180.4235007617,
+      "n_parameters": 3,
+      "rms_residuals": 429.18087596975016
+    },
+    "temporal": {
+      "model_type": "Temporal QG",
+      "chi_squared": 184107.44057303245,
+      "r_squared": 0.020095930218918534,
+      "aic": 48159.6474354394,
+      "bic": 48178.5085105149,
+      "n_parameters": 3,
+      "rms_residuals": 429.0774295777307
+    },
+    "nonlinear": {
+      "model_type": "Non-linear QG",
+      "chi_squared": 184294.65191397702,
+      "r_squared": 0.019099505770619363,
+      "aic": 48165.684347961906,
+      "bic": 48190.83244806257,
+      "n_parameters": 4,
+      "rms_residuals": 429.2955298089849
+    },
+    "break": {
+      "model_type": "Break QG",
+      "chi_squared": 186471.66846158152,
+      "r_squared": 0.0075124272237738765,
+      "aic": 48212.329410514234,
+      "bic": 48237.477510614895,
+      "n_parameters": 4,
+      "rms_residuals": 431.82365435624473
+    },
+    "no_qg": {
+      "model_type": "No QG (Control)",
+      "chi_squared": 188136.8983174301,
+      "r_squared": -0.0013506882906677564,
+      "aic": 48241.6427329594,
+      "bic": 48247.929757984566,
+      "n_parameters": 1,
+      "rms_residuals": 433.74750525787476
+    }
+  },
+  "energy_analysis": {
+    "energy_bins": [
+      {
+        "bin": 0,
+        "energy_min": 0.10002322494983673,
+        "energy_max": 4.136071258038283,
+        "energy_center": 2.1180472414940597,
+        "n_photons": 3937,
+        "correlation": -0.11377567040000894,
+        "significance": 7.183747745129259
+      },
+      {
+        "bin": 1,
+        "energy_min": 4.136071258038283,
+        "energy_max": 8.172119291126728,
+        "energy_center": 6.154095274582506,
+        "n_photons": 22,
+        "correlation": 0.11892229361178344,
+        "significance": 0.5356377841839811
+      }
+    ],
+    "energy_thresholds": [
+      {
+        "threshold_gev": 0.1,
+        "n_photons": 3972,
+        "correlation": -0.08625484997406917,
+        "significance": 5.455070539634843
+      },
+      {
+        "threshold_gev": 0.5,
+        "n_photons": 750,
+        "correlation": -0.13422547243749794,
+        "significance": 3.704534467943456
+      },
+      {
+        "threshold_gev": 1.0,
+        "n_photons": 259,
+        "correlation": -0.1137950830042516,
+        "significance": 1.8362014786765328
+      },
+      {
+        "threshold_gev": 2.0,
+        "n_photons": 90,
+        "correlation": -0.07439031579913102,
+        "significance": 0.6997819738410654
+      }
+    ],
+    "energy_ranges": [
+      {
+        "energy_min": 0.1,
+        "energy_max": 1.0,
+        "n_photons": 3713,
+        "correlation": -0.038425529793906676,
+        "significance": 2.3425356056220483
+      },
+      {
+        "energy_min": 1.0,
+        "energy_max": 5.0,
+        "n_photons": 232,
+        "correlation": -0.10005131903067034,
+        "significance": 1.5250054337402306
+      }
+    ]
+  },
+  "theoretical_comparison": {
+    "linear_standard": {
+      "planck_energy": {
+        "E_QG_GeV": 104696310.47979143,
+        "E_theory_GeV": 1.22e+19,
+        "ratio": 8.581664793425527e-12,
+        "description": "Planck Energy",
+        "theory": "Quantum Gravity Scale"
+      },
+      "string_theory": {
+        "E_QG_GeV": 104696310.47979143,
+        "E_theory_GeV": 1e+17,
+        "ratio": 1.0469631047979143e-09,
+        "description": "String Theory Scale",
+        "theory": "String Theory"
+      },
+      "loop_quantum_gravity": {
+        "E_QG_GeV": 104696310.47979143,
+        "E_theory_GeV": 1e+18,
+        "ratio": 1.0469631047979143e-10,
+        "description": "Loop Quantum Gravity Scale",
+        "theory": "Loop Quantum Gravity"
+      },
+      "extra_dimensions": {
+        "E_QG_GeV": 104696310.47979143,
+        "E_theory_GeV": 1e+16,
+        "ratio": 1.0469631047979143e-08,
+        "description": "Extra Dimensions Scale",
+        "theory": "Extra Dimensions"
+      }
+    },
+    "quadratic": {
+      "planck_energy": {
+        "E_QG_GeV": 1.6288872147493876,
+        "E_theory_GeV": 1.22e+19,
+        "ratio": 1.3351534547126127e-19,
+        "description": "Planck Energy",
+        "theory": "Quantum Gravity Scale"
+      },
+      "string_theory": {
+        "E_QG_GeV": 1.6288872147493876,
+        "E_theory_GeV": 1e+17,
+        "ratio": 1.6288872147493876e-17,
+        "description": "String Theory Scale",
+        "theory": "String Theory"
+      },
+      "loop_quantum_gravity": {
+        "E_QG_GeV": 1.6288872147493876,
+        "E_theory_GeV": 1e+18,
+        "ratio": 1.6288872147493875e-18,
+        "description": "Loop Quantum Gravity Scale",
+        "theory": "Loop Quantum Gravity"
+      },
+      "extra_dimensions": {
+        "E_QG_GeV": 1.6288872147493876,
+        "E_theory_GeV": 1e+16,
+        "ratio": 1.6288872147493876e-16,
+        "description": "Extra Dimensions Scale",
+        "theory": "Extra Dimensions"
+      }
+    },
+    "temporal": {
+      "planck_energy": {
+        "E_QG_GeV": 73632047.62123942,
+        "E_theory_GeV": 1.22e+19,
+        "ratio": 6.0354137394458545e-12,
+        "description": "Planck Energy",
+        "theory": "Quantum Gravity Scale"
+      },
+      "string_theory": {
+        "E_QG_GeV": 73632047.62123942,
+        "E_theory_GeV": 1e+17,
+        "ratio": 7.363204762123942e-10,
+        "description": "String Theory Scale",
+        "theory": "String Theory"
+      },
+      "loop_quantum_gravity": {
+        "E_QG_GeV": 73632047.62123942,
+        "E_theory_GeV": 1e+18,
+        "ratio": 7.363204762123943e-11,
+        "description": "Loop Quantum Gravity Scale",
+        "theory": "Loop Quantum Gravity"
+      },
+      "extra_dimensions": {
+        "E_QG_GeV": 73632047.62123942,
+        "E_theory_GeV": 1e+16,
+        "ratio": 7.363204762123943e-09,
+        "description": "Extra Dimensions Scale",
+        "theory": "Extra Dimensions"
+      }
+    },
+    "nonlinear": {
+      "planck_energy": {
+        "E_QG_GeV": 0.0046695976107413145,
+        "E_theory_GeV": 1.22e+19,
+        "ratio": 3.8275390251977987e-22,
+        "description": "Planck Energy",
+        "theory": "Quantum Gravity Scale"
+      },
+      "string_theory": {
+        "E_QG_GeV": 0.0046695976107413145,
+        "E_theory_GeV": 1e+17,
+        "ratio": 4.669597610741314e-20,
+        "description": "String Theory Scale",
+        "theory": "String Theory"
+      },
+      "loop_quantum_gravity": {
+        "E_QG_GeV": 0.0046695976107413145,
+        "E_theory_GeV": 1e+18,
+        "ratio": 4.669597610741314e-21,
+        "description": "Loop Quantum Gravity Scale",
+        "theory": "Loop Quantum Gravity"
+      },
+      "extra_dimensions": {
+        "E_QG_GeV": 0.0046695976107413145,
+        "E_theory_GeV": 1e+16,
+        "ratio": 4.669597610741315e-19,
+        "description": "Extra Dimensions Scale",
+        "theory": "Extra Dimensions"
+      }
+    },
+    "break": {
+      "planck_energy": {
+        "E_QG_GeV": Infinity,
+        "E_theory_GeV": 1.22e+19,
+        "ratio": Infinity,
+        "description": "Planck Energy",
+        "theory": "Quantum Gravity Scale"
+      },
+      "string_theory": {
+        "E_QG_GeV": Infinity,
+        "E_theory_GeV": 1e+17,
+        "ratio": Infinity,
+        "description": "String Theory Scale",
+        "theory": "String Theory"
+      },
+      "loop_quantum_gravity": {
+        "E_QG_GeV": Infinity,
+        "E_theory_GeV": 1e+18,
+        "ratio": Infinity,
+        "description": "Loop Quantum Gravity Scale",
+        "theory": "Loop Quantum Gravity"
+      },
+      "extra_dimensions": {
+        "E_QG_GeV": Infinity,
+        "E_theory_GeV": 1e+16,
+        "ratio": Infinity,
+        "description": "Extra Dimensions Scale",
+        "theory": "Extra Dimensions"
+      }
+    }
+  },
+  "summary": {
+    "anomaly_detected": true,
+    "significance": "5.46\u03c3",
+    "analysis_status": "Advanced QG analysis completed",
+    "key_findings": [
+      "Multiple QG models analyzed",
+      "Model comparison completed",
+      "Energy analysis completed",
+      "Theoretical comparison completed"
+    ]
+  }
+}

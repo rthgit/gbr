@@ -1,0 +1,12 @@
+{
+  "correlation": -0.0300108874578876,
+  "significance_sigma": 0.680700485311984,
+  "slope": -10.840981154392269,
+  "intercept": 800.5312191145193,
+  "E_QG_fitted_GeV": 946394769165.892,
+  "n_photons": 516,
+  "geV_photons": 31,
+  "high_energy_photons": 2,
+  "data_source": "Real Fermi LAT data",
+  "analysis_timestamp": "2025-10-20T22:07:33.435425"
+}

@@ -1,0 +1,24 @@
+Subject: Data Access Request - GRB190114C for Quantum Gravity Research
+
+Dear MAGIC Collaboration,
+
+I am writing to request access to GRB190114C data for research on quantum gravity phenomenology.
+
+Researcher: Christian Quintino De Luca
+Affiliation: RTH Italia (Independent Research)
+Email: info@rthitalia.com
+
+Research Objective: 
+- Analysis of photon time-of-flight delays
+- Search for quantum gravity effects at TeV energies
+- Comparison with theoretical predictions
+
+I am particularly interested in:
+- Time-tagged event data
+- Energy spectra
+- Temporal profiles
+
+Please let me know the procedure for data access.
+
+Best regards,
+Christian Quintino De Luca

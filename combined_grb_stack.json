@@ -1,0 +1,53 @@
+{
+  "timestamp": "2025-10-21T00:22:19",
+  "n_grbs": 4,
+  "n_total_events": 7407,
+  "stack_full": {
+    "pearson_sig": 0.3227876108681899,
+    "spearman_sig": 2.2404072461135973,
+    "kendall_sig": 2.277443027155952
+  },
+  "energy_thresholds": {
+    "0.1": {
+      "n_photons": 7407,
+      "sig_pearson": 0.3227876108681899,
+      "sig_spearman": 2.2404072461135973
+    },
+    "0.5": {
+      "n_photons": 1469,
+      "sig_pearson": 0.6645478143241715,
+      "sig_spearman": 2.0742833400349365
+    },
+    "1.0": {
+      "n_photons": 541,
+      "sig_pearson": 0.30071148059516173,
+      "sig_spearman": 2.058253630031522
+    },
+    "2.0": {
+      "n_photons": 187,
+      "sig_pearson": 0.12559068086349123,
+      "sig_spearman": 0.19920680757845746
+    },
+    "5.0": {
+      "n_photons": 52,
+      "sig_pearson": 0.44655433969051,
+      "sig_spearman": 0.36693530920134254
+    }
+  },
+  "high_energy_stack": {
+    "n_events": 541,
+    "significance": 0.30071148059516173
+  },
+  "bootstrap": {
+    "mean": 0.8037991793640928,
+    "std": 0.741526261552702,
+    "ci_95": [
+      0.04192799061474608,
+      2.8306628854140756
+    ]
+  },
+  "permutation": {
+    "p_value": 0.725,
+    "null_mean": 0.6820998359479523
+  }
+}
