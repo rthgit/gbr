@@ -1,0 +1,102 @@
+{
+  "total_sources_analyzed": 100,
+  "sources_with_qg_effect": 64,
+  "qg_effect_fraction": 0.64,
+  "mean_infinite_quantum_signature": 3.0839870736701497e+45,
+  "max_infinite_quantum_signature": 3.268741665997449e+45,
+  "qg_mean_infinite_signature": 3.083533217179668e+45,
+  "no_qg_mean_infinite_signature": 3.0847939296532284e+45,
+  "infinite_signature_ratio": 0.9995913138762879,
+  "top_infinite_sources": [
+    {
+      "source_id": "Quantum_Source_14",
+      "infinite_quantum_signature": 3.268741665997449e+45,
+      "has_qg_effect": true,
+      "quantum_foam_strength": 1.3074966663989797e+46,
+      "vacuum_fluctuations": 1.34697384282746,
+      "field_fluctuations": 0.34474119874298315,
+      "quantum_discord": 0.38453154579133925
+    },
+    {
+      "source_id": "Quantum_Source_49",
+      "infinite_quantum_signature": 3.2379314513300015e+45,
+      "has_qg_effect": false,
+      "quantum_foam_strength": 1.2951725805320006e+46,
+      "vacuum_fluctuations": 1.333328124813155,
+      "field_fluctuations": 0.3478460526452934,
+      "quantum_discord": 0.38518641611078386
+    },
+    {
+      "source_id": "Quantum_Source_5",
+      "infinite_quantum_signature": 3.215400282244411e+45,
+      "has_qg_effect": true,
+      "quantum_foam_strength": 1.2861601128977644e+46,
+      "vacuum_fluctuations": 1.2997375928339328,
+      "field_fluctuations": 0.34033311608782774,
+      "quantum_discord": 0.3806719515022208
+    },
+    {
+      "source_id": "Quantum_Source_73",
+      "infinite_quantum_signature": 3.181375215783639e+45,
+      "has_qg_effect": false,
+      "quantum_foam_strength": 1.2725500863134555e+46,
+      "vacuum_fluctuations": 1.3115071676979604,
+      "field_fluctuations": 0.34519605639017564,
+      "quantum_discord": 0.3866969303483866
+    },
+    {
+      "source_id": "Quantum_Source_97",
+      "infinite_quantum_signature": 3.1732418100931344e+45,
+      "has_qg_effect": true,
+      "quantum_foam_strength": 1.2692967240372537e+46,
+      "vacuum_fluctuations": 1.3927253922563596,
+      "field_fluctuations": 0.3479623113194622,
+      "quantum_discord": 0.3959751148404054
+    },
+    {
+      "source_id": "Quantum_Source_72",
+      "infinite_quantum_signature": 3.167464234648144e+45,
+      "has_qg_effect": false,
+      "quantum_foam_strength": 1.2669856938592575e+46,
+      "vacuum_fluctuations": 1.2835505513182093,
+      "field_fluctuations": 0.33728519130048734,
+      "quantum_discord": 0.3752060179744624
+    },
+    {
+      "source_id": "Quantum_Source_16",
+      "infinite_quantum_signature": 3.1609471181873284e+45,
+      "has_qg_effect": true,
+      "quantum_foam_strength": 1.2643788472749314e+46,
+      "vacuum_fluctuations": 1.2074933602961184,
+      "field_fluctuations": 0.3181430742057257,
+      "quantum_discord": 0.33648880997874087
+    },
+    {
+      "source_id": "Quantum_Source_42",
+      "infinite_quantum_signature": 3.159827827569315e+45,
+      "has_qg_effect": false,
+      "quantum_foam_strength": 1.263931131027726e+46,
+      "vacuum_fluctuations": 1.3524492648919249,
+      "field_fluctuations": 0.3712612862388547,
+      "quantum_discord": 0.39696294868029475
+    },
+    {
+      "source_id": "Quantum_Source_63",
+      "infinite_quantum_signature": 3.149660889465567e+45,
+      "has_qg_effect": true,
+      "quantum_foam_strength": 1.2598643557862269e+46,
+      "vacuum_fluctuations": 1.3169328117776817,
+      "field_fluctuations": 0.34745410991832965,
+      "quantum_discord": 0.38488162139565235
+    },
+    {
+      "source_id": "Quantum_Source_45",
+      "infinite_quantum_signature": 3.146627740496713e+45,
+      "has_qg_effect": true,
+      "quantum_foam_strength": 1.2586510961986852e+46,
+      "vacuum_fluctuations": 1.3576203033155247,
+      "field_fluctuations": 0.3558288965578346,
+      "quantum_discord": 0.38854629846974303
+    }
+  ]
+}

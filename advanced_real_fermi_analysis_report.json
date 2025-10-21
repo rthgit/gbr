@@ -1,0 +1,25 @@
+{
+  "analysis_timestamp": "2025-10-21T23:30:46.419330",
+  "total_sources_analyzed": 9,
+  "sources_with_qg_effect": 0,
+  "qg_effect_fraction": 0.0,
+  "global_significance": {
+    "mean": 0.8243635143718684,
+    "max": 1.2024413642364213,
+    "above_3sigma": 0,
+    "above_5sigma": 0,
+    "above_10sigma": 0
+  },
+  "max_significance": {
+    "mean": 1.9595679174059686,
+    "max": 2.9208205869752972,
+    "above_3sigma": 0,
+    "above_5sigma": 0,
+    "above_10sigma": 0
+  },
+  "improvement_statistics": {
+    "mean_improvement": 1.1352044030341002,
+    "max_improvement": 2.3768638759658822,
+    "sources_improved": 9
+  }
+}

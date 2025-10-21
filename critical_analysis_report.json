@@ -1,0 +1,12 @@
+{
+  "analysis_timestamp": "2025-10-21T23:00:15.974378",
+  "verification_report": {
+    "super_complete_fermi_qg_analysis_results.csv": {
+      "shape": [
+        2423,
+        16
+      ],
+      "infinite_cols": [
+        [
+          "E_QG_Estimate",
+          

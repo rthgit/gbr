@@ -1,0 +1,66 @@
+{
+  "analysis_timestamp": "2025-10-22T00:03:47.030701",
+  "total_grbs_analyzed": 6,
+  "results": [
+    {
+      "grb_name": "GRB080916C",
+      "n_photons": 29,
+      "global_significance": 0.5841324052726975,
+      "max_significance": 2.1411620489084204,
+      "best_technique": "phase_late",
+      "improvement": 1.557029643635723,
+      "global_correlation": 0.11241633380885849,
+      "global_spearman": 0.10525916568597238
+    },
+    {
+      "grb_name": "GRB090510",
+      "n_photons": 26,
+      "global_significance": 1.003081083956112,
+      "max_significance": 1.2877730972903645,
+      "best_technique": "phase_early",
+      "improvement": 0.28469201333425254,
+      "global_correlation": 0.2047530688608607,
+      "global_spearman": 0.258787496097884
+    },
+    {
+      "grb_name": "GRB090902B",
+      "n_photons": 590,
+      "global_significance": 0.5552274003135044,
+      "max_significance": 0.5552274003135044,
+      "best_technique": "percentile_high",
+      "improvement": 0.0,
+      "global_correlation": -0.022897192073746988,
+      "global_spearman": -0.1030491625676203
+    },
+    {
+      "grb_name": "GRB090926A",
+      "n_photons": 73,
+      "global_significance": 0.3185716997330577,
+      "max_significance": 0.3185716997330577,
+      "best_technique": "percentile_high",
+      "improvement": 0.0,
+      "global_correlation": 0.03780750500628326,
+      "global_spearman": -0.23896165587684204
+    },
+    {
+      "grb_name": "GRB130427A",
+      "n_photons": 149,
+      "global_significance": 0.7651725479444584,
+      "max_significance": 1.0842056135696048,
+      "best_technique": "phase_early",
+      "improvement": 0.31903306562514633,
+      "global_correlation": 0.06311036807603498,
+      "global_spearman": -0.00938921093932887
+    },
+    {
+      "grb_name": "GRB160625B",
+      "n_photons": 68,
+      "global_significance": 0.7797522347578919,
+      "max_significance": 1.7860834946282818,
+      "best_technique": "phase_early",
+      "improvement": 1.00633125987039,
+      "global_correlation": -0.09598086517081558,
+      "global_spearman": -0.13355939629210495
+    }
+  ]
+}

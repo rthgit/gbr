@@ -1,0 +1,9 @@
+QG-Analyzer 2.0 Analysis Log
+Analysis started: 2025-10-21 21:53:49.261952
+Analysis completed: 2025-10-21 22:00:44.780199
+Total GRBs analyzed: 100
+QG effect frequency: 59.0%
+Strong signals: 52
+Significant signals: 4
+Marginal signals: 2
+Total significant: 58

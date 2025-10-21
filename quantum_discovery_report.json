@@ -1,0 +1,92 @@
+{
+  "total_sources_analyzed": 100,
+  "sources_with_qg_effect": 64,
+  "qg_effect_fraction": 0.64,
+  "mean_quantum_signature": 8318.098151536811,
+  "max_quantum_signature": 22125.74281413104,
+  "qg_mean_quantum_signature": 8549.659447819033,
+  "no_qg_mean_quantum_signature": 7906.433624812863,
+  "quantum_signature_ratio": 1.0813547363488294,
+  "top_quantum_sources": [
+    {
+      "source_id": "Quantum_Source_19",
+      "quantum_signature_strength": 22125.74281413104,
+      "has_qg_effect": true,
+      "coherence_strength": 0.4690884357241233,
+      "entanglement_strength": 1.0,
+      "planck_signature": 0
+    },
+    {
+      "source_id": "Quantum_Source_66",
+      "quantum_signature_strength": 22099.095302425983,
+      "has_qg_effect": true,
+      "coherence_strength": 0.4774414129221649,
+      "entanglement_strength": 1.0,
+      "planck_signature": 0
+    },
+    {
+      "source_id": "Quantum_Source_83",
+      "quantum_signature_strength": 21942.88395950225,
+      "has_qg_effect": true,
+      "coherence_strength": 0.4814658219334578,
+      "entanglement_strength": 1.0,
+      "planck_signature": 0
+    },
+    {
+      "source_id": "Quantum_Source_79",
+      "quantum_signature_strength": 20733.493493388713,
+      "has_qg_effect": true,
+      "coherence_strength": 0.4839572692528243,
+      "entanglement_strength": 1.0,
+      "planck_signature": 0
+    },
+    {
+      "source_id": "Quantum_Source_27",
+      "quantum_signature_strength": 20692.343441669072,
+      "has_qg_effect": true,
+      "coherence_strength": 0.4771962849255741,
+      "entanglement_strength": 1.0,
+      "planck_signature": 0
+    },
+    {
+      "source_id": "Quantum_Source_74",
+      "quantum_signature_strength": 20639.82768136547,
+      "has_qg_effect": true,
+      "coherence_strength": 0.46800560158295335,
+      "entanglement_strength": 1.0,
+      "planck_signature": 0
+    },
+    {
+      "source_id": "Quantum_Source_96",
+      "quantum_signature_strength": 20446.419974298664,
+      "has_qg_effect": false,
+      "coherence_strength": 0.4792291390073154,
+      "entanglement_strength": 1.0,
+      "planck_signature": 0
+    },
+    {
+      "source_id": "Quantum_Source_34",
+      "quantum_signature_strength": 19812.987579932156,
+      "has_qg_effect": true,
+      "coherence_strength": 0.4803376264888567,
+      "entanglement_strength": 1.0,
+      "planck_signature": 0
+    },
+    {
+      "source_id": "Quantum_Source_37",
+      "quantum_signature_strength": 19760.761726019904,
+      "has_qg_effect": false,
+      "coherence_strength": 0.46634090692699615,
+      "entanglement_strength": 1.0,
+      "planck_signature": 0
+    },
+    {
+      "source_id": "Quantum_Source_85",
+      "quantum_signature_strength": 19691.234216276047,
+      "has_qg_effect": true,
+      "coherence_strength": 0.4749780933361025,
+      "entanglement_strength": 1.0,
+      "planck_signature": 0
+    }
+  ]
+}

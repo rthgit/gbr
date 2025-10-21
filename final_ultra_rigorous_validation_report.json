@@ -1,0 +1,32 @@
+{
+  "analysis_timestamp": "2025-10-21T22:52:41.115711",
+  "available_files": [
+    "super_complete_fermi_qg_analysis_results.csv",
+    "super_complete_qg_analysis_report.json",
+    "critical_validation_results.csv",
+    "critical_validation_report.json",
+    "fermi_catalog_all_sources.csv",
+    "fermi_unassociated_sources.csv",
+    "fermi_high_variability_sources.csv"
+  ],
+  "data_quality": {
+    "total_sources": 2423,
+    "columns": [
+      "Source_Index",
+      "N_Photons",
+      "Energy_Mean",
+      "Energy_Std",
+      "Energy_Range",
+      "Time_Mean",
+      "Time_Std",
+      "Time_Range",
+      "Pearson_r",
+      "Pearson_p",
+      "Spearman_r",
+      "Spearman_p",
+      "Has_QG_Effect",
+      "Significance_Sigma",
+      "E_QG_Estimate",
+      "Energy_Time_Ratio"
+    ],
+    "missing_values": 

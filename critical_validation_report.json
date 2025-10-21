@@ -1,0 +1,31 @@
+{
+  "analysis_timestamp": "2025-10-21T22:45:57.052908",
+  "validation_summary": {
+    "total_sources_analyzed": 100,
+    "sources_with_qg_effect": 64,
+    "qg_effect_fraction": 0.64,
+    "sources_rejected_fdr_05": 0,
+    "fdr_rejection_rate": 0.0
+  },
+  "significance_analysis": {
+    "mean_significance": 0.8703079934789183,
+    "median_significance": 0.7335204454939234,
+    "max_significance": 2.860794781777833,
+    "sources_above_3sigma": 0,
+    "sources_above_5sigma": 0
+  },
+  "empirical_pvalue_analysis": {
+    "mean_pvalue": 0.4736792641471705,
+    "median_pvalue": 0.41051789642071584,
+    "min_pvalue": 0.004799040191961607,
+    "sources_pvalue_lt_001": 0
+  },
+  "top_candidates": [],
+  "critical_conclusions": [
+    "FDR correction at alpha=0.05 rejects only 0/100 sources (0.0%)",
+    "Mean significance of 0.87 sigma is well below 3 sigma threshold",
+    "Only 0 sources exceed 3 sigma significance",
+    "Empirical p-values show 0 sources with p < 0.001",
+    "Results suggest most QG signals are statistical artifacts or noise"
+  ]
+}

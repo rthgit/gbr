@@ -1,0 +1,77 @@
+{
+  "analysis_date": "2025-10-22T00:45:25.626365",
+  "total_grbs_compared": 6,
+  "comparison_results": [
+    {
+      "grb_name": "GRB090902B",
+      "our_significance": 3.275494371737956,
+      "lit_significance": 5.46,
+      "our_photons": 11289,
+      "lit_photons": 3972,
+      "paper": "Abdo et al. (2009) ApJ 706, L138",
+      "notes": "Original QG detection paper"
+    },
+    {
+      "grb_name": "GRB130427A",
+      "our_significance": 3.2354757274089403,
+      "lit_significance": 4.2,
+      "our_photons": 706,
+      "lit_photons": 1037,
+      "paper": "Ackermann et al. (2013) Science 343, 42",
+      "notes": "Highest energy GRB detected"
+    },
+    {
+      "grb_name": "GRB160625B",
+      "our_significance": 2.406944409062156,
+      "lit_significance": null,
+      "our_photons": 4152,
+      "lit_photons": null,
+      "paper": "Ravasio et al. (2018) A&A 613, A16",
+      "notes": "Spectral lag transition detected"
+    },
+    {
+      "grb_name": "GRB090926A",
+      "our_significance": Infinity,
+      "lit_significance": null,
+      "our_photons": 24149,
+      "lit_photons": null,
+      "paper": "Abdo et al. (2011) ApJ 734, L27",
+      "notes": "Extra power-law component detected"
+    },
+    {
+      "grb_name": "GRB090510",
+      "our_significance": 6.4604374935696995,
+      "lit_significance": null,
+      "our_photons": 24139,
+      "lit_photons": null,
+      "paper": "Abdo et al. (2009) Nature 462, 331",
+      "notes": "Short GRB with high energy"
+    },
+    {
+      "grb_name": "GRB080916C",
+      "our_significance": 1.882888593091885,
+      "lit_significance": 3.8,
+      "our_photons": 3271,
+      "lit_photons": 210,
+      "paper": "Abdo et al. (2009) Science 323, 1688",
+      "notes": "Highest redshift GRB detected"
+    }
+  ],
+  "new_discoveries": [
+    {
+      "grb_name": "GRB090926A",
+      "significance": Infinity,
+      "notes": "Extra power-law component detected"
+    },
+    {
+      "grb_name": "GRB090510",
+      "significance": 6.4604374935696995,
+      "notes": "Short GRB with high energy"
+    }
+  ],
+  "summary": {
+    "grbs_with_agreement": 1,
+    "grbs_with_new_results": 3,
+    "new_discoveries_count": 2
+  }
+}

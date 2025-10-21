@@ -1,0 +1,22 @@
+{
+  "total_grbs_analyzed": 100,
+  "strong_signals": 52,
+  "significant_signals": 4,
+  "marginal_signals": 2,
+  "total_significant": 58,
+  "qg_frequency_percent": 59.0,
+  "sigma_statistics": {
+    "mean": Infinity,
+    "median": 6.084096076144833,
+    "max": Infinity,
+    "std": NaN
+  },
+  "eqg_statistics": {
+    "mean": 5.370788112698494e+22,
+    "median": 1.643004922038931e+18,
+    "min": 6.281467830922846e+16,
+    "max": 3.67651221088397e+24
+  },
+  "analysis_timestamp": "2025-10-21 22:00:44",
+  "analysis_duration": "0:06:55.517245"
+}

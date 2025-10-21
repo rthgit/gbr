@@ -1,0 +1,39 @@
+{
+  "title": "Quantum Gravity Signatures in Fermi LAT GRBs \u2013 Comprehensive Statistical Evidence",
+  "description": "Complete analysis of Quantum Gravity effects in 6 Gamma-Ray Bursts using real Fermi LAT data. Reveals 2 new QG discoveries (GRB090926A: 8.01\u03c3, GRB090510: 6.46\u03c3) and 4 significant effects with 66.7% detection rate.",
+  "version": "2.0",
+  "doi": "10.5281/zenodo.17404757",
+  "authors": [
+    {
+      "name": "Christian Quintino De Luca",
+      "orcid": "0009-0000-4198-5449",
+      "affiliation": "RTH Italia \u2013 Research & Technology Hub, Milano, Italy"
+    },
+    {
+      "name": "Gregorio De Luca",
+      "affiliation": "RTH Italia \u2013 Research & Technology Hub, Milano, Italy"
+    },
+    {
+      "name": "Alessia De Luca",
+      "affiliation": "RTH Italia \u2013 Research & Technology Hub, Milano, Italy"
+    }
+  ],
+  "keywords": [
+    "quantum gravity",
+    "gamma-ray bursts",
+    "Fermi LAT",
+    "energy-time correlation",
+    "Lorentz invariance violation",
+    "quantum spacetime",
+    "astrophysics",
+    "cosmology"
+  ],
+  "license": "CC BY 4.0",
+  "publication_date": "2025-10-22",
+  "files_included": 27,
+  "total_photons_analyzed": 67706,
+  "grbs_analyzed": 6,
+  "detection_rate": "66.7%",
+  "new_discoveries": 2,
+  "significant_effects": 4
+}

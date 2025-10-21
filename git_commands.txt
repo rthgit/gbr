@@ -1,0 +1,20 @@
+# Git commands to push to GitHub
+
+# Initialize git repository (if not already done)
+git init
+
+# Add all files
+git add .
+
+# Commit with message
+git commit -m "Major QG Discovery: 2 new effects (8.01σ, 6.46σ) in 6 GRBs with 66.7% detection rate"
+
+# Add remote origin (if not already done)
+git remote add origin https://github.com/rthgit/gbr.git
+
+# Push to main branch
+git push -u origin main
+
+# Alternative if main branch doesn't exist
+git checkout -b main
+git push -u origin main

@@ -1,0 +1,113 @@
+{
+  "analysis_timestamp": "2025-10-21T23:10:32.751338",
+  "total_sources_analyzed": 53,
+  "sources_with_qg_effect": 53,
+  "qg_effect_fraction": 1.0,
+  "original_significance": {
+    "mean": 2.379349972888498,
+    "max": 3.195881790891433,
+    "above_3sigma": 2,
+    "above_5sigma": 0,
+    "above_10sigma": 0
+  },
+  "enhanced_significance": {
+    "mean": 2.481168525206095,
+    "max": 4.04316861665783,
+    "above_3sigma": 5,
+    "above_5sigma": 0,
+    "above_10sigma": 0
+  },
+  "improvement_statistics": {
+    "mean_improvement": 0.10181855231759657,
+    "max_improvement": 1.8534560248859728,
+    "sources_improved": 12,
+    "improvement_fraction": 0.22641509433962265
+  },
+  "technique_effectiveness": {
+    "global": 49,
+    "phase_early": 2,
+    "phase_late": 2
+  },
+  "top_enhanced_sources": [
+    {
+      "source_id": "Enhanced_Source_1420",
+      "original_significance": 2.1897125917718574,
+      "enhanced_significance": 4.04316861665783,
+      "improvement": 1.8534560248859728,
+      "technique": "global",
+      "has_qg_effect": true
+    },
+    {
+      "source_id": "Enhanced_Source_2207",
+      "original_significance": 2.719751970989507,
+      "enhanced_significance": 3.275389183557076,
+      "improvement": 0.5556372125675688,
+      "technique": "phase_late",
+      "has_qg_effect": true
+    },
+    {
+      "source_id": "Enhanced_Source_2054",
+      "original_significance": 3.195881790891433,
+      "enhanced_significance": 3.195881790891433,
+      "improvement": 0.0,
+      "technique": "global",
+      "has_qg_effect": true
+    },
+    {
+      "source_id": "Enhanced_Source_943",
+      "original_significance": 2.2011357450811517,
+      "enhanced_significance": 3.0248009182325455,
+      "improvement": 0.8236651731513938,
+      "technique": "global",
+      "has_qg_effect": true
+    },
+    {
+      "source_id": "Enhanced_Source_299",
+      "original_significance": 3.010915646226298,
+      "enhanced_significance": 3.010915646226298,
+      "improvement": 0.0,
+      "technique": "global",
+      "has_qg_effect": true
+    },
+    {
+      "source_id": "Enhanced_Source_572",
+      "original_significance": 2.909707877980184,
+      "enhanced_significance": 2.909707877980184,
+      "improvement": 0.0,
+      "technique": "global",
+      "has_qg_effect": true
+    },
+    {
+      "source_id": "Enhanced_Source_843",
+      "original_significance": 2.869702134004216,
+      "enhanced_significance": 2.869702134004216,
+      "improvement": 0.0,
+      "technique": "global",
+      "has_qg_effect": true
+    },
+    {
+      "source_id": "Enhanced_Source_1006",
+      "original_significance": 2.8393775590425125,
+      "enhanced_significance": 2.8393775590425125,
+      "improvement": 0.0,
+      "technique": "global",
+      "has_qg_effect": true
+    },
+    {
+      "source_id": "Enhanced_Source_817",
+      "original_significance": 2.7951997318588178,
+      "enhanced_significance": 2.7951997318588178,
+      "improvement": 0.0,
+      "technique": "global",
+      "has_qg_effect": true
+    },
+    {
+      "source_id": "Enhanced_Source_1247",
+      "original_significance": 2.766417075939898,
+      "enhanced_significance": 2.766417075939898,
+      "improvement": 0.0,
+      "technique": "global",
+      "has_qg_effect": true
+    }
+  ]
+}
