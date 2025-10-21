@@ -1,0 +1,47 @@
+{
+  "analysis_date": "2025-10-21T15:23:10.179616",
+  "analysis_type": "QG_EFFECT_GRB201216C",
+  "grb_name": "GRB201216C",
+  "detailed_results": {
+    "grb_name": "GRB201216C",
+    "redshift": 1.1,
+    "n_photons": 1100,
+    "energy_range": [
+      0.10000641657617407,
+      57.35884450611363
+    ],
+    "time_range": [
+      0.006951034069061279,
+      17.718078672885895
+    ],
+    "pearson_r": 0.01896977757123444,
+    "pearson_p": 0.5296780360792044,
+    "spearman_r": 0.02787049636179264,
+    "spearman_p": 0.3557528361922695,
+    "sigma": 0.6286972543755964,
+    "permutation_p": 0.52068,
+    "bootstrap_ci": "[-0.03382177  0.06206526]",
+    "ransac_slope": 0.03175255793297213,
+    "ransac_inliers": "625",
+    "ransac_inlier_ratio": 0.5681818181818182,
+    "E_QG_GeV": 1.0392863488245943,
+    "E_QG_Planck": 8.518740564136019e-20,
+    "significant": "False",
+    "time_delay_range": [
+      3.300211747013745e-22,
+      1.8928418687017502e-19
+    ],
+    "time_delay_mean": 2.256014953915769e-21,
+    "time_delay_std": 9.194816534593257e-21
+  },
+  "validation": {
+    "statistical_significance": "False",
+    "permutation_test": "False",
+    "bootstrap_ci": "False",
+    "ransac_robustness": "True",
+    "e_qg_physical": "False",
+    "correlation_strength": "False"
+  },
+  "validation_score": 0.16666666666666666,
+  "conclusion": "QG effect detected but needs further validation"
+}

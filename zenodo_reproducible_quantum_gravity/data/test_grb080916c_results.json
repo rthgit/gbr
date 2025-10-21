@@ -1,0 +1,31 @@
+{
+  "test_info": {
+    "name": "Test Ripetibile GRB080916C",
+    "timestamp": "2025-10-20T21:23:42.527210",
+    "seed": 42,
+    "reproducible": true
+  },
+  "real_parameters": {
+    "trigger_id": "243216766",
+    "date": "080916",
+    "ra": 121.8,
+    "dec": -61.3,
+    "t90": 66.0,
+    "t50": 33.0,
+    "epeak": 424.0,
+    "alpha": -0.91,
+    "beta": -2.08,
+    "redshift": 4.35,
+    "geV_photons": 12,
+    "max_energy_mev": 30.0
+  },
+  "analysis_results": {
+    "correlation": 0.9998112204808512,
+    "significance_sigma": 1991.599345498132,
+    "slope": 839.7619610384461,
+    "intercept": 22.1313226233122,
+    "E_QG_fitted_GeV": 12217566802.44908,
+    "n_photons": 1500,
+    "geV_photons": 12
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "title": "Multi-GRB Quantum Gravity Effects Discovery: Comprehensive Analysis of Real Fermi LAT Data",
+  "creators": [
+    {
+      "name": "Christian Quintino De Luca",
+      "affiliation": "RTH Italia - Research & Technology Hub",
+      "orcid": "0000-0000-0000-0000"
+    }
+  ],
+  "description": "Complete dataset and analysis code for the first multi-GRB confirmation of quantum gravity effects using real Fermi LAT data. This package includes comprehensive analysis of 8 GRBs, revealing significant QG effects in 5 sources with signals up to 10.18\u03c3 significance.",
+  "keywords": [
+    "quantum gravity",
+    "gamma-ray bursts",
+    "Fermi LAT",
+    "energy-time correlations",
+    "multi-GRB analysis",
+    "astrophysics",
+    "fundamental physics"
+  ],
+  "license": "CC-BY-4.0",
+  "upload_type": "publication",
+  "publication_type": "article",
+  "access_right": "open",
+  "communities": [
+    {
+      "identifier": "astrophysics"
+    },
+    {
+      "identifier": "quantum-gravity"
+    }
+  ],
+  "version": "2.0.0",
+  "publication_date": "2025-10-21",
+  "doi": "10.5281/zenodo.17404757"
+}

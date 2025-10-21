@@ -171,3 +171,4 @@ Con 4 GRB reali e migliaia di fotoni:
 - **Toolkit validato** su campione molto grande
 
 Questo sarà il test definitivo del nostro toolkit!
+

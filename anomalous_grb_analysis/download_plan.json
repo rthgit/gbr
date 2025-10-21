@@ -1,0 +1,287 @@
+{
+  "GRB221009A": {
+    "grb_name": "GRB221009A",
+    "priority": 1,
+    "coordinates": "288.2650, 19.7730",
+    "time_range": "687013719, 687024219",
+    "status": "query_required",
+    "fermi_url": "https://fermi.gsfc.nasa.gov/cgi-bin/ssc/LAT/LATDataQuery.cgi",
+    "params": {
+      "object_coordinates": "288.2650, 19.7730",
+      "coordinate_system": "J2000",
+      "search_radius": "12",
+      "time_range": "687013719, 687024219",
+      "time_system": "MET",
+      "energy_range": "100,300000",
+      "lat_data_type": "Extended",
+      "spacecraft_data": "YES"
+    },
+    "timestamp": "2025-10-21T16:53:44.146888"
+  },
+  "GRB190114C": {
+    "grb_name": "GRB190114C",
+    "priority": 1,
+    "coordinates": "54.5040, -26.9380",
+    "time_range": "569191723, 569202223",
+    "status": "query_required",
+    "fermi_url": "https://fermi.gsfc.nasa.gov/cgi-bin/ssc/LAT/LATDataQuery.cgi",
+    "params": {
+      "object_coordinates": "54.5040, -26.9380",
+      "coordinate_system": "J2000",
+      "search_radius": "12",
+      "time_range": "569191723, 569202223",
+      "time_system": "MET",
+      "energy_range": "100,300000",
+      "lat_data_type": "Extended",
+      "spacecraft_data": "YES"
+    },
+    "timestamp": "2025-10-21T16:53:44.146888"
+  },
+  "GRB090926A": {
+    "grb_name": "GRB090926A",
+    "priority": 1,
+    "coordinates": "353.399, -66.318",
+    "time_range": "275631126, 275641626",
+    "status": "query_required",
+    "fermi_url": "https://fermi.gsfc.nasa.gov/cgi-bin/ssc/LAT/LATDataQuery.cgi",
+    "params": {
+      "object_coordinates": "353.399, -66.318",
+      "coordinate_system": "J2000",
+      "search_radius": "12",
+      "time_range": "275631126, 275641626",
+      "time_system": "MET",
+      "energy_range": "100,300000",
+      "lat_data_type": "Extended",
+      "spacecraft_data": "YES"
+    },
+    "timestamp": "2025-10-21T16:53:44.147896"
+  },
+  "GRB160625B": {
+    "grb_name": "GRB160625B",
+    "priority": 1,
+    "coordinates": "308.571, 6.933",
+    "time_range": "488586716, 488597216",
+    "status": "query_required",
+    "fermi_url": "https://fermi.gsfc.nasa.gov/cgi-bin/ssc/LAT/LATDataQuery.cgi",
+    "params": {
+      "object_coordinates": "308.571, 6.933",
+      "coordinate_system": "J2000",
+      "search_radius": "12",
+      "time_range": "488586716, 488597216",
+      "time_system": "MET",
+      "energy_range": "100,300000",
+      "lat_data_type": "Extended",
+      "spacecraft_data": "YES"
+    },
+    "timestamp": "2025-10-21T16:53:44.147896"
+  },
+  "GRB180720B": {
+    "grb_name": "GRB180720B",
+    "priority": 1,
+    "coordinates": "7.3680, -2.9410",
+    "time_range": "553788804, 553799304",
+    "status": "query_required",
+    "fermi_url": "https://fermi.gsfc.nasa.gov/cgi-bin/ssc/LAT/LATDataQuery.cgi",
+    "params": {
+      "object_coordinates": "7.3680, -2.9410",
+      "coordinate_system": "J2000",
+      "search_radius": "12",
+      "time_range": "553788804, 553799304",
+      "time_system": "MET",
+      "energy_range": "100,300000",
+      "lat_data_type": "Extended",
+      "spacecraft_data": "YES"
+    },
+    "timestamp": "2025-10-21T16:53:44.147896"
+  },
+  "GRB131231A": {
+    "grb_name": "GRB131231A",
+    "priority": 2,
+    "coordinates": "173.136, 27.697",
+    "time_range": "388741126, 388751626",
+    "status": "query_required",
+    "fermi_url": "https://fermi.gsfc.nasa.gov/cgi-bin/ssc/LAT/LATDataQuery.cgi",
+    "params": {
+      "object_coordinates": "173.136, 27.697",
+      "coordinate_system": "J2000",
+      "search_radius": "12",
+      "time_range": "388741126, 388751626",
+      "time_system": "MET",
+      "energy_range": "100,300000",
+      "lat_data_type": "Extended",
+      "spacecraft_data": "YES"
+    },
+    "timestamp": "2025-10-21T16:53:44.148898"
+  },
+  "GRB130427A": {
+    "grb_name": "GRB130427A",
+    "priority": 2,
+    "coordinates": "173.136, 27.697",
+    "time_range": "388741126, 388751626",
+    "status": "query_required",
+    "fermi_url": "https://fermi.gsfc.nasa.gov/cgi-bin/ssc/LAT/LATDataQuery.cgi",
+    "params": {
+      "object_coordinates": "173.136, 27.697",
+      "coordinate_system": "J2000",
+      "search_radius": "12",
+      "time_range": "388741126, 388751626",
+      "time_system": "MET",
+      "energy_range": "100,300000",
+      "lat_data_type": "Extended",
+      "spacecraft_data": "YES"
+    },
+    "timestamp": "2025-10-21T16:53:44.148898"
+  },
+  "GRB190829A": {
+    "grb_name": "GRB190829A",
+    "priority": 2,
+    "coordinates": "31.027, -8.952",
+    "time_range": "588800853, 588811353",
+    "status": "query_required",
+    "fermi_url": "https://fermi.gsfc.nasa.gov/cgi-bin/ssc/LAT/LATDataQuery.cgi",
+    "params": {
+      "object_coordinates": "31.027, -8.952",
+      "coordinate_system": "J2000",
+      "search_radius": "12",
+      "time_range": "588800853, 588811353",
+      "time_system": "MET",
+      "energy_range": "100,300000",
+      "lat_data_type": "Extended",
+      "spacecraft_data": "YES"
+    },
+    "timestamp": "2025-10-21T16:53:44.148898"
+  },
+  "GRB080916C": {
+    "grb_name": "GRB080916C",
+    "priority": 2,
+    "coordinates": "119.846, -56.638",
+    "time_range": "243216265, 243226765",
+    "status": "query_required",
+    "fermi_url": "https://fermi.gsfc.nasa.gov/cgi-bin/ssc/LAT/LATDataQuery.cgi",
+    "params": {
+      "object_coordinates": "119.846, -56.638",
+      "coordinate_system": "J2000",
+      "search_radius": "12",
+      "time_range": "243216265, 243226765",
+      "time_system": "MET",
+      "energy_range": "100,300000",
+      "lat_data_type": "Extended",
+      "spacecraft_data": "YES"
+    },
+    "timestamp": "2025-10-21T16:53:44.149896"
+  },
+  "GRB091024": {
+    "grb_name": "GRB091024",
+    "priority": 2,
+    "coordinates": "54.504, -26.938",
+    "time_range": "569191723, 569202223",
+    "status": "query_required",
+    "fermi_url": "https://fermi.gsfc.nasa.gov/cgi-bin/ssc/LAT/LATDataQuery.cgi",
+    "params": {
+      "object_coordinates": "54.504, -26.938",
+      "coordinate_system": "J2000",
+      "search_radius": "12",
+      "time_range": "569191723, 569202223",
+      "time_system": "MET",
+      "energy_range": "100,300000",
+      "lat_data_type": "Extended",
+      "spacecraft_data": "YES"
+    },
+    "timestamp": "2025-10-21T16:53:44.149896"
+  },
+  "GRB090323": {
+    "grb_name": "GRB090323",
+    "priority": 3,
+    "coordinates": "333.553, -26.591",
+    "time_range": "263607279, 263617779",
+    "status": "query_required",
+    "fermi_url": "https://fermi.gsfc.nasa.gov/cgi-bin/ssc/LAT/LATDataQuery.cgi",
+    "params": {
+      "object_coordinates": "333.553, -26.591",
+      "coordinate_system": "J2000",
+      "search_radius": "12",
+      "time_range": "263607279, 263617779",
+      "time_system": "MET",
+      "energy_range": "100,300000",
+      "lat_data_type": "Extended",
+      "spacecraft_data": "YES"
+    },
+    "timestamp": "2025-10-21T16:53:44.150895"
+  },
+  "GRB240825A": {
+    "grb_name": "GRB240825A",
+    "priority": 3,
+    "coordinates": "288.265, 19.773",
+    "time_range": "687013719, 687024219",
+    "status": "query_required",
+    "fermi_url": "https://fermi.gsfc.nasa.gov/cgi-bin/ssc/LAT/LATDataQuery.cgi",
+    "params": {
+      "object_coordinates": "288.265, 19.773",
+      "coordinate_system": "J2000",
+      "search_radius": "12",
+      "time_range": "687013719, 687024219",
+      "time_system": "MET",
+      "energy_range": "100,300000",
+      "lat_data_type": "Extended",
+      "spacecraft_data": "YES"
+    },
+    "timestamp": "2025-10-21T16:53:44.150895"
+  },
+  "GRB090820": {
+    "grb_name": "GRB090820",
+    "priority": 3,
+    "coordinates": "54.504, -26.938",
+    "time_range": "569191723, 569202223",
+    "status": "query_required",
+    "fermi_url": "https://fermi.gsfc.nasa.gov/cgi-bin/ssc/LAT/LATDataQuery.cgi",
+    "params": {
+      "object_coordinates": "54.504, -26.938",
+      "coordinate_system": "J2000",
+      "search_radius": "12",
+      "time_range": "569191723, 569202223",
+      "time_system": "MET",
+      "energy_range": "100,300000",
+      "lat_data_type": "Extended",
+      "spacecraft_data": "YES"
+    },
+    "timestamp": "2025-10-21T16:53:44.150895"
+  },
+  "GRB201216C": {
+    "grb_name": "GRB201216C",
+    "priority": 3,
+    "coordinates": "34.637, 17.775",
+    "time_range": "629850246, 629860746",
+    "status": "query_required",
+    "fermi_url": "https://fermi.gsfc.nasa.gov/cgi-bin/ssc/LAT/LATDataQuery.cgi",
+    "params": {
+      "object_coordinates": "34.637, 17.775",
+      "coordinate_system": "J2000",
+      "search_radius": "12",
+      "time_range": "629850246, 629860746",
+      "time_system": "MET",
+      "energy_range": "100,300000",
+      "lat_data_type": "Extended",
+      "spacecraft_data": "YES"
+    },
+    "timestamp": "2025-10-21T16:53:44.151897"
+  },
+  "GRB090510": {
+    "grb_name": "GRB090510",
+    "priority": 3,
+    "coordinates": "333.553, -26.591",
+    "time_range": "263607279, 263617779",
+    "status": "query_required",
+    "fermi_url": "https://fermi.gsfc.nasa.gov/cgi-bin/ssc/LAT/LATDataQuery.cgi",
+    "params": {
+      "object_coordinates": "333.553, -26.591",
+      "coordinate_system": "J2000",
+      "search_radius": "12",
+      "time_range": "263607279, 263617779",
+      "time_system": "MET",
+      "energy_range": "100,300000",
+      "lat_data_type": "Extended",
+      "spacecraft_data": "YES"
+    },
+    "timestamp": "2025-10-21T16:53:44.151897"
+  }
+}

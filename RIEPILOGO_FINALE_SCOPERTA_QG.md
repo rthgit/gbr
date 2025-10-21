@@ -204,3 +204,4 @@ La scoperta apre nuove frontiere nella ricerca di gravità quantistica e stabili
 ---
 
 *Questo documento rappresenta il riepilogo completo della scoperta di effetti di gravità quantistica in GRB090902B, con tutti i risultati, analisi, grafici e documentazione necessari per la pubblicazione scientifica.*
+

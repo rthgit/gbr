@@ -1,0 +1,39 @@
+{
+  "timestamp": "2025-10-21T00:44:45.913901",
+  "literature_comparison": {
+    "Fermi_LAT_2009": {
+      "paper": {
+        "paper": "Abdo et al. (2009) - Fermi-LAT GRB080916C",
+        "grb": "GRB080916C",
+        "instrument": "Fermi-LAT",
+        "year": 2009,
+        "n_photons": 516,
+        "max_energy": 13.2,
+        "redshift": 4.35,
+        "significance": 0.68,
+        "E_QG_limit": 1.19e+19,
+        "methodology": "Direct correlation analysis",
+        "result": "No significant QG detection"
+      },
+      "our_result": {
+        "correlation": 0.016037547285113668,
+        "significance": 0.3636431134347302,
+        "slope": 1.7566681040632672,
+        "E_QG": 5840515822773.396,
+        "n_photons": 516
+      },
+      "comparison": {
+        "significance_difference": -0.31635688656526983,
+        "E_QG_difference": -1.1899994159484176e+19,
+        "methodology_difference": "Different analysis approach",
+        "consistency": true
+      }
+    }
+  },
+  "summary": {
+    "total_papers": 1,
+    "consistent_papers": 1,
+    "avg_significance_difference": -0.31635688656526983,
+    "avg_E_QG_difference": -1.1899994159484176e+19
+  }
+}

@@ -1,0 +1,275 @@
+{
+  "timestamp": "2025-10-21T01:40:51.929120",
+  "grb_name": "GRB090902",
+  "filename": "L251020161615F357373F52_EV00.fits",
+  "n_events": 3972,
+  "analysis_results": {
+    "systematic_effects": {
+      "photon_selection": {
+        "cut_0.1_gev": {
+          "n_photons": 3972,
+          "correlation": -0.08625484965863753,
+          "significance": 5.455070519536267
+        },
+        "cut_0.5_gev": {
+          "n_photons": 750,
+          "correlation": -0.1342254722082755,
+          "significance": 3.704534461500998
+        },
+        "cut_1.0_gev": {
+          "n_photons": 259,
+          "correlation": -0.11379508295545339,
+          "significance": 1.8362014778787927
+        },
+        "cut_2.0_gev": {
+          "n_photons": 90,
+          "correlation": -0.07439031647441788,
+          "significance": 0.6997819802287678
+        }
+      },
+      "time_window": {
+        "window_1000_s": {
+          "n_photons": 587,
+          "correlation": 0.006789017210393825,
+          "significance": 0.1642082041071213
+        },
+        "window_2000_s": {
+          "n_photons": 3952,
+          "correlation": -0.08702040587981553,
+          "significance": 5.489973758560296
+        },
+        "window_5000_s": {
+          "n_photons": 3972,
+          "correlation": -0.08625484965863753,
+          "significance": 5.455070519536267
+        },
+        "window_10000_s": {
+          "n_photons": 3972,
+          "correlation": -0.08625484965863753,
+          "significance": 5.455070519536267
+        },
+        "window_20000_s": {
+          "n_photons": 3972,
+          "correlation": -0.08625484965863753,
+          "significance": 5.455070519536267
+        }
+      },
+      "energy_binning": {
+        "n_bins_5": {
+          "avg_correlation": -0.1286179785173697,
+          "std_correlation": 0.0,
+          "n_valid_bins": 1
+        },
+        "n_bins_10": {
+          "avg_correlation": -0.327172606562234,
+          "std_correlation": 0.2054750469106944,
+          "n_valid_bins": 2
+        },
+        "n_bins_20": {
+          "avg_correlation": 0.002573314446047907,
+          "std_correlation": 0.116348984226706,
+          "n_valid_bins": 2
+        },
+        "n_bins_50": {
+          "avg_correlation": -0.16559747431669164,
+          "std_correlation": 0.08790258409360108,
+          "n_valid_bins": 5
+        },
+        "n_bins_100": {
+          "avg_correlation": -0.07521425252364611,
+          "std_correlation": 0.047763380967555905,
+          "n_valid_bins": 7
+        }
+      }
+    },
+    "permutation_test": {
+      "original_correlation": -0.08625484965863753,
+      "original_significance": 5.455070519536267,
+      "permuted_correlations_mean": -2.7880591522467522e-06,
+      "permuted_correlations_std": 0.015519099830801679,
+      "permuted_significances_mean": 0.7689602331407221,
+      "permuted_significances_std": 0.6046486447315617,
+      "p_value": 0.0,
+      "n_permutations": 1000
+    },
+    "bootstrap": {
+      "bootstrap_correlations_mean": -0.09561914111076643,
+      "bootstrap_correlations_std": 0.02946224591261006,
+      "bootstrap_significances_mean": 6.06091957383938,
+      "bootstrap_significances_std": 1.887644829396813,
+      "confidence_interval_95": [
+        -0.1550890291922911,
+        -0.05069404995290359
+      ],
+      "n_bootstrap": 1000
+    },
+    "intrinsic_lag": {
+      "lag_models": {
+        "linear": {
+          "parameters": [
+            273583417.8097541,
+            -21.650697214891974
+          ],
+          "t0": 273583417.8097541,
+          "alpha": -21.650697214891974
+        },
+        "power_law": {
+          "parameters": [
+            273583545.22915095,
+            -218.04020417284082,
+            0.3901900772341841
+          ],
+          "t0": 273583545.22915095,
+          "alpha": -218.04020417284082,
+          "beta": 0.3901900772341841
+        },
+        "exponential": {
+          "parameters": [
+            273583407.93020654,
+            0.0,
+            1.0
+          ],
+          "t0": 273583407.93020654,
+          "alpha": 0.0,
+          "beta": 1.0
+        },
+        "logarithmic": {
+          "parameters": [
+            273583464.2566105,
+            -249.88456030613025,
+            0.7188915003883501
+          ],
+          "t0": 273583464.2566105,
+          "alpha": -249.88456030613025,
+          "beta": 0.7188915003883501
+        }
+      },
+      "residuals_analysis": {
+        "linear": {
+          "residual_correlation": 0.0012731001543373622,
+          "residual_significance": 0.08021547806239059,
+          "rms_residuals": 431.82365435624473
+        },
+        "power_law": {
+          "residual_correlation": 0.014876289476947559,
+          "residual_significance": 0.9374280294218607,
+          "rms_residuals": 429.3170520677106
+        },
+        "exponential": {
+          "residual_correlation": -0.08625484997406914,
+          "residual_significance": 5.455070539634841,
+          "rms_residuals": 433.74750525787476
+        },
+        "logarithmic": {
+          "residual_correlation": 0.016855768320687352,
+          "residual_significance": 1.062198076662544,
+          "rms_residuals": 429.0389742420134
+        }
+      }
+    },
+    "qg_analysis": {
+      "qg_models": {
+        "linear": {
+          "parameters": [
+            273583417.8097541,
+            -21.650697214891974
+          ],
+          "alpha": -21.650697214891974,
+          "E_QG_GeV": 104696310.47979143
+        },
+        "quadratic": {
+          "parameters": [
+            273583436.22519344,
+            -67.95353813390723,
+            0.8543213007796291
+          ],
+          "alpha": -67.95353813390723,
+          "beta": 0.8543213007796291,
+          "E_QG_GeV": 1.6288872147493876
+        },
+        "no_qg": {
+          "parameters": [
+            273583407.9302084
+          ],
+          "t0": 273583407.9302084
+        }
+      },
+      "fit_analysis": {
+        "linear": {
+          "chi_squared": 186471.66846158152,
+          "aic": 48208.329410514234,
+          "n_parameters": 2
+        },
+        "quadratic": {
+          "chi_squared": 184196.22429816207,
+          "aic": 48161.56242568621,
+          "n_parameters": 3
+        },
+        "no_qg": {
+          "chi_squared": 188136.8983174301,
+          "aic": 48241.6427329594,
+          "n_parameters": 1
+        }
+      },
+      "cosmological_parameters": {
+        "H0": 70.0,
+        "z": 1.822,
+        "d_L_Mpc": 22035.788571428573,
+        "d_L_m": 6.800244353142858e+26
+      }
+    },
+    "literature_comparison": {
+      "literature_results": {
+        "Abdo_et_al_2009": {
+          "reference": "Abdo et al. (2009), Science, 323, 1688",
+          "E_QG_limit": "1.3 \u00d7 10^19 GeV",
+          "methodology": "Fermi-LAT analysis",
+          "significance": "No significant QG effects reported",
+          "notes": "Standard analysis, no QG detection"
+        },
+        "Vasileiou_et_al_2013": {
+          "reference": "Vasileiou et al. (2013), PRD, 87, 122001",
+          "E_QG_limit": "1.3 \u00d7 10^19 GeV",
+          "methodology": "Fermi-LAT improved analysis",
+          "significance": "No significant QG effects reported",
+          "notes": "Improved methodology, still no QG detection"
+        },
+        "Vasileiou_et_al_2015": {
+          "reference": "Vasileiou et al. (2015), PRD, 91, 122003",
+          "E_QG_limit": "7.6 \u00d7 10^19 GeV",
+          "methodology": "Multi-GRB combination",
+          "significance": "No significant QG effects reported",
+          "notes": "Combined analysis, no QG detection"
+        }
+      },
+      "our_result": {
+        "significance": "5.46\u03c3",
+        "methodology": "Advanced correlation analysis",
+        "notes": "Significant correlation detected - requires validation"
+      },
+      "discrepancy_analysis": {
+        "significance_difference": "Our result shows 5.46\u03c3 vs literature shows no significant effects",
+        "possible_causes": [
+          "Different methodology",
+          "Systematic effects not accounted for",
+          "Intrinsic lag effects",
+          "Statistical fluctuation",
+          "New physics discovery"
+        ],
+        "validation_required": true
+      }
+    }
+  },
+  "summary": {
+    "anomaly_detected": true,
+    "significance": "5.46\u03c3",
+    "validation_status": "Under investigation",
+    "recommendations": [
+      "Verify systematic effects",
+      "Check intrinsic lag models",
+      "Validate methodology",
+      "Compare with literature",
+      "Consider new physics"
+    ]
+  }
+}

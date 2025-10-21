@@ -1,0 +1,60 @@
+{
+  "Fermi_LAT": {
+    "url": "https://fermi.gsfc.nasa.gov/ssc/data/access/lat/",
+    "status": "success",
+    "anomaly_patterns": [],
+    "content_length": 15906
+  },
+  "Swift_BAT": {
+    "url": "https://swift.gsfc.nasa.gov/archive/",
+    "status": "success",
+    "anomaly_patterns": [],
+    "content_length": 11770
+  },
+  "MAGIC": {
+    "url": "https://magic.mpp.mpg.de/",
+    "status": "success",
+    "anomaly_patterns": [],
+    "content_length": 36089
+  },
+  "HESS": {
+    "url": "https://www.mpi-hd.mpg.de/hfm/HESS/",
+    "status": "success",
+    "anomaly_patterns": [],
+    "content_length": 20393
+  },
+  "VERITAS": {
+    "url": "https://veritas.sao.arizona.edu/",
+    "status": "success",
+    "anomaly_patterns": [],
+    "content_length": 13521
+  },
+  "CTA": {
+    "url": "https://www.cta-observatory.org/",
+    "status": "success",
+    "anomaly_patterns": [
+      "lag"
+    ],
+    "content_length": 174584
+  },
+  "IceCube": {
+    "url": "https://icecube.wisc.edu/",
+    "status": "success",
+    "anomaly_patterns": [
+      "lag"
+    ],
+    "content_length": 198348
+  },
+  "LIGO": {
+    "url": "https://www.gw-openscience.org/",
+    "status": "success",
+    "anomaly_patterns": [],
+    "content_length": 21102
+  },
+  "Virgo": {
+    "url": "https://www.gw-openscience.org/",
+    "status": "success",
+    "anomaly_patterns": [],
+    "content_length": 21102
+  }
+}

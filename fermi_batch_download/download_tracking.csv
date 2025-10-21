@@ -1,0 +1,14 @@
+grb,ra,dec,trigger_utc,trigger_met,tmin,tmax,time_window,redshift,priority,score,categories,note,downloaded,query_id,n_photons,analysis_status
+GRB221009A,288.265,19.773,2022-10-09T13:16:59,687014219.0,687013719.0,687024219.0,10000,0.151,1,108,"['anomaly', 'spectral_lag', 'tev', 'qg_search', 'high_energy']",BRIGHTEST EVER! TeV detection LHAASO >10 TeV,False,,,PENDING
+GRB190114C,54.504,-26.938,2019-01-14T20:57:03,569192223.0,569191723.0,569202223.0,10000,0.425,2,102,"['anomaly', 'spectral_lag', 'tev', 'qg_search', 'high_energy']","First TeV GRB by MAGIC, 0.3-1 TeV",False,,,PENDING
+GRB090510,333.553,-26.591,2009-05-10T00:22:59,263607779.0,263607279.0,263617779.0,10000,0.903,3,96,"['qg_search', 'anomaly', 'high_energy', 'spectral_lag']","Short GRB, LIV constraints >7.6 Planck",False,,,PENDING
+GRB180720B,7.368,-2.941,2018-07-20T14:21:44,553789304.0,553788804.0,553799304.0,10000,0.654,4,77,"['tev', 'anomaly', 'high_energy', 'spectral_lag']",H.E.S.S. detection up to 440 GeV,False,,,PENDING
+GRB080916C,119.846,-56.638,2008-09-16T00:12:45,243216765.0,243216265.0,243226765.0,10000,4.35,5,44,"['qg_search', 'anomaly', 'high_energy', 'spectral_lag']","Very distant, z=4.35, QG studies",False,,,PENDING
+GRB170817A,197.45,-23.381,2017-08-17T12:41:06,524666466.0,524665966.0,524676466.0,10000,0.0097,6,39,"['anomaly', 'spectral_lag', 'tev', 'qg_search', 'high_energy']",GW170817 counterpart! Unique kilonova,False,,,PENDING
+GRB190829A,31.027,-8.952,2019-08-29T19:55:53,588801353.0,588800853.0,588811353.0,10000,0.0785,7,32,"['tev', 'high_energy']","Nearest TeV GRB, H.E.S.S. detection",False,,,PENDING
+GRB201216C,34.637,17.775,2020-12-16T22:32:26,629850746.0,629850246.0,629860746.0,10000,1.1,9,30,['tev'],"MAGIC detection, found 3σ in your test!",False,,,PENDING
+GRB130427A,173.136,27.697,2013-04-27T07:47:06,388741626.0,388741126.0,388751626.0,10000,0.34,11,26,"['qg_search', 'high_energy', 'spectral_lag']","Brightest before 221009A, ~6000 LAT photons",False,,,PENDING
+GRB090902B,325.5,-18.9,2009-09-02T11:01:11,273582071.0,273581571.0,273592071.0,10000,1.822,16,22,"['qg_search', 'anomaly', 'high_energy', 'spectral_lag']",YOUR DISCOVERY! Reference GRB,False,,,PENDING
+GRB160625B,308.571,6.933,2016-06-25T22:40:16,488587216.0,488586716.0,488597216.0,10000,1.406,19,17,"['qg_search', 'spectral_lag']",Lag transition documented! Critical test,False,,,PENDING
+GRB090926A,353.399,-66.318,2009-09-26T04:20:26,275631626.0,275631126.0,275641626.0,10000,2.1062,20,16,"['qg_search', 'anomaly', 'high_energy', 'spectral_lag']",High-z QG candidate,False,,,PENDING
+GRB160509A,311.225,76.138,2016-05-09T08:59:39,484477179.0,484476679.0,484487179.0,10000,1.17,24,13,"['qg_search', 'high_energy']",QG search candidate,False,,,PENDING

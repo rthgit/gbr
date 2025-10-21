@@ -232,3 +232,4 @@ if __name__ == "__main__":
     print("   1. Testare con dati reali di GRB080916C")
     print("   2. Validare con multiple GRB")
     print("   3. Implementare controlli sistematici rigorosi")
+

@@ -1,0 +1,1361 @@
+{
+  "timestamp": "2025-10-21T17:23:02.598394",
+  "analysis_type": "deep_pattern_hunting",
+  "n_analyzed": 11,
+  "results": [
+    {
+      "grb": "L25102020315294ADC46894",
+      "status": "INSUFFICIENT_DATA",
+      "n_photons": 3
+    },
+    {
+      "grb": "L251021105813F357373F65",
+      "status": "ANALYZED",
+      "n_photons": 534,
+      "energy_range_gev": [
+        0.10192785412073135,
+        99.32536315917969
+      ],
+      "global": {
+        "pearson_r": -0.0982697037921404,
+        "pearson_sigma": 2.2776271479725687,
+        "spearman_rho": -0.11795961943819634,
+        "spearman_sigma": 2.739882171076517,
+        "kendall_tau": -0.07931221058105135
+      },
+      "energy_subsets": {
+        "low_energy": {
+          "n_photons": 267,
+          "energy_range": [
+            0.10192785412073135,
+            0.40341535210609436
+          ],
+          "pearson_r": -0.06972805710345625,
+          "sigma": 1.1378600414120605
+        },
+        "high_energy": {
+          "n_photons": 267,
+          "energy_range": [
+            0.40840065479278564,
+            99.32536315917969
+          ],
+          "pearson_r": -0.1101473078805029,
+          "sigma": 1.804045387204191
+        },
+        "very_high_energy": {
+          "n_photons": 134,
+          "energy_range": [
+            1.005619764328003,
+            99.32536315917969
+          ],
+          "pearson_r": -0.11111304924564358,
+          "sigma": 1.2845459441615117
+        },
+        "ultra_high_energy": {
+          "n_photons": 54,
+          "energy_range": [
+            2.173417568206787,
+            99.32536315917969
+          ],
+          "pearson_r": -0.14578895835406447,
+          "sigma": 1.0626528173631142
+        }
+      },
+      "time_evolution": {
+        "time_bins": [
+          {
+            "time_window": [
+              0.0,
+              2092.9610174417494
+            ],
+            "n_photons": 293,
+            "pearson_r": 0.06189413108264008,
+            "sigma": 1.0578630016021655
+          },
+          {
+            "time_window": [
+              4185.922034883499,
+              6278.883052325248
+            ],
+            "n_photons": 226,
+            "pearson_r": 0.0411911060125371,
+            "sigma": 0.6170156940374161
+          }
+        ]
+      },
+      "weighted": {
+        "weighted_correlation": -0.36855523242831206,
+        "weight_scheme": "energy_proportional"
+      },
+      "outliers": {
+        "n_outliers": 4,
+        "outlier_fraction": 0.00749063670411985,
+        "correlation_without_outliers": -0.14023541581662774,
+        "sigma_without_outliers": 3.254525127959248
+      },
+      "early_late": {
+        "early_phase": {
+          "n_photons": 267,
+          "pearson_r": 0.07926903668030558,
+          "sigma": 1.2944798197676097
+        },
+        "late_phase": {
+          "n_photons": 267,
+          "pearson_r": 0.019754338974402208,
+          "sigma": 0.3216401037199216
+        },
+        "phase_comparison": {
+          "correlation_change": -0.05951469770590337,
+          "sigma_change": -0.9728397160476882,
+          "sign_flip": false
+        }
+      },
+      "hidden_patterns": [
+        {
+          "type": "outlier_masked_signal",
+          "detail": "Signal 3.25\u03c3 after removing 4 outliers"
+        }
+      ],
+      "max_sigma_overall": 2.739882171076517,
+      "max_sigma_global": 2.739882171076517,
+      "classification": "\ud83d\udfe1 MARGINAL"
+    },
+    {
+      "grb": "L251021105939F357373F58",
+      "status": "ANALYZED",
+      "n_photons": 190,
+      "energy_range_gev": [
+        0.10280527174472809,
+        22.15667724609375
+      ],
+      "global": {
+        "pearson_r": 0.14365380014459464,
+        "pearson_sigma": 1.990325318495242,
+        "spearman_rho": 0.12485227029178533,
+        "spearman_sigma": 1.7253886573974193,
+        "kendall_tau": 0.08861041492620439
+      },
+      "energy_subsets": {
+        "low_energy": {
+          "n_photons": 95,
+          "energy_range": [
+            0.10280527174472809,
+            0.4531051218509674
+          ],
+          "pearson_r": 0.06526553233367964,
+          "sigma": 0.6307427868866484
+        },
+        "high_energy": {
+          "n_photons": 95,
+          "energy_range": [
+            0.4563659429550171,
+            22.15667724609375
+          ],
+          "pearson_r": 0.3618898197388551,
+          "sigma": 3.74368256703566
+        },
+        "very_high_energy": {
+          "n_photons": 48,
+          "energy_range": [
+            0.9518793821334839,
+            22.15667724609375
+          ],
+          "pearson_r": 0.37777826201419357,
+          "sigma": 2.7672833250751285
+        },
+        "ultra_high_energy": {
+          "n_photons": 19,
+          "energy_range": [
+            2.7505621910095215,
+            22.15667724609375
+          ],
+          "pearson_r": 0.3604278396428534,
+          "sigma": 1.5931631714839576
+        }
+      },
+      "time_evolution": {},
+      "weighted": {
+        "weighted_correlation": 0.44316067858947034,
+        "weight_scheme": "energy_proportional"
+      },
+      "outliers": {
+        "n_outliers": 4,
+        "outlier_fraction": 0.021052631578947368,
+        "correlation_without_outliers": -0.0371606916096673,
+        "sigma_without_outliers": 0.5044205475707462
+      },
+      "early_late": {
+        "early_phase": {
+          "n_photons": 95,
+          "pearson_r": 0.12910176518819969,
+          "sigma": 1.2555193380602556
+        },
+        "late_phase": {
+          "n_photons": 95,
+          "pearson_r": 0.07429608419654901,
+          "sigma": 0.7184711803550503
+        },
+        "phase_comparison": {
+          "correlation_change": -0.054805680991650674,
+          "sigma_change": -0.5370481577052053,
+          "sign_flip": false
+        }
+      },
+      "hidden_patterns": [
+        {
+          "type": "subset_correlation",
+          "subset": "high_energy",
+          "significance": 3.74368256703566,
+          "detail": "high_energy: 3.74\u03c3 with 95 photons"
+        },
+        {
+          "type": "subset_correlation",
+          "subset": "very_high_energy",
+          "significance": 2.7672833250751285,
+          "detail": "very_high_energy: 2.77\u03c3 with 48 photons"
+        }
+      ],
+      "max_sigma_overall": 3.74368256703566,
+      "max_sigma_global": 1.990325318495242,
+      "classification": "\ud83d\udfe0 SIGNIFICANT"
+    },
+    {
+      "grb": "L251021110034F357373F27",
+      "status": "ANALYZED",
+      "n_photons": 4929,
+      "energy_range_gev": [
+        0.10000845044851303,
+        27.878681182861328
+      ],
+      "global": {
+        "pearson_r": -0.045285660035410034,
+        "pearson_sigma": 3.1819823323674346,
+        "spearman_rho": -0.07014227219319474,
+        "spearman_sigma": 4.935624362636115,
+        "kendall_tau": -0.04677203821752815
+      },
+      "energy_subsets": {
+        "low_energy": {
+          "n_photons": 2464,
+          "energy_range": [
+            0.10000845044851303,
+            0.2489885538816452
+          ],
+          "pearson_r": -0.0785576658381345,
+          "sigma": 3.9100006498572704
+        },
+        "high_energy": {
+          "n_photons": 2465,
+          "energy_range": [
+            0.24929434061050415,
+            27.878681182861328
+          ],
+          "pearson_r": -0.04641089523972607,
+          "sigma": 2.3057933645985695
+        },
+        "very_high_energy": {
+          "n_photons": 1233,
+          "energy_range": [
+            0.47519850730895996,
+            27.878681182861328
+          ],
+          "pearson_r": -0.0639264995087088,
+          "sigma": 2.2474972133487214
+        },
+        "ultra_high_energy": {
+          "n_photons": 493,
+          "energy_range": [
+            0.9419041872024536,
+            27.878681182861328
+          ],
+          "pearson_r": -0.04510879179648818,
+          "sigma": 1.0005625487126781
+        }
+      },
+      "time_evolution": {
+        "time_bins": [
+          {
+            "time_window": [
+              0.0,
+              1990.7965513825416
+            ],
+            "n_photons": 523,
+            "pearson_r": -0.02458098517604264,
+            "sigma": 0.5612410028260335
+          },
+          {
+            "time_window": [
+              1990.7965513825416,
+              3981.593102765083
+            ],
+            "n_photons": 131,
+            "pearson_r": 0.18014819803917598,
+            "sigma": 2.080122089563924
+          },
+          {
+            "time_window": [
+              3981.593102765083,
+              5972.389654147624
+            ],
+            "n_photons": 29,
+            "pearson_r": 0.33720186303194005,
+            "sigma": 1.8611557633266727
+          },
+          {
+            "time_window": [
+              5972.389654147624,
+              7963.186205530166
+            ],
+            "n_photons": 3203,
+            "pearson_r": -0.10518775693065048,
+            "sigma": 5.984447202334187
+          },
+          {
+            "time_window": [
+              7963.186205530166,
+              9953.982756912708
+            ],
+            "n_photons": 1042,
+            "pearson_r": 0.0186561600483452,
+            "sigma": 0.6017478125840854
+          }
+        ],
+        "sign_transition_detected": true,
+        "transition_type": "correlation_reversal"
+      },
+      "weighted": {
+        "weighted_correlation": -0.0238457613211853,
+        "weight_scheme": "energy_proportional"
+      },
+      "outliers": {
+        "n_outliers": 70,
+        "outlier_fraction": 0.014201663623453034,
+        "correlation_without_outliers": -0.06443934112433347,
+        "sigma_without_outliers": 4.5002714302386595
+      },
+      "early_late": {
+        "early_phase": {
+          "n_photons": 2464,
+          "pearson_r": -0.05731435163314706,
+          "sigma": 2.8485372093057237
+        },
+        "late_phase": {
+          "n_photons": 2465,
+          "pearson_r": 0.06214294814826372,
+          "sigma": 3.09004105572687
+        },
+        "phase_comparison": {
+          "correlation_change": 0.11945729978141079,
+          "sigma_change": 0.2415038464211463,
+          "sign_flip": true
+        }
+      },
+      "hidden_patterns": [
+        {
+          "type": "subset_correlation",
+          "subset": "low_energy",
+          "significance": 3.9100006498572704,
+          "detail": "low_energy: 3.91\u03c3 with 2464 photons"
+        },
+        {
+          "type": "subset_correlation",
+          "subset": "high_energy",
+          "significance": 2.3057933645985695,
+          "detail": "high_energy: 2.31\u03c3 with 2465 photons"
+        },
+        {
+          "type": "subset_correlation",
+          "subset": "very_high_energy",
+          "significance": 2.2474972133487214,
+          "detail": "very_high_energy: 2.25\u03c3 with 1233 photons"
+        },
+        {
+          "type": "temporal_transition",
+          "detail": "Correlation sign changes over time (like GRB160625B!)"
+        },
+        {
+          "type": "phase_transition",
+          "detail": "Early: 2.85\u03c3, Late: 3.09\u03c3"
+        },
+        {
+          "type": "outlier_masked_signal",
+          "detail": "Signal 4.50\u03c3 after removing 70 outliers"
+        }
+      ],
+      "max_sigma_overall": 4.935624362636115,
+      "max_sigma_global": 4.935624362636115,
+      "classification": "\ud83d\udfe0 SIGNIFICANT"
+    },
+    {
+      "grb": "L251021110134F357373F33",
+      "status": "ANALYZED",
+      "n_photons": 5908,
+      "energy_range_gev": [
+        0.1000186875462532,
+        15.405655860900879
+      ],
+      "global": {
+        "pearson_r": -0.032532521128536745,
+        "pearson_sigma": 2.501464734223951,
+        "spearman_rho": -0.0884629366136116,
+        "spearman_sigma": 6.825179611469252,
+        "kendall_tau": -0.059951936120222274
+      },
+      "energy_subsets": {
+        "low_energy": {
+          "n_photons": 2954,
+          "energy_range": [
+            0.1000186875462532,
+            0.24886761605739594
+          ],
+          "pearson_r": 0.020886622689336373,
+          "sigma": 1.1350660899923914
+        },
+        "high_energy": {
+          "n_photons": 2954,
+          "energy_range": [
+            0.24898332357406616,
+            15.405655860900879
+          ],
+          "pearson_r": -0.03437511579682598,
+          "sigma": 1.8687839255557932
+        },
+        "very_high_energy": {
+          "n_photons": 1477,
+          "energy_range": [
+            0.46807917952537537,
+            15.405655860900879
+          ],
+          "pearson_r": -0.017153309719090862,
+          "sigma": 0.6588823006423304
+        },
+        "ultra_high_energy": {
+          "n_photons": 591,
+          "energy_range": [
+            0.8987318873405457,
+            15.405655860900879
+          ],
+          "pearson_r": -0.011012462677193385,
+          "sigma": 0.2672812125844846
+        }
+      },
+      "time_evolution": {
+        "time_bins": [
+          {
+            "time_window": [
+              0.0,
+              1906.0404393196106
+            ],
+            "n_photons": 2537,
+            "pearson_r": -0.044374774096059486,
+            "sigma": 2.236418868074597
+          },
+          {
+            "time_window": [
+              1906.0404393196106,
+              3812.0808786392213
+            ],
+            "n_photons": 272,
+            "pearson_r": -0.1371079138121063,
+            "sigma": 2.2743920093509415
+          },
+          {
+            "time_window": [
+              3812.0808786392213,
+              5718.121317958832
+            ],
+            "n_photons": 31,
+            "pearson_r": -0.05499096367261999,
+            "sigma": 0.29658417799178327
+          },
+          {
+            "time_window": [
+              5718.121317958832,
+              7624.161757278443
+            ],
+            "n_photons": 2162,
+            "pearson_r": -0.07337321314186561,
+            "sigma": 3.419295319713639
+          },
+          {
+            "time_window": [
+              7624.161757278443,
+              9530.202196598053
+            ],
+            "n_photons": 905,
+            "pearson_r": 0.08608249081805179,
+            "sigma": 2.5964131201210785
+          }
+        ],
+        "sign_transition_detected": true,
+        "transition_type": "correlation_reversal"
+      },
+      "weighted": {
+        "weighted_correlation": -0.024050306510944214,
+        "weight_scheme": "energy_proportional"
+      },
+      "outliers": {
+        "n_outliers": 88,
+        "outlier_fraction": 0.014895057549085985,
+        "correlation_without_outliers": -0.03349661504819496,
+        "sigma_without_outliers": 2.5564162043533143
+      },
+      "early_late": {
+        "early_phase": {
+          "n_photons": 2954,
+          "pearson_r": -0.017915579596829965,
+          "sigma": 0.9735510912420574
+        },
+        "late_phase": {
+          "n_photons": 2954,
+          "pearson_r": -0.06170878447520217,
+          "sigma": 3.3591827999134027
+        },
+        "phase_comparison": {
+          "correlation_change": -0.04379320487837221,
+          "sigma_change": 2.385631708671345,
+          "sign_flip": false
+        }
+      },
+      "hidden_patterns": [
+        {
+          "type": "temporal_transition",
+          "detail": "Correlation sign changes over time (like GRB160625B!)"
+        },
+        {
+          "type": "outlier_masked_signal",
+          "detail": "Signal 2.56\u03c3 after removing 88 outliers"
+        }
+      ],
+      "max_sigma_overall": 6.825179611469252,
+      "max_sigma_global": 6.825179611469252,
+      "classification": "\ud83d\udd34 STRONG_SIGNAL"
+    },
+    {
+      "grb": "L251021110233F357373F36",
+      "status": "ANALYZED",
+      "n_photons": 143,
+      "energy_range_gev": [
+        0.10113070905208588,
+        4.907433986663818
+      ],
+      "global": {
+        "pearson_r": 0.06952798795134883,
+        "pearson_sigma": 0.8276019091444361,
+        "spearman_rho": 0.05109737680160215,
+        "spearman_sigma": 0.6075413778966187,
+        "kendall_tau": 0.03673790997734659
+      },
+      "energy_subsets": {
+        "low_energy": {
+          "n_photons": 71,
+          "energy_range": [
+            0.10113070905208588,
+            0.22566364705562592
+          ],
+          "pearson_r": -0.04681573135392168,
+          "sigma": 0.38930753037058363
+        },
+        "high_energy": {
+          "n_photons": 72,
+          "energy_range": [
+            0.23525838553905487,
+            4.907433986663818
+          ],
+          "pearson_r": 0.03599703371448074,
+          "sigma": 0.30136810947434073
+        },
+        "very_high_energy": {
+          "n_photons": 36,
+          "energy_range": [
+            0.5051646828651428,
+            4.907433986663818
+          ],
+          "pearson_r": 0.25424181118688804,
+          "sigma": 1.5328398403337897
+        },
+        "ultra_high_energy": {
+          "n_photons": 15,
+          "energy_range": [
+            0.9204519987106323,
+            4.907433986663818
+          ],
+          "pearson_r": 0.5349482284733775,
+          "sigma": 2.2828948706086947
+        }
+      },
+      "time_evolution": {},
+      "weighted": {
+        "weighted_correlation": 0.24448806543614432,
+        "weight_scheme": "energy_proportional"
+      },
+      "outliers": {
+        "n_outliers": 4,
+        "outlier_fraction": 0.027972027972027972,
+        "correlation_without_outliers": -0.0977325195638608,
+        "sigma_without_outliers": 1.1494324700696568
+      },
+      "early_late": {
+        "early_phase": {
+          "n_photons": 71,
+          "pearson_r": -0.11138687656878168,
+          "sigma": 0.9310426538696759
+        },
+        "late_phase": {
+          "n_photons": 72,
+          "pearson_r": 0.06958557265308174,
+          "sigma": 0.5836093477840772
+        },
+        "phase_comparison": {
+          "correlation_change": 0.18097244922186342,
+          "sigma_change": -0.34743330608559864,
+          "sign_flip": true
+        }
+      },
+      "hidden_patterns": [
+        {
+          "type": "subset_correlation",
+          "subset": "ultra_high_energy",
+          "significance": 2.2828948706086947,
+          "detail": "ultra_high_energy: 2.28\u03c3 with 15 photons"
+        },
+        {
+          "type": "phase_transition",
+          "detail": "Early: 0.93\u03c3, Late: 0.58\u03c3"
+        }
+      ],
+      "max_sigma_overall": 2.2828948706086947,
+      "max_sigma_global": 0.8276019091444361,
+      "classification": "\ud83d\udfe1 MARGINAL"
+    },
+    {
+      "grb": "L251021110325F357373F43",
+      "status": "ANALYZED",
+      "n_photons": 8354,
+      "energy_range_gev": [
+        0.10001113265752792,
+        94.11639404296875
+      ],
+      "global": {
+        "pearson_r": -0.04631226749067205,
+        "pearson_sigma": 4.236990898132887,
+        "spearman_rho": -0.10171624663399778,
+        "spearman_sigma": 9.344238604398232,
+        "kendall_tau": -0.06866291222329254
+      },
+      "energy_subsets": {
+        "low_energy": {
+          "n_photons": 4177,
+          "energy_range": [
+            0.10001113265752792,
+            0.2291978895664215
+          ],
+          "pearson_r": -0.04200574387200257,
+          "sigma": 2.7165669380099167
+        },
+        "high_energy": {
+          "n_photons": 4177,
+          "energy_range": [
+            0.22924524545669556,
+            94.11639404296875
+          ],
+          "pearson_r": -0.05737097503134005,
+          "sigma": 3.7130976797240893
+        },
+        "very_high_energy": {
+          "n_photons": 2089,
+          "energy_range": [
+            0.4097962975502014,
+            94.11639404296875
+          ],
+          "pearson_r": -0.06698215636080368,
+          "sigma": 3.0668800903919156
+        },
+        "ultra_high_energy": {
+          "n_photons": 836,
+          "energy_range": [
+            0.7697301506996155,
+            94.11639404296875
+          ],
+          "pearson_r": -0.08089634734919764,
+          "sigma": 2.343892381184253
+        }
+      },
+      "time_evolution": {
+        "time_bins": [
+          {
+            "time_window": [
+              0.0,
+              2045.365605521202
+            ],
+            "n_photons": 3575,
+            "pearson_r": -0.14578174987383885,
+            "sigma": 8.80814172471417
+          },
+          {
+            "time_window": [
+              2045.365605521202,
+              4090.731211042404
+            ],
+            "n_photons": 795,
+            "pearson_r": 0.13549707654309567,
+            "sigma": 3.8511485893750663
+          },
+          {
+            "time_window": [
+              4090.731211042404,
+              6136.096816563606
+            ],
+            "n_photons": 57,
+            "pearson_r": -0.1080537289464574,
+            "sigma": 0.8060673807997937
+          },
+          {
+            "time_window": [
+              6136.096816563606,
+              8181.462422084808
+            ],
+            "n_photons": 3201,
+            "pearson_r": -0.12328551657282652,
+            "sigma": 7.026596403257019
+          },
+          {
+            "time_window": [
+              8181.462422084808,
+              10226.82802760601
+            ],
+            "n_photons": 725,
+            "pearson_r": 0.023599938907180727,
+            "sigma": 0.6347475054255645
+          }
+        ],
+        "sign_transition_detected": true,
+        "transition_type": "correlation_reversal"
+      },
+      "weighted": {
+        "weighted_correlation": -0.28344009313878826,
+        "weight_scheme": "energy_proportional"
+      },
+      "outliers": {
+        "n_outliers": 44,
+        "outlier_fraction": 0.005266937993775437,
+        "correlation_without_outliers": -0.04480256585327998,
+        "sigma_without_outliers": 4.0877793172907175
+      },
+      "early_late": {
+        "early_phase": {
+          "n_photons": 4177,
+          "pearson_r": -0.08040340946310139,
+          "sigma": 5.212079793358211
+        },
+        "late_phase": {
+          "n_photons": 4177,
+          "pearson_r": -0.046519495791017336,
+          "sigma": 3.0090795448415575
+        },
+        "phase_comparison": {
+          "correlation_change": 0.03388391367208405,
+          "sigma_change": -2.2030002485166538,
+          "sign_flip": false
+        }
+      },
+      "hidden_patterns": [
+        {
+          "type": "subset_correlation",
+          "subset": "low_energy",
+          "significance": 2.7165669380099167,
+          "detail": "low_energy: 2.72\u03c3 with 4177 photons"
+        },
+        {
+          "type": "subset_correlation",
+          "subset": "high_energy",
+          "significance": 3.7130976797240893,
+          "detail": "high_energy: 3.71\u03c3 with 4177 photons"
+        },
+        {
+          "type": "subset_correlation",
+          "subset": "very_high_energy",
+          "significance": 3.0668800903919156,
+          "detail": "very_high_energy: 3.07\u03c3 with 2089 photons"
+        },
+        {
+          "type": "subset_correlation",
+          "subset": "ultra_high_energy",
+          "significance": 2.343892381184253,
+          "detail": "ultra_high_energy: 2.34\u03c3 with 836 photons"
+        },
+        {
+          "type": "temporal_transition",
+          "detail": "Correlation sign changes over time (like GRB160625B!)"
+        },
+        {
+          "type": "outlier_masked_signal",
+          "detail": "Signal 4.09\u03c3 after removing 44 outliers"
+        }
+      ],
+      "max_sigma_overall": 9.344238604398232,
+      "max_sigma_global": 9.344238604398232,
+      "classification": "\ud83d\udd34 STRONG_SIGNAL"
+    },
+    {
+      "grb": "L251021110442F357373F27",
+      "status": "ANALYZED",
+      "n_photons": 56,
+      "energy_range_gev": [
+        0.10202211886644363,
+        6.217715740203857
+      ],
+      "global": {
+        "pearson_r": 0.2008072251071235,
+        "pearson_sigma": 1.5063080395875914,
+        "spearman_rho": 0.33157894736842103,
+        "spearman_sigma": 2.582708003104263,
+        "kendall_tau": 0.2337662337662338
+      },
+      "energy_subsets": {
+        "low_energy": {
+          "n_photons": 28,
+          "energy_range": [
+            0.10202211886644363,
+            0.534674882888794
+          ],
+          "pearson_r": 0.1612828482655515,
+          "sigma": 0.8332936846674576
+        },
+        "high_energy": {
+          "n_photons": 28,
+          "energy_range": [
+            0.5376679301261902,
+            6.217715740203857
+          ],
+          "pearson_r": 0.1488631830005013,
+          "sigma": 0.7676091277973663
+        },
+        "very_high_energy": {
+          "n_photons": 14,
+          "energy_range": [
+            1.1014256477355957,
+            6.217715740203857
+          ],
+          "pearson_r": 0.22024167370537132,
+          "sigma": 0.7821448407091411
+        }
+      },
+      "time_evolution": {},
+      "weighted": {
+        "weighted_correlation": 0.29738593889594805,
+        "weight_scheme": "energy_proportional"
+      },
+      "outliers": {
+        "n_outliers": 1,
+        "outlier_fraction": 0.017857142857142856,
+        "correlation_without_outliers": 0.15688180156713222,
+        "sigma_without_outliers": 1.1564364618232437
+      },
+      "early_late": {
+        "early_phase": {
+          "n_photons": 28,
+          "pearson_r": -0.14539846876605403,
+          "sigma": 0.7493528690640956
+        },
+        "late_phase": {
+          "n_photons": 28,
+          "pearson_r": 0.3209895149995571,
+          "sigma": 1.7281824680794597
+        },
+        "phase_comparison": {
+          "correlation_change": 0.4663879837656111,
+          "sigma_change": 0.9788295990153641,
+          "sign_flip": true
+        }
+      },
+      "hidden_patterns": [
+        {
+          "type": "phase_transition",
+          "detail": "Early: 0.75\u03c3, Late: 1.73\u03c3"
+        }
+      ],
+      "max_sigma_overall": 2.582708003104263,
+      "max_sigma_global": 2.582708003104263,
+      "classification": "\ud83d\udfe1 MARGINAL"
+    },
+    {
+      "grb": "L251021110535F357373F42",
+      "status": "ANALYZED",
+      "n_photons": 347,
+      "energy_range_gev": [
+        0.10066966712474823,
+        27.428804397583008
+      ],
+      "global": {
+        "pearson_r": -0.05968512652153535,
+        "pearson_sigma": 1.1105819077110144,
+        "spearman_rho": -0.02379402825781392,
+        "spearman_sigma": 0.44207962027573316,
+        "kendall_tau": -0.015708550582199193
+      },
+      "energy_subsets": {
+        "low_energy": {
+          "n_photons": 173,
+          "energy_range": [
+            0.10066966712474823,
+            0.2666975259780884
+          ],
+          "pearson_r": -0.07001443084943898,
+          "sigma": 0.9178098108798639
+        },
+        "high_energy": {
+          "n_photons": 174,
+          "energy_range": [
+            0.26782962679862976,
+            27.428804397583008
+          ],
+          "pearson_r": -0.07370061809262075,
+          "sigma": 0.9692103982747073
+        },
+        "very_high_energy": {
+          "n_photons": 87,
+          "energy_range": [
+            0.5654001832008362,
+            27.428804397583008
+          ],
+          "pearson_r": -0.06307912436857056,
+          "sigma": 0.5827212639085592
+        },
+        "ultra_high_energy": {
+          "n_photons": 35,
+          "energy_range": [
+            0.9336491227149963,
+            27.428804397583008
+          ],
+          "pearson_r": -0.11076571406809023,
+          "sigma": 0.6402402727517746
+        }
+      },
+      "time_evolution": {
+        "time_bins": [
+          {
+            "time_window": [
+              0.0,
+              3311.057674626509
+            ],
+            "n_photons": 328,
+            "pearson_r": -0.05915069174099322,
+            "sigma": 1.0698668125570818
+          },
+          {
+            "time_window": [
+              3311.057674626509,
+              6622.115349253018
+            ],
+            "n_photons": 12,
+            "pearson_r": 0.12089435706050765,
+            "sigma": 0.3851262799186544
+          }
+        ]
+      },
+      "weighted": {
+        "weighted_correlation": -0.19218268660061,
+        "weight_scheme": "energy_proportional"
+      },
+      "outliers": {
+        "n_outliers": 12,
+        "outlier_fraction": 0.0345821325648415,
+        "correlation_without_outliers": -0.06011958012040934,
+        "sigma_without_outliers": 1.0990674006334287
+      },
+      "early_late": {
+        "early_phase": {
+          "n_photons": 173,
+          "pearson_r": -0.002044288250453838,
+          "sigma": 0.0267325935449299
+        },
+        "late_phase": {
+          "n_photons": 174,
+          "pearson_r": -0.08180352898337301,
+          "sigma": 1.0764509771600177
+        },
+        "phase_comparison": {
+          "correlation_change": -0.07975924073291916,
+          "sigma_change": 1.0497183836150878,
+          "sign_flip": false
+        }
+      },
+      "hidden_patterns": [],
+      "max_sigma_overall": 1.1105819077110144,
+      "max_sigma_global": 1.1105819077110144,
+      "classification": "\u26aa NO_SIGNAL"
+    },
+    {
+      "grb": "L251021110629F357373F55",
+      "status": "ANALYZED",
+      "n_photons": 190,
+      "energy_range_gev": [
+        0.10280527174472809,
+        22.15667724609375
+      ],
+      "global": {
+        "pearson_r": 0.14365380014459464,
+        "pearson_sigma": 1.990325318495242,
+        "spearman_rho": 0.12485227029178533,
+        "spearman_sigma": 1.7253886573974193,
+        "kendall_tau": 0.08861041492620439
+      },
+      "energy_subsets": {
+        "low_energy": {
+          "n_photons": 95,
+          "energy_range": [
+            0.10280527174472809,
+            0.4531051218509674
+          ],
+          "pearson_r": 0.06526553233367964,
+          "sigma": 0.6307427868866484
+        },
+        "high_energy": {
+          "n_photons": 95,
+          "energy_range": [
+            0.4563659429550171,
+            22.15667724609375
+          ],
+          "pearson_r": 0.3618898197388551,
+          "sigma": 3.74368256703566
+        },
+        "very_high_energy": {
+          "n_photons": 48,
+          "energy_range": [
+            0.9518793821334839,
+            22.15667724609375
+          ],
+          "pearson_r": 0.37777826201419357,
+          "sigma": 2.7672833250751285
+        },
+        "ultra_high_energy": {
+          "n_photons": 19,
+          "energy_range": [
+            2.7505621910095215,
+            22.15667724609375
+          ],
+          "pearson_r": 0.3604278396428534,
+          "sigma": 1.5931631714839576
+        }
+      },
+      "time_evolution": {},
+      "weighted": {
+        "weighted_correlation": 0.44316067858947034,
+        "weight_scheme": "energy_proportional"
+      },
+      "outliers": {
+        "n_outliers": 4,
+        "outlier_fraction": 0.021052631578947368,
+        "correlation_without_outliers": -0.0371606916096673,
+        "sigma_without_outliers": 0.5044205475707462
+      },
+      "early_late": {
+        "early_phase": {
+          "n_photons": 95,
+          "pearson_r": 0.12910176518819969,
+          "sigma": 1.2555193380602556
+        },
+        "late_phase": {
+          "n_photons": 95,
+          "pearson_r": 0.07429608419654901,
+          "sigma": 0.7184711803550503
+        },
+        "phase_comparison": {
+          "correlation_change": -0.054805680991650674,
+          "sigma_change": -0.5370481577052053,
+          "sign_flip": false
+        }
+      },
+      "hidden_patterns": [
+        {
+          "type": "subset_correlation",
+          "subset": "high_energy",
+          "significance": 3.74368256703566,
+          "detail": "high_energy: 3.74\u03c3 with 95 photons"
+        },
+        {
+          "type": "subset_correlation",
+          "subset": "very_high_energy",
+          "significance": 2.7672833250751285,
+          "detail": "very_high_energy: 2.77\u03c3 with 48 photons"
+        }
+      ],
+      "max_sigma_overall": 3.74368256703566,
+      "max_sigma_global": 1.990325318495242,
+      "classification": "\ud83d\udfe0 SIGNIFICANT"
+    },
+    {
+      "grb": "L251021110739F357373F39",
+      "status": "ANALYZED",
+      "n_photons": 9371,
+      "energy_range_gev": [
+        0.10001926869153976,
+        58.664398193359375
+      ],
+      "global": {
+        "pearson_r": -0.03350411685404079,
+        "pearson_sigma": 3.2448056123400644,
+        "spearman_rho": -0.08378755676164061,
+        "spearman_sigma": 8.138717479305344,
+        "kendall_tau": -0.056143827270465164
+      },
+      "energy_subsets": {
+        "low_energy": {
+          "n_photons": 4685,
+          "energy_range": [
+            0.10001926869153976,
+            0.2470191866159439
+          ],
+          "pearson_r": 0.016366916455627604,
+          "sigma": 1.1201782109847278
+        },
+        "high_energy": {
+          "n_photons": 4686,
+          "energy_range": [
+            0.2470448911190033,
+            58.664398193359375
+          ],
+          "pearson_r": -0.036123426691863844,
+          "sigma": 2.4738930763997287
+        },
+        "very_high_energy": {
+          "n_photons": 2343,
+          "energy_range": [
+            0.45851370692253113,
+            58.664398193359375
+          ],
+          "pearson_r": -0.04381980299314415,
+          "sigma": 2.122210647442883
+        },
+        "ultra_high_energy": {
+          "n_photons": 938,
+          "energy_range": [
+            0.8651392459869385,
+            58.664398193359375
+          ],
+          "pearson_r": -0.03674776313549148,
+          "sigma": 1.1250252404428487
+        }
+      },
+      "time_evolution": {
+        "time_bins": [
+          {
+            "time_window": [
+              0.0,
+              1875.3242999196052
+            ],
+            "n_photons": 209,
+            "pearson_r": -0.032040680669039395,
+            "sigma": 0.461221926353477
+          },
+          {
+            "time_window": [
+              1875.3242999196052,
+              3750.6485998392104
+            ],
+            "n_photons": 4254,
+            "pearson_r": -0.0689484703813019,
+            "sigma": 4.506672714427673
+          },
+          {
+            "time_window": [
+              3750.6485998392104,
+              5625.972899758815
+            ],
+            "n_photons": 14,
+            "pearson_r": -0.3330737087907511,
+            "sigma": 1.2236718663825603
+          },
+          {
+            "time_window": [
+              5625.972899758815,
+              7501.297199678421
+            ],
+            "n_photons": 26,
+            "pearson_r": 0.001349635384456288,
+            "sigma": 0.006611842083235543
+          },
+          {
+            "time_window": [
+              7501.297199678421,
+              9376.621499598026
+            ],
+            "n_photons": 4867,
+            "pearson_r": -0.1612215647753471,
+            "sigma": 11.394187974576377
+          }
+        ],
+        "sign_transition_detected": true,
+        "transition_type": "correlation_reversal"
+      },
+      "weighted": {
+        "weighted_correlation": -0.17219097351163112,
+        "weight_scheme": "energy_proportional"
+      },
+      "outliers": {
+        "n_outliers": 80,
+        "outlier_fraction": 0.008536975776331234,
+        "correlation_without_outliers": -0.03335966045554885,
+        "sigma_without_outliers": 3.2169765385800413
+      },
+      "early_late": {
+        "early_phase": {
+          "n_photons": 4685,
+          "pearson_r": 0.007371552828991283,
+          "sigma": 0.5044671154250171
+        },
+        "late_phase": {
+          "n_photons": 4686,
+          "pearson_r": -0.1470751559546987,
+          "sigma": 10.176453244276098
+        },
+        "phase_comparison": {
+          "correlation_change": -0.15444670878369,
+          "sigma_change": 9.671986128851081,
+          "sign_flip": true
+        }
+      },
+      "hidden_patterns": [
+        {
+          "type": "subset_correlation",
+          "subset": "high_energy",
+          "significance": 2.4738930763997287,
+          "detail": "high_energy: 2.47\u03c3 with 4686 photons"
+        },
+        {
+          "type": "subset_correlation",
+          "subset": "very_high_energy",
+          "significance": 2.122210647442883,
+          "detail": "very_high_energy: 2.12\u03c3 with 2343 photons"
+        },
+        {
+          "type": "temporal_transition",
+          "detail": "Correlation sign changes over time (like GRB160625B!)"
+        },
+        {
+          "type": "phase_transition",
+          "detail": "Early: 0.50\u03c3, Late: 10.18\u03c3"
+        },
+        {
+          "type": "outlier_masked_signal",
+          "detail": "Signal 3.22\u03c3 after removing 80 outliers"
+        }
+      ],
+      "max_sigma_overall": 10.176453244276098,
+      "max_sigma_global": 8.138717479305344,
+      "classification": "\ud83d\udd34 STRONG_SIGNAL"
+    },
+    {
+      "grb": "L251021110941F357373F53",
+      "status": "ANALYZED",
+      "n_photons": 190,
+      "energy_range_gev": [
+        0.10280527174472809,
+        22.15667724609375
+      ],
+      "global": {
+        "pearson_r": 0.14365380014459464,
+        "pearson_sigma": 1.990325318495242,
+        "spearman_rho": 0.12485227029178533,
+        "spearman_sigma": 1.7253886573974193,
+        "kendall_tau": 0.08861041492620439
+      },
+      "energy_subsets": {
+        "low_energy": {
+          "n_photons": 95,
+          "energy_range": [
+            0.10280527174472809,
+            0.4531051218509674
+          ],
+          "pearson_r": 0.06526553233367964,
+          "sigma": 0.6307427868866484
+        },
+        "high_energy": {
+          "n_photons": 95,
+          "energy_range": [
+            0.4563659429550171,
+            22.15667724609375
+          ],
+          "pearson_r": 0.3618898197388551,
+          "sigma": 3.74368256703566
+        },
+        "very_high_energy": {
+          "n_photons": 48,
+          "energy_range": [
+            0.9518793821334839,
+            22.15667724609375
+          ],
+          "pearson_r": 0.37777826201419357,
+          "sigma": 2.7672833250751285
+        },
+        "ultra_high_energy": {
+          "n_photons": 19,
+          "energy_range": [
+            2.7505621910095215,
+            22.15667724609375
+          ],
+          "pearson_r": 0.3604278396428534,
+          "sigma": 1.5931631714839576
+        }
+      },
+      "time_evolution": {},
+      "weighted": {
+        "weighted_correlation": 0.44316067858947034,
+        "weight_scheme": "energy_proportional"
+      },
+      "outliers": {
+        "n_outliers": 4,
+        "outlier_fraction": 0.021052631578947368,
+        "correlation_without_outliers": -0.0371606916096673,
+        "sigma_without_outliers": 0.5044205475707462
+      },
+      "early_late": {
+        "early_phase": {
+          "n_photons": 95,
+          "pearson_r": 0.12910176518819969,
+          "sigma": 1.2555193380602556
+        },
+        "late_phase": {
+          "n_photons": 95,
+          "pearson_r": 0.07429608419654901,
+          "sigma": 0.7184711803550503
+        },
+        "phase_comparison": {
+          "correlation_change": -0.054805680991650674,
+          "sigma_change": -0.5370481577052053,
+          "sign_flip": false
+        }
+      },
+      "hidden_patterns": [
+        {
+          "type": "subset_correlation",
+          "subset": "high_energy",
+          "significance": 3.74368256703566,
+          "detail": "high_energy: 3.74\u03c3 with 95 photons"
+        },
+        {
+          "type": "subset_correlation",
+          "subset": "very_high_energy",
+          "significance": 2.7672833250751285,
+          "detail": "very_high_energy: 2.77\u03c3 with 48 photons"
+        }
+      ],
+      "max_sigma_overall": 3.74368256703566,
+      "max_sigma_global": 1.990325318495242,
+      "classification": "\ud83d\udfe0 SIGNIFICANT"
+    },
+    {
+      "grb": "L251021111027F357373F43",
+      "status": "INSUFFICIENT_DATA",
+      "n_photons": 37
+    }
+  ],
+  "summary": {
+    "strong": 3,
+    "significant": 4,
+    "marginal": 3,
+    "hidden_patterns": 0,
+    "no_signal": 1
+  }
+}

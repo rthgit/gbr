@@ -169,3 +169,4 @@ python create_spectacular_figures.py && python lhaaso_lat_analysis_script.py && 
 ---
 
 **🎉 TUTTO PRONTO PER LA SCOPERTA DI GRAVITÀ QUANTISTICA! 🎉**
+

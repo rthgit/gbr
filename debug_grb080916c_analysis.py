@@ -189,3 +189,4 @@ def calculate_realistic_qg_delay(energy_gev, redshift):
 
 if __name__ == "__main__":
     debug_analysis()
+

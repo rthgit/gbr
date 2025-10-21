@@ -1,0 +1,19 @@
+{
+  "grb_name": "GRB090902B",
+  "analysis_date": "2025-10-21T10:31:40.180170",
+  "n_photons": 3972,
+  "energy_range_gev": [
+    0.10002322494983673,
+    80.82098388671875
+  ],
+  "time_range_s": [
+    273581819.68495375,
+    273584028.14469916
+  ],
+  "correlation": -0.08625484997406917,
+  "significance": 5.455070539634843,
+  "photons_1gev": 259,
+  "photons_10gev": 10,
+  "photons_30gev": 2,
+  "status": "HIGHLY_SIGNIFICANT"
+}

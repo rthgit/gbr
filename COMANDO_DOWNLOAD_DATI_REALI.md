@@ -85,3 +85,4 @@ python real_grb_data_downloader.py
 **🎯 GENERERÀ SCRIPT E EMAIL PRONTI PER L'USO!**
 
 **🎯 TI PERMETTERÀ DI SCARICARE DATI REALI E ANALIZZARE ANOMALIE VERE!**
+

@@ -1,0 +1,12 @@
+{
+  "access_mode": "direct",
+  "registration_needed": false,
+  "available_apis": [
+    "swift",
+    "magic",
+    "hess",
+    "fermi_catalog"
+  ],
+  "missing_apis": [],
+  "confidence": "high"
+}

@@ -1,0 +1,22 @@
+{
+  "total_grbs": 1,
+  "total_patterns": 1,
+  "patterns_by_type": {
+    "time_window": 1
+  },
+  "detailed_results": {
+    "GRB090510": {
+      "grb_name": "GRB090510",
+      "n_total": 2371,
+      "patterns_found": [
+        {
+          "type": "time_window",
+          "position": "Window 3/5",
+          "n_photons": 290,
+          "significance": 2.9060941837973777,
+          "priority": "MEDIUM"
+        }
+      ]
+    }
+  }
+}

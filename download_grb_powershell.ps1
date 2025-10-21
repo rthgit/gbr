@@ -36,3 +36,4 @@ foreach ($file in $files) {
 
 Write-Host "Premi un tasto per continuare..."
 $null = $Host.UI.RawUI.ReadKey("NoEcho,IncludeKeyDown")
+

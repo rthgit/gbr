@@ -238,3 +238,4 @@ Con 4 GRB reali, ci aspettiamo:
 - **Nessuna evidenza QG** (normale)
 
 Questo confermerebbe la robustezza del nostro toolkit su un campione più grande!
+

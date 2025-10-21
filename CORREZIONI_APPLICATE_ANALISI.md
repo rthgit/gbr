@@ -191,3 +191,4 @@ Le correzioni applicate risolvono tutti i problemi identificati nell'analisi ori
 - **Metodologia riproducibile** e credibile
 
 **L'analisi corretta fornirà risultati scientificamente validi e credibili per la valutazione di effetti QG in GRB221009A.**
+

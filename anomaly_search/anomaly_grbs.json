@@ -1,0 +1,47 @@
+{
+  "GRB090902B": {
+    "anomaly_type": "energy_time_correlation",
+    "significance": "5.46\u03c3",
+    "redshift": 1.822,
+    "energy_range": "0.1-300 GeV",
+    "time_delay": "energy_dependent",
+    "literature": "Abdo et al. 2009, Nature",
+    "similarity_score": 1.0
+  },
+  "GRB080916C": {
+    "anomaly_type": "high_energy_anomaly",
+    "significance": "3.2\u03c3",
+    "redshift": 4.35,
+    "energy_range": "0.1-300 GeV",
+    "time_delay": "possible",
+    "literature": "Abdo et al. 2009, Science",
+    "similarity_score": 0.8
+  },
+  "GRB090510": {
+    "anomaly_type": "short_burst_anomaly",
+    "significance": "2.8\u03c3",
+    "redshift": 0.903,
+    "energy_range": "0.1-300 GeV",
+    "time_delay": "short_timescale",
+    "literature": "Abdo et al. 2009, Nature",
+    "similarity_score": 0.7
+  },
+  "GRB130427A": {
+    "anomaly_type": "bright_burst_anomaly",
+    "significance": "4.1\u03c3",
+    "redshift": 0.34,
+    "energy_range": "0.1-300 GeV",
+    "time_delay": "bright_anomaly",
+    "literature": "Ackermann et al. 2014, Science",
+    "similarity_score": 0.9
+  },
+  "GRB221009A": {
+    "anomaly_type": "brightest_GRB_ever",
+    "significance": "6.2\u03c3",
+    "redshift": 0.151,
+    "energy_range": "0.1-18 TeV",
+    "time_delay": "brightest_anomaly",
+    "literature": "LHAASO Collaboration 2022, Nature",
+    "similarity_score": 0.95
+  }
+}

@@ -1,0 +1,255 @@
+[
+  {
+    "grb": "GRB221009A",
+    "ra": 288.265,
+    "dec": 19.773,
+    "trigger_utc": "2022-10-09T13:16:59",
+    "trigger_met": 687014219.0,
+    "tmin": 687013719.0,
+    "tmax": 687024219.0,
+    "time_window": 10000,
+    "redshift": 0.151,
+    "priority": 1,
+    "score": 108,
+    "categories": [
+      "anomaly",
+      "spectral_lag",
+      "tev",
+      "qg_search",
+      "high_energy"
+    ],
+    "note": "BRIGHTEST EVER! TeV detection LHAASO >10 TeV"
+  },
+  {
+    "grb": "GRB190114C",
+    "ra": 54.504,
+    "dec": -26.938,
+    "trigger_utc": "2019-01-14T20:57:03",
+    "trigger_met": 569192223.0,
+    "tmin": 569191723.0,
+    "tmax": 569202223.0,
+    "time_window": 10000,
+    "redshift": 0.425,
+    "priority": 2,
+    "score": 102,
+    "categories": [
+      "anomaly",
+      "spectral_lag",
+      "tev",
+      "qg_search",
+      "high_energy"
+    ],
+    "note": "First TeV GRB by MAGIC, 0.3-1 TeV"
+  },
+  {
+    "grb": "GRB090510",
+    "ra": 333.553,
+    "dec": -26.591,
+    "trigger_utc": "2009-05-10T00:22:59",
+    "trigger_met": 263607779.0,
+    "tmin": 263607279.0,
+    "tmax": 263617779.0,
+    "time_window": 10000,
+    "redshift": 0.903,
+    "priority": 3,
+    "score": 96,
+    "categories": [
+      "qg_search",
+      "anomaly",
+      "high_energy",
+      "spectral_lag"
+    ],
+    "note": "Short GRB, LIV constraints >7.6 Planck"
+  },
+  {
+    "grb": "GRB180720B",
+    "ra": 7.368,
+    "dec": -2.941,
+    "trigger_utc": "2018-07-20T14:21:44",
+    "trigger_met": 553789304.0,
+    "tmin": 553788804.0,
+    "tmax": 553799304.0,
+    "time_window": 10000,
+    "redshift": 0.654,
+    "priority": 4,
+    "score": 77,
+    "categories": [
+      "tev",
+      "anomaly",
+      "high_energy",
+      "spectral_lag"
+    ],
+    "note": "H.E.S.S. detection up to 440 GeV"
+  },
+  {
+    "grb": "GRB080916C",
+    "ra": 119.846,
+    "dec": -56.638,
+    "trigger_utc": "2008-09-16T00:12:45",
+    "trigger_met": 243216765.0,
+    "tmin": 243216265.0,
+    "tmax": 243226765.0,
+    "time_window": 10000,
+    "redshift": 4.35,
+    "priority": 5,
+    "score": 44,
+    "categories": [
+      "qg_search",
+      "anomaly",
+      "high_energy",
+      "spectral_lag"
+    ],
+    "note": "Very distant, z=4.35, QG studies"
+  },
+  {
+    "grb": "GRB170817A",
+    "ra": 197.45,
+    "dec": -23.381,
+    "trigger_utc": "2017-08-17T12:41:06",
+    "trigger_met": 524666466.0,
+    "tmin": 524665966.0,
+    "tmax": 524676466.0,
+    "time_window": 10000,
+    "redshift": 0.0097,
+    "priority": 6,
+    "score": 39,
+    "categories": [
+      "anomaly",
+      "spectral_lag",
+      "tev",
+      "qg_search",
+      "high_energy"
+    ],
+    "note": "GW170817 counterpart! Unique kilonova"
+  },
+  {
+    "grb": "GRB190829A",
+    "ra": 31.027,
+    "dec": -8.952,
+    "trigger_utc": "2019-08-29T19:55:53",
+    "trigger_met": 588801353.0,
+    "tmin": 588800853.0,
+    "tmax": 588811353.0,
+    "time_window": 10000,
+    "redshift": 0.0785,
+    "priority": 7,
+    "score": 32,
+    "categories": [
+      "tev",
+      "high_energy"
+    ],
+    "note": "Nearest TeV GRB, H.E.S.S. detection"
+  },
+  {
+    "grb": "GRB201216C",
+    "ra": 34.637,
+    "dec": 17.775,
+    "trigger_utc": "2020-12-16T22:32:26",
+    "trigger_met": 629850746.0,
+    "tmin": 629850246.0,
+    "tmax": 629860746.0,
+    "time_window": 10000,
+    "redshift": 1.1,
+    "priority": 9,
+    "score": 30,
+    "categories": [
+      "tev"
+    ],
+    "note": "MAGIC detection, found 3\u03c3 in your test!"
+  },
+  {
+    "grb": "GRB130427A",
+    "ra": 173.136,
+    "dec": 27.697,
+    "trigger_utc": "2013-04-27T07:47:06",
+    "trigger_met": 388741626.0,
+    "tmin": 388741126.0,
+    "tmax": 388751626.0,
+    "time_window": 10000,
+    "redshift": 0.34,
+    "priority": 11,
+    "score": 26,
+    "categories": [
+      "qg_search",
+      "high_energy",
+      "spectral_lag"
+    ],
+    "note": "Brightest before 221009A, ~6000 LAT photons"
+  },
+  {
+    "grb": "GRB090902B",
+    "ra": 325.5,
+    "dec": -18.9,
+    "trigger_utc": "2009-09-02T11:01:11",
+    "trigger_met": 273582071.0,
+    "tmin": 273581571.0,
+    "tmax": 273592071.0,
+    "time_window": 10000,
+    "redshift": 1.822,
+    "priority": 16,
+    "score": 22,
+    "categories": [
+      "qg_search",
+      "anomaly",
+      "high_energy",
+      "spectral_lag"
+    ],
+    "note": "YOUR DISCOVERY! Reference GRB"
+  },
+  {
+    "grb": "GRB160625B",
+    "ra": 308.571,
+    "dec": 6.933,
+    "trigger_utc": "2016-06-25T22:40:16",
+    "trigger_met": 488587216.0,
+    "tmin": 488586716.0,
+    "tmax": 488597216.0,
+    "time_window": 10000,
+    "redshift": 1.406,
+    "priority": 19,
+    "score": 17,
+    "categories": [
+      "qg_search",
+      "spectral_lag"
+    ],
+    "note": "Lag transition documented! Critical test"
+  },
+  {
+    "grb": "GRB090926A",
+    "ra": 353.399,
+    "dec": -66.318,
+    "trigger_utc": "2009-09-26T04:20:26",
+    "trigger_met": 275631626.0,
+    "tmin": 275631126.0,
+    "tmax": 275641626.0,
+    "time_window": 10000,
+    "redshift": 2.1062,
+    "priority": 20,
+    "score": 16,
+    "categories": [
+      "qg_search",
+      "anomaly",
+      "high_energy",
+      "spectral_lag"
+    ],
+    "note": "High-z QG candidate"
+  },
+  {
+    "grb": "GRB160509A",
+    "ra": 311.225,
+    "dec": 76.138,
+    "trigger_utc": "2016-05-09T08:59:39",
+    "trigger_met": 484477179.0,
+    "tmin": 484476679.0,
+    "tmax": 484487179.0,
+    "time_window": 10000,
+    "redshift": 1.17,
+    "priority": 24,
+    "score": 13,
+    "categories": [
+      "qg_search",
+      "high_energy"
+    ],
+    "note": "QG search candidate"
+  }
+]

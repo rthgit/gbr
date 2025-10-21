@@ -1,0 +1,202 @@
+{
+  "arXiv_GRB energy time correlation": {
+    "url": "https://arxiv.org/search/?query=GRB+energy+time+correlation",
+    "status": "success",
+    "content_length": 17657
+  },
+  "ADS_GRB energy time correlation": {
+    "url": "https://ui.adsabs.harvard.edu/search/?q=GRB+energy+time+correlation",
+    "status": "success",
+    "content_length": 11103
+  },
+  "NASA_ADS_GRB energy time correlation": {
+    "url": "https://ui.adsabs.harvard.edu/search/?q=GRB+energy+time+correlation",
+    "status": "success",
+    "content_length": 11103
+  },
+  "INSPIRE_GRB energy time correlation": {
+    "url": "https://inspirehep.net/search?p=GRB+energy+time+correlation",
+    "status": "success",
+    "content_length": 4201
+  },
+  "arXiv_GRB quantum gravity effects": {
+    "url": "https://arxiv.org/search/?query=GRB+quantum+gravity+effects",
+    "status": "success",
+    "content_length": 17657
+  },
+  "ADS_GRB quantum gravity effects": {
+    "url": "https://ui.adsabs.harvard.edu/search/?q=GRB+quantum+gravity+effects",
+    "status": "success",
+    "content_length": 11103
+  },
+  "NASA_ADS_GRB quantum gravity effects": {
+    "url": "https://ui.adsabs.harvard.edu/search/?q=GRB+quantum+gravity+effects",
+    "status": "success",
+    "content_length": 11103
+  },
+  "INSPIRE_GRB quantum gravity effects": {
+    "url": "https://inspirehep.net/search?p=GRB+quantum+gravity+effects",
+    "status": "success",
+    "content_length": 4201
+  },
+  "arXiv_GRB anomalous time delays": {
+    "url": "https://arxiv.org/search/?query=GRB+anomalous+time+delays",
+    "status": "success",
+    "content_length": 17655
+  },
+  "ADS_GRB anomalous time delays": {
+    "url": "https://ui.adsabs.harvard.edu/search/?q=GRB+anomalous+time+delays",
+    "status": "success",
+    "content_length": 11103
+  },
+  "NASA_ADS_GRB anomalous time delays": {
+    "url": "https://ui.adsabs.harvard.edu/search/?q=GRB+anomalous+time+delays",
+    "status": "success",
+    "content_length": 11103
+  },
+  "INSPIRE_GRB anomalous time delays": {
+    "url": "https://inspirehep.net/search?p=GRB+anomalous+time+delays",
+    "status": "success",
+    "content_length": 4201
+  },
+  "arXiv_GRB energy-dependent delays": {
+    "url": "https://arxiv.org/search/?query=GRB+energy-dependent+delays",
+    "status": "success",
+    "content_length": 17657
+  },
+  "ADS_GRB energy-dependent delays": {
+    "url": "https://ui.adsabs.harvard.edu/search/?q=GRB+energy-dependent+delays",
+    "status": "success",
+    "content_length": 11103
+  },
+  "NASA_ADS_GRB energy-dependent delays": {
+    "url": "https://ui.adsabs.harvard.edu/search/?q=GRB+energy-dependent+delays",
+    "status": "success",
+    "content_length": 11103
+  },
+  "INSPIRE_GRB energy-dependent delays": {
+    "url": "https://inspirehep.net/search?p=GRB+energy-dependent+delays",
+    "status": "success",
+    "content_length": 4201
+  },
+  "arXiv_GRB Lorentz violation": {
+    "url": "https://arxiv.org/search/?query=GRB+Lorentz+violation",
+    "status": "success",
+    "content_length": 17651
+  },
+  "ADS_GRB Lorentz violation": {
+    "url": "https://ui.adsabs.harvard.edu/search/?q=GRB+Lorentz+violation",
+    "status": "success",
+    "content_length": 11103
+  },
+  "NASA_ADS_GRB Lorentz violation": {
+    "url": "https://ui.adsabs.harvard.edu/search/?q=GRB+Lorentz+violation",
+    "status": "success",
+    "content_length": 11103
+  },
+  "INSPIRE_GRB Lorentz violation": {
+    "url": "https://inspirehep.net/search?p=GRB+Lorentz+violation",
+    "status": "success",
+    "content_length": 4201
+  },
+  "arXiv_GRB quantum spacetime": {
+    "url": "https://arxiv.org/search/?query=GRB+quantum+spacetime",
+    "status": "success",
+    "content_length": 17651
+  },
+  "ADS_GRB quantum spacetime": {
+    "url": "https://ui.adsabs.harvard.edu/search/?q=GRB+quantum+spacetime",
+    "status": "success",
+    "content_length": 11103
+  },
+  "NASA_ADS_GRB quantum spacetime": {
+    "url": "https://ui.adsabs.harvard.edu/search/?q=GRB+quantum+spacetime",
+    "status": "success",
+    "content_length": 11103
+  },
+  "INSPIRE_GRB quantum spacetime": {
+    "url": "https://inspirehep.net/search?p=GRB+quantum+spacetime",
+    "status": "success",
+    "content_length": 4201
+  },
+  "arXiv_GRB energy-time lag": {
+    "url": "https://arxiv.org/search/?query=GRB+energy-time+lag",
+    "status": "success",
+    "content_length": 17649
+  },
+  "ADS_GRB energy-time lag": {
+    "url": "https://ui.adsabs.harvard.edu/search/?q=GRB+energy-time+lag",
+    "status": "success",
+    "content_length": 11103
+  },
+  "NASA_ADS_GRB energy-time lag": {
+    "url": "https://ui.adsabs.harvard.edu/search/?q=GRB+energy-time+lag",
+    "status": "success",
+    "content_length": 11103
+  },
+  "INSPIRE_GRB energy-time lag": {
+    "url": "https://inspirehep.net/search?p=GRB+energy-time+lag",
+    "status": "success",
+    "content_length": 4201
+  },
+  "arXiv_GRB high energy anomalies": {
+    "url": "https://arxiv.org/search/?query=GRB+high+energy+anomalies",
+    "status": "success",
+    "content_length": 17655
+  },
+  "ADS_GRB high energy anomalies": {
+    "url": "https://ui.adsabs.harvard.edu/search/?q=GRB+high+energy+anomalies",
+    "status": "success",
+    "content_length": 11103
+  },
+  "NASA_ADS_GRB high energy anomalies": {
+    "url": "https://ui.adsabs.harvard.edu/search/?q=GRB+high+energy+anomalies",
+    "status": "success",
+    "content_length": 11103
+  },
+  "INSPIRE_GRB high energy anomalies": {
+    "url": "https://inspirehep.net/search?p=GRB+high+energy+anomalies",
+    "status": "success",
+    "content_length": 4201
+  },
+  "arXiv_GRB TeV anomalies": {
+    "url": "https://arxiv.org/search/?query=GRB+TeV+anomalies",
+    "status": "success",
+    "content_length": 17647
+  },
+  "ADS_GRB TeV anomalies": {
+    "url": "https://ui.adsabs.harvard.edu/search/?q=GRB+TeV+anomalies",
+    "status": "success",
+    "content_length": 11103
+  },
+  "NASA_ADS_GRB TeV anomalies": {
+    "url": "https://ui.adsabs.harvard.edu/search/?q=GRB+TeV+anomalies",
+    "status": "success",
+    "content_length": 11103
+  },
+  "INSPIRE_GRB TeV anomalies": {
+    "url": "https://inspirehep.net/search?p=GRB+TeV+anomalies",
+    "status": "success",
+    "content_length": 4201
+  },
+  "arXiv_GRB multi-messenger anomalies": {
+    "url": "https://arxiv.org/search/?query=GRB+multi-messenger+anomalies",
+    "status": "success",
+    "content_length": 17659
+  },
+  "ADS_GRB multi-messenger anomalies": {
+    "url": "https://ui.adsabs.harvard.edu/search/?q=GRB+multi-messenger+anomalies",
+    "status": "success",
+    "content_length": 11103
+  },
+  "NASA_ADS_GRB multi-messenger anomalies": {
+    "url": "https://ui.adsabs.harvard.edu/search/?q=GRB+multi-messenger+anomalies",
+    "status": "success",
+    "content_length": 11103
+  },
+  "INSPIRE_GRB multi-messenger anomalies": {
+    "url": "https://inspirehep.net/search?p=GRB+multi-messenger+anomalies",
+    "status": "success",
+    "content_length": 4201
+  }
+}

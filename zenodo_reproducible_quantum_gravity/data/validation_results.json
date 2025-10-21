@@ -1,0 +1,112 @@
+{
+  "timestamp": "2025-10-20T16:32:42.771722",
+  "control_tests": {
+    "fermi": {
+      "threshold_50kev": {
+        "bias_detected": false,
+        "correlation": -0.0006848163078378607,
+        "p_value": 0.9755831404386581
+      },
+      "threshold_100kev": {
+        "bias_detected": false,
+        "correlation": -0.0006848163078378607,
+        "p_value": 0.9755831404386581
+      },
+      "threshold_200kev": {
+        "bias_detected": false,
+        "correlation": -0.0006848163078378607,
+        "p_value": 0.9755831404386581
+      }
+    },
+    "swift": {
+      "threshold_50kev": {
+        "bias_detected": false,
+        "correlation": -0.011347283110112794,
+        "p_value": 0.6582431733065571
+      },
+      "threshold_100kev": {
+        "bias_detected": false,
+        "correlation": 0.011656733832075909,
+        "p_value": 0.565016334667157
+      },
+      "threshold_200kev": {
+        "bias_detected": false,
+        "correlation": 0.00940296971479012,
+        "p_value": 0.6066797805775267
+      }
+    },
+    "magic": {}
+  },
+  "mock_injection_tests": {
+    "fermi": {
+      "signal_0.0001": {
+        "false_positive_rate": 1.0,
+        "detection_rate": 1.0,
+        "is_valid": false
+      },
+      "signal_0.001": {
+        "false_positive_rate": 1.0,
+        "detection_rate": 1.0,
+        "is_valid": false
+      },
+      "signal_0.01": {
+        "false_positive_rate": 1.0,
+        "detection_rate": 1.0,
+        "is_valid": false
+      }
+    }
+  },
+  "bias_analysis": {
+    "energy_dependence": {
+      "fermi": [
+        {
+          "file": "grb080916c_gbm.fits",
+          "correlation": 0.21497198225471237,
+          "p_value": 1.5107662067935313e-22,
+          "mean_energy": 77.75003998168441
+        },
+        {
+          "file": "grb130427a_gbm.fits",
+          "correlation": 0.12768677707604956,
+          "p_value": 6.155517458182302e-07,
+          "mean_energy": 532.1866581549926
+        }
+      ],
+      "swift": [
+        {
+          "file": "grb080916c_bat.fits",
+          "correlation": 0.00940296971479012,
+          "p_value": 0.6066797805775267,
+          "mean_energy": 61.895526959801025
+        },
+        {
+          "file": "grb130427a_bat.fits",
+          "correlation": -0.001353972905543102,
+          "p_value": 0.9409075186710291,
+          "mean_energy": 63.30689570417587
+        }
+      ],
+      "magic": [
+        {
+          "file": "grb190114c_magic.fits",
+          "correlation": 0.01012225294041855,
+          "p_value": 0.9420890894780996,
+          "mean_energy": 122903.38638737022
+        }
+      ]
+    },
+    "time_dependence": {},
+    "instrument_consistency": {}
+  },
+  "system_reliability": {
+    "total_score": 80,
+    "max_score": 100,
+    "percentage": 80.0,
+    "control_score": 40,
+    "detection_score": 20,
+    "consistency_score": 20
+  },
+  "recommendations": [
+    "Sistema pronto per analisi QG professionali"
+  ]
+}

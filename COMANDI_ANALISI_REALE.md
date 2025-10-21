@@ -323,3 +323,4 @@ Con dati reali Fermi LAT, ci aspettiamo:
 - **Consistenza** con letteratura Fermi-LAT
 
 Questo confermerebbe che il nostro toolkit funziona correttamente con dati reali!
+

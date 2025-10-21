@@ -182,3 +182,4 @@ Status: {'HIGHLY SIGNIFICANT' if significance > 5 else 'SIGNIFICANT' if signific
 if __name__ == "__main__":
     from scipy import stats
     quick_grb090902_test()
+

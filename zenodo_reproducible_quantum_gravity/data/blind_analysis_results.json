@@ -1,0 +1,748 @@
+{
+  "timestamp": "2025-10-21T00:02:16.463761",
+  "n_grbs": 20,
+  "n_detected": 0,
+  "n_discoveries": 0,
+  "detection_rate": 0.0,
+  "discovery_rate": 0.0,
+  "confusion_matrix": {
+    "true_positives": 0,
+    "true_negatives": 15,
+    "false_positives": 0,
+    "false_negatives": 5
+  },
+  "metrics": {
+    "accuracy": 0.75,
+    "precision": 0,
+    "recall": 0.0,
+    "f1_score": 0,
+    "false_positive_rate": 0.0
+  },
+  "significance_stats": {
+    "mean": 0.681250066628969,
+    "std": 0.4774243282812294,
+    "max": 1.9465373570482885
+  },
+  "individual_results": [
+    {
+      "base_analysis": {
+        "correlation": 0.01211532061371492,
+        "significance": 0.7634173755830316,
+        "n_photons": 3972
+      },
+      "lag_models": {
+        "power_law": {
+          "correlation": 0.013256266524061058,
+          "significance": 0.8353233911848997
+        },
+        "exponential": {
+          "correlation": 0.008658627995423083,
+          "significance": 0.5455827307071026
+        },
+        "logarithmic": {
+          "correlation": 0.011461656533407277,
+          "significance": 0.7222227620088076
+        }
+      },
+      "best_model": {
+        "name": "power_law",
+        "significance": 0.8353233911848997
+      },
+      "E_QG_limit": null,
+      "detection": false,
+      "discovery": false,
+      "hidden_info": {
+        "grb_id": "BLIND_000",
+        "n_photons": 3972,
+        "redshift": 1.231357430744041,
+        "has_qg_true": false,
+        "qg_strength": 0.0,
+        "noise_level": 0.16427674439468537
+      }
+    },
+    {
+      "base_analysis": {
+        "correlation": -0.018176167766791835,
+        "significance": 0.4891514634131318,
+        "n_photons": 726
+      },
+      "lag_models": {
+        "power_law": {
+          "correlation": -0.014137184079793436,
+          "significance": 0.38043073772593355
+        },
+        "exponential": {
+          "correlation": -0.014287959508369235,
+          "significance": 0.3844889191504788
+        },
+        "logarithmic": {
+          "correlation": -7.866252834037789e-05,
+          "significance": 0.002116592172315968
+        }
+      },
+      "best_model": {
+        "name": "exponential",
+        "significance": 0.3844889191504788
+      },
+      "E_QG_limit": null,
+      "detection": false,
+      "discovery": false,
+      "hidden_info": {
+        "grb_id": "BLIND_001",
+        "n_photons": 726,
+        "redshift": 2.1955608414232417,
+        "has_qg_true": false,
+        "qg_strength": 0.0,
+        "noise_level": 0.07471199414664137
+      }
+    },
+    {
+      "base_analysis": {
+        "correlation": 0.009009299654423158,
+        "significance": 0.2804597525851732,
+        "n_photons": 971
+      },
+      "lag_models": {
+        "power_law": {
+          "correlation": 0.0054095737692128965,
+          "significance": 0.1683958136486345
+        },
+        "exponential": {
+          "correlation": 0.005526460114146231,
+          "significance": 0.1720345043881593
+        },
+        "logarithmic": {
+          "correlation": -0.002422003305542323,
+          "significance": 0.07539419245713881
+        }
+      },
+      "best_model": {
+        "name": "exponential",
+        "significance": 0.1720345043881593
+      },
+      "E_QG_limit": null,
+      "detection": false,
+      "discovery": false,
+      "hidden_info": {
+        "grb_id": "BLIND_002",
+        "n_photons": 971,
+        "redshift": 1.2978918159718074,
+        "has_qg_true": false,
+        "qg_strength": 0.0,
+        "noise_level": 0.07823633410754299
+      }
+    },
+    {
+      "base_analysis": {
+        "correlation": -0.00916498377290431,
+        "significance": 0.6176941748682804,
+        "n_photons": 4544
+      },
+      "lag_models": {
+        "power_law": {
+          "correlation": -0.012064081642300797,
+          "significance": 0.8131102557948514
+        },
+        "exponential": {
+          "correlation": -0.011001261266393276,
+          "significance": 0.7414678522957692
+        },
+        "logarithmic": {
+          "correlation": -0.011582593187092783,
+          "significance": 0.7806538422606913
+        }
+      },
+      "best_model": {
+        "name": "power_law",
+        "significance": 0.8131102557948514
+      },
+      "E_QG_limit": null,
+      "detection": false,
+      "discovery": false,
+      "hidden_info": {
+        "grb_id": "BLIND_003",
+        "n_photons": 4544,
+        "redshift": 3.6927529270984416,
+        "has_qg_true": true,
+        "qg_strength": 0.0015311680687452177,
+        "noise_level": 0.1515388094346827
+      }
+    },
+    {
+      "base_analysis": {
+        "correlation": 0.002441555920226068,
+        "significance": 0.10667703449275445,
+        "n_photons": 1911
+      },
+      "lag_models": {
+        "power_law": {
+          "correlation": 0.00593686926305405,
+          "significance": 0.259398884021341
+        },
+        "exponential": {
+          "correlation": -0.0006831145538211972,
+          "significance": 0.029846719469038177
+        },
+        "logarithmic": {
+          "correlation": 0.007357354669295768,
+          "significance": 0.32146701015131884
+        }
+      },
+      "best_model": {
+        "name": "logarithmic",
+        "significance": 0.32146701015131884
+      },
+      "E_QG_limit": null,
+      "detection": false,
+      "discovery": false,
+      "hidden_info": {
+        "grb_id": "BLIND_004",
+        "n_photons": 1911,
+        "redshift": 0.4309632762935871,
+        "has_qg_true": true,
+        "qg_strength": 0.0011527626310585792,
+        "noise_level": 0.07707291435761239
+      }
+    },
+    {
+      "base_analysis": {
+        "correlation": -0.011896880911540774,
+        "significance": 0.3170246450210347,
+        "n_photons": 712
+      },
+      "lag_models": {
+        "power_law": {
+          "correlation": -0.015671602536476252,
+          "significance": 0.4176340700482279
+        },
+        "exponential": {
+          "correlation": -0.015492462797053987,
+          "significance": 0.4128590048766913
+        },
+        "logarithmic": {
+          "correlation": -0.02201336935027355,
+          "significance": 0.5867065643595507
+        }
+      },
+      "best_model": {
+        "name": "logarithmic",
+        "significance": 0.5867065643595507
+      },
+      "E_QG_limit": null,
+      "detection": false,
+      "discovery": false,
+      "hidden_info": {
+        "grb_id": "BLIND_005",
+        "n_photons": 712,
+        "redshift": 2.5845970326700245,
+        "has_qg_true": false,
+        "qg_strength": 0.0,
+        "noise_level": 0.13728137265556162
+      }
+    },
+    {
+      "base_analysis": {
+        "correlation": 0.001973919698035874,
+        "significance": 0.11202776957686841,
+        "n_photons": 3223
+      },
+      "lag_models": {
+        "power_law": {
+          "correlation": -0.0016016136489209055,
+          "significance": 0.09089786457164721
+        },
+        "exponential": {
+          "correlation": -0.0014130818977473813,
+          "significance": 0.08019792448344577
+        },
+        "logarithmic": {
+          "correlation": -0.003926086715926122,
+          "significance": 0.22282227152439762
+        }
+      },
+      "best_model": {
+        "name": "logarithmic",
+        "significance": 0.22282227152439762
+      },
+      "E_QG_limit": null,
+      "detection": false,
+      "discovery": false,
+      "hidden_info": {
+        "grb_id": "BLIND_006",
+        "n_photons": 3223,
+        "redshift": 3.0369351185556615,
+        "has_qg_true": false,
+        "qg_strength": 0.0,
+        "noise_level": 0.05979640578872408
+      }
+    },
+    {
+      "base_analysis": {
+        "correlation": 0.005585570414834908,
+        "significance": 0.10314578737149457,
+        "n_photons": 343
+      },
+      "lag_models": {
+        "power_law": {
+          "correlation": 0.00978172839208189,
+          "significance": 0.18063985138275376
+        },
+        "exponential": {
+          "correlation": 0.009690616451317096,
+          "significance": 0.17895712213775727
+        },
+        "logarithmic": {
+          "correlation": 0.015906646684220645,
+          "significance": 0.2937722530590433
+        }
+      },
+      "best_model": {
+        "name": "logarithmic",
+        "significance": 0.2937722530590433
+      },
+      "E_QG_limit": null,
+      "detection": false,
+      "discovery": false,
+      "hidden_info": {
+        "grb_id": "BLIND_007",
+        "n_photons": 343,
+        "redshift": 0.9526091836284619,
+        "has_qg_true": true,
+        "qg_strength": 0.0010667166624513957,
+        "noise_level": 0.07094666308011305
+      }
+    },
+    {
+      "base_analysis": {
+        "correlation": -0.0025152574381755756,
+        "significance": 0.1461020652086729,
+        "n_photons": 3376
+      },
+      "lag_models": {
+        "power_law": {
+          "correlation": -0.0008034207103219249,
+          "significance": 0.04666762527095623
+        },
+        "exponential": {
+          "correlation": -0.0015160356522165288,
+          "significance": 0.08806076477321213
+        },
+        "logarithmic": {
+          "correlation": -0.0013328605499423184,
+          "significance": 0.07742079717387167
+        }
+      },
+      "best_model": {
+        "name": "exponential",
+        "significance": 0.08806076477321213
+      },
+      "E_QG_limit": null,
+      "detection": false,
+      "discovery": false,
+      "hidden_info": {
+        "grb_id": "BLIND_008",
+        "n_photons": 3376,
+        "redshift": 1.0393231690247924,
+        "has_qg_true": false,
+        "qg_strength": 0.0,
+        "noise_level": 0.0981344410372051
+      }
+    },
+    {
+      "base_analysis": {
+        "correlation": -0.019229973649799424,
+        "significance": 0.8612241344802536,
+        "n_photons": 2007
+      },
+      "lag_models": {
+        "power_law": {
+          "correlation": -0.015604483718865702,
+          "significance": 0.6988105849622894
+        },
+        "exponential": {
+          "correlation": -0.015837429412937067,
+          "significance": 0.70924511518321
+        },
+        "logarithmic": {
+          "correlation": -0.0029314792223134522,
+          "significance": 0.131264072705712
+        }
+      },
+      "best_model": {
+        "name": "exponential",
+        "significance": 0.70924511518321
+      },
+      "E_QG_limit": null,
+      "detection": false,
+      "discovery": false,
+      "hidden_info": {
+        "grb_id": "BLIND_009",
+        "n_photons": 2007,
+        "redshift": 2.740958004605012,
+        "has_qg_true": false,
+        "qg_strength": 0.0,
+        "noise_level": 0.17700367839278613
+      }
+    },
+    {
+      "base_analysis": {
+        "correlation": -0.004379402302069941,
+        "significance": 0.3009414425678759,
+        "n_photons": 4724
+      },
+      "lag_models": {
+        "power_law": {
+          "correlation": -0.00839514595174887,
+          "significance": 0.5769079808751763
+        },
+        "exponential": {
+          "correlation": -0.008082669580335608,
+          "significance": 0.5554334146254595
+        },
+        "logarithmic": {
+          "correlation": -0.013252487260240475,
+          "significance": 0.9107486315308854
+        }
+      },
+      "best_model": {
+        "name": "logarithmic",
+        "significance": 0.9107486315308854
+      },
+      "E_QG_limit": null,
+      "detection": false,
+      "discovery": false,
+      "hidden_info": {
+        "grb_id": "BLIND_010",
+        "n_photons": 4724,
+        "redshift": 0.4724789284243661,
+        "has_qg_true": false,
+        "qg_strength": 0.0,
+        "noise_level": 0.1841727011746721
+      }
+    },
+    {
+      "base_analysis": {
+        "correlation": 0.028196571118573745,
+        "significance": 1.8647032506337669,
+        "n_photons": 4372
+      },
+      "lag_models": {
+        "power_law": {
+          "correlation": 0.024379065065223225,
+          "significance": 1.6120810108633106
+        },
+        "exponential": {
+          "correlation": 0.024555084788716847,
+          "significance": 1.6237274228491803
+        },
+        "logarithmic": {
+          "correlation": 0.011260172309316308,
+          "significance": 0.7444118691148837
+        }
+      },
+      "best_model": {
+        "name": "exponential",
+        "significance": 1.6237274228491803
+      },
+      "E_QG_limit": null,
+      "detection": false,
+      "discovery": false,
+      "hidden_info": {
+        "grb_id": "BLIND_011",
+        "n_photons": 4372,
+        "redshift": 0.907126756538711,
+        "has_qg_true": false,
+        "qg_strength": 0.0,
+        "noise_level": 0.10708935209015398
+      }
+    },
+    {
+      "base_analysis": {
+        "correlation": -0.011885252094372493,
+        "significance": 0.7226118102636255,
+        "n_photons": 3698
+      },
+      "lag_models": {
+        "power_law": {
+          "correlation": -0.008243622680301682,
+          "significance": 0.5011858995097963
+        },
+        "exponential": {
+          "correlation": -0.008561192182043587,
+          "significance": 0.5204944987260293
+        },
+        "logarithmic": {
+          "correlation": 0.0041603870275841595,
+          "significance": 0.25293182254065155
+        }
+      },
+      "best_model": {
+        "name": "exponential",
+        "significance": 0.5204944987260293
+      },
+      "E_QG_limit": null,
+      "detection": false,
+      "discovery": false,
+      "hidden_info": {
+        "grb_id": "BLIND_012",
+        "n_photons": 3698,
+        "redshift": 3.668764089952328,
+        "has_qg_true": true,
+        "qg_strength": 0.0008521047319499924,
+        "noise_level": 0.07957633073373319
+      }
+    },
+    {
+      "base_analysis": {
+        "correlation": 0.019353835426525946,
+        "significance": 0.7157026962374871,
+        "n_photons": 1369
+      },
+      "lag_models": {
+        "power_law": {
+          "correlation": 0.02191716335208761,
+          "significance": 0.810537170789193
+        },
+        "exponential": {
+          "correlation": 0.016022782789124317,
+          "significance": 0.5924858159320947
+        },
+        "logarithmic": {
+          "correlation": 0.01942312111691951,
+          "significance": 0.718265838655283
+        }
+      },
+      "best_model": {
+        "name": "power_law",
+        "significance": 0.810537170789193
+      },
+      "E_QG_limit": null,
+      "detection": false,
+      "discovery": false,
+      "hidden_info": {
+        "grb_id": "BLIND_013",
+        "n_photons": 1369,
+        "redshift": 1.8055349053836114,
+        "has_qg_true": false,
+        "qg_strength": 0.0,
+        "noise_level": 0.08717098901310555
+      }
+    },
+    {
+      "base_analysis": {
+        "correlation": 0.04547595339815083,
+        "significance": 2.1152303680915203,
+        "n_photons": 2161
+      },
+      "lag_models": {
+        "power_law": {
+          "correlation": 0.0415545197127221,
+          "significance": 1.9325016681703804
+        },
+        "exponential": {
+          "correlation": 0.041855801829704886,
+          "significance": 1.9465373570482885
+        },
+        "logarithmic": {
+          "correlation": 0.028342421584698355,
+          "significance": 1.317461030086864
+        }
+      },
+      "best_model": {
+        "name": "exponential",
+        "significance": 1.9465373570482885
+      },
+      "E_QG_limit": null,
+      "detection": false,
+      "discovery": false,
+      "hidden_info": {
+        "grb_id": "BLIND_014",
+        "n_photons": 2161,
+        "redshift": 3.0280986827454504,
+        "has_qg_true": true,
+        "qg_strength": 0.0015318642273784535,
+        "noise_level": 0.14107801443612605
+      }
+    },
+    {
+      "base_analysis": {
+        "correlation": -0.010296947139438963,
+        "significance": 0.6618492871762505,
+        "n_photons": 4133
+      },
+      "lag_models": {
+        "power_law": {
+          "correlation": -0.006646188916820363,
+          "significance": 0.4271789769905748
+        },
+        "exponential": {
+          "correlation": -0.013684457865904422,
+          "significance": 0.8796215526465376
+        },
+        "logarithmic": {
+          "correlation": -0.008803500340226112,
+          "significance": 0.5658480358974892
+        }
+      },
+      "best_model": {
+        "name": "exponential",
+        "significance": 0.8796215526465376
+      },
+      "E_QG_limit": null,
+      "detection": false,
+      "discovery": false,
+      "hidden_info": {
+        "grb_id": "BLIND_015",
+        "n_photons": 4133,
+        "redshift": 1.1188566052917361,
+        "has_qg_true": false,
+        "qg_strength": 0.0,
+        "noise_level": 0.09539719865828059
+      }
+    },
+    {
+      "base_analysis": {
+        "correlation": -0.01591393306619145,
+        "significance": 0.9583991661371751,
+        "n_photons": 3628
+      },
+      "lag_models": {
+        "power_law": {
+          "correlation": -0.012028377093826814,
+          "significance": 0.7243564878860536
+        },
+        "exponential": {
+          "correlation": -0.01235959174916562,
+          "significance": 0.7443054507978177
+        },
+        "logarithmic": {
+          "correlation": -0.005266931892802141,
+          "significance": 0.31715942823112825
+        }
+      },
+      "best_model": {
+        "name": "exponential",
+        "significance": 0.7443054507978177
+      },
+      "E_QG_limit": null,
+      "detection": false,
+      "discovery": false,
+      "hidden_info": {
+        "grb_id": "BLIND_016",
+        "n_photons": 3628,
+        "redshift": 0.6626863072343673,
+        "has_qg_true": false,
+        "qg_strength": 0.0,
+        "noise_level": 0.06807287893624236
+      }
+    },
+    {
+      "base_analysis": {
+        "correlation": 0.012036075676152601,
+        "significance": 0.3292055652460981,
+        "n_photons": 750
+      },
+      "lag_models": {
+        "power_law": {
+          "correlation": 0.008361328132320513,
+          "significance": 0.22868687918627378
+        },
+        "exponential": {
+          "correlation": 0.00850153700375458,
+          "significance": 0.23252194309557206
+        },
+        "logarithmic": {
+          "correlation": -0.004866966015528749,
+          "significance": 0.13311109509280136
+        }
+      },
+      "best_model": {
+        "name": "exponential",
+        "significance": 0.23252194309557206
+      },
+      "E_QG_limit": null,
+      "detection": false,
+      "discovery": false,
+      "hidden_info": {
+        "grb_id": "BLIND_017",
+        "n_photons": 750,
+        "redshift": 1.370393084554244,
+        "has_qg_true": false,
+        "qg_strength": 0.0,
+        "noise_level": 0.1037059779849154
+      }
+    },
+    {
+      "base_analysis": {
+        "correlation": 0.016717274586572024,
+        "significance": 1.1578858780992376,
+        "n_photons": 4798
+      },
+      "lag_models": {
+        "power_law": {
+          "correlation": 0.018082573247534567,
+          "significance": 1.252480100502835
+        },
+        "exponential": {
+          "correlation": 0.013149826546140575,
+          "significance": 0.9107457711784046
+        },
+        "logarithmic": {
+          "correlation": 0.015406751395430426,
+          "significance": 1.0670928549182752
+        }
+      },
+      "best_model": {
+        "name": "power_law",
+        "significance": 1.252480100502835
+      },
+      "E_QG_limit": null,
+      "detection": false,
+      "discovery": false,
+      "hidden_info": {
+        "grb_id": "BLIND_018",
+        "n_photons": 4798,
+        "redshift": 2.7419675493935713,
+        "has_qg_true": false,
+        "qg_strength": 0.0,
+        "noise_level": 0.12275635589631978
+      }
+    },
+    {
+      "base_analysis": {
+        "correlation": -0.010409550704027834,
+        "significance": 0.4090526061889378,
+        "n_photons": 1546
+      },
+      "lag_models": {
+        "power_law": {
+          "correlation": -0.006844939166735806,
+          "significance": 0.2689697349742179
+        },
+        "exponential": {
+          "correlation": -0.007049191390419331,
+          "significance": 0.2769961550239217
+        },
+        "logarithmic": {
+          "correlation": -0.0013860791205430518,
+          "significance": 0.05446432011949107
+        }
+      },
+      "best_model": {
+        "name": "exponential",
+        "significance": 0.2769961550239217
+      },
+      "E_QG_limit": null,
+      "detection": false,
+      "discovery": false,
+      "hidden_info": {
+        "grb_id": "BLIND_019",
+        "n_photons": 1546,
+        "redshift": 2.3615095121535945,
+        "has_qg_true": false,
+        "qg_strength": 0.0,
+        "noise_level": 0.18453075171696715
+      }
+    }
+  ]
+}

@@ -1,0 +1,322 @@
+{
+  "research_title": "Quantum Gravity Effects in Gamma-Ray Bursts: Comprehensive Analysis and Methodology",
+  "author": "Christian Quintino De Luca",
+  "affiliation": "RTH Italia - Research & Technology Hub",
+  "orcid": "0009-0000-4198-5449",
+  "doi": "10.5281/zenodo.17404757",
+  "analysis_date": "2025-10-21T14:04:33.809948",
+  "total_analyses": 3,
+  "methodology": {
+    "statistical_tests": [
+      "Pearson correlation",
+      "Spearman correlation",
+      "Permutation test",
+      "Bootstrap analysis",
+      "RANSAC regression"
+    ],
+    "instruments": [
+      "Fermi LAT",
+      "Swift BAT",
+      "Swift GBM",
+      "LHAASO",
+      "LIGO/Virgo"
+    ],
+    "grbs_analyzed": [
+      "GRB090902B",
+      "GRB080916C",
+      "GRB090510",
+      "GRB130427A",
+      "GRB221009A"
+    ],
+    "multi_messenger": [
+      "GW170817 + GRB170817A"
+    ]
+  },
+  "results": {
+    "fermi_analysis": {
+      "total_grbs": 5,
+      "significant_grbs": 0,
+      "success_rate": 0.0,
+      "grb_results": {
+        "GRB080916C": {
+          "grb_name": "GRB080916C",
+          "redshift": 4.35,
+          "n_photons": 320,
+          "energy_range": [
+            0.1004889098881679,
+            14.72794213627848
+          ],
+          "time_range": [
+            0.004075378179550171,
+            34.251169204711914
+          ],
+          "pearson_r": 0.04865870317672602,
+          "pearson_p": 0.3856456098269135,
+          "spearman_r": 0.14187919315618316,
+          "spearman_p": 0.011055281010521428,
+          "sigma": 0.8687380279995076,
+          "permutation_p": 0.384,
+          "bootstrap_ci": "[-0.06356785  0.1629463 ]",
+          "ransac_slope": 0.04164595547359864,
+          "ransac_inliers": "164",
+          "ransac_inlier_ratio": 0.5125,
+          "E_QG_GeV": 7.983111011225343,
+          "E_QG_Planck": 6.543533615758479e-19,
+          "significant": "False"
+        },
+        "GRB090510": {
+          "grb_name": "GRB090510",
+          "redshift": 0.903,
+          "n_photons": 50,
+          "energy_range": [
+            0.1024543241966133,
+            67.74659908893385
+          ],
+          "time_range": [
+            3.49581241607666e-05,
+            0.14592689275741577
+          ],
+          "pearson_r": 0.15859370154335756,
+          "pearson_p": 0.27131354735757807,
+          "spearman_r": 0.3086194477791116,
+          "spearman_p": 0.029212308798844573,
+          "sigma": 1.112853749314148,
+          "permutation_p": 0.26,
+          "bootstrap_ci": "[-0.07024969  0.59705864]",
+          "ransac_slope": 0.0009476258692962329,
+          "ransac_inliers": "29",
+          "ransac_inlier_ratio": 0.58,
+          "E_QG_GeV": 25.90547682940676,
+          "E_QG_Planck": 2.123399740115308e-18,
+          "significant": "False"
+        },
+        "GRB090902B": {
+          "grb_name": "GRB090902B",
+          "redshift": 1.822,
+          "n_photons": 120,
+          "energy_range": [
+            0.100050334257888,
+            11.961826990845047
+          ],
+          "time_range": [
+            0.009203851222991943,
+            17.9265895485878
+          ],
+          "pearson_r": -0.08425232573133606,
+          "pearson_p": 0.3602411300085436,
+          "spearman_r": 0.014292659212445307,
+          "spearman_p": 0.8768707049390536,
+          "sigma": 0.9184802209493651,
+          "permutation_p": 0.254,
+          "bootstrap_ci": "[-0.17651465  0.03684077]",
+          "ransac_slope": -0.1361321243247161,
+          "ransac_inliers": "72",
+          "ransac_inlier_ratio": 0.6,
+          "E_QG_GeV": 0.539568664896626,
+          "E_QG_Planck": 4.422693974562508e-20,
+          "significant": "False"
+        },
+        "GRB130427A": {
+          "grb_name": "GRB130427A",
+          "redshift": 0.34,
+          "n_photons": 1800,
+          "energy_range": [
+            0.1000756690582926,
+            90.9831125929104
+          ],
+          "time_range": [
+            0.012874841690063477,
+            99.31424206495285
+          ],
+          "pearson_r": -0.019427319727475505,
+          "pearson_p": 0.4100892718073006,
+          "spearman_r": 0.023291904308200922,
+          "spearman_p": 0.3233293199489943,
+          "sigma": 0.8239288361842674,
+          "permutation_p": 0.381,
+          "bootstrap_ci": "[-0.0502772   0.01268141]",
+          "ransac_slope": 8.206801807934983,
+          "ransac_inliers": "991",
+          "ransac_inlier_ratio": 0.5505555555555556,
+          "E_QG_GeV": 0.0007930703800204398,
+          "E_QG_Planck": 6.500576885413441e-23,
+          "significant": "False"
+        },
+        "GRB221009A": {
+          "grb_name": "GRB221009A",
+          "redshift": 0.151,
+          "n_photons": 2100,
+          "energy_range": [
+            0.1000142239488497,
+            91.5840176327925
+          ],
+          "time_range": [
+            0.0006206035614013672,
+            451.96620059013367
+          ],
+          "pearson_r": 0.00669578668100516,
+          "pearson_p": 0.7591019980320397,
+          "spearman_r": 0.015357884920803184,
+          "spearman_p": 0.4818008071353097,
+          "sigma": 0.30670021948819604,
+          "permutation_p": 0.757,
+          "bootstrap_ci": "[-0.02207442  0.03819897]",
+          "ransac_slope": 46.33460469447876,
+          "ransac_inliers": "1108",
+          "ransac_inlier_ratio": 0.5276190476190477,
+          "E_QG_GeV": 5.358568277301582e-05,
+          "E_QG_Planck": 4.3922690797553956e-24,
+          "significant": "False"
+        }
+      }
+    },
+    "multi_instrument_analysis": {
+      "grb_name": "GRB221009A",
+      "instruments": [
+        "Swift_BAT",
+        "Swift_GBM",
+        "LHAASO"
+      ],
+      "instrument_results": {
+        "Swift_BAT": {
+          "n_photons": 999,
+          "energy_range": [
+            0.015069264024841081,
+            0.149325434949251
+          ],
+          "time_range": [
+            0.23672211964484735,
+            500.2372907276574
+          ],
+          "pearson_r": -0.009162846738467366,
+          "pearson_p": 0.7723875998756753,
+          "spearman_r": -0.01024772668460043,
+          "spearman_p": 0.7463147286387111,
+          "sigma": 0.28933184308070103,
+          "permutation_p": 0.776,
+          "bootstrap_ci": "[-0.06604162  0.05786169]",
+          "ransac_slope": -59.13381501607342,
+          "ransac_inliers": "515",
+          "ransac_inlier_ratio": 0.5155155155155156,
+          "significant": "False"
+        },
+        "Swift_GBM": {
+          "n_photons": 2000,
+          "energy_range": [
+            0.008001055246167142,
+            0.09987693789780136
+          ],
+          "time_range": [
+            0.0,
+            637.8866496017046
+          ],
+          "pearson_r": -0.00894873668076276,
+          "pearson_p": 0.6891878336076837,
+          "spearman_r": -0.011946311986577996,
+          "spearman_p": 0.5933827974503354,
+          "sigma": 0.40001553765375886,
+          "permutation_p": 0.696,
+          "bootstrap_ci": "[-0.05232363  0.03887822]",
+          "ransac_slope": -699.9567950629311,
+          "ransac_inliers": "955",
+          "ransac_inlier_ratio": 0.4775,
+          "significant": "False"
+        },
+        "LHAASO": {
+          "n_photons": 500,
+          "energy_range": [
+            163.4187014984101,
+            14143.038771357551
+          ],
+          "time_range": [
+            0.06631490485453816,
+            333.74439078727585
+          ],
+          "pearson_r": -0.03354322475151301,
+          "pearson_p": 0.45422939193415884,
+          "spearman_r": 0.0019921999687998746,
+          "spearman_p": 0.9645572695021478,
+          "sigma": 0.74896917471266,
+          "permutation_p": 0.461,
+          "bootstrap_ci": "[-0.09646399  0.026373  ]",
+          "ransac_slope": 0.006394552237440466,
+          "ransac_inliers": "297",
+          "ransac_inlier_ratio": 0.594,
+          "significant": "False"
+        }
+      },
+      "combined_results": {
+        "n_photons": 3502,
+        "energy_range": [
+          0.008001055246167142,
+          14143.038771357551
+        ],
+        "time_range": [
+          0.0,
+          569943886.6934439
+        ],
+        "pearson_r": -0.005469492560390474,
+        "pearson_p": 0.7462720451129173,
+        "spearman_r": 0.0008445701591203756,
+        "spearman_p": 0.9601527621185268,
+        "sigma": 0.3235843837094605,
+        "permutation_p": 0.778,
+        "bootstrap_ci": "[-0.01027622 -0.00295488]",
+        "ransac_slope": 0.234836332246372,
+        "ransac_inliers": "1816",
+        "ransac_inlier_ratio": 0.5185608223872074,
+        "significant": "False"
+      }
+    },
+    "gw_grb_analysis": {
+      "event_name": "GW170817 + GRB170817A",
+      "gw_grb_results": {
+        "n_grb_photons": 100,
+        "n_gw_samples": 1000,
+        "energy_range": [
+          0.10055675637991922,
+          6.923296255706434
+        ],
+        "time_range": [
+          0.0011780261993408203,
+          0.6361644268035889
+        ],
+        "pearson_r": -0.05763934523783083,
+        "pearson_p": 0.5689350201376562,
+        "spearman_r": 0.027554755475547553,
+        "spearman_p": 0.7855182880254636,
+        "sigma": 0.5715506258569308,
+        "permutation_p": 0.601,
+        "bootstrap_ci": "[-0.26103602  0.09664665]",
+        "ransac_slope": -0.025312187953750065,
+        "ransac_inliers": "48",
+        "ransac_inlier_ratio": 0.48,
+        "significant": "False"
+      },
+      "grb_results": {
+        "n_photons": 100,
+        "energy_range": [
+          0.10055675637991922,
+          6.923296255706434
+        ],
+        "time_range": [
+          0.0011780261993408203,
+          0.6361644268035889
+        ],
+        "pearson_r": -0.04235122565415765,
+        "pearson_p": 0.675672628367181,
+        "spearman_r": -0.09176117611761175,
+        "spearman_p": 0.3638820918876514,
+        "sigma": 0.4196322445418491,
+        "permutation_p": 0.67,
+        "bootstrap_ci": "[-0.19033537  0.16736264]",
+        "ransac_slope": -0.09446166490836747,
+        "ransac_inliers": "49",
+        "ransac_inlier_ratio": 0.49,
+        "E_QG_GeV": 0.0015120283389485597,
+        "E_QG_Planck": 1.2393674909414422e-22,
+        "significant": "False"
+      }
+    }
+  }
+}

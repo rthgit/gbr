@@ -1,0 +1,83 @@
+{
+  "analysis_date": "2025-10-21T13:46:18.191065",
+  "total_grbs": 5,
+  "significant_grbs": 0,
+  "success_rate": 0.0,
+  "grb_results": {
+    "GRB090902B": {
+      "grb_name": "GRB090902B",
+      "redshift": 1.822,
+      "n_photons": 120,
+      "pearson_r": -0.12150439941079752,
+      "pearson_p": 0.18617276526987975,
+      "spearman_r": -0.07466490728522814,
+      "spearman_p": 0.4176619432269014,
+      "sigma": 1.3297277143930435,
+      "permutation_p": 0.159,
+      "ransac_slope": 0.11087036715443707,
+      "ransac_inliers": "67",
+      "ransac_inlier_ratio": 0.5583333333333333,
+      "significant": "False"
+    },
+    "GRB080916C": {
+      "grb_name": "GRB080916C",
+      "redshift": 4.35,
+      "n_photons": 320,
+      "pearson_r": -0.1031193016057697,
+      "pearson_p": 0.06542400849885015,
+      "spearman_r": -0.1097043184015469,
+      "spearman_p": 0.04991490300787724,
+      "sigma": 1.848736187739974,
+      "permutation_p": 0.062,
+      "ransac_slope": 0.08165854930092699,
+      "ransac_inliers": "181",
+      "ransac_inlier_ratio": 0.565625,
+      "significant": "False"
+    },
+    "GRB090510": {
+      "grb_name": "GRB090510",
+      "redshift": 0.903,
+      "n_photons": 100,
+      "pearson_r": 0.15575122833915436,
+      "pearson_p": 0.1217692487537616,
+      "spearman_r": -0.15569156915691565,
+      "spearman_p": 0.12191392308393857,
+      "sigma": 1.560907321576524,
+      "permutation_p": 0.084,
+      "ransac_slope": 0.003871790855353212,
+      "ransac_inliers": "60",
+      "ransac_inlier_ratio": 0.6,
+      "significant": "False"
+    },
+    "GRB130427A": {
+      "grb_name": "GRB130427A",
+      "redshift": 0.34,
+      "n_photons": 1800,
+      "pearson_r": -0.007328008573717304,
+      "pearson_p": 0.7560368536241097,
+      "spearman_r": 0.007990757610316136,
+      "spearman_p": 0.7347686607307455,
+      "sigma": 0.31073664582622423,
+      "permutation_p": 0.748,
+      "ransac_slope": 1.401158425340985,
+      "ransac_inliers": "1008",
+      "ransac_inlier_ratio": 0.56,
+      "significant": "False"
+    },
+    "GRB221009A": {
+      "grb_name": "GRB221009A",
+      "redshift": 0.151,
+      "n_photons": 2100,
+      "pearson_r": 0.015319526497522575,
+      "pearson_p": 0.48289616380544725,
+      "spearman_r": 0.017772252815217673,
+      "spearman_p": 0.41564133483881416,
+      "sigma": 0.7017768728492514,
+      "permutation_p": 0.464,
+      "ransac_slope": 13.865794342889766,
+      "ransac_inliers": "992",
+      "ransac_inlier_ratio": 0.4723809523809524,
+      "significant": "False"
+    }
+  }
+}

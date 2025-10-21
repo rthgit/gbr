@@ -1,0 +1,309 @@
+{
+  "timestamp": "2025-10-21T16:56:59.416546",
+  "already_downloaded": {},
+  "to_download": {
+    "GRB221009A": {
+      "priority": 1,
+      "score": 108,
+      "ra": 288.265,
+      "dec": 19.773,
+      "z": 0.151,
+      "trigger_utc": "2022-10-09 13:16:59",
+      "met": 687014219.0,
+      "anomalies": [
+        "brightest_ever",
+        "tev_>10TeV",
+        "lhaaso",
+        "extended_gev"
+      ],
+      "reason": "BRIGHTEST GRB EVER! >10 TeV by LHAASO, fotoni fino 99.3 GeV",
+      "papers": [
+        "arXiv:2303.12747",
+        "arXiv:2210.05659"
+      ]
+    },
+    "GRB190114C": {
+      "priority": 1,
+      "score": 102,
+      "ra": 54.504,
+      "dec": -26.938,
+      "z": 0.425,
+      "trigger_utc": "2019-01-14 20:57:03",
+      "met": 569020623.0,
+      "anomalies": [
+        "first_tev",
+        "magic_0.3-1TeV",
+        "power_law_extra",
+        "ssc"
+      ],
+      "reason": "FIRST TeV GRB! MAGIC 0.3-1 TeV, extra power-law component",
+      "papers": [
+        "Science 10.1126/science.aax3055",
+        "A&A 10.1051/0004-6361/201935214"
+      ]
+    },
+    "GRB090926A": {
+      "priority": 1,
+      "score": 96,
+      "ra": 353.4,
+      "dec": -66.32,
+      "z": 2.1062,
+      "trigger_utc": "2009-09-26 23:32:15",
+      "met": 275446335.0,
+      "anomalies": [
+        "spectral_break_1.4GeV",
+        "extra_powerlaw",
+        "first_break"
+      ],
+      "reason": "PRIMO break spettrale confermato a 1.4 GeV nell'extra component!",
+      "papers": [
+        "ApJ 10.1088/0004-637X/729/2/114",
+        "A&A 10.1051/0004-6361/201220710"
+      ]
+    },
+    "GRB160625B": {
+      "priority": 1,
+      "score": 95,
+      "ra": 308.571,
+      "dec": 6.933,
+      "z": 1.406,
+      "trigger_utc": "2016-06-25 22:40:16",
+      "met": 488587216.0,
+      "anomalies": [
+        "lag_transition",
+        "positive_to_negative",
+        "37_lags_measured"
+      ],
+      "reason": "LAG TRANSITION DOCUMENTATA! Positivo\u2192Negativo, critical test!",
+      "papers": [
+        "ApJ 10.3847/1538-4357/aa6d77",
+        "arXiv:1706.01202"
+      ]
+    },
+    "GRB180720B": {
+      "priority": 1,
+      "score": 90,
+      "ra": 7.368,
+      "dec": -2.941,
+      "z": 0.654,
+      "trigger_utc": "2018-07-20 14:21:44",
+      "met": 553789304.0,
+      "anomalies": [
+        "tev_440GeV",
+        "hess",
+        "delayed_10h",
+        "intensity_tracking"
+      ],
+      "reason": "H.E.S.S. detection fino 440 GeV, 10 ORE dopo trigger!",
+      "papers": [
+        "Nature 10.1038/s41586-019-1754-6",
+        "arXiv:1901.08528"
+      ]
+    },
+    "GRB131231A": {
+      "priority": 2,
+      "score": 85,
+      "ra": 67.417,
+      "dec": -0.417,
+      "z": 0.642,
+      "trigger_utc": "2013-12-31 15:49:35",
+      "met": 410460575.0,
+      "anomalies": [
+        "upturn_1.6GeV",
+        "bpl_model",
+        "ssc_model"
+      ],
+      "reason": "Upturn spettrale confermato a 1.6 GeV, broken power-law!",
+      "papers": [
+        "A&A 10.1051/0004-6361/202040039"
+      ]
+    },
+    "GRB130427A": {
+      "priority": 2,
+      "score": 82,
+      "ra": 173.136,
+      "dec": 27.7069,
+      "z": 0.34,
+      "trigger_utc": "2013-04-27 07:47:06",
+      "met": 388739226.0,
+      "anomalies": [
+        "longest_duration",
+        "unexplainable_component",
+        "high_energy"
+      ],
+      "reason": "Componente high-energy INSPIEGABILE con modello standard!",
+      "papers": [
+        "Science 10.1126/science.1242353",
+        "ApJ 10.1088/2041-8205/763/1/L5"
+      ]
+    },
+    "GRB190829A": {
+      "priority": 2,
+      "score": 80,
+      "ra": 36.295,
+      "dec": -8.9533,
+      "z": 0.0785,
+      "trigger_utc": "2019-08-29 19:55:53",
+      "met": 588710153.0,
+      "anomalies": [
+        "nearest_tev",
+        "two_episodes",
+        "chaotic_evolution",
+        "amati_outlier"
+      ],
+      "reason": "NEAREST TeV GRB! Comportamento caotico, Amati outlier",
+      "papers": [
+        "Science 10.1126/science.abe8560",
+        "arXiv:2106.02510"
+      ]
+    },
+    "GRB080916C": {
+      "priority": 2,
+      "score": 78,
+      "ra": 119.8467,
+      "dec": -56.6383,
+      "z": 4.35,
+      "trigger_utc": "2008-09-16 00:12:45",
+      "met": 243216766.0,
+      "anomalies": [
+        "delayed_onset",
+        "featureless_band",
+        "extra_powerlaw"
+      ],
+      "reason": "Delayed onset LAT, Band featureless su 6 ordini magnitudine",
+      "papers": [
+        "Science 10.1126/science.1169101"
+      ]
+    },
+    "GRB091024": {
+      "priority": 2,
+      "score": 75,
+      "ra": 329.2083,
+      "dec": -57.0833,
+      "z": 1.092,
+      "trigger_utc": "2009-10-24 22:50:06",
+      "met": 277863006.0,
+      "anomalies": [
+        "ultra_long_1020s",
+        "yonetoku_outlier",
+        "multi_peaked"
+      ],
+      "reason": "ULTRA-LONG! T90\u22481020s, longest Fermi GBM, Yonetoku outlier",
+      "papers": [
+        "A&A 10.1051/0004-6361/201015891"
+      ]
+    },
+    "GRB090323": {
+      "priority": 3,
+      "score": 70,
+      "ra": 191.15,
+      "dec": 17.07,
+      "z": 3.57,
+      "trigger_utc": "2009-03-23 00:02:33",
+      "met": 259286553.0,
+      "anomalies": [
+        "blackbody_component",
+        "band_deviation",
+        "multi_pulse"
+      ],
+      "reason": "Richiede componente blackbody per spiegare spettro",
+      "papers": [
+        "A&A 10.1051/0004-6361/201220710"
+      ]
+    },
+    "GRB201216C": {
+      "priority": 3,
+      "score": 68,
+      "ra": 34.194,
+      "dec": 33.37,
+      "z": 1.1,
+      "trigger_utc": "2020-12-16 21:46:44",
+      "met": 629931604.0,
+      "anomalies": [
+        "vhe_detection",
+        "magic",
+        "ssc_model"
+      ],
+      "reason": "VHE detection by MAGIC, SSC model explainable",
+      "papers": [
+        "arXiv:2106.11301"
+      ]
+    },
+    "GRB090510": {
+      "priority": 3,
+      "score": 65,
+      "ra": 333.553,
+      "dec": -26.591,
+      "z": 0.903,
+      "trigger_utc": "2009-05-10 00:22:59",
+      "met": 263607779.0,
+      "anomalies": [
+        "short_peculiar",
+        "extra_powerlaw",
+        "liv_constraint"
+      ],
+      "reason": "Short GRB peculiare, extra power-law, LIV >7.6\u00d7 Planck",
+      "papers": [
+        "ApJ 10.1088/2041-8205/716/2/L185"
+      ]
+    },
+    "GRB090820": {
+      "priority": 3,
+      "score": 63,
+      "ra": 350.9917,
+      "dec": 70.6306,
+      "z": null,
+      "trigger_utc": "2009-08-20 02:58:04",
+      "met": 272338684.0,
+      "anomalies": [
+        "two_breaks",
+        "blackbody_9keV",
+        "unusual_shape"
+      ],
+      "reason": "DUE breaks spettrali, blackbody kT~9 keV necessaria",
+      "papers": [
+        "A&A 10.1051/0004-6361/201220710"
+      ]
+    },
+    "GRB171210A": {
+      "priority": 3,
+      "score": 60,
+      "ra": 42.614,
+      "dec": -10.955,
+      "z": 0.5897,
+      "trigger_utc": "2017-12-10 09:18:50",
+      "met": 534849530.0,
+      "anomalies": [
+        "bpl_tentative",
+        "possible_vhe"
+      ],
+      "reason": "Improvement tentativo BPL fit, possibile VHE component",
+      "papers": [
+        "A&A 10.1051/0004-6361/202040039"
+      ]
+    },
+    "GRB150902A": {
+      "priority": 3,
+      "score": 58,
+      "ra": 80.932,
+      "dec": -12.288,
+      "z": 0.1348,
+      "trigger_utc": "2015-09-02 05:12:25",
+      "met": 462606745.0,
+      "anomalies": [
+        "bpl_marginal",
+        "possible_upturn"
+      ],
+      "reason": "Improvement marginale BPL fit rispetto a PL",
+      "papers": [
+        "A&A 10.1051/0004-6361/202040039"
+      ]
+    }
+  },
+  "statistics": {
+    "total_anomaly_grbs": 16,
+    "already_have": 0,
+    "need_download": 16,
+    "completion_pct": 0.0
+  }
+}

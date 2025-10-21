@@ -6,3 +6,4 @@ import sys
 print("Python funziona!")
 print(f"Versione: {sys.version}")
 print("Test completato!")
+

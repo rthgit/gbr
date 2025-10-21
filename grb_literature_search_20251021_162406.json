@@ -1,0 +1,545 @@
+{
+  "search_date": "2025-10-21T16:24:06.742636",
+  "reference_grb": {
+    "grb": "GRB090902B",
+    "z": 1.822,
+    "e_max": 80.8,
+    "correlation": -0.0863,
+    "significance": 5.46,
+    "keywords": [
+      "spectral lag",
+      "energy-dependent",
+      "time delay",
+      "high energy",
+      "quantum gravity",
+      "dispersion"
+    ]
+  },
+  "categories_searched": [
+    "spectral_lags",
+    "qg_searches",
+    "energy_delays",
+    "anomalies",
+    "tev_grbs",
+    "high_energy"
+  ],
+  "total_grbs_found": 98,
+  "priority_list": [
+    {
+      "rank": 1,
+      "grb": "GRB221009A",
+      "score": 108,
+      "priority": "\ud83d\udd34 CRITICAL",
+      "categories": [
+        "anomaly",
+        "spectral_lag",
+        "tev",
+        "qg_search",
+        "high_energy"
+      ],
+      "n_papers": 5
+    },
+    {
+      "rank": 2,
+      "grb": "GRB190114C",
+      "score": 102,
+      "priority": "\ud83d\udd34 CRITICAL",
+      "categories": [
+        "anomaly",
+        "spectral_lag",
+        "tev",
+        "qg_search",
+        "high_energy"
+      ],
+      "n_papers": 3
+    },
+    {
+      "rank": 3,
+      "grb": "GRB090510",
+      "score": 96,
+      "priority": "\ud83d\udd34 CRITICAL",
+      "categories": [
+        "qg_search",
+        "anomaly",
+        "high_energy",
+        "spectral_lag"
+      ],
+      "n_papers": 10
+    },
+    {
+      "rank": 4,
+      "grb": "GRB180720B",
+      "score": 77,
+      "priority": "\ud83d\udd34 CRITICAL",
+      "categories": [
+        "tev",
+        "anomaly",
+        "high_energy",
+        "spectral_lag"
+      ],
+      "n_papers": 5
+    },
+    {
+      "rank": 5,
+      "grb": "GRB080916C",
+      "score": 44,
+      "priority": "\ud83d\udd34 CRITICAL",
+      "categories": [
+        "qg_search",
+        "anomaly",
+        "high_energy",
+        "spectral_lag"
+      ],
+      "n_papers": 9
+    },
+    {
+      "rank": 6,
+      "grb": "GRB170817A",
+      "score": 39,
+      "priority": "\ud83d\udd34 CRITICAL",
+      "categories": [
+        "anomaly",
+        "spectral_lag",
+        "tev",
+        "qg_search",
+        "high_energy"
+      ],
+      "n_papers": 1
+    },
+    {
+      "rank": 7,
+      "grb": "GRB190829A",
+      "score": 32,
+      "priority": "\ud83d\udd34 CRITICAL",
+      "categories": [
+        "tev",
+        "high_energy"
+      ],
+      "n_papers": 1
+    },
+    {
+      "rank": 8,
+      "grb": "GRB060505",
+      "score": 32,
+      "priority": "\ud83d\udd34 CRITICAL",
+      "categories": [
+        "tev",
+        "high_energy"
+      ],
+      "n_papers": 1
+    },
+    {
+      "rank": 9,
+      "grb": "GRB201216C",
+      "score": 30,
+      "priority": "\ud83d\udd34 CRITICAL",
+      "categories": [
+        "tev"
+      ],
+      "n_papers": 0
+    },
+    {
+      "rank": 10,
+      "grb": "GRB111005A",
+      "score": 30,
+      "priority": "\ud83d\udd34 CRITICAL",
+      "categories": [
+        "tev"
+      ],
+      "n_papers": 0
+    },
+    {
+      "rank": 11,
+      "grb": "GRB130427A",
+      "score": 26,
+      "priority": "\ud83d\udd34 CRITICAL",
+      "categories": [
+        "qg_search",
+        "high_energy",
+        "spectral_lag"
+      ],
+      "n_papers": 6
+    },
+    {
+      "rank": 12,
+      "grb": "GRB080825C",
+      "score": 25,
+      "priority": "\ud83d\udd34 CRITICAL",
+      "categories": [
+        "high_energy",
+        "spectral_lag"
+      ],
+      "n_papers": 8
+    },
+    {
+      "rank": 13,
+      "grb": "GRB030329",
+      "score": 24,
+      "priority": "\ud83d\udd34 CRITICAL",
+      "categories": [
+        "tev",
+        "anomaly",
+        "high_energy"
+      ],
+      "n_papers": 1
+    },
+    {
+      "rank": 14,
+      "grb": "GRB060614",
+      "score": 24,
+      "priority": "\ud83d\udd34 CRITICAL",
+      "categories": [
+        "tev",
+        "anomaly"
+      ],
+      "n_papers": 0
+    },
+    {
+      "rank": 15,
+      "grb": "GRB980425",
+      "score": 22,
+      "priority": "\ud83d\udd34 CRITICAL",
+      "categories": [
+        "qg_search",
+        "anomaly",
+        "high_energy",
+        "spectral_lag"
+      ],
+      "n_papers": 1
+    },
+    {
+      "rank": 16,
+      "grb": "GRB090902B",
+      "score": 22,
+      "priority": "\ud83d\udd34 CRITICAL",
+      "categories": [
+        "qg_search",
+        "anomaly",
+        "high_energy",
+        "spectral_lag"
+      ],
+      "n_papers": 5
+    },
+    {
+      "rank": 17,
+      "grb": "GRB060602B",
+      "score": 22,
+      "priority": "\ud83d\udd34 CRITICAL",
+      "categories": [
+        "tev",
+        "high_energy"
+      ],
+      "n_papers": 1
+    },
+    {
+      "rank": 18,
+      "grb": "GRB130603B",
+      "score": 20,
+      "priority": "\ud83d\udd34 CRITICAL",
+      "categories": [
+        "tev"
+      ],
+      "n_papers": 0
+    },
+    {
+      "rank": 19,
+      "grb": "GRB160625B",
+      "score": 17,
+      "priority": "\ud83d\udd34 CRITICAL",
+      "categories": [
+        "qg_search",
+        "spectral_lag"
+      ],
+      "n_papers": 0
+    },
+    {
+      "rank": 20,
+      "grb": "GRB090926A",
+      "score": 16,
+      "priority": "\ud83d\udd34 CRITICAL",
+      "categories": [
+        "qg_search",
+        "anomaly",
+        "high_energy",
+        "spectral_lag"
+      ],
+      "n_papers": 2
+    },
+    {
+      "rank": 21,
+      "grb": "GRB060218",
+      "score": 14,
+      "priority": "\ud83d\udfe0 HIGH",
+      "categories": [
+        "tev",
+        "anomaly"
+      ],
+      "n_papers": 0
+    },
+    {
+      "rank": 22,
+      "grb": "GRB050509",
+      "score": 14,
+      "priority": "\ud83d\udfe0 HIGH",
+      "categories": [
+        "tev",
+        "anomaly"
+      ],
+      "n_papers": 0
+    },
+    {
+      "rank": 23,
+      "grb": "GRB050709",
+      "score": 14,
+      "priority": "\ud83d\udfe0 HIGH",
+      "categories": [
+        "tev",
+        "anomaly"
+      ],
+      "n_papers": 0
+    },
+    {
+      "rank": 24,
+      "grb": "GRB160509A",
+      "score": 13,
+      "priority": "\ud83d\udfe0 HIGH",
+      "categories": [
+        "qg_search",
+        "high_energy"
+      ],
+      "n_papers": 4
+    },
+    {
+      "rank": 25,
+      "grb": "GRB131231A",
+      "score": 12,
+      "priority": "\ud83d\udfe0 HIGH",
+      "categories": [
+        "high_energy",
+        "spectral_lag"
+      ],
+      "n_papers": 3
+    },
+    {
+      "rank": 26,
+      "grb": "GRB050509B",
+      "score": 12,
+      "priority": "\ud83d\udfe0 HIGH",
+      "categories": [
+        "tev",
+        "high_energy"
+      ],
+      "n_papers": 1
+    },
+    {
+      "rank": 27,
+      "grb": "GRB170206A",
+      "score": 12,
+      "priority": "\ud83d\udfe0 HIGH",
+      "categories": [
+        "tev",
+        "high_energy"
+      ],
+      "n_papers": 1
+    },
+    {
+      "rank": 28,
+      "grb": "GRB021206",
+      "score": 10,
+      "priority": "\ud83d\udfe0 HIGH",
+      "categories": [
+        "qg_search"
+      ],
+      "n_papers": 0
+    },
+    {
+      "rank": 29,
+      "grb": "GRB201015A",
+      "score": 10,
+      "priority": "\ud83d\udfe0 HIGH",
+      "categories": [
+        "tev"
+      ],
+      "n_papers": 0
+    },
+    {
+      "rank": 30,
+      "grb": "GRB081003A",
+      "score": 10,
+      "priority": "\ud83d\udfe0 HIGH",
+      "categories": [
+        "tev"
+      ],
+      "n_papers": 0
+    }
+  ],
+  "detailed_results": {
+    "spectral_lags": {
+      "GRB160625B": 4,
+      "GRB980425": 1,
+      "GRB190530A": 1,
+      "GRB080916C": 4,
+      "GRB130427A": 3,
+      "GRB080825C": 3,
+      "GRB090510": 4,
+      "GRB081024B": 1,
+      "GRB090217": 1,
+      "GRB090217A": 1,
+      "GRB081006A": 1,
+      "GRB131231A": 2,
+      "GRB190114C": 4,
+      "GRB180720B": 1,
+      "GRB221009A": 3,
+      "GRB220101A": 1,
+      "GRB171010A": 1,
+      "GRB230812B": 1,
+      "GRB090902B": 1,
+      "GRB170817A": 1,
+      "GRB090926A": 1,
+      "GRB140619B": 1,
+      "GRB160709A": 1,
+      "GRB131108A": 1,
+      "GRB991216": 1,
+      "GRB110920": 1,
+      "GRB050416A": 1
+    },
+    "qg_searches": {
+      "GRB140622A": 1,
+      "GRB090510": 12,
+      "GRB221009A": 7,
+      "GRB051221A": 1,
+      "GRB160509A": 1,
+      "GRB940217": 1,
+      "GRB920925": 1,
+      "GRB980425": 1,
+      "GRB920229": 1,
+      "GRB021206": 2,
+      "GRB170817A": 2,
+      "GRB190114C": 4,
+      "GRB080916C": 2,
+      "GRB160625B": 1,
+      "GRB090926A": 1,
+      "GRB090510A": 1,
+      "GRB090902B": 1,
+      "GRB130427A": 1,
+      "GRB990123": 1
+    },
+    "tev_grbs": {
+      "GRB190114C": 6,
+      "GRB180720B": 6,
+      "GRB060602B": 2,
+      "GRB060218": 1,
+      "GRB201015A": 1,
+      "GRB201216C": 3,
+      "GRB081003A": 1,
+      "GRB041219A": 1,
+      "GRB050509": 1,
+      "GRB090417A": 1,
+      "GRB080121": 1,
+      "GRB170817A": 2,
+      "GRB070923": 1,
+      "GRB111005A": 3,
+      "GRB130603B": 2,
+      "GRB190829A": 3,
+      "GRB221009A": 5,
+      "GRB050509B": 1,
+      "GRB060505": 3,
+      "GRB030329": 1,
+      "GRB060614": 2,
+      "GRB130702A": 1,
+      "GRB120121B": 1,
+      "GRB050709": 1,
+      "GRB970417": 1,
+      "GRB170206A": 1
+    },
+    "high_energy": {
+      "GRB080916C": 9,
+      "GRB090510": 10,
+      "GRB080825C": 8,
+      "GRB081024B": 3,
+      "GRB090217": 3,
+      "GRB131231A": 3,
+      "GRB090217A": 3,
+      "GRB081006A": 2,
+      "GRB090902B": 5,
+      "GRB221009A": 5,
+      "GRB130427A": 6,
+      "GRB190114C": 3,
+      "GRB180720B": 5,
+      "GRB160509A": 4,
+      "GRB100724B": 3,
+      "GRB090228A": 2,
+      "GRB081009": 3,
+      "GRB100911": 3,
+      "GRB090720B": 3,
+      "GRB100728A": 4,
+      "GRB090926A": 2,
+      "GRB140619B": 1,
+      "GRB160709A": 1,
+      "GRB131108A": 1,
+      "GRB080905A": 1,
+      "GRB091208B": 1,
+      "GRB220627A": 2,
+      "GRB171010A": 2,
+      "GRB230812B": 2,
+      "GRB940217": 1,
+      "GRB130907A": 1,
+      "GRB170817A": 1,
+      "GRB170206A": 1,
+      "GRB190829A": 1,
+      "GRB050509B": 1,
+      "GRB060505": 1,
+      "GRB030329": 1,
+      "GRB110625A": 1,
+      "GRB060602B": 1,
+      "GRB091003": 1,
+      "GRB170214A": 1,
+      "GRB220101A": 1,
+      "GRB980425": 1,
+      "GRB110731A": 1
+    },
+    "anomalies": {
+      "GRB970828": 1,
+      "GRB970508": 2,
+      "GRB050717": 1,
+      "GRB190114C": 1,
+      "GRB180720B": 1,
+      "GRB971208": 1,
+      "GRB060814B": 1,
+      "GRB060206": 2,
+      "GRB060210": 1,
+      "GRB091127": 1,
+      "GRB090926A": 1,
+      "GRB090510": 1,
+      "GRB941017": 2,
+      "GRB980923": 1,
+      "GRB090902B": 1,
+      "GRB170817A": 1,
+      "GRB060614": 1,
+      "GRB060218": 1,
+      "GRB980425": 3,
+      "GRB080916C": 1,
+      "GRB100814A": 1,
+      "GRB090426": 1,
+      "GRB091029": 1,
+      "GRB080413B": 1,
+      "GRB021004": 2,
+      "GRB221009A": 1,
+      "GRB030329": 3,
+      "GRB111209A": 1,
+      "GRB990123": 1,
+      "GRB990510": 1,
+      "GRB980519": 1,
+      "GRB980326": 1,
+      "GRB141121A": 1,
+      "GRB211211A": 2,
+      "GRB200826A": 1,
+      "GRB230307A": 2,
+      "GRB070610": 1,
+      "GRB050709": 1,
+      "GRB050724": 1,
+      "GRB050509": 1,
+      "GRB971214": 1
+    }
+  }
+}

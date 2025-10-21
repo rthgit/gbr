@@ -1,0 +1,63 @@
+{
+  "download_date": "2025-10-21T13:56:38.509868",
+  "total_grbs": 5,
+  "grb_catalog": {
+    "GRB090902B": {
+      "z": 1.822,
+      "t90": 21.0,
+      "fluence": 0.00012,
+      "peak_flux": 2.1e-05,
+      "ra": 264.94,
+      "dec": 27.32,
+      "trigger_time": 273581819.7,
+      "data_url": "https://fermi.gsfc.nasa.gov/ssc/data/access/lat/msl_lc/GRB090902B/"
+    },
+    "GRB080916C": {
+      "z": 4.35,
+      "t90": 66.0,
+      "fluence": 0.00032,
+      "peak_flux": 1.8e-05,
+      "ra": 119.85,
+      "dec": -56.63,
+      "trigger_time": 243216290.6,
+      "data_url": "https://fermi.gsfc.nasa.gov/ssc/data/access/lat/msl_lc/GRB080916C/"
+    },
+    "GRB090510": {
+      "z": 0.903,
+      "t90": 0.3,
+      "fluence": 2.1e-05,
+      "peak_flux": 0.00012,
+      "ra": 333.55,
+      "dec": -26.58,
+      "trigger_time": 263607285.9,
+      "data_url": "https://fermi.gsfc.nasa.gov/ssc/data/access/lat/msl_lc/GRB090510/"
+    },
+    "GRB130427A": {
+      "z": 0.34,
+      "t90": 138.0,
+      "fluence": 0.0018,
+      "peak_flux": 0.00011,
+      "ra": 173.14,
+      "dec": 27.7,
+      "trigger_time": 388798997.2,
+      "data_url": "https://fermi.gsfc.nasa.gov/ssc/data/access/lat/msl_lc/GRB130427A/"
+    },
+    "GRB221009A": {
+      "z": 0.151,
+      "t90": 600.0,
+      "fluence": 0.0021,
+      "peak_flux": 8.2e-06,
+      "ra": 288.265,
+      "dec": 19.773,
+      "trigger_time": 1665321419.0,
+      "data_url": "https://fermi.gsfc.nasa.gov/ssc/data/access/lat/msl_lc/GRB221009A/"
+    }
+  },
+  "data_files": [
+    "GRB090902B_fermi_data.csv",
+    "GRB080916C_fermi_data.csv",
+    "GRB090510_fermi_data.csv",
+    "GRB130427A_fermi_data.csv",
+    "GRB221009A_fermi_data.csv"
+  ]
+}

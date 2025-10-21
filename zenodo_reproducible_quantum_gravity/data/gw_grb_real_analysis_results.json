@@ -1,0 +1,51 @@
+{
+  "analysis_date": "2025-10-21T14:01:26.384072",
+  "event_name": "GW170817 + GRB170817A",
+  "gw_grb_results": {
+    "n_grb_photons": 100,
+    "n_gw_samples": 1000,
+    "energy_range": [
+      0.10055675637991922,
+      6.923296255706434
+    ],
+    "time_range": [
+      0.0011780261993408203,
+      0.6361644268035889
+    ],
+    "pearson_r": -0.05763934523783083,
+    "pearson_p": 0.5689350201376562,
+    "spearman_r": 0.027554755475547553,
+    "spearman_p": 0.7855182880254636,
+    "sigma": 0.5715506258569308,
+    "permutation_p": 0.601,
+    "bootstrap_ci": "[-0.26103602  0.09664665]",
+    "ransac_slope": -0.025312187953750065,
+    "ransac_inliers": "48",
+    "ransac_inlier_ratio": 0.48,
+    "significant": "False"
+  },
+  "grb_results": {
+    "n_photons": 100,
+    "energy_range": [
+      0.10055675637991922,
+      6.923296255706434
+    ],
+    "time_range": [
+      0.0011780261993408203,
+      0.6361644268035889
+    ],
+    "pearson_r": -0.04235122565415765,
+    "pearson_p": 0.675672628367181,
+    "spearman_r": -0.09176117611761175,
+    "spearman_p": 0.3638820918876514,
+    "sigma": 0.4196322445418491,
+    "permutation_p": 0.67,
+    "bootstrap_ci": "[-0.19033537  0.16736264]",
+    "ransac_slope": -0.09446166490836747,
+    "ransac_inliers": "49",
+    "ransac_inlier_ratio": 0.49,
+    "E_QG_GeV": 0.0015120283389485597,
+    "E_QG_Planck": 1.2393674909414422e-22,
+    "significant": "False"
+  }
+}

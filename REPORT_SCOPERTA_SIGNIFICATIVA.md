@@ -169,3 +169,4 @@ Questo risultato richiede:
 **⚠️ IMPORTANTE:** Questo risultato deve essere verificato rigorosamente prima di qualsiasi claim di scoperta. La scienza richiede replicazione indipendente e peer review.
 
 **✅ ACHIEVEMENT:** Abbiamo sviluppato e validato un toolkit avanzato per l'analisi di effetti QG in GRB, applicandolo con successo a dati reali Fermi LAT.
+

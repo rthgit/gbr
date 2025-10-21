@@ -254,3 +254,4 @@ La pubblicazione su Zenodo rappresenta il **primo step cruciale** per la validaz
 **Data:** 20 Ottobre 2024  
 **Versione:** 1.0  
 **Status:** Ready for Implementation
+

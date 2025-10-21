@@ -1,0 +1,12 @@
+{
+  "GRB090902B": {
+    "n_instruments": 0,
+    "total_data_size": 0,
+    "redshift": 1.822,
+    "t90": 21.0,
+    "fluence": 0.00012,
+    "n_photons": 1200,
+    "pearson_r": -0.0005883213861431098,
+    "pearson_p": 0.9837571394983312,
+    "sigma": 0.020363063705794694,
+    "significant": 

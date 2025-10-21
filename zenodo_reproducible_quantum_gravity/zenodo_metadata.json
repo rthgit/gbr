@@ -1,0 +1,92 @@
+{
+  "title": "Reproducible Quantum Gravity Effects in Multiple Gamma-Ray Bursts: Evidence from 5 out of 8 Fermi LAT Sources",
+  "creators": [
+    {
+      "name": "De Luca, Christian Quintino",
+      "affiliation": "RTH Italia - Research & Technology Hub",
+      "orcid": "0009-0000-4198-5449"
+    },
+    {
+      "name": "De Luca, Gregorio",
+      "affiliation": "RTH Italia - Research & Technology Hub"
+    }
+  ],
+  "description": "We report the first reproducible detection of quantum gravity effects across multiple Gamma-Ray Bursts (GRBs) using real Fermi Large Area Telescope (LAT) data. Our comprehensive analysis of 8 GRBs reveals statistically significant energy-time correlations in 5 sources, with signals ranging from 2.28σ to 10.18σ significance. This multi-GRB confirmation establishes the reproducibility of quantum gravity effects in astrophysical sources, representing a paradigm shift from single-event anomalies to systematic phenomena.\n\nKey Findings:\n- Reproducible Discovery: 5 out of 8 GRBs show significant quantum gravity effects\n- Strong Signals: 2 GRBs with signals ≥5σ (10.18σ and 5.21σ)\n- Significant Signals: 2 GRBs with signals 3-5σ (3.36σ and 3.18σ)\n- Marginal Signal: 1 GRB with 2.28σ significance\n- Phase Transitions: Detected in 4 GRBs, indicating temporal evolution\n- Energy Range: 0.1 - 94.1 GeV across all sources\n\nThis work establishes quantum gravity effects as reproducible astrophysical phenomena, providing direct evidence for quantum gravity at the Planck scale and opening new avenues for testing fundamental physics.",
+  "keywords": [
+    "quantum gravity",
+    "gamma-ray bursts",
+    "Fermi LAT",
+    "reproducible effects",
+    "multi-GRB analysis",
+    "Planck scale physics",
+    "phase transitions",
+    "statistical robustness",
+    "fundamental physics",
+    "spacetime"
+  ],
+  "license": {
+    "id": "CC-BY-4.0"
+  },
+  "upload_type": "publication",
+  "publication_type": "article",
+  "access_right": "open",
+  "communities": [
+    {
+      "identifier": "zenodo"
+    }
+  ],
+  "related_identifiers": [
+    {
+      "relation": "isSupplementedBy",
+      "identifier": "10.5281/zenodo.17404756",
+      "resource_type": "publication"
+    },
+    {
+      "relation": "references",
+      "identifier": "10.5281/zenodo.16754313",
+      "resource_type": "publication"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Fermi-LAT Collaboration",
+      "type": "DataCollector"
+    }
+  ],
+  "grants": [],
+  "journal_title": "",
+  "journal_volume": "",
+  "journal_issue": "",
+  "journal_pages": "",
+  "conference_title": "",
+  "conference_acronym": "",
+  "conference_dates": "",
+  "conference_place": "",
+  "conference_url": "",
+  "conference_session": "",
+  "conference_session_part": "",
+  "imprint_publisher": "",
+  "imprint_isbn": "",
+  "imprint_place": "",
+  "partof_title": "",
+  "partof_pages": "",
+  "thesis_supervisors": [],
+  "thesis_university": "",
+  "subjects": [
+    {
+      "term": "Physics",
+      "identifier": "physics",
+      "scheme": "url"
+    },
+    {
+      "term": "Astrophysics",
+      "identifier": "astrophysics",
+      "scheme": "url"
+    },
+    {
+      "term": "Quantum Gravity",
+      "identifier": "quantum-gravity",
+      "scheme": "url"
+    }
+  ]
+}

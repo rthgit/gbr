@@ -1,0 +1,337 @@
+{
+  "timestamp": "2025-10-21T00:15:42.039308",
+  "optimization_analysis": {
+    "threshold_2_0_sigma": "Too conservative (0% detection rate)",
+    "threshold_1_2_sigma": "Too permissive (high false positive rate)",
+    "threshold_1_5_sigma": "Optimal balance (final choice)"
+  },
+  "final_threshold": 1.5,
+  "critical_validation": {
+    "final_threshold": 1.5,
+    "observed_significance": 0.049680607734129655,
+    "detection": false,
+    "bootstrap_95th_percentile": 1.751942725534526,
+    "false_positive_rate": 0.11333333333333333,
+    "best_model": {
+      "correlation": -0.000831248787249122,
+      "significance": 0.049680607734129655,
+      "parameters": [
+        405.0273188062047,
+        2.9999999999999987,
+        -2.999999994299661,
+        1.4746995049582585,
+        -0.9999999953502138
+      ],
+      "rms": 397.8504011949123,
+      "n_points": 3574
+    },
+    "n_bootstrap": 300,
+    "n_null": 150
+  },
+  "independent_validation": {
+    "results": [
+      {
+        "grb_name": "GRB190114C",
+        "n_photons": 2847,
+        "redshift": 1.5787455484377355,
+        "best_model": {
+          "correlation": -0.0015363710439437529,
+          "significance": 0.07771981692383273,
+          "parameters": [
+            408.7292725127737,
+            -2.999999986456662,
+            2.999999787026777,
+            -2.999999999229801,
+            -0.9999999993868066
+          ],
+          "rms": 401.51269463079194,
+          "n_points": 2561
+        },
+        "best_significance": 0.07771981692383273,
+        "detection": false,
+        "has_qg_expected": true,
+        "detection_correct": false
+      },
+      {
+        "grb_name": "GRB160625B",
+        "n_photons": 1523,
+        "redshift": 0.986976287873061,
+        "best_model": {
+          "correlation": 0.03434479276662292,
+          "significance": 1.2705783413032938,
+          "parameters": [
+            401.22556836612665,
+            2.999999891107645,
+            -2.9998482332463556,
+            1.382418715367844,
+            0.9999999999999999
+          ],
+          "rms": 397.93337899011715,
+          "n_points": 1369
+        },
+        "best_significance": 1.2705783413032938,
+        "detection": false,
+        "has_qg_expected": false,
+        "detection_correct": true
+      },
+      {
+        "grb_name": "GRB170817A",
+        "n_photons": 89,
+        "redshift": 0.3375448325531982,
+        "best_model": {
+          "correlation": -0.12456711278846028,
+          "significance": 1.1016525471243055,
+          "parameters": [
+            370.0250216738242,
+            2.999999999989146,
+            -2.999999738340328,
+            1.4475735837657016,
+            -0.9999999999999999
+          ],
+          "rms": 388.8827945300926,
+          "n_points": 79
+        },
+        "best_significance": 1.1016525471243055,
+        "detection": false,
+        "has_qg_expected": false,
+        "detection_correct": true
+      },
+      {
+        "grb_name": "GRB221009A",
+        "n_photons": 4567,
+        "redshift": 1.8249534914584298,
+        "best_model": {
+          "correlation": -0.011835826434378615,
+          "significance": 0.7585624853064022,
+          "parameters": [
+            401.48302494859604,
+            -2.9999999999999996,
+            2.9999999999507954,
+            1.5353381229583531,
+            -0.9999999999368878
+          ],
+          "rms": 403.11287445471913,
+          "n_points": 4109
+        },
+        "best_significance": 0.7585624853064022,
+        "detection": false,
+        "has_qg_expected": true,
+        "detection_correct": false
+      }
+    ],
+    "accuracy": 0.5
+  },
+  "blind_analysis": {
+    "results": [
+      {
+        "grb_id": "FINAL_000",
+        "n_photons": 2930,
+        "best_significance": 0.37519777951000716,
+        "detection": false,
+        "has_qg_true": true,
+        "detection_correct": false
+      },
+      {
+        "grb_id": "FINAL_001",
+        "n_photons": 5732,
+        "best_significance": 0.6240675138676764,
+        "detection": false,
+        "has_qg_true": true,
+        "detection_correct": false
+      },
+      {
+        "grb_id": "FINAL_002",
+        "n_photons": 3838,
+        "best_significance": 0.587263056226351,
+        "detection": false,
+        "has_qg_true": true,
+        "detection_correct": false
+      },
+      {
+        "grb_id": "FINAL_003",
+        "n_photons": 4137,
+        "best_significance": 0.3009777738810938,
+        "detection": false,
+        "has_qg_true": false,
+        "detection_correct": true
+      },
+      {
+        "grb_id": "FINAL_004",
+        "n_photons": 4751,
+        "best_significance": 1.187935470067108,
+        "detection": false,
+        "has_qg_true": false,
+        "detection_correct": true
+      },
+      {
+        "grb_id": "FINAL_005",
+        "n_photons": 5509,
+        "best_significance": 0.5083952243663981,
+        "detection": false,
+        "has_qg_true": false,
+        "detection_correct": true
+      },
+      {
+        "grb_id": "FINAL_006",
+        "n_photons": 5809,
+        "best_significance": 0.13627152983639207,
+        "detection": false,
+        "has_qg_true": false,
+        "detection_correct": true
+      },
+      {
+        "grb_id": "FINAL_007",
+        "n_photons": 4700,
+        "best_significance": 0.5546511975548427,
+        "detection": false,
+        "has_qg_true": false,
+        "detection_correct": true
+      },
+      {
+        "grb_id": "FINAL_008",
+        "n_photons": 4322,
+        "best_significance": 0.8887842849514488,
+        "detection": false,
+        "has_qg_true": false,
+        "detection_correct": true
+      },
+      {
+        "grb_id": "FINAL_009",
+        "n_photons": 5902,
+        "best_significance": 0.5967477790662418,
+        "detection": false,
+        "has_qg_true": true,
+        "detection_correct": false
+      },
+      {
+        "grb_id": "FINAL_010",
+        "n_photons": 4625,
+        "best_significance": 0.9408319550519038,
+        "detection": false,
+        "has_qg_true": false,
+        "detection_correct": true
+      },
+      {
+        "grb_id": "FINAL_011",
+        "n_photons": 4480,
+        "best_significance": 0.8615995870661415,
+        "detection": false,
+        "has_qg_true": true,
+        "detection_correct": false
+      },
+      {
+        "grb_id": "FINAL_012",
+        "n_photons": 2557,
+        "best_significance": 0.6172133429754094,
+        "detection": false,
+        "has_qg_true": false,
+        "detection_correct": true
+      },
+      {
+        "grb_id": "FINAL_013",
+        "n_photons": 3913,
+        "best_significance": 0.6158036086977259,
+        "detection": false,
+        "has_qg_true": true,
+        "detection_correct": false
+      },
+      {
+        "grb_id": "FINAL_014",
+        "n_photons": 2442,
+        "best_significance": 0.7271782611876495,
+        "detection": false,
+        "has_qg_true": true,
+        "detection_correct": false
+      },
+      {
+        "grb_id": "FINAL_015",
+        "n_photons": 2428,
+        "best_significance": 0.3656640578881893,
+        "detection": false,
+        "has_qg_true": false,
+        "detection_correct": true
+      },
+      {
+        "grb_id": "FINAL_016",
+        "n_photons": 5676,
+        "best_significance": 0.28923724103867254,
+        "detection": false,
+        "has_qg_true": false,
+        "detection_correct": true
+      },
+      {
+        "grb_id": "FINAL_017",
+        "n_photons": 4488,
+        "best_significance": 0.24208952299962458,
+        "detection": false,
+        "has_qg_true": true,
+        "detection_correct": false
+      },
+      {
+        "grb_id": "FINAL_018",
+        "n_photons": 3287,
+        "best_significance": 1.6427425519005774,
+        "detection": true,
+        "has_qg_true": true,
+        "detection_correct": true
+      },
+      {
+        "grb_id": "FINAL_019",
+        "n_photons": 5493,
+        "best_significance": 1.282120551736866,
+        "detection": false,
+        "has_qg_true": true,
+        "detection_correct": false
+      },
+      {
+        "grb_id": "FINAL_020",
+        "n_photons": 4637,
+        "best_significance": 0.1311911700256274,
+        "detection": false,
+        "has_qg_true": false,
+        "detection_correct": true
+      },
+      {
+        "grb_id": "FINAL_021",
+        "n_photons": 2147,
+        "best_significance": 0.10296675328820111,
+        "detection": false,
+        "has_qg_true": true,
+        "detection_correct": false
+      },
+      {
+        "grb_id": "FINAL_022",
+        "n_photons": 5001,
+        "best_significance": 0.3035044154827383,
+        "detection": false,
+        "has_qg_true": true,
+        "detection_correct": false
+      },
+      {
+        "grb_id": "FINAL_023",
+        "n_photons": 3169,
+        "best_significance": 0.2452566356173142,
+        "detection": false,
+        "has_qg_true": false,
+        "detection_correct": true
+      },
+      {
+        "grb_id": "FINAL_024",
+        "n_photons": 4579,
+        "best_significance": 0.5437410901555898,
+        "detection": false,
+        "has_qg_true": false,
+        "detection_correct": true
+      }
+    ],
+    "accuracy": 0.56,
+    "detection_rate": 0.04
+  },
+  "final_summary": {
+    "grb090902_detection": false,
+    "independent_accuracy": 0.5,
+    "blind_accuracy": 0.56,
+    "blind_detection_rate": 0.04,
+    "methodology_validated": false
+  }
+}

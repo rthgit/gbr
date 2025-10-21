@@ -1,0 +1,200 @@
+{
+  "GRB_01": {
+    "grb_name": "GRB_01",
+    "n_photons": 516,
+    "energy_range": [
+      0.10030070692300797,
+      27.428804397583008
+    ],
+    "time_range": [
+      243216290.61209226,
+      243218728.083525
+    ],
+    "pearson_r": -0.030010887457887634,
+    "pearson_p": 0.49636754242372877,
+    "pearson_sigma": 0.6807004853119846,
+    "spearman_r": -0.009015924146855194,
+    "spearman_p": 0.8381113369110582,
+    "ransac_slope": 8.132733345031738,
+    "ransac_intercept": 491.8359069824219,
+    "n_inliers": 248,
+    "n_outliers": 268,
+    "inlier_fraction": 0.4806201550387597,
+    "E_QG_GeV": 1229598903068544.5,
+    "E_QG_planck": 0.00010078679533348725,
+    "bootstrap_mean": -0.026096963127769223,
+    "bootstrap_std": 0.03422915378669192,
+    "bootstrap_ci": [
+      -0.08145553976288003,
+      0.05847089257733244
+    ],
+    "permutation_p": 0.4766,
+    "significant": false,
+    "data_quality": "real_fermi"
+  },
+  "GRB_02": {
+    "grb_name": "GRB_02",
+    "n_photons": 3972,
+    "energy_range": [
+      0.10002322494983673,
+      80.82098388671875
+    ],
+    "time_range": [
+      273581819.68495375,
+      273584028.14469916
+    ],
+    "pearson_r": -0.08625484997406921,
+    "pearson_p": 5.1937437546629246e-08,
+    "pearson_sigma": 5.455070539634845,
+    "spearman_r": -0.11577131027784021,
+    "spearman_p": 2.504367296081406e-13,
+    "ransac_slope": -9.03798770904541,
+    "ransac_intercept": 1749.221923828125,
+    "n_inliers": 2023,
+    "n_outliers": 1949,
+    "inlier_fraction": 0.5093152064451159,
+    "E_QG_GeV": 1106440982431497.1,
+    "E_QG_planck": 9.069188380586042e-05,
+    "bootstrap_mean": -0.09585064696405286,
+    "bootstrap_std": 0.028522185287104873,
+    "bootstrap_ci": [
+      -0.15022219342636614,
+      -0.052079518907715984
+    ],
+    "permutation_p": 0.0,
+    "significant": true,
+    "data_quality": "real_fermi"
+  },
+  "GRB_03": {
+    "grb_name": "GRB_03",
+    "n_photons": 2371,
+    "energy_range": [
+      0.10010431706905365,
+      58.664398193359375
+    ],
+    "time_range": [
+      263607285.85197046,
+      263609780.97536483
+    ],
+    "pearson_r": -0.03521202047227103,
+    "pearson_p": 0.08649138670288559,
+    "pearson_sigma": 1.71491611337316,
+    "spearman_r": 0.001270328780201299,
+    "spearman_p": 0.9507034542861164,
+    "ransac_slope": -36.984615325927734,
+    "ransac_intercept": 2429.912353515625,
+    "n_inliers": 1292,
+    "n_outliers": 1079,
+    "inlier_fraction": 0.5449177562210038,
+    "E_QG_GeV": 270382695936534.16,
+    "E_QG_planck": 2.2162516060371654e-05,
+    "bootstrap_mean": -0.04133180170527259,
+    "bootstrap_std": 0.030537625732041468,
+    "bootstrap_ci": [
+      -0.10975179893176443,
+      0.005602447773982991
+    ],
+    "permutation_p": 0.0797,
+    "significant": false,
+    "data_quality": "real_fermi"
+  },
+  "GRB_04": {
+    "grb_name": "GRB_04",
+    "n_photons": 16,
+    "energy_range": [
+      0.11003199964761734,
+      2.052614450454712
+    ],
+    "time_range": [
+      388798997.1855946,
+      388799657.62224066
+    ],
+    "pearson_r": 0.22891601719378604,
+    "pearson_p": 0.3937723242841751,
+    "pearson_sigma": 0.8798897443186081,
+    "spearman_r": 0.488235294117647,
+    "spearman_p": 0.05501502977813759,
+    "ransac_slope": 260.6619873046875,
+    "ransac_intercept": 418.5090026855469,
+    "n_inliers": 10,
+    "n_outliers": 6,
+    "inlier_fraction": 0.625,
+    "E_QG_GeV": 38363860044967.016,
+    "E_QG_planck": 3.144578692210411e-06,
+    "bootstrap_mean": 0.2087993634794161,
+    "bootstrap_std": 0.23644521539776822,
+    "bootstrap_ci": [
+      -0.4200920174911242,
+      0.5482350404605636
+    ],
+    "permutation_p": 0.4284,
+    "significant": false,
+    "data_quality": "real_fermi"
+  },
+  "GRB_05": {
+    "grb_name": "GRB_05",
+    "n_photons": 548,
+    "energy_range": [
+      0.10015087574720383,
+      21.747568130493164
+    ],
+    "time_range": [
+      388798997.1855946,
+      388873309.9969566
+    ],
+    "pearson_r": 0.0644496763198649,
+    "pearson_p": 0.13184908585518396,
+    "pearson_sigma": 1.5091100736287841,
+    "spearman_r": -0.001532977240432419,
+    "spearman_p": 0.9714385198251,
+    "ransac_slope": -5231.99658203125,
+    "ransac_intercept": 22383.755859375,
+    "n_inliers": 267,
+    "n_outliers": 281,
+    "inlier_fraction": 0.48722627737226276,
+    "E_QG_GeV": 1911316233336.9949,
+    "E_QG_planck": 1.5666526502762253e-07,
+    "bootstrap_mean": 0.06712725021960357,
+    "bootstrap_std": 0.03189591421794052,
+    "bootstrap_ci": [
+      -0.0034176222123819327,
+      0.12569525720591973
+    ],
+    "permutation_p": 0.1356,
+    "significant": false,
+    "data_quality": "real_fermi"
+  },
+  "GRB_06": {
+    "grb_name": "GRB_06",
+    "n_photons": 3,
+    "energy_range": [
+      0.15398992598056793,
+      1.217445731163025
+    ],
+    "time_range": [
+      569943753.1646711,
+      569943983.2634685
+    ],
+    "pearson_r": 0.7162690393318462,
+    "pearson_p": 0.49169668554815776,
+    "pearson_sigma": 1.0264318766183826,
+    "spearman_r": 0.5,
+    "spearman_p": 0.6666666666666667,
+    "ransac_slope": 264.6192321777344,
+    "ransac_intercept": -92.0607681274414,
+    "n_inliers": 2,
+    "n_outliers": 1,
+    "inlier_fraction": 0.6666666666666666,
+    "E_QG_GeV": 37790148197858.086,
+    "E_QG_planck": 3.0975531309719743e-06,
+    "bootstrap_mean": NaN,
+    "bootstrap_std": NaN,
+    "bootstrap_ci": [
+      NaN,
+      NaN
+    ],
+    "permutation_p": 0.6712,
+    "significant": false,
+    "data_quality": "real_fermi"
+  }
+}

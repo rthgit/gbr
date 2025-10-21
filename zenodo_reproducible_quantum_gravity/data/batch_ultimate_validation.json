@@ -1,0 +1,294 @@
+{
+  "timestamp": "2025-10-21T02:21:35.473890",
+  "grbs_analyzed": 4,
+  "results": {
+    "GRB090902": {
+      "grb_name": "GRB090902B",
+      "n_events": 3972,
+      "e_max_gev": 80.820984375,
+      "correlations": {
+        "pearson": {
+          "r": -0.0862548496586375,
+          "sig": 5.455070519536266
+        },
+        "spearman": {
+          "r": -0.11577131027784021,
+          "sig": 7.343892412776457,
+          "p": 2.504367296081406e-13
+        },
+        "kendall": {
+          "r": -0.07764145036408221,
+          "sig": 7.33665692837262,
+          "p": 2.1899500554302252e-13
+        }
+      },
+      "energy_filters": {
+        "0.1gev": {
+          "n_photons": 3972,
+          "significance": 5.455070519536266
+        },
+        "0.2gev": {
+          "n_photons": 2147,
+          "significance": 4.648692813174238
+        },
+        "0.5gev": {
+          "n_photons": 750,
+          "significance": 3.704534461500997
+        },
+        "1.0gev": {
+          "n_photons": 259,
+          "significance": 1.8362014778787932
+        },
+        "2.0gev": {
+          "n_photons": 90,
+          "significance": 0.699781980228768
+        }
+      },
+      "temporal_bands": {
+        "early": {
+          "n_photons": 993,
+          "significance": 0.14308858546165404
+        },
+        "mid": {
+          "n_photons": 1986,
+          "significance": 2.6056767983838123
+        },
+        "late": {
+          "n_photons": 993,
+          "significance": 3.0915239242265993
+        }
+      },
+      "high_energy": {
+        "n_photons": 259,
+        "significance": 1.8362014778787932,
+        "correlation": -0.11379508295545342
+      },
+      "bootstrap": {
+        "mean": 6.055966128932099,
+        "std": 1.8219882221809576,
+        "ci_95": [
+          3.3603183985646217,
+          9.789603499236481
+        ]
+      },
+      "random_data": {
+        "mean": 0.7379070649590629,
+        "fp_rate_2sigma": 0.04,
+        "fp_rate_3sigma": 0.01
+      },
+      "anomaly_detected": "True"
+    },
+    "GRB080916C": {
+      "grb_name": "GRB080916C",
+      "n_events": 516,
+      "e_max_gev": 27.4288046875,
+      "correlations": {
+        "pearson": {
+          "r": -0.030010886739925316,
+          "sig": 0.680700469012638
+        },
+        "spearman": {
+          "r": -0.009015924146855194,
+          "sig": 0.20441344649273482,
+          "p": 0.8381113369110582
+        },
+        "kendall": {
+          "r": -0.009136750206969217,
+          "sig": 0.3102680782597941,
+          "p": 0.7563571039900013
+        }
+      },
+      "energy_filters": {
+        "0.1gev": {
+          "n_photons": 516,
+          "significance": 0.680700469012638
+        },
+        "0.2gev": {
+          "n_photons": 261,
+          "significance": 0.2609028616362967
+        },
+        "0.5gev": {
+          "n_photons": 109,
+          "significance": 0.09054217006161783
+        }
+      },
+      "temporal_bands": {
+        "early": {
+          "n_photons": 129,
+          "significance": 2.4164255807622093
+        },
+        "mid": {
+          "n_photons": 258,
+          "significance": 0.7510495540828007
+        },
+        "late": {
+          "n_photons": 129,
+          "significance": 0.15145953579820737
+        }
+      },
+      "high_energy": {
+        "n_photons": 31,
+        "significance": 0.5247559606362905,
+        "correlation": -0.09698536237200399
+      },
+      "bootstrap": {
+        "mean": 0.8990153180190805,
+        "std": 0.5750688154987281,
+        "ci_95": [
+          0.04655282762661388,
+          1.904671389087286
+        ]
+      },
+      "random_data": {
+        "mean": 0.7009171014923345,
+        "fp_rate_2sigma": 0.03,
+        "fp_rate_3sigma": 0.02
+      },
+      "anomaly_detected": "False"
+    },
+    "GRB130427A": {
+      "grb_name": "GRB130427A",
+      "n_events": 548,
+      "e_max_gev": 21.747568359375,
+      "correlations": {
+        "pearson": {
+          "r": 0.06444967692611225,
+          "sig": 1.5091100878834733
+        },
+        "spearman": {
+          "r": -0.001532977240432419,
+          "sig": 0.035820573826905115,
+          "p": 0.9714385198251
+        },
+        "kendall": {
+          "r": -0.0008273395695165401,
+          "sig": 0.028958784949941932,
+          "p": 0.9768974616419542
+        }
+      },
+      "energy_filters": {
+        "0.1gev": {
+          "n_photons": 548,
+          "significance": 1.5091100878834733
+        },
+        "0.2gev": {
+          "n_photons": 277,
+          "significance": 1.842704439947974
+        },
+        "0.5gev": {
+          "n_photons": 100,
+          "significance": 1.3785866969831977
+        }
+      },
+      "temporal_bands": {
+        "early": {
+          "n_photons": 137,
+          "significance": 0.037276200394343977
+        },
+        "mid": {
+          "n_photons": 274,
+          "significance": 0.9869018162884607
+        },
+        "late": {
+          "n_photons": 137,
+          "significance": 0.40348317044517285
+        }
+      },
+      "high_energy": {
+        "n_photons": 39,
+        "significance": 0.7039747860168961,
+        "correlation": 0.11496537589542034
+      },
+      "bootstrap": {
+        "mean": 1.6456785827077263,
+        "std": 0.7435736222744321,
+        "ci_95": [
+          0.21708457672102607,
+          3.0675437552812364
+        ]
+      },
+      "random_data": {
+        "mean": 0.8653312659636626,
+        "fp_rate_2sigma": 0.04,
+        "fp_rate_3sigma": 0.0
+      },
+      "anomaly_detected": "False"
+    },
+    "GRB090510": {
+      "grb_name": "GRB090510",
+      "n_events": 2371,
+      "e_max_gev": 58.6643984375,
+      "correlations": {
+        "pearson": {
+          "r": -0.03521202031299903,
+          "sig": 1.7149161056065736
+        },
+        "spearman": {
+          "r": 0.001270328780201299,
+          "sig": 0.06182996750165125,
+          "p": 0.9507034542861164
+        },
+        "kendall": {
+          "r": 0.00043599969391041894,
+          "sig": 0.03182165591217915,
+          "p": 0.9746142764599688
+        }
+      },
+      "energy_filters": {
+        "0.1gev": {
+          "n_photons": 2371,
+          "significance": 1.7149161056065736
+        },
+        "0.2gev": {
+          "n_photons": 1349,
+          "significance": 1.9052486827204025
+        },
+        "0.5gev": {
+          "n_photons": 510,
+          "significance": 1.4598104908804261
+        },
+        "1.0gev": {
+          "n_photons": 212,
+          "significance": 0.5067203585964282
+        },
+        "2.0gev": {
+          "n_photons": 70,
+          "significance": 0.017229464874876612
+        }
+      },
+      "temporal_bands": {
+        "early": {
+          "n_photons": 593,
+          "significance": 1.261912245042058
+        },
+        "mid": {
+          "n_photons": 1185,
+          "significance": 1.5763664666549388
+        },
+        "late": {
+          "n_photons": 593,
+          "significance": 0.4690555684099338
+        }
+      },
+      "high_energy": {
+        "n_photons": 212,
+        "significance": 0.5067203585964282,
+        "correlation": -0.034945669382900724
+      },
+      "bootstrap": {
+        "mean": 2.0601562686069834,
+        "std": 1.5547761336895876,
+        "ci_95": [
+          0.09055403356641524,
+          5.340851534374251
+        ]
+      },
+      "random_data": {
+        "mean": 0.8308637450370138,
+        "fp_rate_2sigma": 0.06,
+        "fp_rate_3sigma": 0.02
+      },
+      "anomaly_detected": "False"
+    }
+  }
+}

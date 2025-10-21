@@ -1,0 +1,99 @@
+{
+  "analysis_date": "2025-10-21T13:48:00.676042",
+  "grb_name": "GRB221009A",
+  "instruments": [
+    "Swift_BAT",
+    "Swift_GBM",
+    "LHAASO"
+  ],
+  "instrument_results": {
+    "Swift_BAT": {
+      "n_photons": 1000,
+      "energy_range": [
+        0.015009722202244176,
+        0.14271828466059072
+      ],
+      "time_range": [
+        0.0,
+        374.2854757721599
+      ],
+      "pearson_r": -0.03057938029213065,
+      "pearson_p": 0.3340334870901731,
+      "spearman_r": -0.04723239523239524,
+      "spearman_p": 0.13554599703068332,
+      "sigma": 0.9664894097838631,
+      "permutation_p": 0.324,
+      "bootstrap_ci": "[-0.08756912  0.03074021]",
+      "ransac_slope": -48.42580851934792,
+      "ransac_inliers": "470",
+      "ransac_inlier_ratio": 0.47,
+      "significant": "False"
+    },
+    "Swift_GBM": {
+      "n_photons": 2000,
+      "energy_range": [
+        0.008002516812692626,
+        0.09912262689510055
+      ],
+      "time_range": [
+        0.010073177748903747,
+        447.16319528700143
+      ],
+      "pearson_r": -0.018969273160542855,
+      "pearson_p": 0.3965061348023657,
+      "spearman_r": -0.0135984003996001,
+      "spearman_p": 0.5433288469546484,
+      "sigma": 0.8480600073316199,
+      "permutation_p": 0.413,
+      "bootstrap_ci": "[-0.05899977  0.01887297]",
+      "ransac_slope": -278.21906688550655,
+      "ransac_inliers": "1091",
+      "ransac_inlier_ratio": 0.5455,
+      "significant": "False"
+    },
+    "LHAASO": {
+      "n_photons": 500,
+      "energy_range": [
+        163.60390660826485,
+        14600.120978567053
+      ],
+      "time_range": [
+        0.1496680458423592,
+        342.55269310519003
+      ],
+      "pearson_r": 0.07340821409221926,
+      "pearson_p": 0.10109630054082924,
+      "spearman_r": 0.001729446917787671,
+      "spearman_p": 0.9692293564427821,
+      "sigma": 1.642603143960319,
+      "permutation_p": 0.106,
+      "bootstrap_ci": "[-0.01372736  0.16329069]",
+      "ransac_slope": 0.005479670683602892,
+      "ransac_inliers": "246",
+      "ransac_inlier_ratio": 0.492,
+      "significant": "False"
+    }
+  },
+  "combined_results": {
+    "n_photons": 3503,
+    "energy_range": [
+      0.008002516812692626,
+      14600.120978567053
+    ],
+    "time_range": [
+      0.0,
+      569943982.4803872
+    ],
+    "pearson_r": -0.005626555127810536,
+    "pearson_p": 0.7392113527138454,
+    "spearman_r": 0.015847549415035668,
+    "spearman_p": 0.3484091334483427,
+    "sigma": 0.33292430999627,
+    "permutation_p": 0.749,
+    "bootstrap_ci": "[-0.00863834  0.04177508]",
+    "ransac_slope": -0.010060152587065269,
+    "ransac_inliers": "1902",
+    "ransac_inlier_ratio": 0.5429631744219241,
+    "significant": "False"
+  }
+}

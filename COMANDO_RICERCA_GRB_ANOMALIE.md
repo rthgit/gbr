@@ -57,3 +57,4 @@ python search_grb_anomalies.py
 **🎯 IDENTIFICHERÀ GRB CON SEGNALI QG POTENZIALI!**
 
 **🎯 FORNIRÀ ANALISI ROBUSTA E AFFIDABILE!**
+

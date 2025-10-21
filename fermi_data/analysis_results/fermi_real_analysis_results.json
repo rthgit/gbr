@@ -1,0 +1,138 @@
+{
+  "analysis_date": "2025-10-21T13:57:00.629020",
+  "total_grbs": 5,
+  "significant_grbs": 0,
+  "success_rate": 0.0,
+  "grb_results": {
+    "GRB080916C": {
+      "grb_name": "GRB080916C",
+      "redshift": 4.35,
+      "n_photons": 320,
+      "energy_range": [
+        0.1004889098881679,
+        14.72794213627848
+      ],
+      "time_range": [
+        0.004075378179550171,
+        34.251169204711914
+      ],
+      "pearson_r": 0.04865870317672602,
+      "pearson_p": 0.3856456098269135,
+      "spearman_r": 0.14187919315618316,
+      "spearman_p": 0.011055281010521428,
+      "sigma": 0.8687380279995076,
+      "permutation_p": 0.384,
+      "bootstrap_ci": "[-0.06356785  0.1629463 ]",
+      "ransac_slope": 0.04164595547359864,
+      "ransac_inliers": "164",
+      "ransac_inlier_ratio": 0.5125,
+      "E_QG_GeV": 7.983111011225343,
+      "E_QG_Planck": 6.543533615758479e-19,
+      "significant": "False"
+    },
+    "GRB090510": {
+      "grb_name": "GRB090510",
+      "redshift": 0.903,
+      "n_photons": 50,
+      "energy_range": [
+        0.1024543241966133,
+        67.74659908893385
+      ],
+      "time_range": [
+        3.49581241607666e-05,
+        0.14592689275741577
+      ],
+      "pearson_r": 0.15859370154335756,
+      "pearson_p": 0.27131354735757807,
+      "spearman_r": 0.3086194477791116,
+      "spearman_p": 0.029212308798844573,
+      "sigma": 1.112853749314148,
+      "permutation_p": 0.26,
+      "bootstrap_ci": "[-0.07024969  0.59705864]",
+      "ransac_slope": 0.0009476258692962329,
+      "ransac_inliers": "29",
+      "ransac_inlier_ratio": 0.58,
+      "E_QG_GeV": 25.90547682940676,
+      "E_QG_Planck": 2.123399740115308e-18,
+      "significant": "False"
+    },
+    "GRB090902B": {
+      "grb_name": "GRB090902B",
+      "redshift": 1.822,
+      "n_photons": 120,
+      "energy_range": [
+        0.100050334257888,
+        11.961826990845047
+      ],
+      "time_range": [
+        0.009203851222991943,
+        17.9265895485878
+      ],
+      "pearson_r": -0.08425232573133606,
+      "pearson_p": 0.3602411300085436,
+      "spearman_r": 0.014292659212445307,
+      "spearman_p": 0.8768707049390536,
+      "sigma": 0.9184802209493651,
+      "permutation_p": 0.254,
+      "bootstrap_ci": "[-0.17651465  0.03684077]",
+      "ransac_slope": -0.1361321243247161,
+      "ransac_inliers": "72",
+      "ransac_inlier_ratio": 0.6,
+      "E_QG_GeV": 0.539568664896626,
+      "E_QG_Planck": 4.422693974562508e-20,
+      "significant": "False"
+    },
+    "GRB130427A": {
+      "grb_name": "GRB130427A",
+      "redshift": 0.34,
+      "n_photons": 1800,
+      "energy_range": [
+        0.1000756690582926,
+        90.9831125929104
+      ],
+      "time_range": [
+        0.012874841690063477,
+        99.31424206495285
+      ],
+      "pearson_r": -0.019427319727475505,
+      "pearson_p": 0.4100892718073006,
+      "spearman_r": 0.023291904308200922,
+      "spearman_p": 0.3233293199489943,
+      "sigma": 0.8239288361842674,
+      "permutation_p": 0.381,
+      "bootstrap_ci": "[-0.0502772   0.01268141]",
+      "ransac_slope": 8.206801807934983,
+      "ransac_inliers": "991",
+      "ransac_inlier_ratio": 0.5505555555555556,
+      "E_QG_GeV": 0.0007930703800204398,
+      "E_QG_Planck": 6.500576885413441e-23,
+      "significant": "False"
+    },
+    "GRB221009A": {
+      "grb_name": "GRB221009A",
+      "redshift": 0.151,
+      "n_photons": 2100,
+      "energy_range": [
+        0.1000142239488497,
+        91.5840176327925
+      ],
+      "time_range": [
+        0.0006206035614013672,
+        451.96620059013367
+      ],
+      "pearson_r": 0.00669578668100516,
+      "pearson_p": 0.7591019980320397,
+      "spearman_r": 0.015357884920803184,
+      "spearman_p": 0.4818008071353097,
+      "sigma": 0.30670021948819604,
+      "permutation_p": 0.757,
+      "bootstrap_ci": "[-0.02207442  0.03819897]",
+      "ransac_slope": 46.33460469447876,
+      "ransac_inliers": "1108",
+      "ransac_inlier_ratio": 0.5276190476190477,
+      "E_QG_GeV": 5.358568277301582e-05,
+      "E_QG_Planck": 4.3922690797553956e-24,
+      "significant": "False"
+    }
+  }
+}

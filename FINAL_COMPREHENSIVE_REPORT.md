@@ -270,3 +270,4 @@ Questo lavoro rappresenta un **progresso significativo** nella ricerca di effett
 **⚠️ IMPORTANTE:** Questo risultato deve essere verificato rigorosamente prima di qualsiasi claim di scoperta. La scienza richiede replicazione indipendente e peer review.
 
 **✅ ACHIEVEMENT:** Abbiamo sviluppato e validato una metodologia avanzata per l'analisi di effetti QG in GRB, applicandola con successo a dati reali Fermi LAT e ottenendo risultati significativi.
+

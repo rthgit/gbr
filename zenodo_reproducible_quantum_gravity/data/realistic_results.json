@@ -1,0 +1,10 @@
+{
+  "realistic_analysis": {
+    "correlation": 0.29479200354544066,
+    "significance_sigma": 11.940238098330171,
+    "E_QG_fitted_GeV": 48701862.51212269,
+    "n_photons": 1500,
+    "realistic": true,
+    "noise_level": "1000x QG delay"
+  }
+}

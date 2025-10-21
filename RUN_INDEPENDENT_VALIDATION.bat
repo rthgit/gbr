@@ -12,3 +12,4 @@ echo VALIDAZIONE INDIPENDENTE COMPLETATA!
 echo ======================================================================
 echo.
 pause
+

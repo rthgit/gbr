@@ -1,0 +1,86 @@
+{
+  "timestamp": "2025-10-21T02:10:47.011692",
+  "grb_name": "GRB130427A",
+  "filename": "L251020164901F357373F96_EV00.fits",
+  "n_events": 548,
+  "base_correlation": 0.06444967692611227,
+  "base_significance": 1.5091100878834736,
+  "validation_results": {
+    "robustness": {
+      "extreme_energy_filters": {
+        "filter_0.01_gev": {
+          "filter_gev": 0.01,
+          "n_photons": 548,
+          "correlation": 0.06444967692611227,
+          "significance": 1.5091100878834736
+        },
+        "filter_0.1_gev": {
+          "filter_gev": 0.1,
+          "n_photons": 548,
+          "correlation": 0.06444967692611227,
+          "significance": 1.5091100878834736
+        },
+        "filter_1.0_gev": {
+          "filter_gev": 1.0,
+          "n_photons": 39,
+          "correlation": 0.11496537589542037,
+          "significance": 0.7039747860168963
+        }
+      },
+      "correlation_methods": {
+        "pearson": {
+          "correlation": 0.06444967692611227,
+          "significance": 1.5091100878834736
+        },
+        "spearman": {
+          "correlation": -0.001532977240432419,
+          "significance": 0.03580415519681065,
+          "p_value": 0.9714385198251
+        },
+        "kendall": {
+          "correlation": -0.0008273395695165401,
+          "significance": 0.028958784949941953,
+          "p_value": 0.9768974616419542
+        }
+      }
+    },
+    "bias": {
+      "randomization": {
+        "n_randomizations": 1000,
+        "random_correlations_mean": -0.0005336338165703511,
+        "random_correlations_std": 0.04287405021861544,
+        "random_significances_mean": 0.8160503652981584,
+        "random_significances_std": 0.5853575460537607
+      }
+    },
+    "false_positive": {
+      "random_data": {
+        "n_trials": 10000,
+        "random_correlations_mean": -9.95745965499307e-05,
+        "random_correlations_std": 0.04246853641148999,
+        "random_significances_mean": 0.7887620776078154,
+        "random_significances_std": 0.6067206893875551,
+        "false_positive_rate_5sigma": 0.0,
+        "false_positive_rate_3sigma": 0.0026,
+        "false_positive_rate_2sigma": 0.0487
+      }
+    },
+    "control": {
+      "low_energy": {
+        "n_photons": 509,
+        "correlation": -0.04346024832909384,
+        "significance": 0.9795051353301536,
+        "energy_range": "< 1 GeV"
+      }
+    }
+  },
+  "summary": {
+    "anomaly_detected": false,
+    "significance": "1.51\u03c3",
+    "validation_status": "Ultimate validation completed",
+    "bias_analysis": "Completed",
+    "false_positive_analysis": "Completed",
+    "robustness_analysis": "Completed",
+    "control_sample_analysis": "Completed"
+  }
+}

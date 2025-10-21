@@ -1,0 +1,67 @@
+{
+  "title": "Anomalous Energy-Time Correlation in GRB090902B: Candidate Quantum Gravity Effect or Astrophysical Phenomenon?",
+  "creators": [
+    {
+      "name": "Christian Quintino De Luca",
+      "affiliation": "RTH Italia - Research & Technology Hub",
+      "orcid": "0009-0000-4198-5449"
+    },
+    {
+      "name": "Gregorio De Luca",
+      "affiliation": "RTH Italia - Research & Technology Hub"
+    }
+  ],
+  "description": "Complete dataset and analysis code for investigating anomalous energy-time correlations in GRB090902B. This package includes all analysis scripts, results, figures, and the complete scientific paper documenting a statistically significant (5.46σ) correlation that is consistent with quantum gravity predictions but requires further investigation to distinguish from astrophysical alternatives.\n\nKey Findings:\n- GRB090902B: 5.46σ energy-time correlation (statistically significant)\n- GRB221009A: No significant effects (0.94σ)\n- 4/5 GRBs show no similar effects (replication failure)\n- Combined analysis of all GRBs: no significant correlation (p=0.73)\n- 60% QG vs 40% astrophysical discrimination (inconclusive)\n- Outlier dependence: removing top 5% reduces significance to 3.26σ\n\nThis work establishes a rigorous methodology for testing quantum gravity predictions in gamma-ray bursts and highlights the need for expanded samples to resolve the origin of this intriguing anomaly.",
+  "keywords": [
+    "anomalous correlation",
+    "gamma-ray bursts",
+    "GRB090902B",
+    "GRB221009A",
+    "energy-time correlation",
+    "quantum gravity",
+    "astrophysical lags",
+    "Fermi LAT",
+    "statistical analysis",
+    "replication failure",
+    "fundamental physics",
+    "spacetime",
+    "Planck scale"
+  ],
+  "license": "CC-BY-4.0",
+  "upload_type": "publication",
+  "publication_type": "article",
+  "communities": [
+    {
+      "identifier": "astrophysics"
+    },
+    {
+      "identifier": "fundamental-physics"
+    }
+  ],
+  "version": "v1.0.1",
+  "publication_date": "2025-10-21",
+  "access_right": "open",
+  "access_right_category": "success",
+  "language": "eng",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/rthgit/gbr",
+      "relation": "isSupplementedBy",
+      "scheme": "url"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Fermi-LAT Collaboration",
+      "type": "DataCollector"
+    }
+  ],
+  "funding": [
+    {
+      "funder": "RTH Italia - Research & Technology Hub",
+      "award": "Independent Research Grant"
+    }
+  ],
+  "notes": "This dataset contains the complete analysis of anomalous energy-time correlations in GRB090902B, including statistical validation, multi-GRB comparison, and comprehensive methodology for testing quantum gravity predictions in gamma-ray bursts."
+}
+

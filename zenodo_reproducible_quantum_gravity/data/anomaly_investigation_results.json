@@ -1,0 +1,265 @@
+{
+  "timestamp": "2025-10-21T00:36:17.067935",
+  "anomaly_analysis": {
+    "original_methodology": {
+      "correlation": 0.004607777092521818,
+      "significance": 0.2903296062839807,
+      "slope": 0.3893554805105354,
+      "intercept": 481.4726947285183,
+      "E_QG": 5821795842560.256,
+      "method": "original_direct"
+    },
+    "validation_methodology": {
+      "models": {
+        "power_law": {
+          "correlation": 0.008493654536785054,
+          "significance": 0.5351869466499352,
+          "rms": 482.8737898836187
+        },
+        "exponential": {
+          "correlation": 0.0010503561095776832,
+          "significance": 0.0661808070449108,
+          "rms": 482.9028542412686
+        }
+      },
+      "best_model": {
+        "correlation": 0.008493654536785054,
+        "significance": 0.5351869466499352,
+        "rms": 482.8737898836187
+      },
+      "best_significance": 0.5351869466499352,
+      "method": "validation_advanced"
+    },
+    "significance_comparison": {
+      "original_significance": 0.2903296062839807,
+      "validation_significance": 0.5351869466499352,
+      "significance_loss": -0.24485734036595447,
+      "loss_percentage": -84.33770964661856
+    },
+    "potential_causes": [
+      "Modelli lag avanzati overfitting"
+    ],
+    "data_characteristics": {
+      "n_photons": 3972,
+      "energy_range": [
+        0.1,
+        80.8
+      ],
+      "time_range": [
+        0.20974750303177814,
+        3762.59298497214
+      ],
+      "energy_mean": 3.4276315790401712,
+      "time_mean": 482.8072618689885
+    }
+  },
+  "parameter_sensitivity": {
+    "qg_strength": [
+      {
+        "parameter_value": 0.0005,
+        "original_significance": 0.2902905528471269,
+        "validation_significance": 0.5351478937784407,
+        "significance_loss": -0.24485734093131384
+      },
+      {
+        "parameter_value": 0.001,
+        "original_significance": 0.2903296062839807,
+        "validation_significance": 0.5351869466499352,
+        "significance_loss": -0.24485734036595447
+      },
+      {
+        "parameter_value": 0.0015,
+        "original_significance": 0.29036865971947423,
+        "validation_significance": 0.5352259995205124,
+        "significance_loss": -0.2448573398010382
+      },
+      {
+        "parameter_value": 0.002,
+        "original_significance": 0.29040771315360975,
+        "validation_significance": 0.5352650523889956,
+        "significance_loss": -0.24485733923538583
+      },
+      {
+        "parameter_value": 0.0025,
+        "original_significance": 0.29044676658638674,
+        "validation_significance": 0.5353041052561931,
+        "significance_loss": -0.24485733866980636
+      }
+    ],
+    "noise_level": [
+      {
+        "parameter_value": 0.05,
+        "original_significance": 0.29026896168770155,
+        "validation_significance": 0.5351267727646966,
+        "significance_loss": -0.244857811076995
+      },
+      {
+        "parameter_value": 0.1,
+        "original_significance": 0.2903296062839807,
+        "validation_significance": 0.5351869466499352,
+        "significance_loss": -0.24485734036595447
+      },
+      {
+        "parameter_value": 0.15,
+        "original_significance": 0.29039024750687087,
+        "validation_significance": 0.5352471145196631,
+        "significance_loss": -0.24485686701279225
+      },
+      {
+        "parameter_value": 0.2,
+        "original_significance": 0.2904508853544468,
+        "validation_significance": 0.5353072763725798,
+        "significance_loss": -0.244856391018133
+      },
+      {
+        "parameter_value": 0.25,
+        "original_significance": 0.29051151982478474,
+        "validation_significance": 0.5353674322055401,
+        "significance_loss": -0.24485591238075533
+      }
+    ],
+    "intrinsic_lag_strength": [
+      {
+        "parameter_value": 0.05,
+        "original_significance": 0.29155379973941925,
+        "validation_significance": 0.5364113087921786,
+        "significance_loss": -0.24485750905275933
+      },
+      {
+        "parameter_value": 0.1,
+        "original_significance": 0.2903296062839807,
+        "validation_significance": 0.5351869466499352,
+        "significance_loss": -0.24485734036595447
+      },
+      {
+        "parameter_value": 0.15,
+        "original_significance": 0.28910541395306155,
+        "validation_significance": 0.5339625850726845,
+        "significance_loss": -0.2448571711196229
+      },
+      {
+        "parameter_value": 0.2,
+        "original_significance": 0.2878812227494579,
+        "validation_significance": 0.5327382240626903,
+        "significance_loss": -0.24485700131323246
+      },
+      {
+        "parameter_value": 0.25,
+        "original_significance": 0.2866570326759671,
+        "validation_significance": 0.5315138636240486,
+        "significance_loss": -0.24485683094808153
+      }
+    ],
+    "n_photons": [
+      {
+        "parameter_value": 1000,
+        "original_significance": 0.7074074975692025,
+        "validation_significance": 0.6359603091161317,
+        "significance_loss": 0.07144718845307085
+      },
+      {
+        "parameter_value": 2000,
+        "original_significance": 2.0394909151604215,
+        "validation_significance": 1.8706422748340807,
+        "significance_loss": 0.16884864032634073
+      },
+      {
+        "parameter_value": 3000,
+        "original_significance": 0.46984263855253855,
+        "validation_significance": 0.6722538205833855,
+        "significance_loss": -0.2024111820308469
+      },
+      {
+        "parameter_value": 4000,
+        "original_significance": 1.6747607690426445,
+        "validation_significance": 1.4419701042640987,
+        "significance_loss": 0.23279066477854582
+      },
+      {
+        "parameter_value": 5000,
+        "original_significance": 0.5962966516322961,
+        "validation_significance": 0.33533818627897344,
+        "significance_loss": 0.2609584653533226
+      }
+    ]
+  },
+  "methodology_comparison": {
+    "original": {
+      "correlation": 0.004607777092521818,
+      "significance": 0.2903296062839807,
+      "slope": 0.3893554805105354,
+      "intercept": 481.4726947285183,
+      "E_QG": 5821795842560.256,
+      "method": "original_direct"
+    },
+    "validation": {
+      "models": {
+        "power_law": {
+          "correlation": 0.008493654536785054,
+          "significance": 0.5351869466499352,
+          "rms": 482.8737898836187
+        },
+        "exponential": {
+          "correlation": 0.0010503561095776832,
+          "significance": 0.0661808070449108,
+          "rms": 482.9028542412686
+        }
+      },
+      "best_model": {
+        "correlation": 0.008493654536785054,
+        "significance": 0.5351869466499352,
+        "rms": 482.8737898836187
+      },
+      "best_significance": 0.5351869466499352,
+      "method": "validation_advanced"
+    },
+    "hybrid": {
+      "models": {
+        "power_law": {
+          "correlation": 0.008493654536785054,
+          "significance": 0.5351869466499352,
+          "rms": 482.8737898836187
+        },
+        "exponential": {
+          "correlation": 0.0010503561095776832,
+          "significance": 0.0661808070449108,
+          "rms": 482.9028542412686
+        }
+      },
+      "best_model": {
+        "correlation": 0.008493654536785054,
+        "significance": 0.5351869466499352,
+        "rms": 482.8737898836187
+      },
+      "best_significance": 0.5351869466499352,
+      "method": "validation_advanced",
+      "hybrid_significance": 0.2903296062839807,
+      "hybrid_correlation": 0.004607777092521818
+    },
+    "simple": {
+      "correlation": 0.004607777092521818,
+      "significance": 0.2903296062839807,
+      "method": "simple_correlation"
+    },
+    "data_characteristics": {
+      "n_photons": 3972,
+      "energy_range": [
+        0.1,
+        80.8
+      ],
+      "time_range": [
+        0.20974750303177814,
+        3762.59298497214
+      ]
+    }
+  },
+  "investigation_summary": {
+    "original_significance": 0.2903296062839807,
+    "validation_significance": 0.5351869466499352,
+    "significance_loss": -0.24485734036595447,
+    "loss_percentage": -84.33770964661856,
+    "potential_causes": [
+      "Modelli lag avanzati overfitting"
+    ]
+  }
+}

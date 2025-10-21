@@ -12,3 +12,4 @@ echo TEST CRITICI COMPLETATI!
 echo ======================================================================
 echo.
 pause
+

@@ -1,0 +1,1758 @@
+{
+  "timestamp": "2025-10-21T17:27:31.971159",
+  "analysis_type": "comprehensive_real_data_analysis",
+  "n_analyzed": 8,
+  "results": [
+    {
+      "grb_name": "L251021110739F357373F39",
+      "n_photons": 9371,
+      "energy_range": [
+        0.10001926869153976,
+        58.664398193359375
+      ],
+      "time_range": [
+        0.0,
+        9376.621499598026
+      ],
+      "basic_correlations": {
+        "pearson": {
+          "r": -0.03350411685404079,
+          "p": 0.0011794321969209353,
+          "sigma": 3.2448056123400644
+        },
+        "spearman": {
+          "r": -0.08378755676164061,
+          "p": 4.50432252534459e-16,
+          "sigma": 8.138717479305344
+        },
+        "kendall": {
+          "r": -0.056143827270465164,
+          "p": 3.612494893381691e-16
+        }
+      },
+      "energy_subsets": {
+        "low_energy": {
+          "n_photons": 2343,
+          "energy_range": [
+            0.10001926869153976,
+            0.1569240838289261
+          ],
+          "pearson_r": 0.010986054873465356,
+          "pearson_p": 0.5950673152642029,
+          "sigma": 0.5315800584691447,
+          "significant": false
+        },
+        "medium_low": {
+          "n_photons": 2342,
+          "energy_range": [
+            0.1569269299507141,
+            0.2470191866159439
+          ],
+          "pearson_r": 0.005583178741550682,
+          "pearson_p": 0.787120704363395,
+          "sigma": 0.27008236593622814,
+          "significant": false
+        },
+        "medium_high": {
+          "n_photons": 2343,
+          "energy_range": [
+            0.2470448911190033,
+            0.4582770764827728
+          ],
+          "pearson_r": 0.007792316726839307,
+          "pearson_p": 0.7061825285574602,
+          "sigma": 0.3770339769701668,
+          "significant": false
+        },
+        "high_energy": {
+          "n_photons": 1405,
+          "energy_range": [
+            0.45851370692253113,
+            0.8636078238487244
+          ],
+          "pearson_r": -0.011992079971754499,
+          "pearson_p": 0.6533457013051444,
+          "sigma": 0.44921534353503795,
+          "significant": false
+        },
+        "very_high_energy": {
+          "n_photons": 469,
+          "energy_range": [
+            0.8651392459869385,
+            1.3446778059005737
+          ],
+          "pearson_r": -0.0473941729497336,
+          "pearson_p": 0.3057293731869929,
+          "sigma": 1.025348961111645,
+          "significant": false
+        },
+        "ultra_high_energy": {
+          "n_photons": 469,
+          "energy_range": [
+            1.3460042476654053,
+            58.664398193359375
+          ],
+          "pearson_r": -0.06694772390967156,
+          "pearson_p": 0.1477281901937029,
+          "sigma": 1.45000566097304,
+          "significant": false
+        }
+      },
+      "temporal_evolution": {
+        "time_bins": [
+          {
+            "time_window": [
+              0.0,
+              937.6621499598026
+            ],
+            "n_photons": 195,
+            "pearson_r": -0.026562659174851455,
+            "pearson_p": 0.7124202131552104,
+            "sigma": 0.36915050943758093
+          },
+          {
+            "time_window": [
+              1875.3242999196052,
+              2812.9864498794077
+            ],
+            "n_photons": 3243,
+            "pearson_r": -0.0395032705949573,
+            "pearson_p": 0.024473258958159324,
+            "sigma": 2.250669335822382
+          },
+          {
+            "time_window": [
+              2812.9864498794077,
+              3750.6485998392104
+            ],
+            "n_photons": 1011,
+            "pearson_r": -0.08824284941744423,
+            "pearson_p": 0.0049881596789209575,
+            "sigma": 2.8139903664492487
+          },
+          {
+            "time_window": [
+              7501.297199678421,
+              8438.959349638224
+            ],
+            "n_photons": 2728,
+            "pearson_r": -0.10700200871577471,
+            "pearson_p": 2.1156097058380828e-08,
+            "sigma": 5.618953148747816
+          },
+          {
+            "time_window": [
+              8438.959349638224,
+              9376.621499598026
+            ],
+            "n_photons": 2139,
+            "pearson_r": -0.11171228645221323,
+            "pearson_p": 2.221024042131895e-07,
+            "sigma": 5.196730218064208
+          }
+        ],
+        "correlation_trend": -0.02377979926755409
+      },
+      "early_late": {
+        "early_phase": {
+          "n_photons": 4685,
+          "pearson_r": 0.007371552828991283,
+          "pearson_p": 0.6139568995931479,
+          "sigma": 0.5044671154250171
+        },
+        "late_phase": {
+          "n_photons": 4686,
+          "pearson_r": -0.1470751559546987,
+          "pearson_p": 4.489035100168577e-24,
+          "sigma": 10.176453244276098
+        },
+        "phase_comparison": {
+          "correlation_change": -0.15444670878369,
+          "sigma_change": 9.671986128851081,
+          "sign_flip": true,
+          "significance_change": 9.671986128851081
+        }
+      },
+      "ransac": {
+        "slope": -165.37454223632812,
+        "intercept": 5849.09326171875,
+        "r2": -0.002311523633023116,
+        "n_inliers": 37,
+        "n_outliers": 9334,
+        "inlier_fraction": 0.003948351296553196
+      },
+      "eqg_estimation": {
+        "slope": -101.88973999023438,
+        "intercept": 5657.90234375,
+        "E_QG_GeV": 0.009814530885012024,
+        "E_QG_E_Planck": 8.044697446731167e-22,
+        "physically_reasonable": false
+      },
+      "spectral_analysis": {
+        "energy_spectrum": {
+          "peaks": 0,
+          "peak_energies": [],
+          "peak_heights": []
+        },
+        "time_spectrum": {
+          "peaks": 3,
+          "peak_times": [
+            468.83107497990136,
+            2531.687804891467,
+            8345.193134642243
+          ],
+          "peak_heights": [
+            173.0,
+            1132.0,
+            1211.0
+          ]
+        }
+      },
+      "clustering": {
+        "n_clusters": 2,
+        "n_noise": 22,
+        "cluster_analysis": {
+          "cluster_0": {
+            "n_photons": 9340,
+            "energy_range": [
+              0.10001926869153976,
+              5.903817176818848
+            ],
+            "time_range": [
+              0.0,
+              9376.621499598026
+            ],
+            "pearson_r": -0.017250412057631614,
+            "pearson_p": 0.09550563188006689,
+            "sigma": 1.6672127996400994
+          }
+        }
+      },
+      "outliers": {
+        "n_outliers": 80,
+        "outlier_fraction": 0.008536975776331234,
+        "correlation_without_outliers": -0.03335966045554885,
+        "p_without_outliers": 0.0012999331525212273,
+        "sigma_without_outliers": 3.2169765385800413,
+        "outlier_effect": 0.027829073760023082
+      },
+      "max_sigma_overall": 10.176453244276098,
+      "classification": "\ud83d\udd34 STRONG_SIGNAL"
+    },
+    {
+      "grb_name": "L251021110325F357373F43",
+      "n_photons": 8354,
+      "energy_range": [
+        0.10001113265752792,
+        94.11639404296875
+      ],
+      "time_range": [
+        0.0,
+        10226.82802760601
+      ],
+      "basic_correlations": {
+        "pearson": {
+          "r": -0.04631226749067205,
+          "p": 2.2896904408615872e-05,
+          "sigma": 4.236990898132887
+        },
+        "spearman": {
+          "r": -0.10171624663399778,
+          "p": 1.1669698036550865e-20,
+          "sigma": 9.344238604398232
+        },
+        "kendall": {
+          "r": -0.06866291222329254,
+          "p": 4.880088448516453e-21
+        }
+      },
+      "energy_subsets": {
+        "low_energy": {
+          "n_photons": 2089,
+          "energy_range": [
+            0.10001113265752792,
+            0.1484067291021347
+          ],
+          "pearson_r": -0.00985009517941497,
+          "pearson_p": 0.6527495515789321,
+          "sigma": 0.4500105766261324,
+          "significant": false
+        },
+        "medium_low": {
+          "n_photons": 2088,
+          "energy_range": [
+            0.14841796457767487,
+            0.2291978895664215
+          ],
+          "pearson_r": -0.030115223428175485,
+          "pearson_p": 0.1689479250483979,
+          "sigma": 1.376069178784157,
+          "significant": false
+        },
+        "medium_high": {
+          "n_photons": 2088,
+          "energy_range": [
+            0.22924524545669556,
+            0.40954670310020447
+          ],
+          "pearson_r": 0.0029219640481241227,
+          "pearson_p": 0.8938466605027463,
+          "sigma": 0.13345470022898437,
+          "significant": false
+        },
+        "high_energy": {
+          "n_photons": 1253,
+          "energy_range": [
+            0.4097962975502014,
+            0.7684984803199768
+          ],
+          "pearson_r": -0.05451957061735158,
+          "pearson_p": 0.053683889769564154,
+          "sigma": 1.9312010446632206,
+          "significant": false
+        },
+        "very_high_energy": {
+          "n_photons": 418,
+          "energy_range": [
+            0.7697301506996155,
+            1.1918426752090454
+          ],
+          "pearson_r": 0.014412127592062556,
+          "pearson_p": 0.768918729147578,
+          "sigma": 0.2939814122374086,
+          "significant": false
+        },
+        "ultra_high_energy": {
+          "n_photons": 418,
+          "energy_range": [
+            1.193532109260559,
+            94.11639404296875
+          ],
+          "pearson_r": -0.11537582260371135,
+          "pearson_p": 0.018290429302456244,
+          "sigma": 2.3690349085582,
+          "significant": true
+        }
+      },
+      "temporal_evolution": {
+        "time_bins": [
+          {
+            "time_window": [
+              0.0,
+              1022.682802760601
+            ],
+            "n_photons": 730,
+            "pearson_r": -0.09363539017445917,
+            "pearson_p": 0.011370012660645802,
+            "sigma": 2.5375696217982173
+          },
+          {
+            "time_window": [
+              1022.682802760601,
+              2045.365605521202
+            ],
+            "n_photons": 2845,
+            "pearson_r": -0.07201167286008626,
+            "pearson_p": 0.00012089645444473303,
+            "sigma": 3.849641751624437
+          },
+          {
+            "time_window": [
+              2045.365605521202,
+              3068.048408281803
+            ],
+            "n_photons": 271,
+            "pearson_r": 0.10191714403045622,
+            "pearson_p": 0.09405687397204922,
+            "sigma": 1.680315030391831
+          },
+          {
+            "time_window": [
+              3068.048408281803,
+              4090.731211042404
+            ],
+            "n_photons": 524,
+            "pearson_r": 0.12517617864578812,
+            "pearson_p": 0.004106452557674894,
+            "sigma": 2.882613234307975
+          },
+          {
+            "time_window": [
+              4090.731211042404,
+              5113.414013803005
+            ],
+            "n_photons": 30,
+            "pearson_r": 0.12338420676005614,
+            "pearson_p": 0.515965825788909,
+            "sigma": 0.6579149977973268
+          },
+          {
+            "time_window": [
+              5113.414013803005,
+              6136.096816563606
+            ],
+            "n_photons": 27,
+            "pearson_r": 0.2957679250447427,
+            "pearson_p": 0.1341649178652855,
+            "sigma": 1.5481019776019755
+          },
+          {
+            "time_window": [
+              6136.096816563606,
+              7158.7796193242075
+            ],
+            "n_photons": 2754,
+            "pearson_r": -0.10899228132569694,
+            "pearson_p": 9.794377065563546e-09,
+            "sigma": 5.751948154424002
+          },
+          {
+            "time_window": [
+              7158.7796193242075,
+              8181.462422084808
+            ],
+            "n_photons": 447,
+            "pearson_r": -0.004063283272855875,
+            "pearson_p": 0.931730923392501,
+            "sigma": 0.08571576214041965
+          },
+          {
+            "time_window": [
+              8181.462422084808,
+              9204.14522484541
+            ],
+            "n_photons": 712,
+            "pearson_r": 0.02449888189319367,
+            "pearson_p": 0.5139748066811326,
+            "sigma": 0.652988914073702
+          }
+        ],
+        "sign_transition_detected": true,
+        "transition_type": "correlation_reversal",
+        "n_transitions": 3,
+        "correlation_trend": 0.007085919211982521
+      },
+      "early_late": {
+        "early_phase": {
+          "n_photons": 4177,
+          "pearson_r": -0.08040340946310139,
+          "pearson_p": 1.957597004094726e-07,
+          "sigma": 5.212079793358211
+        },
+        "late_phase": {
+          "n_photons": 4177,
+          "pearson_r": -0.046519495791017336,
+          "pearson_p": 0.002636055873050654,
+          "sigma": 3.0090795448415575
+        },
+        "phase_comparison": {
+          "correlation_change": 0.03388391367208405,
+          "sigma_change": -2.2030002485166538,
+          "sign_flip": false,
+          "significance_change": 2.2030002485166538
+        }
+      },
+      "ransac": {
+        "slope": -90.14075469970703,
+        "intercept": 5867.25927734375,
+        "r2": -0.26683874292191057,
+        "n_inliers": 3945,
+        "n_outliers": 4409,
+        "inlier_fraction": 0.4722288723964568
+      },
+      "eqg_estimation": {
+        "slope": -68.41758728027344,
+        "intercept": 4303.35595703125,
+        "E_QG_GeV": 0.014616124884724281,
+        "E_QG_E_Planck": 1.198043023338056e-21,
+        "physically_reasonable": false
+      },
+      "spectral_analysis": {
+        "energy_spectrum": {
+          "peaks": 0,
+          "peak_energies": [],
+          "peak_heights": []
+        },
+        "time_spectrum": {
+          "peaks": 5,
+          "peak_times": [
+            306.8048408281803,
+            1124.9510830366612,
+            3170.3166885578635,
+            6851.974778496027,
+            8897.340384017229
+          ],
+          "peak_heights": [
+            248.0,
+            1152.0,
+            405.0,
+            1267.0,
+            328.0
+          ]
+        }
+      },
+      "clustering": {
+        "n_clusters": 1,
+        "n_noise": 36,
+        "cluster_analysis": {
+          "cluster_0": {
+            "n_photons": 8318,
+            "energy_range": [
+              0.10001113265752792,
+              9.886286735534668
+            ],
+            "time_range": [
+              0.0,
+              10226.82802760601
+            ],
+            "pearson_r": -0.05964713572623818,
+            "pearson_p": 5.2087975829662265e-08,
+            "sigma": 5.449049758712109
+          }
+        }
+      },
+      "outliers": {
+        "n_outliers": 44,
+        "outlier_fraction": 0.005266937993775437,
+        "correlation_without_outliers": -0.04480256585327998,
+        "p_without_outliers": 4.3962457370124653e-05,
+        "sigma_without_outliers": 4.0877793172907175,
+        "outlier_effect": 0.14921158084216923
+      },
+      "max_sigma_overall": 5.212079793358211,
+      "classification": "\ud83d\udd34 STRONG_SIGNAL"
+    },
+    {
+      "grb_name": "L251021110134F357373F33",
+      "n_photons": 5908,
+      "energy_range": [
+        0.1000186875462532,
+        15.405655860900879
+      ],
+      "time_range": [
+        0.0,
+        9530.202196598053
+      ],
+      "basic_correlations": {
+        "pearson": {
+          "r": -0.032532521128536745,
+          "p": 0.012394927965461572,
+          "sigma": 2.501464734223951
+        },
+        "spearman": {
+          "r": -0.0884629366136116,
+          "p": 9.659274262209772e-12,
+          "sigma": 6.825179611469252
+        },
+        "kendall": {
+          "r": -0.059951936120222274,
+          "p": 4.842167117456322e-12
+        }
+      },
+      "energy_subsets": {
+        "low_energy": {
+          "n_photons": 1477,
+          "energy_range": [
+            0.1000186875462532,
+            0.15493565797805786
+          ],
+          "pearson_r": 0.03568516115490503,
+          "pearson_p": 0.17046259632944652,
+          "sigma": 1.371388081357434,
+          "significant": false
+        },
+        "medium_low": {
+          "n_photons": 1477,
+          "energy_range": [
+            0.15494680404663086,
+            0.24886761605739594
+          ],
+          "pearson_r": 0.015759409938268028,
+          "pearson_p": 0.5450550000123155,
+          "sigma": 0.6053267970285205,
+          "significant": false
+        },
+        "medium_high": {
+          "n_photons": 1477,
+          "energy_range": [
+            0.24898332357406616,
+            0.4674793779850006
+          ],
+          "pearson_r": -0.016348460495747643,
+          "pearson_p": 0.5301283597847511,
+          "sigma": 0.627958462621059,
+          "significant": false
+        },
+        "high_energy": {
+          "n_photons": 886,
+          "energy_range": [
+            0.46807917952537537,
+            0.8971266150474548
+          ],
+          "pearson_r": -0.02011218515882118,
+          "pearson_p": 0.5499269193911999,
+          "sigma": 0.5980992322620782,
+          "significant": false
+        },
+        "very_high_energy": {
+          "n_photons": 295,
+          "energy_range": [
+            0.8987318873405457,
+            1.332586646080017
+          ],
+          "pearson_r": 0.09272519406090222,
+          "pearson_p": 0.11199907006800262,
+          "sigma": 1.5940673161392358,
+          "significant": false
+        },
+        "ultra_high_energy": {
+          "n_photons": 296,
+          "energy_range": [
+            1.3344060182571411,
+            15.405655860900879
+          ],
+          "pearson_r": -0.03883759873465799,
+          "pearson_p": 0.5056596116786117,
+          "sigma": 0.6664288948510132,
+          "significant": false
+        }
+      },
+      "temporal_evolution": {
+        "time_bins": [
+          {
+            "time_window": [
+              0.0,
+              953.0202196598053
+            ],
+            "n_photons": 199,
+            "pearson_r": 0.1232482509700348,
+            "pearson_p": 0.08286556998376306,
+            "sigma": 1.7431617271630366
+          },
+          {
+            "time_window": [
+              953.0202196598053,
+              1906.0404393196106
+            ],
+            "n_photons": 2338,
+            "pearson_r": -0.11915221179229682,
+            "pearson_p": 7.52050543653e-09,
+            "sigma": 5.800207291288112
+          },
+          {
+            "time_window": [
+              1906.0404393196106,
+              2859.060658979416
+            ],
+            "n_photons": 219,
+            "pearson_r": 0.03589809182077672,
+            "pearson_p": 0.5972402021153447,
+            "sigma": 0.5291529763248352
+          },
+          {
+            "time_window": [
+              2859.060658979416,
+              3812.0808786392213
+            ],
+            "n_photons": 53,
+            "pearson_r": -0.2664906118512967,
+            "pearson_p": 0.05374839861291534,
+            "sigma": 1.974527452355886
+          },
+          {
+            "time_window": [
+              4765.1010982990265,
+              5718.121317958832
+            ],
+            "n_photons": 31,
+            "pearson_r": -0.05499096367261999,
+            "pearson_p": 0.7688977777660652,
+            "sigma": 0.29658417799178327
+          },
+          {
+            "time_window": [
+              5718.121317958832,
+              6671.141537618637
+            ],
+            "n_photons": 28,
+            "pearson_r": -0.012522608567167914,
+            "pearson_p": 0.949571703341195,
+            "sigma": 0.06385803261323283
+          },
+          {
+            "time_window": [
+              6671.141537618637,
+              7624.161757278443
+            ],
+            "n_photons": 2134,
+            "pearson_r": -0.11878823993174414,
+            "pearson_p": 3.718337830526405e-08,
+            "sigma": 5.523990959975276
+          },
+          {
+            "time_window": [
+              7624.161757278443,
+              8577.181976938247
+            ],
+            "n_photons": 205,
+            "pearson_r": -0.012502396516775743,
+            "pearson_p": 0.8587862369147634,
+            "sigma": 0.17814565422829642
+          },
+          {
+            "time_window": [
+              8577.181976938247,
+              9530.202196598053
+            ],
+            "n_photons": 700,
+            "pearson_r": 0.12229192117206335,
+            "pearson_p": 0.0011872176735750143,
+            "sigma": 3.2553486810840306
+          }
+        ],
+        "sign_transition_detected": true,
+        "transition_type": "correlation_reversal",
+        "n_transitions": 4,
+        "correlation_trend": 0.004345324440229388
+      },
+      "early_late": {
+        "early_phase": {
+          "n_photons": 2954,
+          "pearson_r": -0.017915579596829965,
+          "pearson_p": 0.33035924674937045,
+          "sigma": 0.9735510912420574
+        },
+        "late_phase": {
+          "n_photons": 2954,
+          "pearson_r": -0.06170878447520217,
+          "pearson_p": 0.0007916577356839355,
+          "sigma": 3.3591827999134027
+        },
+        "phase_comparison": {
+          "correlation_change": -0.04379320487837221,
+          "sigma_change": 2.385631708671345,
+          "sign_flip": false,
+          "significance_change": 2.385631708671345
+        }
+      },
+      "ransac": {
+        "slope": -463.3752136230469,
+        "intercept": 6732.5107421875,
+        "r2": -0.26866584854330156,
+        "n_inliers": 473,
+        "n_outliers": 5435,
+        "inlier_fraction": 0.08006093432633717
+      },
+      "eqg_estimation": {
+        "slope": -133.24456787109375,
+        "intercept": 4964.396484375,
+        "E_QG_GeV": 0.0075049963835481905,
+        "E_QG_E_Planck": 6.1516363799575335e-22,
+        "physically_reasonable": false
+      },
+      "spectral_analysis": {
+        "energy_spectrum": {
+          "peaks": 0,
+          "peak_energies": [],
+          "peak_heights": []
+        },
+        "time_spectrum": {
+          "peaks": 3,
+          "peak_times": [
+            667.1141537618637,
+            1620.134373421669,
+            7338.2556913805
+          ],
+          "peak_heights": [
+            137.0,
+            1120.0,
+            1069.0
+          ]
+        }
+      },
+      "clustering": {
+        "n_clusters": 2,
+        "n_noise": 37,
+        "cluster_analysis": {
+          "cluster_0": {
+            "n_photons": 5866,
+            "energy_range": [
+              0.1000186875462532,
+              4.389741897583008
+            ],
+            "time_range": [
+              0.0,
+              9530.202196598053
+            ],
+            "pearson_r": -0.055125933425825634,
+            "pearson_p": 2.3958076680289658e-05,
+            "sigma": 4.2277940546879265
+          }
+        }
+      },
+      "outliers": {
+        "n_outliers": 88,
+        "outlier_fraction": 0.014895057549085985,
+        "correlation_without_outliers": -0.03349661504819496,
+        "p_without_outliers": 0.010600826609370265,
+        "sigma_without_outliers": 2.5564162043533143,
+        "outlier_effect": 0.05495147012936341
+      },
+      "max_sigma_overall": 3.3591827999134027,
+      "classification": "\ud83d\udfe0 SIGNIFICANT"
+    },
+    {
+      "grb_name": "L251021110034F357373F27",
+      "n_photons": 4929,
+      "energy_range": [
+        0.10000845044851303,
+        27.878681182861328
+      ],
+      "time_range": [
+        0.0,
+        9953.982756912708
+      ],
+      "basic_correlations": {
+        "pearson": {
+          "r": -0.045285660035410034,
+          "p": 0.0014717950314718038,
+          "sigma": 3.1819823323674346
+        },
+        "spearman": {
+          "r": -0.07014227219319474,
+          "p": 8.252904740083798e-07,
+          "sigma": 4.935624362636115
+        },
+        "kendall": {
+          "r": -0.04677203821752815,
+          "p": 8.486791343610265e-07
+        }
+      },
+      "energy_subsets": {
+        "low_energy": {
+          "n_photons": 1232,
+          "energy_range": [
+            0.10000845044851303,
+            0.1594604104757309
+          ],
+          "pearson_r": -0.017189420285148867,
+          "pearson_p": 0.5466561913964165,
+          "sigma": 0.602945359965886,
+          "significant": false
+        },
+        "medium_low": {
+          "n_photons": 1232,
+          "energy_range": [
+            0.15951666235923767,
+            0.2489885538816452
+          ],
+          "pearson_r": -0.08543493813058034,
+          "pearson_p": 0.0026891895223598887,
+          "sigma": 3.0073146050122044,
+          "significant": true
+        },
+        "medium_high": {
+          "n_photons": 1232,
+          "energy_range": [
+            0.24929434061050415,
+            0.47422364354133606
+          ],
+          "pearson_r": -0.020970454152131363,
+          "pearson_p": 0.4620997846044452,
+          "sigma": 0.7356240263376419,
+          "significant": false
+        },
+        "high_energy": {
+          "n_photons": 740,
+          "energy_range": [
+            0.47519850730895996,
+            0.9415926933288574
+          ],
+          "pearson_r": -0.09258200491046338,
+          "pearson_p": 0.011746866640338383,
+          "sigma": 2.5259459126844135,
+          "significant": true
+        },
+        "very_high_energy": {
+          "n_photons": 246,
+          "energy_range": [
+            0.9419041872024536,
+            1.4967387914657593
+          ],
+          "pearson_r": -0.04038816714823167,
+          "pearson_p": 0.5283710337102909,
+          "sigma": 0.6313985188457472,
+          "significant": false
+        },
+        "ultra_high_energy": {
+          "n_photons": 247,
+          "energy_range": [
+            1.5014079809188843,
+            27.878681182861328
+          ],
+          "pearson_r": 0.0198283477007618,
+          "pearson_p": 0.7565026373961584,
+          "sigma": 0.31042376300886937,
+          "significant": false
+        }
+      },
+      "temporal_evolution": {
+        "time_bins": [
+          {
+            "time_window": [
+              0.0,
+              995.3982756912708
+            ],
+            "n_photons": 441,
+            "pearson_r": 0.010914904791000398,
+            "pearson_p": 0.819203715958489,
+            "sigma": 0.22870627648954103
+          },
+          {
+            "time_window": [
+              995.3982756912708,
+              1990.7965513825416
+            ],
+            "n_photons": 82,
+            "pearson_r": -0.20111941366981906,
+            "pearson_p": 0.07001461764764987,
+            "sigma": 1.8363901757906074
+          },
+          {
+            "time_window": [
+              1990.7965513825416,
+              2986.194827073812
+            ],
+            "n_photons": 118,
+            "pearson_r": -0.0017370903418981115,
+            "pearson_p": 0.9851053399548296,
+            "sigma": 0.018709063779166802
+          },
+          {
+            "time_window": [
+              5972.389654147624,
+              6967.787929838895
+            ],
+            "n_photons": 2647,
+            "pearson_r": -0.06894205908160465,
+            "pearson_p": 0.0003858921624626405,
+            "sigma": 3.554116435545769
+          },
+          {
+            "time_window": [
+              6967.787929838895,
+              7963.186205530166
+            ],
+            "n_photons": 556,
+            "pearson_r": 0.07015617312417562,
+            "pearson_p": 0.09841802430650391,
+            "sigma": 1.6553589714602381
+          },
+          {
+            "time_window": [
+              7963.186205530166,
+              8958.584481221436
+            ],
+            "n_photons": 1035,
+            "pearson_r": 0.033441649625061,
+            "pearson_p": 0.2824348242061121,
+            "sigma": 1.0754267487013767
+          }
+        ],
+        "sign_transition_detected": true,
+        "transition_type": "correlation_reversal",
+        "n_transitions": 2,
+        "correlation_trend": 0.024550157594645166
+      },
+      "early_late": {
+        "early_phase": {
+          "n_photons": 2464,
+          "pearson_r": -0.05731435163314706,
+          "pearson_p": 0.00442853423948504,
+          "sigma": 2.8485372093057237
+        },
+        "late_phase": {
+          "n_photons": 2465,
+          "pearson_r": 0.06214294814826372,
+          "pearson_p": 0.00202364990458663,
+          "sigma": 3.09004105572687
+        },
+        "phase_comparison": {
+          "correlation_change": 0.11945729978141079,
+          "sigma_change": 0.2415038464211463,
+          "sign_flip": true,
+          "significance_change": 0.2415038464211463
+        }
+      },
+      "ransac": {
+        "slope": -47.03636169433594,
+        "intercept": 6516.20068359375,
+        "r2": -0.008609044832966983,
+        "n_inliers": 1921,
+        "n_outliers": 3008,
+        "inlier_fraction": 0.3897342260093325
+      },
+      "eqg_estimation": {
+        "slope": -110.61650848388672,
+        "intercept": 6321.15185546875,
+        "E_QG_GeV": 0.009040241946758499,
+        "E_QG_E_Planck": 7.410034382588934e-22,
+        "physically_reasonable": false
+      },
+      "spectral_analysis": {
+        "energy_spectrum": {
+          "peaks": 0,
+          "peak_energies": [],
+          "peak_heights": []
+        },
+        "time_spectrum": {
+          "peaks": 2,
+          "peak_times": [
+            6470.088791993261,
+            8261.805688237548
+          ],
+          "peak_heights": [
+            953.0,
+            412.0
+          ]
+        }
+      },
+      "clustering": {
+        "n_clusters": 3,
+        "n_noise": 32,
+        "cluster_analysis": {
+          "cluster_0": {
+            "n_photons": 4884,
+            "energy_range": [
+              0.10000845044851303,
+              5.762875080108643
+            ],
+            "time_range": [
+              0.0,
+              9953.982756912708
+            ],
+            "pearson_r": -0.03136542430709184,
+            "pearson_p": 0.028381648028313333,
+            "sigma": 2.192622098838602
+          }
+        }
+      },
+      "outliers": {
+        "n_outliers": 70,
+        "outlier_fraction": 0.014201663623453034,
+        "correlation_without_outliers": -0.06443934112433347,
+        "p_without_outliers": 6.9452524672806846e-06,
+        "sigma_without_outliers": 4.5002714302386595,
+        "outlier_effect": 1.318289097871225
+      },
+      "max_sigma_overall": 3.1819823323674346,
+      "classification": "\ud83d\udfe0 SIGNIFICANT"
+    },
+    {
+      "grb_name": "L251021105813F357373F65",
+      "n_photons": 534,
+      "energy_range": [
+        0.10192785412073135,
+        99.32536315917969
+      ],
+      "time_range": [
+        0.0,
+        10464.805087208748
+      ],
+      "basic_correlations": {
+        "pearson": {
+          "r": -0.0982697037921404,
+          "p": 0.023144717738712905,
+          "sigma": 2.2776271479725687
+        },
+        "spearman": {
+          "r": -0.11795961943819634,
+          "p": 0.006352504143457392,
+          "sigma": 2.739882171076517
+        },
+        "kendall": {
+          "r": -0.07931221058105135,
+          "p": 0.006140366873002628
+        }
+      },
+      "energy_subsets": {
+        "low_energy": {
+          "n_photons": 134,
+          "energy_range": [
+            0.10192785412073135,
+            0.20006130635738373
+          ],
+          "pearson_r": -0.17614458679933293,
+          "pearson_p": 0.041763902397441606,
+          "sigma": 2.0558925365238054,
+          "significant": true
+        },
+        "medium_low": {
+          "n_photons": 133,
+          "energy_range": [
+            0.20108060538768768,
+            0.40341535210609436
+          ],
+          "pearson_r": 0.09789755294574379,
+          "pearson_p": 0.2622675556669794,
+          "sigma": 1.1258969563780756,
+          "significant": false
+        },
+        "medium_high": {
+          "n_photons": 133,
+          "energy_range": [
+            0.40840065479278564,
+            0.9953958988189697
+          ],
+          "pearson_r": 0.09833648319870736,
+          "pearson_p": 0.2601238456044747,
+          "sigma": 1.1309941713840213,
+          "significant": false
+        },
+        "high_energy": {
+          "n_photons": 80,
+          "energy_range": [
+            1.005619764328003,
+            2.1657052040100098
+          ],
+          "pearson_r": -0.030633279701172238,
+          "pearson_p": 0.7873576341021564,
+          "sigma": 0.2706728300776149,
+          "significant": false
+        },
+        "very_high_energy": {
+          "n_photons": 27,
+          "energy_range": [
+            2.173417568206787,
+            3.7138850688934326
+          ],
+          "pearson_r": -0.20418102478683442,
+          "pearson_p": 0.30698641318212816,
+          "sigma": 1.0428752214181403,
+          "significant": false
+        },
+        "ultra_high_energy": {
+          "n_photons": 27,
+          "energy_range": [
+            3.7730953693389893,
+            99.32536315917969
+          ],
+          "pearson_r": -0.17913308781952794,
+          "pearson_p": 0.3713108526753873,
+          "sigma": 0.9103911519041589,
+          "significant": false
+        }
+      },
+      "temporal_evolution": {
+        "time_bins": [
+          {
+            "time_window": [
+              0.0,
+              5232.402543604374
+            ],
+            "n_photons": 358,
+            "pearson_r": -0.06171636573681089,
+            "pearson_p": 0.2441180919995157,
+            "sigma": 1.1666860806173336
+          },
+          {
+            "time_window": [
+              5232.402543604374,
+              10464.805087208748
+            ],
+            "n_photons": 175,
+            "pearson_r": 0.08453456456092759,
+            "pearson_p": 0.26602413536390473,
+            "sigma": 1.1158728136069889
+          }
+        ]
+      },
+      "early_late": {
+        "early_phase": {
+          "n_photons": 267,
+          "pearson_r": 0.07926903668030558,
+          "pearson_p": 0.1966265753614915,
+          "sigma": 1.2944798197676097
+        },
+        "late_phase": {
+          "n_photons": 267,
+          "pearson_r": 0.019754338974402208,
+          "pearson_p": 0.7479789126107037,
+          "sigma": 0.3216401037199216
+        },
+        "phase_comparison": {
+          "correlation_change": -0.05951469770590337,
+          "sigma_change": -0.9728397160476882,
+          "sign_flip": false,
+          "significance_change": 0.9728397160476882
+        }
+      },
+      "ransac": {
+        "slope": -3.961287260055542,
+        "intercept": 795.37939453125,
+        "r2": -0.6982556914838274,
+        "n_inliers": 6,
+        "n_outliers": 528,
+        "inlier_fraction": 0.011235955056179775
+      },
+      "eqg_estimation": {
+        "slope": -40.04734420776367,
+        "intercept": 3013.20068359375,
+        "E_QG_GeV": 0.024970444851774656,
+        "E_QG_E_Planck": 2.0467577747356275e-21,
+        "physically_reasonable": false
+      },
+      "spectral_analysis": {
+        "energy_spectrum": {
+          "peaks": 0,
+          "peak_energies": [],
+          "peak_heights": []
+        },
+        "time_spectrum": {
+          "peaks": 3,
+          "peak_times": [
+            732.5363561046124,
+            4918.458390988111,
+            5964.938899708986
+          ],
+          "peak_heights": [
+            199.0,
+            28.0,
+            43.0
+          ]
+        }
+      },
+      "clustering": {
+        "n_clusters": 3,
+        "n_noise": 4,
+        "cluster_analysis": {
+          "cluster_0": {
+            "n_photons": 233,
+            "energy_range": [
+              0.10192785412073135,
+              7.783013343811035
+            ],
+            "time_range": [
+              4545.382196545601,
+              6487.6386432647705
+            ],
+            "pearson_r": 0.04101494596897558,
+            "pearson_p": 0.533310056163228,
+            "sigma": 0.6238981990602446
+          },
+          "cluster_1": {
+            "n_photons": 289,
+            "energy_range": [
+              0.11052385717630386,
+              9.82625675201416
+            ],
+            "time_range": [
+              0.0,
+              1016.8158437013626
+            ],
+            "pearson_r": 0.16881304098218305,
+            "pearson_p": 0.004001189302725882,
+            "sigma": 2.9015165829173903
+          }
+        }
+      },
+      "outliers": {
+        "n_outliers": 4,
+        "outlier_fraction": 0.00749063670411985,
+        "correlation_without_outliers": -0.14023541581662774,
+        "p_without_outliers": 0.0012085782288095627,
+        "sigma_without_outliers": 3.254525127959248,
+        "outlier_effect": 0.9768979799866795
+      },
+      "max_sigma_overall": 2.2776271479725687,
+      "classification": "\ud83d\udfe1 MARGINAL"
+    },
+    {
+      "grb_name": "L251021110442F357373F27",
+      "n_photons": 56,
+      "energy_range": [
+        0.10202211886644363,
+        6.217715740203857
+      ],
+      "time_range": [
+        0.0,
+        7469.429526686668
+      ],
+      "basic_correlations": {
+        "pearson": {
+          "r": 0.2008072251071235,
+          "p": 0.1378159668697869,
+          "sigma": 1.5063080395875914
+        },
+        "spearman": {
+          "r": 0.33157894736842103,
+          "p": 0.012545727722733905,
+          "sigma": 2.582708003104263
+        },
+        "kendall": {
+          "r": 0.2337662337662338,
+          "p": 0.01094930550443837
+        }
+      },
+      "energy_subsets": {},
+      "temporal_evolution": {},
+      "early_late": {
+        "early_phase": {
+          "n_photons": 28,
+          "pearson_r": -0.14539846876605403,
+          "pearson_p": 0.4603712734288927,
+          "sigma": 0.7493528690640956
+        },
+        "late_phase": {
+          "n_photons": 28,
+          "pearson_r": 0.3209895149995571,
+          "pearson_p": 0.09581640552300125,
+          "sigma": 1.7281824680794597
+        },
+        "phase_comparison": {
+          "correlation_change": 0.4663879837656111,
+          "sigma_change": 0.9788295990153641,
+          "sign_flip": true,
+          "significance_change": 0.9788295990153641
+        }
+      },
+      "ransac": {
+        "slope": 237.1702117919922,
+        "intercept": 6156.828125,
+        "r2": -0.3462561955332404,
+        "n_inliers": 7,
+        "n_outliers": 49,
+        "inlier_fraction": 0.125
+      },
+      "eqg_estimation": {
+        "slope": 567.5421752929688,
+        "intercept": 4103.72705078125,
+        "E_QG_GeV": 0.0017619835908825523,
+        "E_QG_E_Planck": 1.4442488449856985e-22,
+        "physically_reasonable": false
+      },
+      "spectral_analysis": {
+        "energy_spectrum": {
+          "peaks": 4,
+          "peak_energies": [
+            0.6524345278739929,
+            1.1416900157928467,
+            1.7532594203948975,
+            1.997887134552002
+          ],
+          "peak_heights": [
+            6.0,
+            2.0,
+            2.0,
+            2.0
+          ]
+        },
+        "time_spectrum": {
+          "peaks": 8,
+          "peak_times": [
+            373.4714763343335,
+            971.025838469267,
+            1568.5802006042004,
+            5751.460735548735,
+            6050.237916616202,
+            6349.0150976836685,
+            6647.792278751135,
+            7245.3466408860695
+          ],
+          "peak_heights": [
+            3.0,
+            1.0,
+            8.0,
+            1.0,
+            1.0,
+            2.0,
+            2.0,
+            10.0
+          ]
+        }
+      },
+      "clustering": {
+        "n_clusters": 2,
+        "n_noise": 6,
+        "cluster_analysis": {
+          "cluster_0": {
+            "n_photons": 30,
+            "energy_range": [
+              0.10202211886644363,
+              2.4654016494750977
+            ],
+            "time_range": [
+              5804.415540337563,
+              7469.429526686668
+            ],
+            "pearson_r": 0.44248396039162274,
+            "pearson_p": 0.014345311464086427,
+            "sigma": 2.610912807622525
+          },
+          "cluster_1": {
+            "n_photons": 20,
+            "energy_range": [
+              0.11743256449699402,
+              1.109096646308899
+            ],
+            "time_range": [
+              0.0,
+              1758.2294260263443
+            ],
+            "pearson_r": 0.39554356262930723,
+            "pearson_p": 0.08430468542293629,
+            "sigma": 1.8271591242568654
+          }
+        }
+      },
+      "outliers": {
+        "n_outliers": 1,
+        "outlier_fraction": 0.017857142857142856,
+        "correlation_without_outliers": 0.15688180156713222,
+        "p_without_outliers": 0.2526887989037902,
+        "sigma_without_outliers": 1.1564364618232437,
+        "outlier_effect": 0.34987157776434774
+      },
+      "max_sigma_overall": 1.7281824680794597,
+      "classification": "\u26aa NO_SIGNAL"
+    },
+    {
+      "grb_name": "L251021110535F357373F42",
+      "n_photons": 347,
+      "energy_range": [
+        0.10066966712474823,
+        27.428804397583008
+      ],
+      "time_range": [
+        0.0,
+        9933.173023879528
+      ],
+      "basic_correlations": {
+        "pearson": {
+          "r": -0.05968512652153535,
+          "p": 0.26752177401961,
+          "sigma": 1.1105819077110144
+        },
+        "spearman": {
+          "r": -0.02379402825781392,
+          "p": 0.6587085807821605,
+          "sigma": 0.44207962027573316
+        },
+        "kendall": {
+          "r": -0.015708550582199193,
+          "p": 0.6623118779541102
+        }
+      },
+      "energy_subsets": {
+        "low_energy": {
+          "n_photons": 87,
+          "energy_range": [
+            0.10066966712474823,
+            0.15132580697536469
+          ],
+          "pearson_r": -0.047288562386983174,
+          "pearson_p": 0.6636043973636071,
+          "sigma": 0.4364672922342504,
+          "significant": false
+        },
+        "medium_low": {
+          "n_photons": 86,
+          "energy_range": [
+            0.15158668160438538,
+            0.2666975259780884
+          ],
+          "pearson_r": 0.024397717401329073,
+          "pearson_p": 0.8235530204807249,
+          "sigma": 0.2236753546834949,
+          "significant": false
+        },
+        "medium_high": {
+          "n_photons": 87,
+          "energy_range": [
+            0.26782962679862976,
+            0.5520814657211304
+          ],
+          "pearson_r": 0.07308779850890365,
+          "pearson_p": 0.5011012466501673,
+          "sigma": 0.6756432083676799,
+          "significant": false
+        },
+        "high_energy": {
+          "n_photons": 52,
+          "energy_range": [
+            0.5654001832008362,
+            0.9308879375457764
+          ],
+          "pearson_r": -0.2012806906055906,
+          "pearson_p": 0.15246934484217795,
+          "sigma": 1.4530072322477077,
+          "significant": false
+        }
+      },
+      "temporal_evolution": {},
+      "early_late": {
+        "early_phase": {
+          "n_photons": 173,
+          "pearson_r": -0.002044288250453838,
+          "pearson_p": 0.978704188196627,
+          "sigma": 0.0267325935449299
+        },
+        "late_phase": {
+          "n_photons": 174,
+          "pearson_r": -0.08180352898337301,
+          "pearson_p": 0.2832331541372004,
+          "sigma": 1.0764509771600177
+        },
+        "phase_comparison": {
+          "correlation_change": -0.07975924073291916,
+          "sigma_change": 1.0497183836150878,
+          "sign_flip": false,
+          "significance_change": 1.0497183836150878
+        }
+      },
+      "ransac": {
+        "slope": -116.91641235351562,
+        "intercept": 1234.720703125,
+        "r2": -0.002738474619045528,
+        "n_inliers": 9,
+        "n_outliers": 338,
+        "inlier_fraction": 0.025936599423631124
+      },
+      "eqg_estimation": {
+        "slope": -51.20794677734375,
+        "intercept": 1226.3380126953125,
+        "E_QG_GeV": 0.019528219015460237,
+        "E_QG_E_Planck": 1.6006736897918226e-21,
+        "physically_reasonable": false
+      },
+      "spectral_analysis": {
+        "energy_spectrum": {
+          "peaks": 0,
+          "peak_energies": [],
+          "peak_heights": []
+        },
+        "time_spectrum": {
+          "peaks": 1,
+          "peak_times": [
+            496.65865119397637
+          ],
+          "peak_heights": [
+            184.0
+          ]
+        }
+      },
+      "clustering": {
+        "n_clusters": 2,
+        "n_noise": 7,
+        "cluster_analysis": {
+          "cluster_0": {
+            "n_photons": 333,
+            "energy_range": [
+              0.10066966712474823,
+              2.6942858695983887
+            ],
+            "time_range": [
+              0.0,
+              3627.2431376576424
+            ],
+            "pearson_r": -0.06929360894119756,
+            "pearson_p": 0.2072182796625751,
+            "sigma": 1.2637243217634673
+          }
+        }
+      },
+      "outliers": {
+        "n_outliers": 12,
+        "outlier_fraction": 0.0345821325648415,
+        "correlation_without_outliers": -0.06011958012040934,
+        "p_without_outliers": 0.27253263489413193,
+        "sigma_without_outliers": 1.0990674006334287,
+        "outlier_effect": 0.011514507077585723
+      },
+      "max_sigma_overall": 1.4530072322477077,
+      "classification": "\u26aa NO_SIGNAL"
+    },
+    {
+      "grb_name": "L251021110233F357373F36",
+      "n_photons": 143,
+      "energy_range": [
+        0.10113070905208588,
+        4.907433986663818
+      ],
+      "time_range": [
+        0.0,
+        7310.096795916557
+      ],
+      "basic_correlations": {
+        "pearson": {
+          "r": 0.06952798795134883,
+          "p": 0.409294495664724,
+          "sigma": 0.8276019091444361
+        },
+        "spearman": {
+          "r": 0.05109737680160215,
+          "p": 0.5444689090669055,
+          "sigma": 0.6075413778966187
+        },
+        "kendall": {
+          "r": 0.03673790997734659,
+          "p": 0.5150412516241055
+        }
+      },
+      "energy_subsets": {
+        "low_energy": {
+          "n_photons": 36,
+          "energy_range": [
+            0.10113070905208588,
+            0.154236301779747
+          ],
+          "pearson_r": 0.18580213213063151,
+          "pearson_p": 0.2779434529989565,
+          "sigma": 1.1026027162602579,
+          "significant": false
+        },
+        "medium_low": {
+          "n_photons": 35,
+          "energy_range": [
+            0.15507866442203522,
+            0.22566364705562592
+          ],
+          "pearson_r": -0.013215556977433115,
+          "pearson_p": 0.9399378152270614,
+          "sigma": 0.07592422537417316,
+          "significant": false
+        },
+        "medium_high": {
+          "n_photons": 36,
+          "energy_range": [
+            0.23525838553905487,
+            0.5010854005813599
+          ],
+          "pearson_r": -0.029172454634115372,
+          "pearson_p": 0.8658806333661713,
+          "sigma": 0.17017560749207786,
+          "significant": false
+        },
+        "high_energy": {
+          "n_photons": 21,
+          "energy_range": [
+            0.5051646828651428,
+            0.8652194738388062
+          ],
+          "pearson_r": -0.2684469470347872,
+          "pearson_p": 0.23935409852230402,
+          "sigma": 1.2147200568777035,
+          "significant": false
+        }
+      },
+      "temporal_evolution": {},
+      "early_late": {
+        "early_phase": {
+          "n_photons": 71,
+          "pearson_r": -0.11138687656878168,
+          "pearson_p": 0.35507768754980656,
+          "sigma": 0.9310426538696759
+        },
+        "late_phase": {
+          "n_photons": 72,
+          "pearson_r": 0.06958557265308174,
+          "pearson_p": 0.5613589889761019,
+          "sigma": 0.5836093477840772
+        },
+        "phase_comparison": {
+          "correlation_change": 0.18097244922186342,
+          "sigma_change": -0.34743330608559864,
+          "sign_flip": true,
+          "significance_change": 0.34743330608559864
+        }
+      },
+      "ransac": {
+        "slope": -102.00016784667969,
+        "intercept": 982.7240600585938,
+        "r2": -0.0833793798755782,
+        "n_inliers": 11,
+        "n_outliers": 132,
+        "inlier_fraction": 0.07692307692307693
+      },
+      "eqg_estimation": {
+        "slope": 194.86038208007812,
+        "intercept": 1399.193603515625,
+        "E_QG_GeV": 0.00513187949918444,
+        "E_QG_E_Planck": 4.2064586058888853e-22,
+        "physically_reasonable": false
+      },
+      "spectral_analysis": {
+        "energy_spectrum": {
+          "peaks": 2,
+          "peak_energies": [
+            0.4375719428062439,
+            0.8220762014389038
+          ],
+          "peak_heights": [
+            12.0,
+            7.0
+          ]
+        },
+        "time_spectrum": {
+          "peaks": 1,
+          "peak_times": [
+            657.9087116324902
+          ],
+          "peak_heights": [
+            48.0
+          ]
+        }
+      },
+      "clustering": {
+        "n_clusters": 2,
+        "n_noise": 5,
+        "cluster_analysis": {
+          "cluster_0": {
+            "n_photons": 119,
+            "energy_range": [
+              0.10113070905208588,
+              1.5198860168457031
+            ],
+            "time_range": [
+              0.0,
+              1314.499204993248
+            ],
+            "pearson_r": -0.1712117642287095,
+            "pearson_p": 0.06263727737285735,
+            "sigma": 1.8796934642239898
+          },
+          "cluster_1": {
+            "n_photons": 19,
+            "energy_range": [
+              0.11695358157157898,
+              0.671737551689148
+            ],
+            "time_range": [
+              5169.438379049301,
+              7310.096795916557
+            ],
+            "pearson_r": 0.5279761416329091,
+            "pearson_p": 0.020150584864041338,
+            "sigma": 2.563294447783963
+          }
+        }
+      },
+      "outliers": {
+        "n_outliers": 4,
+        "outlier_fraction": 0.027972027972027972,
+        "correlation_without_outliers": -0.0977325195638608,
+        "p_without_outliers": 0.25238037543182124,
+        "sigma_without_outliers": 1.1494324700696568,
+        "outlier_effect": 0.32183056092522067
+      },
+      "max_sigma_overall": 1.2147200568777035,
+      "classification": "\u26aa NO_SIGNAL"
+    }
+  ],
+  "summary": {
+    "strong": 2,
+    "significant": 2,
+    "marginal": 1,
+    "no_signal": 3
+  }
+}

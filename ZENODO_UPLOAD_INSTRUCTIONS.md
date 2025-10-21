@@ -30,6 +30,12 @@
 - **Affiliazione:** RTH Italia - Research & Technology Hub
 - **Email:** info@rthitalia.com
 
+### ⚠️ IMPORTANTE - TIPO DI RISORSA:
+- **Upload Type:** Publication
+- **Publication Type:** Article
+- **NON usare:** "Dataset" o "Software"
+- **Raccomandato:** "Publication" → "Article"
+
 ### Descrizione:
 ```
 Complete dataset and analysis code for investigating anomalous energy-time correlations in GRB090902B. 
@@ -61,7 +67,7 @@ fundamental physics, spacetime, Planck scale
 ### Licenza e Accesso:
 - **Licenza:** CC-BY-4.0
 - **Accesso:** Open Access
-- **Tipo:** Publication/Article
+- **Tipo:** Publication/Journal Article
 - **Comunità:** astrophysics, fundamental-physics
 
 ## Passo 4: Pubblicazione
