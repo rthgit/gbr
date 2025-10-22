@@ -1,0 +1,18 @@
+{
+  "GRB": "GRB090926A",
+  "N_photons": 24149,
+  "E_max_GeV": 61.315715,
+  "Pearson_r": 0.047473643149408676,
+  "Pearson_p": 1.569170047201586e-13,
+  "Pearson_sigma": 7.381101271434504,
+  "Spearman_rho": 0.09522499626286547,
+  "Spearman_p": 9.254016281124296e-50,
+  "Spearman_sigma": Infinity,
+  "Kendall_tau": 0.06312403247562848,
+  "Kendall_p": 5.311986663049417e-49,
+  "Kendall_sigma": Infinity,
+  "Max_sigma": Infinity,
+  "Best_method": "Spearman",
+  "Phase_early_sigma": 1.8677367296427358,
+  "Phase_late_sigma": Infinity
+}

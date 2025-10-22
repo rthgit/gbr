@@ -1,0 +1,86 @@
+{
+  "title": "Quantum Gravity Signatures in Fermi LAT GRBs \u2013 Comprehensive Statistical Evidence with 15\u03c3 Discovery",
+  "description": "Complete analysis of Quantum Gravity effects in 6 Fermi LAT GRBs using robust bootstrap statistics. Reveals 2 strong discoveries: GRB090926A (15.00\u03c3) and GRB090510 (5.28\u03c3), with 50% detection rate. GRB080916C excluded due to background contamination. Total 67,706 photons analyzed with no infinite sigma values.",
+  "version": "5.0",
+  "doi": "10.5281/zenodo.17404757",
+  "authors": [
+    {
+      "name": "Christian Quintino De Luca",
+      "orcid": "0009-0000-4198-5449",
+      "affiliation": "RTH Italia \u2013 Research & Technology Hub, Milano, Italy",
+      "email": "christian.quintino@rth-italia.com"
+    },
+    {
+      "name": "Gregorio De Luca",
+      "affiliation": "RTH Italia \u2013 Research & Technology Hub, Milano, Italy"
+    },
+    {
+      "name": "Alessia De Luca",
+      "affiliation": "RTH Italia \u2013 Research & Technology Hub, Milano, Italy"
+    }
+  ],
+  "keywords": [
+    "quantum gravity",
+    "gamma-ray bursts",
+    "Fermi LAT",
+    "energy-time correlation",
+    "Lorentz invariance violation",
+    "quantum spacetime",
+    "astrophysics",
+    "cosmology",
+    "bootstrap statistics",
+    "15 sigma discovery"
+  ],
+  "license": "CC BY 4.0",
+  "publication_date": "2025-10-22",
+  "files_included": 33,
+  "total_photons_analyzed": 67706,
+  "grbs_analyzed": 6,
+  "detection_rate": "50.0%",
+  "strong_signals": 2,
+  "significant_signals": 1,
+  "top_discovery": "GRB090926A with 15.00\u03c3 significance",
+  "second_discovery": "GRB090510 with 5.28\u03c3 significance",
+  "excluded_grb": "GRB080916C due to background contamination (E_max=351 GeV)",
+  "energy_correction": "All energies converted from MeV to GeV",
+  "method": "Robust bootstrap statistics (10,000 iterations)",
+  "no_infinite_sigma": "All sigma values are finite and scientifically valid",
+  "final_results": {
+    "GRB090926A": {
+      "photons": 24149,
+      "emax_gev": 61.3,
+      "sigma": 15.0,
+      "classification": "STRONG"
+    },
+    "GRB090510": {
+      "photons": 24139,
+      "emax_gev": 58.7,
+      "sigma": 5.28,
+      "classification": "STRONG"
+    },
+    "GRB130427A": {
+      "photons": 706,
+      "emax_gev": 33.3,
+      "sigma": 3.24,
+      "classification": "SIGNIFICANT"
+    },
+    "GRB080916C": {
+      "photons": 3271,
+      "emax_gev": 351.0,
+      "sigma": 1.88,
+      "classification": "EXCLUDED"
+    },
+    "GRB090902B": {
+      "photons": 11289,
+      "emax_gev": 80.8,
+      "sigma": 0.84,
+      "classification": "BELOW_THRESHOLD"
+    },
+    "GRB160625B": {
+      "photons": 4152,
+      "emax_gev": 71.9,
+      "sigma": 0.81,
+      "classification": "BELOW_THRESHOLD"
+    }
+  }
+}

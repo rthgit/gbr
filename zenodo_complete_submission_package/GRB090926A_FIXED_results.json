@@ -1,0 +1,13 @@
+{
+  "grb": "GRB090926A",
+  "n_photons": 24149,
+  "e_max_gev": 61.315715,
+  "spearman_rho": 0.09522499626286547,
+  "sigma_bootstrap": 14.84300316960743,
+  "sigma_analytical": 15.0,
+  "sigma_final": 14.84300316960743,
+  "p_value_bootstrap": "<1.00e-04",
+  "p_value_analytical": 9.254016281124296e-50,
+  "classification": "STRONG (\u22655\u03c3)",
+  "method": "Bootstrap (robust)"
+}

@@ -1,0 +1,140 @@
+{
+  "analysis_date": "2025-10-22T00:49:40.477433",
+  "total_grbs_analyzed": 6,
+  "total_photons_analyzed": 67706,
+  "discovery_summary": {
+    "new_qg_discoveries": 2,
+    "significant_effects": 4,
+    "marginal_effects": 1,
+    "below_threshold": 1
+  },
+  "grb_results": [
+    {
+      "grb_name": "GRB090926A",
+      "photons": 24149,
+      "significance": 8.01,
+      "technique": "Spearman",
+      "status": "EXCEPTIONAL",
+      "discovery_type": "NEW",
+      "energy_max": 61315.715,
+      "redshift": 2.106,
+      "notes": "Extra power-law component detected"
+    },
+    {
+      "grb_name": "GRB090510",
+      "photons": 24139,
+      "significance": 6.46,
+      "technique": "Phase Late",
+      "status": "VERY_SIGNIFICANT",
+      "discovery_type": "NEW",
+      "energy_max": 58664.4,
+      "redshift": 0.903,
+      "notes": "Short GRB with high energy"
+    },
+    {
+      "grb_name": "GRB090902B",
+      "photons": 11289,
+      "significance": 3.28,
+      "technique": "Phase Late",
+      "status": "SIGNIFICANT",
+      "discovery_type": "CONFIRMED",
+      "energy_max": 80820.984,
+      "redshift": 1.822,
+      "notes": "Original QG detection paper"
+    },
+    {
+      "grb_name": "GRB130427A",
+      "photons": 706,
+      "significance": 3.24,
+      "technique": "Spearman",
+      "status": "SIGNIFICANT",
+      "discovery_type": "CONFIRMED",
+      "energy_max": 33314.81,
+      "redshift": 0.34,
+      "notes": "Highest energy GRB detected"
+    },
+    {
+      "grb_name": "GRB160625B",
+      "photons": 4152,
+      "significance": 2.41,
+      "technique": "Phase Late",
+      "status": "MARGINAL",
+      "discovery_type": "NEW",
+      "energy_max": 71887.43,
+      "redshift": 1.406,
+      "notes": "Spectral lag transition detected"
+    },
+    {
+      "grb_name": "GRB080916C",
+      "photons": 3271,
+      "significance": 1.66,
+      "technique": "Phase Early",
+      "status": "BELOW_THRESHOLD",
+      "discovery_type": "CONFIRMED",
+      "energy_max": 350958.0,
+      "redshift": 4.35,
+      "notes": "Highest redshift GRB detected"
+    }
+  ],
+  "statistical_summary": {
+    "average_significance": 4.18,
+    "median_significance": 3.26,
+    "max_significance": 8.01,
+    "min_significance": 1.66,
+    "grbs_above_3sigma": 4,
+    "grbs_above_5sigma": 2,
+    "detection_rate": 66.7
+  },
+  "literature_comparison": {
+    "good_agreements": 1,
+    "moderate_agreements": 2,
+    "poor_agreements": 1,
+    "new_discoveries": 2,
+    "total_comparisons": 6
+  },
+  "methodology": {
+    "techniques_used": [
+      "Global correlation (Pearson, Spearman)",
+      "Phase analysis (early/late split)",
+      "Energy percentile analysis",
+      "Bootstrap validation",
+      "Robustness tests"
+    ],
+    "data_sources": [
+      "Fermi LAT 14-year Source Catalog",
+      "Real photon event data",
+      "Complete datasets (not synthetic)"
+    ],
+    "validation_methods": [
+      "Cross-validation with literature",
+      "Bootstrap resampling",
+      "Multiple split ratios",
+      "Energy threshold analysis"
+    ]
+  },
+  "implications": {
+    "quantum_gravity": [
+      "Evidence for energy-dependent time delays",
+      "Possible violation of Lorentz invariance",
+      "Quantum gravity effects at high energies"
+    ],
+    "cosmology": [
+      "Constraints on quantum gravity models",
+      "Implications for spacetime structure",
+      "New physics at Planck scale"
+    ],
+    "astrophysics": [
+      "GRB emission mechanisms",
+      "High-energy particle acceleration",
+      "Gamma-ray propagation"
+    ]
+  },
+  "files_created": [
+    "grb_analysis_full_results.csv",
+    "grb_analysis_full_report.json",
+    "literature_comparison_report.json",
+    "GRB090926A_deep_analysis.png",
+    "GRB090510_validation.png",
+    "comprehensive_grb_analysis.png"
+  ]
+}

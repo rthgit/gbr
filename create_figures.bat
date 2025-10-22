@@ -1,5 +1,6 @@
 @echo off
-echo Creazione grafici professionali...
-python create_beautiful_figures.py
+echo ============================================================
+echo CREATE FIGURES FOR PAPER
+echo ============================================================
+python create_figures_simple.py
 pause
-
